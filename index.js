@@ -26,6 +26,7 @@ async function main(){
     return p
   },{})
   let custody = 0
+  let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
   const distribution = distributionCSV.reduce((p,c)=>{
     const points = parseInt(c.points)
@@ -33,7 +34,11 @@ async function main(){
       p[c.username] = {username: c.username, address: c.blockchain_address, contrib:0, donut:0}
     p[c.username].contrib += points
     if(optInUsers[c.username]){
+      if(!l2Recipients[c.username]){
+        l2Recipients[c.username] = {username: c.username, address: c.blockchain_address, donut:0}
+      }
       custody += points
+      l2Recipients[c.username].donut += points
     } else {
       p[c.username].donut += points
     }
@@ -56,9 +61,12 @@ async function main(){
   }
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
-  console.log(`contrib: ${totalContrib}, donut: ${totalDonut}, uEthTraderCommunityAward: ${uEthTraderCommunityAward}, multisig: ${distribution["DonutMultisig"].donut}`)
-  console.log(`check totalContrib + uEthTraderCommunityAward = totalDonut (${totalContrib + uEthTraderCommunityAward === totalDonut})`)
+  console.log(`contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${uEthTraderCommunityAward}, multisig: ${distribution["DonutMultisig"].donut}`)
+  console.log(`check total contrib + u/EthTraderCommunity award = totalDonut (${totalContrib + uEthTraderCommunityAward === totalDonut})`)
 
+  const l2RecipientTotal = Object.values(l2Recipients).reduce((p,c)=>{p+=c.donut;return p;},0)
+  console.log(`l2 recipient total: ${l2RecipientTotal}`)
+  console.log(`l2 recipient total + u/EthTraderCommunity award = multisig amount (${l2RecipientTotal + uEthTraderCommunityAward === distribution["DonutMultisig"].donut})`)
   // const csvOut = await jsonexport(Object.values(distribution))
   // console.log(csvOut)
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
@@ -66,6 +74,7 @@ async function main(){
   let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
   let added = await ipfs.add(JSON.stringify(data))
   fs.writeFileSync( `${__dirname}/out/${file.replace('.csv','.json')}`, JSON.stringify(data))
+  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv','_l2.json')}`, JSON.stringify(Object.values(l2Recipients)))
   console.log(added)
   // for await (const item of added) {
   //   console.log(item)
