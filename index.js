@@ -1,5 +1,9 @@
 const snoowrap = require('snoowrap')
 const csv=require("csvtojson")
+const jsonexport = require('jsonexport')
+const fs = require("fs")
+const ipfsClient = require('ipfs-http-client')
+const merklize = require('./merklize')
 
 const file = `round_94.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
@@ -54,4 +58,16 @@ async function main(){
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`contrib: ${totalContrib}, donut: ${totalDonut}, uEthTraderCommunityAward: ${uEthTraderCommunityAward}, multisig: ${distribution["DonutMultisig"].donut}`)
   console.log(`check totalContrib + uEthTraderCommunityAward = totalDonut (${totalContrib + uEthTraderCommunityAward === totalDonut})`)
+
+  // const csvOut = await jsonexport(Object.values(distribution))
+  // console.log(csvOut)
+  let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
+
+  let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
+  let added = await ipfs.add(JSON.stringify(data))
+  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv','.json')}`, JSON.stringify(data))
+  console.log(added)
+  // for await (const item of added) {
+  //   console.log(item)
+  // }
 }
