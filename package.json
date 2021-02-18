@@ -1,0 +1,13 @@
+{
+  "name": "donut.distribution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": ". ./.env && node index.js"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "snoowrap": "^1.22.0"
+  }
+}
