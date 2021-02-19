@@ -4,13 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": ". ./.env && node index.js"
+    "start": ". ./.env && node index.js",
+    "users": ". ./.env && node users.js"
   },
   "dependencies": {
     "csvtojson": "^2.0.10",
+    "ethers": "^5.0.31",
     "ipfs-http-client": "^49.0.2",
     "jsonexport": "^3.2.0",
     "merkle-tree-solidity": "daonuts/merkle-tree-solidity#master",
+    "node-fetch": "^2.6.1",
     "snoowrap": "^1.22.0"
   }
 }
