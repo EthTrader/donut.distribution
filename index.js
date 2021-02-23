@@ -67,15 +67,16 @@ async function main(){
   const l2RecipientTotal = Object.values(l2Recipients).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`l2 recipient total: ${l2RecipientTotal}`)
   console.log(`l2 recipient total + u/EthTraderCommunity award = multisig amount (${l2RecipientTotal + uEthTraderCommunityAward === distribution["DonutMultisig"].donut})`)
-  // const csvOut = await jsonexport(Object.values(distribution))
+  const csvOut = await jsonexport(Object.values(distribution))
   // console.log(csvOut)
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
 
   let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
-  let added = await ipfs.add(JSON.stringify(data))
-  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv','.json')}`, JSON.stringify(data))
-  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv','_l2.json')}`, JSON.stringify(Object.values(l2Recipients)))
-  console.log(added)
+  let {path} = await ipfs.add(JSON.stringify(data))
+  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv',`.${path}.csv`)}`, csvOut)
+  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
+  fs.writeFileSync( `${__dirname}/out/${file.replace('.csv',`_l2.${path}.json`)}`, JSON.stringify(Object.values(l2Recipients)))
+  console.log(path)
   // for await (const item of added) {
   //   console.log(item)
   // }
