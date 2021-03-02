@@ -60,7 +60,7 @@ describe("Distribute", function() {
     .fill()
     .map(_ => l2_distribution.splice(0, MAX_BATCH_SIZE))
 
-    console.log(batches)
+    // console.log(batches)
     batches.forEach((b,i)=>{
       console.log(`\n!!! BATCH ${i} !!!\n`)
       console.log(`["${b.map(a=>a.address).join('","')}"]`)
@@ -81,7 +81,7 @@ describe("Distribute", function() {
     let distributeTx1 = await distribute.connect(multisigSigner).distribute(batches[0].map(a=>a.address), batches[0].map(a=>parseEther(a.donut.toString())), token.address)
     console.log("gasUsed:", (await distributeTx1.wait()).gasUsed)
 
-    expect(await token.balanceOf(batches[0].address)).to.equal(parseEther(batches[0].donut.toString()))
+    expect(await token.balanceOf(batches[0][0].address)).to.equal(parseEther(batches[0][0].donut.toString()))
     // expect(await token.balanceOf(l2_distribution[l2_distribution.length-1].address)).to.equal(parseEther(l2_distribution[l2_distribution.length-1].donut.toString()))
   });
 });
