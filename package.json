@@ -7,9 +7,16 @@
     "start": ". ./.env && node index.js",
     "users": ". ./.env && node users.js"
   },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.11"
+  },
   "dependencies": {
     "csvtojson": "^2.0.10",
-    "ethers": "^5.0.31",
     "ipfs-http-client": "^49.0.2",
     "jsonexport": "^3.2.0",
     "merkle-tree-solidity": "daonuts/merkle-tree-solidity#master",
