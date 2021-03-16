@@ -56,6 +56,9 @@ describe("Distribute", function() {
     const MAX_BATCH_SIZE = 30
     const NUM_BATCHES = Math.ceil(l2_distribution.length/MAX_BATCH_SIZE)
 
+    console.log("count:", l2_distribution.length)
+    console.log("total:", l2_distribution.reduce((p,c)=>{p+=c.donut;return p;},0))
+
     const batches = new Array(NUM_BATCHES)
     .fill()
     .map(_ => l2_distribution.splice(0, MAX_BATCH_SIZE))

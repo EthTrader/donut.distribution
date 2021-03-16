@@ -23,13 +23,17 @@ async function main(){
     return awards
   }))
   let users = airdrops.reduce((p,airdrop)=>{
+    const re = new RegExp('^u/');
     airdrop.forEach(award=>{
-      if(award.username)
-      p[award.username]={username: award.username, address: award.address}
+      if(award.username){
+        const username = award.username.replace(re,"")
+        p[username]={username, address: award.address}
+      }
     })
     return p
   },{})
   console.log(Object.keys(users).length)
+  fs.writeFileSync(`${__dirname}/out/users_${new Date().toISOString().slice(0,10)}.json`, JSON.stringify(Object.values(users), null, 2))
   const csvOut = await jsonexport(Object.values(users))
   fs.writeFileSync(`${__dirname}/out/users_${new Date().toISOString().slice(0,10)}.csv`, csvOut)
 }
