@@ -5,7 +5,7 @@ const fs = require("fs")
 const ipfsClient = require('ipfs-http-client')
 const merklize = require('./merklize')
 
-const file = `round_94.csv`
+const file = `round_95.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
