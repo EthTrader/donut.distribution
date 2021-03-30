@@ -23,7 +23,7 @@ const networkData = {
     token1Address: "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9",  // $donut
     tokenManager0: "0x98566E0E6209Fd4C76a55F56F4F93fbE18214e98",
     tokenManager1: "0x3D361F670C3099627e7e9Ae9c3d6644B0DDF8f69",
-    merkleTwoDropAddress: "",
+    merkleTwoDropAddress: "0xEbE1645A82ecEfA9375F6E329f5ce664864981FA",
     multisigAddress: "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E",
     acl: "0xBcb2bd7Bf0Bc88890c1FB76bD22D50286E665506",
     kernel: "0x57EBE61f5f8303AD944136b293C1836B3803b4c0"
@@ -66,38 +66,38 @@ beforeEach(async function() {
   acl = new Contract(NETWORK.acl, aclABI, deployerSigner)
   kernel = new Contract(NETWORK.kernel, kernelABI, deployerSigner)
 
-  const MerkleTwoDrop = await ethers.getContractFactory("MerkleTwoDrop")
-  merkleTwoDrop = await MerkleTwoDrop.deploy();
-  // merkleTwoDrop = await ethers.getContractAt("MerkleTwoDrop", NETWORK.merkleTwoDropAddress);
+  // const MerkleTwoDrop = await ethers.getContractFactory("MerkleTwoDrop")
+  // merkleTwoDrop = await MerkleTwoDrop.deploy();
+  merkleTwoDrop = await ethers.getContractAt("MerkleTwoDrop", NETWORK.merkleTwoDropAddress);
 })
 
 describe("MerkleTwoDrop", function() {
-  it("initialize", async function() {
-    await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
+  // it("initialize", async function() {
+  //   await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
+  //
+  //   expect(await merkleTwoDrop.startAuth()).to.equal(NETWORK.multisigAddress)
+  // });
 
-    expect(await merkleTwoDrop.startAuth()).to.equal(NETWORK.multisigAddress)
-  });
-
-  it("grant", async function() {
-    await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE)
-    await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager1, MINT_ROLE)
-
-    let hasPermission = await kernel.hasPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE, "0x")
-
-    expect(hasPermission).to.be.true
-  });
-
-  it("start", async function() {
-    await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
-    await merkleTwoDrop.connect(multisigSigner).start(distribution.root)
-
-    expect(await merkleTwoDrop.airdrops(1)).to.equal(distribution.root)
-  });
+  // it("grant", async function() {
+  //   await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE)
+  //   await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager1, MINT_ROLE)
+  //
+  //   let hasPermission = await kernel.hasPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE, "0x")
+  //
+  //   expect(hasPermission).to.be.true
+  // });
+  //
+  // it("start", async function() {
+  //   await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
+  //   await merkleTwoDrop.connect(multisigSigner).start(distribution.root)
+  //
+  //   expect(await merkleTwoDrop.airdrops(1)).to.equal(distribution.root)
+  // });
 
   it("claim", async function() {
-    await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
-    await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE)
-    await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager1, MINT_ROLE)
+    // await merkleTwoDrop.initialize(NETWORK.tokenManager0, NETWORK.tokenManager1, NETWORK.multisigAddress)
+    // await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager0, MINT_ROLE)
+    // await acl.grantPermission(merkleTwoDrop.address, NETWORK.tokenManager1, MINT_ROLE)
     await merkleTwoDrop.connect(multisigSigner).start(distribution.root)
     const balStart = await token0.balanceOf(carlslarsonAddress)
 
