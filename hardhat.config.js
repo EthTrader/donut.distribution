@@ -23,8 +23,8 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        // url: `https://xdai-archive.blockscout.com`
-        url: `https://mainnet.infura.io/v3/800c1e376fd048228f96dc28348f2870`
+        url: `https://xdai-archive.blockscout.com`
+        // url: `https://mainnet.infura.io/v3/800c1e376fd048228f96dc28348f2870`
       }
     }
   },
