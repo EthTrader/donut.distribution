@@ -43,8 +43,9 @@ async function main(){
   console.log(Object.keys(users).length)
   const newFileNameBase = `${__dirname}/out/users_${new Date().toISOString().slice(0,10)}`
   fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(Object.values(users), null, 2))
-  fs.unlinkSync(`${__dirname}/out/users.json`)
-  fs.symlinkSync(`${newFileNameBase}.json`, `${__dirname}/out/users.json`)
+  // fs.unlinkSync(`${__dirname}/out/users.json`)
+  fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/out/users.json`)
+  // fs.symlinkSync(`${newFileNameBase}.json`, `${__dirname}/out/users.json`)
   const csvOut = await jsonexport(Object.values(users))
   fs.writeFileSync(`${newFileNameBase}.csv`, csvOut)
 }
