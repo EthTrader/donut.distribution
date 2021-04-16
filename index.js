@@ -5,7 +5,7 @@ const fs = require("fs")
 const ipfsClient = require('ipfs-http-client')
 const merklize = require('./merklize')
 
-const file = `aggDist_2021-03-29.csv`
+const file = `round_96.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
 const credentials = {
