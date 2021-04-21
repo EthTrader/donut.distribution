@@ -24,3 +24,10 @@ export ALCHEMY_API=
 12. select `start` as method
 13. paste the merkle root generated above, for this distribution, `0xd16105af9df8954f03626c3ebb74b0f8e7baf8fd0ab27a311b8b18f8874d2f4f`
 14. complete and add to signing queue
+
+#TODO - add following directions
+- use mycrypto or etherscan to `award` to the [mainnet multisig](https://gnosis-safe.io/app/#/safes/0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E)
+
+- initiate mainnet multisig to relay donuts to xdai multisig
+
+- initiate xdai multisig distribution transactions
