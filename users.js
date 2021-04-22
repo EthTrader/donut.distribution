@@ -13,7 +13,8 @@ const MerkleTwoDropABI = require("./abi/MerkleTwoDropABI")
 const airdrop = new ethers.Contract(process.env.AIRDROP_ADDRESS, MerkleTwoDropABI, provider)
 const currentUsers = require("./out/users").reduce((p,{username,address})=>{p[username]={username,address};return p;},{})
 let hashes = {
-  "0x1c034aed470bc1e7ed69f9e751b147d23a1470e95c3c28ff8a795617bf881840": "QmSK2S8cAHBRJW1BkKianGZazaTZdMqgHKLDmu123XzNKu"
+  "0x1c034aed470bc1e7ed69f9e751b147d23a1470e95c3c28ff8a795617bf881840": "QmSK2S8cAHBRJW1BkKianGZazaTZdMqgHKLDmu123XzNKu", // aggDist
+  "0xd16105af9df8954f03626c3ebb74b0f8e7baf8fd0ab27a311b8b18f8874d2f4f": "QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2"  // round_96
 }
 
 main()
