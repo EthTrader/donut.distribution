@@ -5,7 +5,7 @@ const fs = require("fs")
 const ipfsClient = require('ipfs-http-client')
 const merklize = require('./merklize')
 
-const file = `round_96.csv`
+const file = `round_97.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
 const credentials = {
@@ -30,8 +30,12 @@ async function main(){
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
   const distribution = distributionCSV.reduce((p,c)=>{
-    const donut = parseInt(c.donut || c.points)
-    const contrib = parseInt(c.contrib || c.points)
+    let points = c.points
+    if(points && c.contributor_type === "contributor"){
+      points = Math.round(points*80/95)                                         // reduce and send to multisig as 15% dev allocation
+    }
+    const donut = parseInt(c.donut || points)
+    const contrib = parseInt(c.contrib || points)
     if(!p[c.blockchain_address])
       p[c.blockchain_address] = {username: c.username, address: c.blockchain_address, contrib:0, donut:0}
     p[c.blockchain_address].contrib += contrib
@@ -51,7 +55,7 @@ async function main(){
     username: "DonutMultisig",
     address: multisig,
     contrib: 0,
-    donut: custody
+    donut: 600000 + custody                                                     // 600k = dev allocation
   }
 
   let uEthTraderCommunityAward
@@ -63,12 +67,11 @@ async function main(){
   }
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
-  console.log(`contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${(uEthTraderCommunityAward || 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
-  console.log(`check total contrib + u/EthTraderCommunity award = totalDonut (${totalContrib + (uEthTraderCommunityAward || 0) === totalDonut})`)
+  console.log(`custody: ${custody}, contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${(uEthTraderCommunityAward || 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
 
   const l2RecipientTotal = Object.values(l2Recipients).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`l2 recipient total: ${l2RecipientTotal}`)
-  console.log(`l2 recipient total + u/EthTraderCommunity award = multisig amount (${l2RecipientTotal + (uEthTraderCommunityAward || 0) === distribution["DonutMultisig"].donut})`)
+  console.log(`l2 recipient total + u/EthTraderCommunity award + 600k dev allocation = multisig amount (${l2RecipientTotal + (uEthTraderCommunityAward || 0) + 600000 === distribution["DonutMultisig"].donut})`)
   const csvOut = await jsonexport(Object.values(distribution))
   // console.log(csvOut)
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
