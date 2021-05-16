@@ -1,5 +1,9 @@
 [
   {
+    "username": "42000769",
+    "address": "0x53E50A35c7f4EdC386819BA9e7EE307E0F6B98FC"
+  },
+  {
     "username": "carlslarson",
     "address": "0x95D9bED31423eb7d5B68511E0352Eae39a3CDD20"
   },
@@ -49,7 +53,7 @@
   },
   {
     "username": "ev1501",
-    "address": "0xd4f718c4cb3969aaaa9790ade3d1cf7dbb3fc3c0"
+    "address": "0xD4f718c4CB3969AaaA9790ade3d1cF7dbB3Fc3C0"
   },
   {
     "username": "WeLiveInaBubble",
@@ -61,11 +65,11 @@
   },
   {
     "username": "Nooku",
-    "address": "0x7094cc126fe9792734474134d8cc50715281f831"
+    "address": "0x7094Cc126fe9792734474134d8cC50715281f831"
   },
   {
     "username": "econoar",
-    "address": "0xc3036e205bde25eb25f2aa89a4f69333a7e795d3"
+    "address": "0xc3036E205BDe25eb25F2aa89a4F69333a7e795d3"
   },
   {
     "username": "psswrd12345",
@@ -81,7 +85,7 @@
   },
   {
     "username": "CoinedPrince",
-    "address": "0x22209c193e5f41a0f1a455f098aee2896c70ad67"
+    "address": "0x22209c193e5F41A0f1A455F098AeE2896C70AD67"
   },
   {
     "username": "Ethical-trade",
@@ -101,7 +105,7 @@
   },
   {
     "username": "DeliciousPayday",
-    "address": "0xd8dc1dd9e2399c958be576181f69d7563fdef7f7"
+    "address": "0xD8DC1dd9e2399c958Be576181f69d7563fdef7f7"
   },
   {
     "username": "slay_the_beast",
@@ -109,7 +113,7 @@
   },
   {
     "username": "peppers_",
-    "address": "0x32498e61176646dee8dbc56f642bda4cac31ac6a"
+    "address": "0x32498e61176646Dee8DbC56f642bDa4cAc31AC6a"
   },
   {
     "username": "MusaTheRedGuard",
@@ -221,7 +225,7 @@
   },
   {
     "username": "gand_ji",
-    "address": "0xf54efec05ad469d7836980bb0ae2f22712e32d16"
+    "address": "0xf54EFEc05Ad469D7836980BB0aE2f22712E32D16"
   },
   {
     "username": "Norisz666",
@@ -265,7 +269,7 @@
   },
   {
     "username": "mattnumber",
-    "address": "0x2191d8ae37504fe84a644f70a6a13871918b99b8"
+    "address": "0x2191D8ae37504Fe84A644F70A6a13871918b99B8"
   },
   {
     "username": "Always_Question",
@@ -281,7 +285,7 @@
   },
   {
     "username": "outbackdude",
-    "address": "0x42018e0ca8ad99f76263eaf76c01f33581028f62"
+    "address": "0x42018e0CA8Ad99F76263EAf76C01f33581028F62"
   },
   {
     "username": "SirHaxington",
@@ -313,7 +317,7 @@
   },
   {
     "username": "juxtaposezen",
-    "address": "0x832e460b37b2964d016b7c0674032929fe0af7d0"
+    "address": "0x832E460b37b2964d016B7c0674032929fE0AF7d0"
   },
   {
     "username": "alicenekocat",
@@ -333,7 +337,7 @@
   },
   {
     "username": "seblt",
-    "address": "0x4af973f9c9a8404f43980362ed0096ff521845ef"
+    "address": "0x4aF973f9c9A8404F43980362ed0096Ff521845Ef"
   },
   {
     "username": "jdbender66",
@@ -441,7 +445,7 @@
   },
   {
     "username": "jdero",
-    "address": "0x16d1ac6cee17477920a5a50283f83f73030034dd"
+    "address": "0x16D1AC6Cee17477920a5A50283F83f73030034dD"
   },
   {
     "username": "ethlongmusk",
@@ -501,7 +505,7 @@
   },
   {
     "username": "MidnightOnMars",
-    "address": "0xfbaa4b78cb2f8d138b30cd4197eaa4e98485b3aa"
+    "address": "0xFBAA4B78Cb2F8D138B30CD4197eaa4e98485b3aA"
   },
   {
     "username": "General_Illus",
@@ -581,7 +585,7 @@
   },
   {
     "username": "gryphon999555",
-    "address": "0x0a5ffc450a0281f223c16494aa0073b226497fa1"
+    "address": "0x0A5FFc450A0281f223C16494AA0073b226497FA1"
   },
   {
     "username": "Wishmaster90",
@@ -637,7 +641,7 @@
   },
   {
     "username": "BlazedAndConfused",
-    "address": "0x6cfb6f1c8e4285808a25fccf3ecd8cb95c38bb72"
+    "address": "0x6CfB6f1c8E4285808a25FCCf3ecD8cb95c38bb72"
   },
   {
     "username": "Speedy1050",
@@ -845,7 +849,7 @@
   },
   {
     "username": "DarthVaderIzBack",
-    "address": "0xa94e3f627d6356291391d9d8cbaefd0bd1c6b9fa"
+    "address": "0xa94e3f627D6356291391d9d8CBaefd0BD1C6B9fa"
   },
   {
     "username": "trb0x",
@@ -853,7 +857,7 @@
   },
   {
     "username": "Inoffensive_Account",
-    "address": "0xb1fea31b4f3f8badd5c1f545770a10e8b15f59d2"
+    "address": "0xb1FeA31b4f3F8BADd5C1f545770a10E8B15F59d2"
   },
   {
     "username": "EfgKh4EE3eTb9HPwe3iy",
@@ -921,7 +925,7 @@
   },
   {
     "username": "mqrasi",
-    "address": "0x9b25a5998ab8a5f72a4f72bc30d062952e281f55"
+    "address": "0x9b25A5998Ab8A5f72A4F72bc30d062952e281f55"
   },
   {
     "username": "Mathje",
@@ -945,7 +949,7 @@
   },
   {
     "username": "Gringo4",
-    "address": "0xfBF4dc6044f1823A054aFd8d5d9a0397B6F0063D"
+    "address": "0x142d7938b6e95F28Aa736EB0416778eB332ee0D5"
   },
   {
     "username": "jokl66",
@@ -961,7 +965,7 @@
   },
   {
     "username": "Nova06Ball",
-    "address": "0x6b254f8a91e255a4fb916501f896e15522799d82"
+    "address": "0x6B254f8a91E255a4FB916501F896E15522799D82"
   },
   {
     "username": "itsjimmyj",
@@ -1077,7 +1081,7 @@
   },
   {
     "username": "bears_or_bulls",
-    "address": "0x1f3b92c099331bee740e5e4e6c0820666cc8de3f"
+    "address": "0x1f3B92C099331BeE740E5E4E6c0820666Cc8De3f"
   },
   {
     "username": "kingjacob",
@@ -1381,7 +1385,7 @@
   },
   {
     "username": "bornswift",
-    "address": "0xeea95edfc25f15c0c44d4081bbd85026ba298dc6"
+    "address": "0xEeA95EdFC25F15C0c44d4081BBd85026ba298Dc6"
   },
   {
     "username": "howdeepisyourhouse",
@@ -1441,7 +1445,7 @@
   },
   {
     "username": "Thavash",
-    "address": "0x9071a016f554a698abc4199c816439726703947b"
+    "address": "0x9071a016F554a698aBc4199C816439726703947b"
   },
   {
     "username": "Nickslife89",
@@ -1673,7 +1677,7 @@
   },
   {
     "username": "raymonddurk",
-    "address": "0x0e380f930f523eb3563369bbfbed3e4ebdc4d2c2"
+    "address": "0x0E380f930F523Eb3563369BbFBEd3E4EbDC4d2c2"
   },
   {
     "username": "itzALTA",
@@ -1773,7 +1777,7 @@
   },
   {
     "username": "XxRewirexX",
-    "address": "0x7f62ad87bb95370fc1c9d46358d9daf3f37ff5b7"
+    "address": "0x7f62aD87bb95370Fc1C9D46358d9dAf3f37fF5B7"
   },
   {
     "username": "howaboutthemethers",
@@ -1905,7 +1909,7 @@
   },
   {
     "username": "perfekt_disguize",
-    "address": "0x2866420e93b8b000e64b91e66dccbe9946f7b64e"
+    "address": "0x2866420e93B8b000E64B91e66DccBe9946F7b64e"
   },
   {
     "username": "WarrenBuffest",
@@ -1913,7 +1917,7 @@
   },
   {
     "username": "Basercist",
-    "address": "0xbb5e9f954fb0b190225f1b0f9f946d78ff0fa0e6"
+    "address": "0xbB5e9f954FB0B190225f1b0f9f946D78Ff0FA0e6"
   },
   {
     "username": "steppe5",
@@ -1937,7 +1941,7 @@
   },
   {
     "username": "nugget_alex",
-    "address": "0xf5fc8d12d10d1edff6379c4a12f39863e3227eb7"
+    "address": "0xF5FC8D12d10D1EdfF6379c4A12f39863E3227eb7"
   },
   {
     "username": "vipmoney",
@@ -1957,7 +1961,7 @@
   },
   {
     "username": "ychok",
-    "address": "0xa0fbc36f0488c5E524d3A267987F52BC5F01df7f"
+    "address": "0x83AF720d6376B8b3e5b95a56cE4dF31A8088B469"
   },
   {
     "username": "LefterisJP",
@@ -2145,7 +2149,7 @@
   },
   {
     "username": "Afr0Karma",
-    "address": "0xc13a83e44fe7363f4d971f17f6729ca61c0f52e6"
+    "address": "0xc13A83e44fE7363f4D971F17F6729ca61C0F52E6"
   },
   {
     "username": "everynose",
@@ -2157,7 +2161,7 @@
   },
   {
     "username": "CryptoAdptor",
-    "address": "0x9a933f4bd6eeb72797ca15b8208130fe7a8cc5a5"
+    "address": "0x9A933f4BD6eEb72797cA15B8208130fE7A8cc5A5"
   },
   {
     "username": "b-blockchain",
@@ -2293,7 +2297,7 @@
   },
   {
     "username": "ucefkh",
-    "address": "0xa60c6d73cdb0f9bc05fa258f3c764a0080cf3ef8"
+    "address": "0xa60c6D73cdb0f9Bc05Fa258F3c764a0080Cf3ef8"
   },
   {
     "username": "pavlo_proof",
@@ -2317,7 +2321,7 @@
   },
   {
     "username": "gcnHNYqvzB637fYQvQDt",
-    "address": "0x3e8a76596e4f9c13e678155c52d1fcaaff6fe6fb"
+    "address": "0x3e8A76596E4f9c13E678155c52d1FcaAFf6Fe6fb"
   },
   {
     "username": "trx_maximalist",
@@ -2373,7 +2377,7 @@
   },
   {
     "username": "SwagtimusPrime",
-    "address": "0xb777f38ae3a85e378b4c40dba9313ae5a9b0256a"
+    "address": "0xB777f38AE3A85e378B4c40dba9313AE5a9b0256a"
   },
   {
     "username": "magichatsam",
@@ -2389,7 +2393,7 @@
   },
   {
     "username": "s8ean",
-    "address": "0xd18e8a97d9cd76c6eec603c625fc4db947c858d4"
+    "address": "0xd18e8a97d9Cd76c6eEC603C625fc4DB947c858D4"
   },
   {
     "username": "dreaded_jack",
@@ -2405,7 +2409,7 @@
   },
   {
     "username": "randomnomber",
-    "address": "0xf9a44c09b545e88135fdbfcd1a4d1a73e607eed0"
+    "address": "0xF9A44C09b545E88135FDBfCD1a4D1A73E607eeD0"
   },
   {
     "username": "apensaus",
@@ -2461,11 +2465,11 @@
   },
   {
     "username": "LogosEther",
-    "address": "0xdc1fab344f9fc288325faa1304efd02aeaadc081"
+    "address": "0xdc1FAb344F9fc288325Faa1304EFD02aeAADC081"
   },
   {
     "username": "split41",
-    "address": "0x54f38f4e33e47bd13e7a0f46ed7afad61a40bfc1"
+    "address": "0x54f38f4E33e47BD13e7A0F46Ed7AfAD61A40BFc1"
   },
   {
     "username": "Steewrit",
@@ -2633,7 +2637,7 @@
   },
   {
     "username": "AlethiaArete",
-    "address": "0x3c152cdd162a8a92258ce87bcae815f8ef393756"
+    "address": "0x3c152CDd162A8a92258ce87BCaE815f8ef393756"
   },
   {
     "username": "Bhallaladevaa",
@@ -2649,7 +2653,7 @@
   },
   {
     "username": "akarub",
-    "address": "0xe3adeaf415d560db0f3ccc9b227b1299795a11f8"
+    "address": "0xE3aDeAF415d560dB0F3ccC9b227B1299795A11f8"
   },
   {
     "username": "mattytay0x",
@@ -2701,7 +2705,7 @@
   },
   {
     "username": "EthanPhan",
-    "address": "0x6e3ff35d5b72480c5d064cd84708bbd35dfe5c4b"
+    "address": "0x6E3FF35d5b72480C5D064cD84708Bbd35dfE5c4B"
   },
   {
     "username": "SomerEsat",
@@ -2733,7 +2737,7 @@
   },
   {
     "username": "ObiTwoKenobi",
-    "address": "0xa8f6947250d8e0c4fd886803ec0b518053577c55"
+    "address": "0xA8F6947250D8e0C4FD886803eC0b518053577C55"
   },
   {
     "username": "DownvoteToKarmaHell",
@@ -2801,7 +2805,7 @@
   },
   {
     "username": "ZergShotgunAndYou",
-    "address": "0x01a8b3c9893824a6380cf8c3c4c70c756e2228d0"
+    "address": "0x01a8B3c9893824A6380cf8C3C4c70C756E2228d0"
   },
   {
     "username": "flossraptor",
@@ -2849,7 +2853,7 @@
   },
   {
     "username": "nikkestnik",
-    "address": "0x703802c8018e836fb71645deafdefa20f1632622"
+    "address": "0x703802C8018e836Fb71645DEAFDEfA20f1632622"
   },
   {
     "username": "KingNyuels",
@@ -2905,7 +2909,7 @@
   },
   {
     "username": "HCloridric",
-    "address": "0x3547849e463c44830a7cfb2fde692b7b185d2afc"
+    "address": "0x3547849e463c44830A7cFB2FdE692b7B185D2afC"
   },
   {
     "username": "richbodo",
@@ -3021,7 +3025,7 @@
   },
   {
     "username": "bastardicus",
-    "address": "0x3aefe5a8cc88f577dab3571d035fdf4f2ecb9b97"
+    "address": "0x3AEfe5A8CC88F577DaB3571d035FDf4F2ECB9B97"
   },
   {
     "username": "T-Diggity",
@@ -3029,11 +3033,11 @@
   },
   {
     "username": "bitdex",
-    "address": "0xd0be01171b75fc23a938e28d5b3064dc3cdb14bd"
+    "address": "0xD0be01171B75fC23A938E28d5B3064DC3Cdb14BD"
   },
   {
     "username": "greg7mdp",
-    "address": "0x80a35c28a36ccacc3ea89d65b9304999f9360334"
+    "address": "0x80a35C28a36cCacC3Ea89D65B9304999f9360334"
   },
   {
     "username": "alt323g0",
@@ -3069,7 +3073,7 @@
   },
   {
     "username": "pas32",
-    "address": "0x5b78f06123ee99dc8b21d4e1ef51afe08059d5ec"
+    "address": "0x5B78f06123eE99dC8B21D4e1Ef51afE08059d5Ec"
   },
   {
     "username": "5dayoldburrito",
@@ -3097,7 +3101,7 @@
   },
   {
     "username": "BoGGy5m4ll5",
-    "address": "0x97430f3192e87881fd44d28f451f12aeefffad49"
+    "address": "0x97430f3192E87881fD44D28f451f12AEeFfFaD49"
   },
   {
     "username": "letsgethesem50s",
@@ -3141,7 +3145,7 @@
   },
   {
     "username": "Cryptolosopher",
-    "address": "0x7970cb7587983feeeaab91317f920ea3e345ab02"
+    "address": "0x7970Cb7587983FeEEaaB91317f920Ea3e345AB02"
   },
   {
     "username": "bryanwag",
@@ -3297,7 +3301,7 @@
   },
   {
     "username": "mikron2",
-    "address": "0xaec8e6ad2913ba73c413f6d617aa5ae588c7f1d0"
+    "address": "0xAec8e6ad2913ba73c413f6D617aA5aE588C7F1d0"
   },
   {
     "username": "Frikandelis",
@@ -3329,7 +3333,7 @@
   },
   {
     "username": "boodle_noodle",
-    "address": "0xb93a0562ff8e6ad8602a1eef1f2c37fda9007ef2"
+    "address": "0xB93A0562Ff8E6Ad8602A1Eef1f2C37FDa9007eF2"
   },
   {
     "username": "prais3thesun",
@@ -3345,7 +3349,7 @@
   },
   {
     "username": "datwolvsnatchdoh",
-    "address": "0x46716fee4b49f44a0868df61703fedf1a91a20e5"
+    "address": "0x46716FEE4B49f44A0868dF61703FEDf1A91a20E5"
   },
   {
     "username": "djenanou",
@@ -3433,7 +3437,7 @@
   },
   {
     "username": "Ryamgram",
-    "address": "0x5889c8814c22f3ef7126d21d7405f79a699805ec"
+    "address": "0x5889C8814c22f3eF7126D21d7405F79a699805ec"
   },
   {
     "username": "tastypic",
@@ -3441,7 +3445,7 @@
   },
   {
     "username": "CmMozzie",
-    "address": "0x77c7e5f4a52d06a59427390f163207455bc7b628"
+    "address": "0x77c7e5f4A52D06A59427390f163207455bC7B628"
   },
   {
     "username": "PNW4LYFE",
@@ -3517,7 +3521,7 @@
   },
   {
     "username": "juralexmachina",
-    "address": "0x2cf21dfb0cb4f253333357f6d11edc7999c9ac5c"
+    "address": "0x2Cf21Dfb0CB4f253333357f6d11EDC7999C9aC5C"
   },
   {
     "username": "BestFill",
@@ -3589,7 +3593,7 @@
   },
   {
     "username": "raztacraft",
-    "address": "0x125ffc3e54da6d760f95bb609dd96823814564ba"
+    "address": "0x4EbeC131deA887FC01aD3E7cC061E6dD8cDbcdd2"
   },
   {
     "username": "hegedis",
@@ -3657,7 +3661,7 @@
   },
   {
     "username": "coinsquad",
-    "address": "0xd7327a6eae17a5bcbb59d6cd4d8f67900ce33245"
+    "address": "0xD7327A6EAE17A5bCbb59d6CD4D8F67900CE33245"
   },
   {
     "username": "devboricha",
@@ -3693,7 +3697,7 @@
   },
   {
     "username": "synergy99_eth",
-    "address": "0xc61b1c0d49eeb856732c2b22f9bbd868507586e7"
+    "address": "0xC61b1c0d49eeB856732c2b22f9bbd868507586e7"
   },
   {
     "username": "wangdangon",
@@ -3857,7 +3861,7 @@
   },
   {
     "username": "g_squidman",
-    "address": "0x71c1c84bef2e7483b69da8db531844868d702feb"
+    "address": "0x71c1c84BEF2e7483B69da8dB531844868D702feB"
   },
   {
     "username": "scannachiappolo",
@@ -3877,7 +3881,7 @@
   },
   {
     "username": "MokebeBigDingus",
-    "address": "0x52627ec4243b326732878b691166cdc73ecc2594"
+    "address": "0x52627Ec4243b326732878b691166CDC73EcC2594"
   },
   {
     "username": "Audy922",
@@ -3897,7 +3901,7 @@
   },
   {
     "username": "type_error",
-    "address": "0xb0fa0804c6f7e28eb2b2de4ca47b1876dac263cf"
+    "address": "0xb0FA0804C6f7E28EB2B2dE4ca47b1876DAC263cf"
   },
   {
     "username": "maneatingkoalas",
@@ -3909,7 +3913,7 @@
   },
   {
     "username": "Xenc",
-    "address": "0xc1d48cecff8ea376c41c34f11d87923ca4c5db80"
+    "address": "0xC1D48CEcff8Ea376C41C34f11d87923CA4c5dB80"
   },
   {
     "username": "VegasJeff",
@@ -3965,7 +3969,7 @@
   },
   {
     "username": "KingNanoBunny",
-    "address": "0xc5febf6ba108a277a7d8c1a58a618b0eb6c54537"
+    "address": "0xc5FEbf6ba108a277a7d8c1a58A618B0eB6c54537"
   },
   {
     "username": "HomeWreckerJorge",
@@ -3997,7 +4001,7 @@
   },
   {
     "username": "fc-test",
-    "address": "0xb76814c18ff8744ccc15b879e78b61c50e33175f"
+    "address": "0xb76814C18FF8744CCc15B879e78b61C50e33175F"
   },
   {
     "username": "Scouser360",
@@ -4045,7 +4049,7 @@
   },
   {
     "username": "c0ntra_band",
-    "address": "0xc64ac3b34915e269d7956868502370dfeedb6aa3"
+    "address": "0xC64AC3b34915E269D7956868502370DFEeDb6aa3"
   },
   {
     "username": "nameicaa",
@@ -4101,7 +4105,7 @@
   },
   {
     "username": "captainmidday",
-    "address": "0xafe8d48defc7b96912c638c8900cb71ddb1acec4"
+    "address": "0xafe8d48DeFC7B96912C638C8900CB71dDB1acEC4"
   },
   {
     "username": "Mr_localhost",
@@ -4137,7 +4141,7 @@
   },
   {
     "username": "Reordin",
-    "address": "0x5042ed574320d668d6df9dd82ba5cd987317d2a9"
+    "address": "0x5042ED574320d668d6Df9dD82Ba5Cd987317d2a9"
   },
   {
     "username": "inciter7",
@@ -4153,7 +4157,7 @@
   },
   {
     "username": "theenecros",
-    "address": "0x30dc5f4b2ac6641c8ce87d7991190ab1ecb3a68d"
+    "address": "0x30Dc5F4b2Ac6641c8cE87d7991190AB1ECb3A68d"
   },
   {
     "username": "alieninthegame",
@@ -4217,7 +4221,7 @@
   },
   {
     "username": "DankestDaddy69",
-    "address": "0xc2962b5600390cd9c7043c45f5ada835401ff60b"
+    "address": "0xC2962b5600390CD9C7043c45F5ADA835401Ff60B"
   },
   {
     "username": "NearlyFrank",
@@ -4257,7 +4261,7 @@
   },
   {
     "username": "Clemo4Ever",
-    "address": "0x932ad07c3a7aa1f1b08b54f6abe6ac25b49273ab"
+    "address": "0x932AD07C3a7aa1F1B08b54f6abE6aC25B49273AB"
   },
   {
     "username": "Tidsdilatation",
@@ -4337,7 +4341,7 @@
   },
   {
     "username": "lawlm",
-    "address": "0x78c5dc062a541dae7aec891575b8e66321eec848"
+    "address": "0x78C5Dc062a541dAE7AeC891575B8e66321EeC848"
   },
   {
     "username": "Prof_Void",
@@ -4345,7 +4349,7 @@
   },
   {
     "username": "Ntdark",
-    "address": "0x3468c8b1b00dd909662c5957eae646f36f627f96"
+    "address": "0x7Ad13E7440a766eEa397419e84f7c532a463C521"
   },
   {
     "username": "UranusisGolden",
@@ -4369,7 +4373,7 @@
   },
   {
     "username": "k2thesawa",
-    "address": "0xfd6c3eb6776637d4d6b60081fefd4cffa8232acd"
+    "address": "0xfd6c3EB6776637D4d6b60081fefd4cFFA8232acD"
   },
   {
     "username": "Ropex007",
@@ -4437,7 +4441,7 @@
   },
   {
     "username": "bozzie4",
-    "address": "0x5aC81eC3457a71DDA2Af0e15688d04dA9a98Df3C"
+    "address": "0x51c5A814652fd6Fecd14cc650ebcD9b93A69a6B2"
   },
   {
     "username": "thorsamja",
@@ -4505,7 +4509,7 @@
   },
   {
     "username": "SweatyElk1",
-    "address": "0x72e8146e93b12bc18c97683ba219ca6b03022b65"
+    "address": "0x72E8146E93b12bC18C97683ba219cA6B03022b65"
   },
   {
     "username": "randellfarrugia",
@@ -4541,7 +4545,7 @@
   },
   {
     "username": "Plenix",
-    "address": "0x702dfa5428b7f0c7520f19dd65590b55370f99b4"
+    "address": "0x702DFa5428b7f0c7520F19DD65590b55370f99b4"
   },
   {
     "username": "Buy_More_Bitcoin",
@@ -4561,7 +4565,7 @@
   },
   {
     "username": "TripleReward",
-    "address": "0x9e7105436f494938814e5a0bd9284c82c52f9766"
+    "address": "0x9E7105436F494938814E5a0bd9284C82c52f9766"
   },
   {
     "username": "Delectrixz",
@@ -4569,7 +4573,7 @@
   },
   {
     "username": "carrognia",
-    "address": "0xf20171cddd1d0bd5bfbce89b06f642e9c1104af0"
+    "address": "0xF20171cdDD1d0BD5bFBCe89B06f642e9C1104aF0"
   },
   {
     "username": "topdnbass",
@@ -4581,7 +4585,7 @@
   },
   {
     "username": "Harrison_w1fe",
-    "address": "0x487144ca4f5a94289ac704465ede7d6175f3bb2d"
+    "address": "0x487144cA4f5A94289Ac704465eDe7D6175f3Bb2D"
   },
   {
     "username": "neuroderp",
@@ -4625,7 +4629,7 @@
   },
   {
     "username": "lostrapt",
-    "address": "0xc8ec20f2d835d861c3391a5dc20bb614b399d66e"
+    "address": "0xc8eC20f2D835D861C3391A5dc20bb614b399d66e"
   },
   {
     "username": "VoodooReload",
@@ -4653,7 +4657,7 @@
   },
   {
     "username": "tycooperaow",
-    "address": "0xa64a6272f55dc8d8f0f324d7e42869813bc16f1f"
+    "address": "0xA64a6272F55Dc8D8f0f324d7e42869813Bc16F1F"
   },
   {
     "username": "EvenInvestment2363",
@@ -4673,7 +4677,7 @@
   },
   {
     "username": "WhatMixedFeelings",
-    "address": "0x670e9695099bfd8bacdb66d7dd947ab6257a2ff4"
+    "address": "0x670e9695099bFd8bacDb66d7dd947ab6257A2Ff4"
   },
   {
     "username": "Desiderius-Erasmus",
@@ -4713,7 +4717,7 @@
   },
   {
     "username": "mgr37",
-    "address": "0x47964f9d18e65539d5a8ebe2849cbe763c9cd09d"
+    "address": "0x47964f9d18e65539D5a8eBe2849cBe763c9CD09d"
   },
   {
     "username": "hellnukes",
@@ -4809,7 +4813,7 @@
   },
   {
     "username": "MadLADriver",
-    "address": "0x67f8f18b6e529997b5372e1f71b8cb06e822e905"
+    "address": "0x67f8f18b6e529997B5372E1f71b8Cb06e822E905"
   },
   {
     "username": "Rxpert83",
@@ -4885,7 +4889,7 @@
   },
   {
     "username": "ilaunchpad",
-    "address": "0x68a2f0986607d655bd722cd60b9932b5c8ac6260"
+    "address": "0x8AA99bcC53Bd087d3DdA9bEE6e19448317b0531B"
   },
   {
     "username": "S1zo4",
@@ -4953,7 +4957,7 @@
   },
   {
     "username": "TechHodler",
-    "address": "0x4829C05C493D5A73c3CFEef737BE5c5E7D1A264c"
+    "address": "0x545cdA66772f76b52e802Df4014f452446546E53"
   },
   {
     "username": "Danny-boy6030",
@@ -4977,7 +4981,7 @@
   },
   {
     "username": "Johnhemlock",
-    "address": "0xe4c5b34069b58e9f5b4807d4c918b987177fda39"
+    "address": "0xe4C5b34069B58E9F5B4807D4c918B987177fdA39"
   },
   {
     "username": "FunCompetitive9140",
@@ -5009,7 +5013,7 @@
   },
   {
     "username": "DarkestTimelineJeff",
-    "address": "0xa15499e085b440b04d790cbe24e03597e3717f3a"
+    "address": "0xa15499E085B440b04d790cbE24e03597E3717F3A"
   },
   {
     "username": "ScorseseTheGoat86",
@@ -5033,11 +5037,11 @@
   },
   {
     "username": "mmushymouf",
-    "address": "0x73870a0231b8d859f56ba6bc91f433bbffbf5c7b"
+    "address": "0x73870A0231b8d859f56bA6Bc91F433bbFFbf5c7B"
   },
   {
     "username": "der_chiller",
-    "address": "0x8a5932cd246f40282c5a5eb0fb3246b5f4a8001d"
+    "address": "0x8a5932cD246f40282C5a5eB0fb3246b5F4a8001D"
   },
   {
     "username": "bullygrass",
@@ -5101,7 +5105,7 @@
   },
   {
     "username": "PoliticsRealityTV",
-    "address": "0xaa3eb65d6d4843a4b15de6c18e69d3030a1b8c2c"
+    "address": "0xaa3eb65d6D4843A4b15DE6c18E69d3030a1B8C2C"
   },
   {
     "username": "Clam_Newton",
@@ -5109,7 +5113,7 @@
   },
   {
     "username": "headsallrelative",
-    "address": "0x71205ef0fc331fb5cf783138288c51514584acfe"
+    "address": "0x71205eF0fC331fB5Cf783138288c51514584ACFe"
   },
   {
     "username": "Independent_Shop_378",
@@ -5141,7 +5145,7 @@
   },
   {
     "username": "mteguhs",
-    "address": "0xb8978ed8850f7dcebb8b953571f52d0b14103510"
+    "address": "0xB8978Ed8850f7DcEBB8B953571F52d0b14103510"
   },
   {
     "username": "ChunderPrince",
@@ -5233,7 +5237,7 @@
   },
   {
     "username": "imthethird",
-    "address": "0xf53d82f481ed4609dbfe0f948d3001c58f565717"
+    "address": "0xF53D82F481ed4609dBFE0f948d3001C58F565717"
   },
   {
     "username": "kipling200",
@@ -5265,7 +5269,7 @@
   },
   {
     "username": "ddbek",
-    "address": "0x805136ee7abf37b1f98e44ca18b9149dfd8f62ac"
+    "address": "0x805136EE7aBF37B1F98e44CA18b9149Dfd8f62ac"
   },
   {
     "username": "tresslessone",
@@ -5293,7 +5297,7 @@
   },
   {
     "username": "the_bolshevik",
-    "address": "0x898aee7e749a7c34cfa8bc4a548cd21bf54dfef1"
+    "address": "0x898Aee7e749a7C34cFA8Bc4A548CD21BF54dfEf1"
   },
   {
     "username": "kushkloudzz",
@@ -5345,7 +5349,7 @@
   },
   {
     "username": "kowasaur",
-    "address": "0xb67d4dd9f0e25760dc0f373d79588bd0169b2335"
+    "address": "0xB67D4dd9F0E25760dC0f373d79588Bd0169b2335"
   },
   {
     "username": "wittekoolpriester",
@@ -5353,7 +5357,7 @@
   },
   {
     "username": "l3rian",
-    "address": "0xe5c6f43b743f794d77d103cae2077edd3276d203"
+    "address": "0xe5C6f43b743F794d77D103cAE2077EDD3276d203"
   },
   {
     "username": "Fatleboo",
@@ -5377,7 +5381,7 @@
   },
   {
     "username": "johnpaulcas",
-    "address": "0xa6eb22f8228c074ddebd759b7aba8ab521376064"
+    "address": "0xa6Eb22f8228c074DDeBd759B7Aba8aB521376064"
   },
   {
     "username": "bedla",
@@ -5421,7 +5425,7 @@
   },
   {
     "username": "p4t0k",
-    "address": "0x5dc0aa3e4c014b39c7f30cadd6a945cac59176e5"
+    "address": "0x5dC0aa3E4C014b39C7f30caDD6a945cac59176E5"
   },
   {
     "username": "Zappy_Zink",
@@ -5429,7 +5433,7 @@
   },
   {
     "username": "seanyo",
-    "address": "0x4e8455a139cc6ded3019b72da359af6a16f7250d"
+    "address": "0x4e8455A139Cc6ded3019b72dA359aF6a16F7250d"
   },
   {
     "username": "Confident_Cry4163",
@@ -5437,7 +5441,7 @@
   },
   {
     "username": "MvPMatty",
-    "address": "0x4c9e67bf20cfb5b15b46d8d1455de09eb0a23f9b"
+    "address": "0x4c9e67bf20Cfb5B15b46D8d1455de09eB0A23F9B"
   },
   {
     "username": "Le4chanFTW",
@@ -5465,7 +5469,7 @@
   },
   {
     "username": "TheSnowMiser",
-    "address": "0x83bc1bcd227835d069353ce32161cd20a0268380"
+    "address": "0x83bc1bcd227835d069353cE32161cD20a0268380"
   },
   {
     "username": "New_Diet",
@@ -5505,7 +5509,7 @@
   },
   {
     "username": "LadyKillaByte",
-    "address": "0xc63168e13bf5c1e6acef55e42b92bf247cfbefb6"
+    "address": "0xc63168E13Bf5C1e6aCEF55E42B92BF247CFBefb6"
   },
   {
     "username": "checyrider123",
@@ -5529,7 +5533,7 @@
   },
   {
     "username": "FharzMusin",
-    "address": "0x9ff99b69778026eff3311ae642e293207a751325"
+    "address": "0x9FF99B69778026eFf3311Ae642E293207A751325"
   },
   {
     "username": "SnakeyLotus",
@@ -5601,7 +5605,7 @@
   },
   {
     "username": "paper_tail",
-    "address": "0xfad4b23296ae0e40545ce0d53aaa389e77fc08f7"
+    "address": "0xfAD4B23296ae0E40545CE0d53aAA389E77Fc08F7"
   },
   {
     "username": "Marusova",
@@ -5621,7 +5625,7 @@
   },
   {
     "username": "DrPoptarts22",
-    "address": "0x416cbdb27547d4830c4de6bccd43f4d9a8161845"
+    "address": "0x416CBDb27547d4830c4dE6bCcd43f4d9a8161845"
   },
   {
     "username": "fizzik123",
@@ -5633,7 +5637,7 @@
   },
   {
     "username": "bastardofbexley",
-    "address": "0x3fA6cCE9d0dff5458d93cDe6744ad0530EF63369"
+    "address": "0x16C2F3f37c85f64FF1A76bC565F2F9FcFBb8995C"
   },
   {
     "username": "Sb22312",
@@ -5721,7 +5725,7 @@
   },
   {
     "username": "Pandabehr",
-    "address": "0x0106f14efea8f122fe74763b7e4377cd86cd975c"
+    "address": "0x0106f14eFEa8F122fE74763b7e4377cD86cd975C"
   },
   {
     "username": "je-reddit",
@@ -5769,7 +5773,7 @@
   },
   {
     "username": "LittleMonsterMine",
-    "address": "0xb902c153602b8ef35889ffcbbf3d7b50ba962a44"
+    "address": "0xb902c153602B8ef35889FfCBbf3d7B50ba962a44"
   },
   {
     "username": "edvyno1",
@@ -5781,7 +5785,7 @@
   },
   {
     "username": "Sappleba",
-    "address": "0x19b8b01c47c816e3fbe5ef2da85ffa4d07116bc5"
+    "address": "0x19B8B01C47c816e3fBE5EF2da85ffA4d07116bC5"
   },
   {
     "username": "rustyben420",
@@ -5961,7 +5965,7 @@
   },
   {
     "username": "heyheoy",
-    "address": "0xb4aca4d18c3f3ad9bfddd0a0dc8f669d51798dea"
+    "address": "0xB4ACa4d18C3F3AD9Bfddd0A0dc8F669d51798dEA"
   },
   {
     "username": "Vegas7899",
@@ -6065,7 +6069,7 @@
   },
   {
     "username": "Lanky_Weeb",
-    "address": "0x62bc489924c4568507b30a17e15f480a45442215"
+    "address": "0x62bc489924C4568507B30a17e15f480a45442215"
   },
   {
     "username": "seiszero",
@@ -6177,7 +6181,7 @@
   },
   {
     "username": "machinecraig",
-    "address": "0xc5fb1ee1872f0d5aa3fe4e23e3e0e829f3b032a2"
+    "address": "0xc5Fb1EE1872f0d5AA3FE4E23E3E0e829f3B032A2"
   },
   {
     "username": "el_pipila",
@@ -6185,11 +6189,11 @@
   },
   {
     "username": "oaplox",
-    "address": "0x29c261c0576a9d4b2e1d79f53b4dc219d9b29eb6"
+    "address": "0x29c261c0576A9d4b2e1D79F53b4dC219D9b29EB6"
   },
   {
     "username": "rfikki",
-    "address": "0x8394a052eb6c32fb9defcaabc12fcbd8fea0b8a8"
+    "address": "0x8394A052eb6c32FB9DEFcAabc12fCBD8FEA0B8A8"
   },
   {
     "username": "titovrex",
@@ -6213,7 +6217,7 @@
   },
   {
     "username": "starskyyy",
-    "address": "0xe841aafd376768b4b8093d44a35e444741ccb7c6"
+    "address": "0xE841AAFd376768B4b8093d44A35e444741CcB7c6"
   },
   {
     "username": "RoseSelkie",
@@ -6453,7 +6457,7 @@
   },
   {
     "username": "Meriu",
-    "address": "0xf3405fc5edb415854aea2d20831d5d6748d946ee"
+    "address": "0xf3405fc5EdB415854aeA2D20831D5d6748D946eE"
   },
   {
     "username": "mitcher991",
@@ -6513,7 +6517,7 @@
   },
   {
     "username": "YoungStillOurWorld",
-    "address": "0xb6899193b3448ef0878a612fa3865224d100b3e7"
+    "address": "0xb6899193B3448Ef0878A612fa3865224d100B3e7"
   },
   {
     "username": "L0CHN3SS13",
@@ -6533,7 +6537,7 @@
   },
   {
     "username": "Fl1kz",
-    "address": "0x38a474dabc27d1b09d238b4d70b13599418dacd5"
+    "address": "0x38A474daBc27D1b09D238B4D70B13599418DACd5"
   },
   {
     "username": "ArtigoQ",
@@ -6597,7 +6601,7 @@
   },
   {
     "username": "Aurtach",
-    "address": "0xd950b9a4f667184c386b0c57311784c762d591b6"
+    "address": "0xd950b9a4f667184c386b0C57311784C762D591b6"
   },
   {
     "username": "mati22123",
@@ -6665,7 +6669,7 @@
   },
   {
     "username": "sggts04",
-    "address": "0x14a2f78d7bb33c81784f0a602c3c986448c9c473"
+    "address": "0x14a2F78D7bb33C81784f0a602c3c986448c9C473"
   },
   {
     "username": "Waving_from_heights",
@@ -6677,7 +6681,7 @@
   },
   {
     "username": "anthonymacp",
-    "address": "0x291877c4b39193e7e05a5c820bc7c6bf13ce30f4"
+    "address": "0x291877c4B39193E7e05a5C820bc7c6bf13cE30F4"
   },
   {
     "username": "Advanced-Arachnid411",
@@ -6693,7 +6697,7 @@
   },
   {
     "username": "taythesleepyguyy",
-    "address": "0xf632366a32fa049a41663558bd4abcced94527b7"
+    "address": "0xF632366A32fA049a41663558bd4aBCCeD94527B7"
   },
   {
     "username": "LOONGMOVIE22",
@@ -6721,7 +6725,7 @@
   },
   {
     "username": "Shamptoni0",
-    "address": "0x6e670c90ebe77220351da976466ae25ff6e32f21"
+    "address": "0x6e670C90Ebe77220351DA976466aE25Ff6e32F21"
   },
   {
     "username": "Liskatz",
@@ -6761,7 +6765,7 @@
   },
   {
     "username": "Don-Tron",
-    "address": "0x213a9c08fadcd5406f81d6d4a40da1c7de68805c"
+    "address": "0x213A9c08fAdcd5406F81d6D4a40dA1c7De68805c"
   },
   {
     "username": "Helpful-Alps-5320",
@@ -6789,7 +6793,7 @@
   },
   {
     "username": "thegtabmx",
-    "address": "0x55e559c974346ed3ae4f8b1b1b6c87b6506ccabc"
+    "address": "0x55e559C974346ED3aE4F8B1b1B6C87b6506ccaBC"
   },
   {
     "username": "Soldrakon",
@@ -6861,7 +6865,7 @@
   },
   {
     "username": "Travelociti",
-    "address": "0x34606e4d14bfda85c5f8314931c833755fb964df"
+    "address": "0x34606E4d14bfdA85C5f8314931C833755fb964DF"
   },
   {
     "username": "lakerz690",
@@ -6953,11 +6957,11 @@
   },
   {
     "username": "notfrankie16",
-    "address": "0x20542DBb2d5e54a0F5CeA4E3fEfd96ba128e6C17"
+    "address": "0x5513864EB307be5e3442226a7832e081b2B4684E"
   },
   {
     "username": "-Just_Another_Guy-",
-    "address": "0x7136a26860b94d880fc35e36e601bd4ef22db1db"
+    "address": "0x7136a26860b94D880fC35E36e601BD4ef22db1dB"
   },
   {
     "username": "seer93",
@@ -7009,7 +7013,7 @@
   },
   {
     "username": "jkwon7",
-    "address": "0xd931c09a561fd766fc703565dcf16ede8a352af0"
+    "address": "0xD931c09a561FD766FC703565DCF16Ede8a352aF0"
   },
   {
     "username": "plutoegg",
@@ -7089,11 +7093,11 @@
   },
   {
     "username": "malikrys",
-    "address": "0x3eaf3557ff2a6347b84dacf1af96709f77f9a8ac"
+    "address": "0x3eaf3557fF2A6347B84dacf1aF96709F77f9A8Ac"
   },
   {
     "username": "Safranina",
-    "address": "0x8240ca808bdf173e46045e0aa82ee02f08b2dc6c"
+    "address": "0x8240Ca808bDf173e46045e0AA82EE02F08B2DC6c"
   },
   {
     "username": "kishore1988",
@@ -7109,7 +7113,7 @@
   },
   {
     "username": "make_me_think",
-    "address": "0xfff172cdecd5d3fe6a79d6f586d75a977d4ed31b"
+    "address": "0xfff172cDECd5D3fe6A79D6F586D75a977D4ED31B"
   },
   {
     "username": "CoreyGilligan",
@@ -7137,7 +7141,7 @@
   },
   {
     "username": "DaTrickster",
-    "address": "0xfa4d69bac7bd71a40567e869ec4afa7865a4f7ee"
+    "address": "0xfa4d69bAc7Bd71a40567E869Ec4afa7865A4F7ee"
   },
   {
     "username": "thanksbastards_",
@@ -7205,7 +7209,7 @@
   },
   {
     "username": "Glitchmstr",
-    "address": "0x61c69b2138b53177df375c165ea8f56ad7b13067"
+    "address": "0x61c69B2138B53177DF375C165ea8F56aD7B13067"
   },
   {
     "username": "mati221232",
@@ -7217,7 +7221,7 @@
   },
   {
     "username": "AvantiusMaximus",
-    "address": "0x18f0e4a2e99cc8362fe9c9876934efdd7461d519"
+    "address": "0x18f0e4a2E99cc8362fE9c9876934Efdd7461d519"
   },
   {
     "username": "JustAnotherKrn",
@@ -7237,7 +7241,7 @@
   },
   {
     "username": "coffeehouse11",
-    "address": "0x9903cb94a493b62e7bb054f3624e8b78421b3f87"
+    "address": "0x9903cB94A493B62E7BB054F3624E8b78421b3F87"
   },
   {
     "username": "iamsumorai",
@@ -7273,7 +7277,7 @@
   },
   {
     "username": "JSkii",
-    "address": "0x800b605f429651e728a63198313ef9a3ac0c42c0"
+    "address": "0x800B605F429651e728A63198313Ef9a3AC0C42C0"
   },
   {
     "username": "LuckyLeprachaun",
@@ -7389,7 +7393,7 @@
   },
   {
     "username": "GarlicAffectionate69",
-    "address": "0x9ba7c24038a44d340d34876ee3ba5bcba805dfd8"
+    "address": "0x9bA7C24038A44D340D34876ee3ba5BcBA805dfd8"
   },
   {
     "username": "cchaser92",
@@ -7405,7 +7409,7 @@
   },
   {
     "username": "NoMaans",
-    "address": "0x8c0943fe0c7b0d73f0f839999f89b591104055c3"
+    "address": "0x8C0943FE0c7B0d73f0f839999F89b591104055c3"
   },
   {
     "username": "daototpyrc",
@@ -8326,5 +8330,1669 @@
   {
     "username": "Old_Father_Time",
     "address": "0x7c61215A99ef31BC7D3FdEf0c313EBD2CEA3D331"
+  },
+  {
+    "username": "UrMuMGaEe",
+    "address": "0x4e9606FEA76112BF275fA5764614b5847066694E"
+  },
+  {
+    "username": "Chaoulov",
+    "address": "0x00597597C682282472B8bB4CE963895b7C73C94B"
+  },
+  {
+    "username": "Samir2298",
+    "address": "0x54C334fa1A5BC243874eB6f7573E2e6e4e305Df0"
+  },
+  {
+    "username": "ThrowAway0183910",
+    "address": "0x555d574c5B15c55aB121126538CcE4D073202B7A"
+  },
+  {
+    "username": "AWholeCoin",
+    "address": "0xCfDd0C048853F83Ec58C480c0c140bf774A6806a"
+  },
+  {
+    "username": "rayQuGR",
+    "address": "0x2CF036f1Fe2833a344E43d9Da9372667F084d5A5"
+  },
+  {
+    "username": "Acceptable-Sort-8429",
+    "address": "0xD2402fa7e38Ed36c6B11fF58D738AD262631d9Eb"
+  },
+  {
+    "username": "camp2gg",
+    "address": "0x2D18A4f7DcA01c833f1ca09bCb947aEc80D0b8C2"
+  },
+  {
+    "username": "AbjectList8",
+    "address": "0x6fc4c3991cAdBfC471eAA7D5De15DB1C28B7A774"
+  },
+  {
+    "username": "Clean_Eyes",
+    "address": "0xD2654FeEC77934D2Bc687E4fa1Fe13442Dd9011d"
+  },
+  {
+    "username": "sgriosadair",
+    "address": "0x93d9988001ae7f37E5d85006f75848C7Ff13Bed1"
+  },
+  {
+    "username": "NFTfuture1",
+    "address": "0x318996f036d69B26a28AfC3D89c2C4F308AeCf34"
+  },
+  {
+    "username": "sparkyladder",
+    "address": "0x2a5E1f016EcbB77e8Ba4b4736ED9AD4da8e1d3Ff"
+  },
+  {
+    "username": "Zephl",
+    "address": "0xBE913328EA23b2eabdB64cE2247e0f7382bFf871"
+  },
+  {
+    "username": "Special_Geologist_80",
+    "address": "0x532543656442ae6eFBdC50087Ca336eB5D25193d"
+  },
+  {
+    "username": "uwucookiefx69420",
+    "address": "0xbD278362F3abE08904dB0e57fC95bee1b90F327c"
+  },
+  {
+    "username": "Zenniverse",
+    "address": "0x93DB692686ca84786A49D74feCF6533d3754D13e"
+  },
+  {
+    "username": "sirjakobos",
+    "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54"
+  },
+  {
+    "username": "Creativone",
+    "address": "0x787Eb8890E8DfE6D7F2F15c97635c59625772CBD"
+  },
+  {
+    "username": "CryptoBumGuy",
+    "address": "0x071EbA82b8AFBD670Defe9a55cd0322F7009E948"
+  },
+  {
+    "username": "warriorlynx",
+    "address": "0x65A41ad7B791D0e399F124e9112F3Fc173f015bb"
+  },
+  {
+    "username": "mirza1h",
+    "address": "0xc1DC7b21856FD9BE09c3286B6b7627BFd788E8Bc"
+  },
+  {
+    "username": "anlugama",
+    "address": "0x495aa804697C47aB6d2A17c9F87A35A4c7B3b999"
+  },
+  {
+    "username": "ethovian08",
+    "address": "0x77375652fD964Af5D3E538a62367A07E2C6083b8"
+  },
+  {
+    "username": "sgtpickles",
+    "address": "0x63c4deB68C5a2496E385C432A1f8fCf3AF7c18B7"
+  },
+  {
+    "username": "Rothyr_",
+    "address": "0xa7d644686cE02B30e52419967e57F13FdDE0D9e6"
+  },
+  {
+    "username": "CanaKagan",
+    "address": "0x940291bf9895E4C318C27f0451fE03c141d81295"
+  },
+  {
+    "username": "spliffyshirt",
+    "address": "0x64a993b47Ee9b17772b0BB79d96815d47449e5A3"
+  },
+  {
+    "username": "SohEternal",
+    "address": "0xc0b777F891e6bD8E248aeb3117f85d190f0B4Ff4"
+  },
+  {
+    "username": "topbossultra",
+    "address": "0x31DaA1fc9360d0CA20BcbC0cde3311500B33f8b3"
+  },
+  {
+    "username": "AA144",
+    "address": "0x4CE1042180d8E9F941AFBC1a4608D6c77cAE9433"
+  },
+  {
+    "username": "what_the_deuce",
+    "address": "0xe809BbE8dBE425035d955a30a902a09B58683198"
+  },
+  {
+    "username": "onemansquest",
+    "address": "0x492F9CE240d0c78b562B5Dda2b909dc9746dCa9b"
+  },
+  {
+    "username": "PancakeMan0841",
+    "address": "0xd88E8180baC5AD13c70D50FB28013B9e095F4956"
+  },
+  {
+    "username": "Signal_Fire7",
+    "address": "0xd1d691D110407987Ab3EfE1734a85aE0C2a91Bce"
+  },
+  {
+    "username": "Angel_Valoel",
+    "address": "0xEa3b8CB0636336D236Eb2A44bA8b679b16D63114"
+  },
+  {
+    "username": "ejdunia",
+    "address": "0x3E20204FE94073ad114E01EB756755C912412860"
+  },
+  {
+    "username": "CryptoCNewsBot",
+    "address": "0xc7b0fb544a036f77D922636fDE08405A218B5CA6"
+  },
+  {
+    "username": "MkWPB",
+    "address": "0x46FdD3378dF1856Ed06CEC671Dc7f8FC44a716E3"
+  },
+  {
+    "username": "Independent_Monk9861",
+    "address": "0x33907996b5Ba42Bb555f1B99bC9A5fBb08A4DAac"
+  },
+  {
+    "username": "TraviAdpet",
+    "address": "0x5A5c69Dd365A9B6557c590EC42A39ee6950F466E"
+  },
+  {
+    "username": "Anthrogic",
+    "address": "0x681180cB83f61FA70eCA81D0a49c042368A46Ea4"
+  },
+  {
+    "username": "SacredHam00",
+    "address": "0x6a6C75DF55bA88e3eaB15bC54Fda3ADE12786Bc5"
+  },
+  {
+    "username": "NewMarionberry7703",
+    "address": "0x9CECdD9f7a4d14e94ee5F7d5507Bf8D7B1B9D41A"
+  },
+  {
+    "username": "reputablepanda",
+    "address": "0x1fBCAc0e91B79AAeD8F6BB2f0E6CC8C64e694790"
+  },
+  {
+    "username": "EscapingTheRatMaze",
+    "address": "0x70016BC1286511b1FA8df542dA4EEe8E9D483897"
+  },
+  {
+    "username": "Nyxxsys",
+    "address": "0x9503718271Dec39cB4d3E3473C382Fbe41884C4F"
+  },
+  {
+    "username": "Vladimir_tootin_1",
+    "address": "0x088f3d32e5cbCB9C1c256f864423db7862085B12"
+  },
+  {
+    "username": "In_Crust_We_Trust397",
+    "address": "0x7ca7aA7A454e56968F287806Fe24B28CE7C1a2Af"
+  },
+  {
+    "username": "MyAddidas",
+    "address": "0xBf989E64592e990b3900402BE4c724B4B615AEd4"
+  },
+  {
+    "username": "artsypi",
+    "address": "0xF2fd05096EB639acDBe169fA3397817a80f24F66"
+  },
+  {
+    "username": "vaginalfungalinfect",
+    "address": "0xf4B257618Ff2E59c767ecC282888723E2c3AFaFe"
+  },
+  {
+    "username": "ssamjjang",
+    "address": "0x4debc0C990C15e8838cdb338A196aC5a5DB3B1Ca"
+  },
+  {
+    "username": "BuckyMcFly99",
+    "address": "0xcd75ab79653Ca542366D0BbBe2eDC630D524AF91"
+  },
+  {
+    "username": "MajorasButtplug",
+    "address": "0x19d7F967d1c6ef72aB51a28F3d0b633cE7Eb1CB2"
+  },
+  {
+    "username": "nowholdyourhorses",
+    "address": "0xf21154987801A6c6A162d689dbFe57B90E5260F8"
+  },
+  {
+    "username": "Biff-1955-Tannen",
+    "address": "0x538f6F8dC80f860DfD48BB58519abC40Bcb12B0a"
+  },
+  {
+    "username": "1894Harold",
+    "address": "0x72E0bCa235da3D3DdF88e24F83F40B7606a2C5A4"
+  },
+  {
+    "username": "Siliconb3ach",
+    "address": "0x0FC03ceF716F89a5b91277fBcACF680814B71169"
+  },
+  {
+    "username": "AlejandroV750",
+    "address": "0x2e6AC9cee65350873C6b13143aE1BaEC038071Fd"
+  },
+  {
+    "username": "RaphizFR",
+    "address": "0x03DAd6Aa8049c52500e87629182B551B2A6420d7"
+  },
+  {
+    "username": "Brother-Numsee",
+    "address": "0x5813EEDf6c2BF608D75ea1A6DBf9fB3Aea99fFB4"
+  },
+  {
+    "username": "Not_Terry0",
+    "address": "0xB7cBDA09688Cfd4e3b55269999f5f5810eDa8480"
+  },
+  {
+    "username": "ppc-hero",
+    "address": "0xC8507BA9c013Fc5611A69cbd13EaA95ead0feB7c"
+  },
+  {
+    "username": "UnnaturalAnnoyance",
+    "address": "0xa9983A2055194cEB7ce00e071ED2C83739121D4B"
+  },
+  {
+    "username": "oshinbruce",
+    "address": "0xC6617C5dCf7291C1af652ee8Bd148B15002A8AAD"
+  },
+  {
+    "username": "Dudeman2777",
+    "address": "0x775ec798Bd2CA27a78af7ad266D71662b0dd4FbA"
+  },
+  {
+    "username": "Tetrilion",
+    "address": "0x7Cf668D38F7248b91CdB857FF1AF8b1c709b8A23"
+  },
+  {
+    "username": "n8_mills",
+    "address": "0x62f67472e2ebdE42998a419E0DdA41E50105476A"
+  },
+  {
+    "username": "Old-Pool-8887",
+    "address": "0x47EBf0aFeb4bEb452d63F6045DbE1B9FA9450C72"
+  },
+  {
+    "username": "JollyFaithlessness3",
+    "address": "0x2Aa4691B454aC60EBE4C5Ec25c6c924ecC1AE6D6"
+  },
+  {
+    "username": "Prof-till-end",
+    "address": "0x8822C35BC6Ad7cd71b9a4A565744ea7BbF0757f5"
+  },
+  {
+    "username": "NeverHeardThat",
+    "address": "0x4257875Ba321FC6a74CBf1a30dD1325E516dBC2c"
+  },
+  {
+    "username": "jtbeastx",
+    "address": "0x1135D447F2005183F11d6F91932468566954ef4f"
+  },
+  {
+    "username": "Chininja1",
+    "address": "0x609011CD511F78D2cbF4D286eBD35839E05046C7"
+  },
+  {
+    "username": "SortGreen4676",
+    "address": "0xD80132a7e58963a853aEd4514e986689433e5d9f"
+  },
+  {
+    "username": "AnUncreativeName10",
+    "address": "0xa53647555C4b810B5E4399d07D77C9D5040a8481"
+  },
+  {
+    "username": "marilketh",
+    "address": "0x2bdD5A5c7023Fbd1b5d32b9BD46e356e7c4db3Cc"
+  },
+  {
+    "username": "The_Brin",
+    "address": "0x73A41DEB9893808390F2DDC14FcE204b1E8b180d"
+  },
+  {
+    "username": "Rx_Geezy",
+    "address": "0xD80d2Ba7C4aF1c94Ca0a82fca320700CeC42fF77"
+  },
+  {
+    "username": "phinfisher",
+    "address": "0x1466CB665e50D86CcdCEFA765397151428F86Fe8"
+  },
+  {
+    "username": "byukid_",
+    "address": "0x2b2106AF4E13ae67a2f6246D9C8501fcde1d7128"
+  },
+  {
+    "username": "Tylerjordan1994",
+    "address": "0x9020340ba7C20178b07dB983085cbd7d8E5f50be"
+  },
+  {
+    "username": "cuervo_gris",
+    "address": "0x8D66B343b169DEA7F9450c71e933Ac978a0AF52E"
+  },
+  {
+    "username": "PeacockMamba",
+    "address": "0x81c257f559196aE212776c47044dd082858A11DA"
+  },
+  {
+    "username": "shredzeppelin240",
+    "address": "0x860c1B0f2F6F3FF38300540AcFc0Db7D7091d0DC"
+  },
+  {
+    "username": "Dexigneer",
+    "address": "0x1fccB41161560bB0da0E48978a4bbF9cb01D53C0"
+  },
+  {
+    "username": "samlovesjiujitsu",
+    "address": "0x0328C5bEe131edb5A895Ac6DE45453772E3c02b4"
+  },
+  {
+    "username": "TheGentlemanProphet",
+    "address": "0x06ABD1f8225173514e76f390155Dd4b5e6f21174"
+  },
+  {
+    "username": "moandayforever",
+    "address": "0x26380a6cacBDdc9dddAfb3Acef4A4466C3BEd2ad"
+  },
+  {
+    "username": "steamyp",
+    "address": "0x268d91CAA7B25eC0Fe3D84bca24d5230a6aAF1d1"
+  },
+  {
+    "username": "Kappa996",
+    "address": "0x4627FDf35493031992B77FB3640265CF88fad53B"
+  },
+  {
+    "username": "ironmoosen",
+    "address": "0x3Cf42Abe6Cb4e545899685Db065658F1E26a7520"
+  },
+  {
+    "username": "Lardbear",
+    "address": "0x219EA895064015Fe624c465c88C3d1f2Dbb8F9d9"
+  },
+  {
+    "username": "SuggestedName90",
+    "address": "0xC24b59752A8c474465D516e07F1925a517DFbe0e"
+  },
+  {
+    "username": "CandleThief724",
+    "address": "0xcFc39BF6b0a6d1Af7D988C40C1D04b227506D928"
+  },
+  {
+    "username": "BullToTheMoon",
+    "address": "0x116e8b2C334394A21aeC67f1bc7bFa4721f13A94"
+  },
+  {
+    "username": "TheRempo",
+    "address": "0xC5308238EB28b03c63F2a7845B164379120a6B96"
+  },
+  {
+    "username": "D2HLC",
+    "address": "0xb3D979dE61cE6112f62f7BA7Ff67bAD2b8951514"
+  },
+  {
+    "username": "hammtron",
+    "address": "0x3fBbFAB0550534aAe22dcD074376cF8E8d1ae503"
+  },
+  {
+    "username": "Dismal_Cake",
+    "address": "0x51feD9186192Ffae9f7382c6574ac512e4604Fa9"
+  },
+  {
+    "username": "shmatt_jeff",
+    "address": "0x1f6eEb210C3A7920de0715D661A321F90d1e23D7"
+  },
+  {
+    "username": "sethpwnsk",
+    "address": "0x4570e62f48e61D38A9f06d7898d257e80386085c"
+  },
+  {
+    "username": "Longjumping_Cry_596",
+    "address": "0xD06B66DDE35f3A953BF9D7EaC86d75f345f9aDEc"
+  },
+  {
+    "username": "TranquilFlow",
+    "address": "0x70c9Bf8b0F6f4eA4d9160976c3bFb0360E3d74a4"
+  },
+  {
+    "username": "1kschmeckles",
+    "address": "0x64f2684962E8d6D734a78fbB2A1B3ac05b753e09"
+  },
+  {
+    "username": "zzinolol",
+    "address": "0x22a890Be8d7223692C81263CEfBbE2F34AB46193"
+  },
+  {
+    "username": "SliceNDice69",
+    "address": "0x3D2ADA58ABD660ac9417be4372fa875016c48862"
+  },
+  {
+    "username": "Furious_pirate",
+    "address": "0x700cDE6455BD8382420f3BB18a55199E1b5f09Ec"
+  },
+  {
+    "username": "GroundbreakingMain81",
+    "address": "0x32A474A3F4F0DEA04b955E1f6c0EE6C862A46192"
+  },
+  {
+    "username": "blitched",
+    "address": "0x096A652eD1451b3ca5c94c4Ac53c2EA753AC3C1f"
+  },
+  {
+    "username": "Hydraxiler32",
+    "address": "0x7E379d280AC80BF9e5D5c30578e165e6c690acC9"
+  },
+  {
+    "username": "BreakfastAntelope",
+    "address": "0xa5E5f37af67414513B8264358FD3EaD045feEfE6"
+  },
+  {
+    "username": "WhatASave3264",
+    "address": "0x148598C2b983f417b0794A06d9941eC661c8C854"
+  },
+  {
+    "username": "Stay_Salty_1963",
+    "address": "0x037BF6A1E7b137f824f46313317e033ffECEb613"
+  },
+  {
+    "username": "thirtydelta",
+    "address": "0xd0312BD24bEF2d9c5379Da9A6F8370E8D3222706"
+  },
+  {
+    "username": "Itsamedepression69",
+    "address": "0x0D7CBa74e30a1E75353F541DcfBae008666AFd57"
+  },
+  {
+    "username": "grapefruitcrussh",
+    "address": "0xFEB2104EBF6906c01D1675c954c1d6756ccb2EB4"
+  },
+  {
+    "username": "SOLIDAge",
+    "address": "0x533e408C6f6267Ff008C7e22DA2Ec476e67cdad5"
+  },
+  {
+    "username": "C1yce",
+    "address": "0x752395A236bCA7a8101555638B76A3bb0fb6E1f2"
+  },
+  {
+    "username": "fulento42",
+    "address": "0xa1523c475292067C102C6D5C68c4c194B8f264C2"
+  },
+  {
+    "username": "Under-Maintenace",
+    "address": "0xa89f6C73C762eB601da8c101A21e370426D1A0b3"
+  },
+  {
+    "username": "MicThess",
+    "address": "0x6DBbae34EfeD73c2fe9fA67cF929408F60e2320c"
+  },
+  {
+    "username": "AlteredCabron",
+    "address": "0x8bcb1Ab5cd8Aa74b8d606851BC33C3bB9474C2B5"
+  },
+  {
+    "username": "Nave8",
+    "address": "0xc179979CbB4B5888381b146e8694753Ca67Df3AB"
+  },
+  {
+    "username": "KingOfNumismatics",
+    "address": "0x1F9855323196f0F25CC9b88A0Be8BE528cD17c47"
+  },
+  {
+    "username": "bjernsthekid",
+    "address": "0xf9487769257478703721f3f054D99d42177Aa549"
+  },
+  {
+    "username": "FtheDEA",
+    "address": "0x794378a290aFeC6Fcdd71bCe43507Eb7CF6e7bA8"
+  },
+  {
+    "username": "libertysk8r",
+    "address": "0x7375da33ACadE70Db3681f8C46f5c8059E31fd13"
+  },
+  {
+    "username": "Fluid_Ad2363",
+    "address": "0xcAa334AcF019250f6BC1e5AB25Ea4dBa37E8CF52"
+  },
+  {
+    "username": "astron92",
+    "address": "0x31Ed56cbCa4AD9F302B49f0676d259daA85413FB"
+  },
+  {
+    "username": "MrFro9",
+    "address": "0xE5F8410797cD041a94C3fb47324FcC225E9443e2"
+  },
+  {
+    "username": "ChickMagentNetHandle",
+    "address": "0xaDC2BCFc2DAEecA1695Ed19Ea195f1be302a66f4"
+  },
+  {
+    "username": "petzar",
+    "address": "0xE6de47BaA79aB84768F8d1671a332eA273d05583"
+  },
+  {
+    "username": "Questcloud9",
+    "address": "0x6eDB145a28AAF6aF19F5801C00Ca14B561444AD4"
+  },
+  {
+    "username": "relevant_trad",
+    "address": "0xe2cEc4415Cfe7c6404aFDA92063578c1B66Bc2C5"
+  },
+  {
+    "username": "Brt232",
+    "address": "0xa1f8312ab70cF417E24F616eBEdFEf3f84cb332B"
+  },
+  {
+    "username": "tcvguy",
+    "address": "0x1EfEb2F565B0370Db545D42759DEfBDbB85F7da0"
+  },
+  {
+    "username": "whatthefuckistime",
+    "address": "0x66d5CB81f48Be2290EdAd2f3911fe77c1FF7ef3f"
+  },
+  {
+    "username": "pussyfista",
+    "address": "0xb525F4c3C9ec6300A81B9Ba8d9cB5eDB19A50184"
+  },
+  {
+    "username": "IamAFlaw",
+    "address": "0x92101D5131D2b8453E3F71077b78331907a52BDC"
+  },
+  {
+    "username": "astrobrite_",
+    "address": "0x1577034b9A6C656Cc51D690ad7e08C4a65F833Ca"
+  },
+  {
+    "username": "Baronofnowhere",
+    "address": "0xD911b07bD49F681a40cdaBC5308356E1Bf3E2982"
+  },
+  {
+    "username": "nlyz",
+    "address": "0xC8Caef7d9d530F307f2c6191F205BD1926346154"
+  },
+  {
+    "username": "SameThingHappened2Me",
+    "address": "0x825f9f5D2A4EEA4d11C69f399F17D71Dda5d67Fb"
+  },
+  {
+    "username": "fats_funs",
+    "address": "0x81027E0E9700534c023Aa34ec9c7Afb7603f94E3"
+  },
+  {
+    "username": "VeganMortgageAdviser",
+    "address": "0x86442Dc0096E7ebd5F06f703EB58F05f7ccA8b80"
+  },
+  {
+    "username": "ETH_Miner_Hodler",
+    "address": "0xcb2E8C6866B2b68A70197359E76AE594ED307d7E"
+  },
+  {
+    "username": "smackflapjack",
+    "address": "0x1853b5B21944405A233651FFdF60f5E868fF5891"
+  },
+  {
+    "username": "Sir_Prams_A_Lot",
+    "address": "0x05C639CB438e7E5C356B0D86993DbFcb0f89A742"
+  },
+  {
+    "username": "darthsatoshious",
+    "address": "0xf7deE2cC04f92d17922c79c6193f33Dc8e0F512C"
+  },
+  {
+    "username": "dynamite_ETH",
+    "address": "0x6f956985a24639E6840F40868628b505071cb567"
+  },
+  {
+    "username": "SloviXxX",
+    "address": "0xcaabB0EF03573F6A4CCE0E3e83c2819a0178d47e"
+  },
+  {
+    "username": "chubky",
+    "address": "0xB9aa2CEB0c01Dc715609cB9DBD49474c800A98C7"
+  },
+  {
+    "username": "bri_82",
+    "address": "0x5eDA8b2c9CF43885396113a34c47bF7CbF026860"
+  },
+  {
+    "username": "BullsOnParade69420",
+    "address": "0x702484d2CeAC33D7F7EB6F548c477978B3CAbAa9"
+  },
+  {
+    "username": "Horrifical",
+    "address": "0x4BB703c7Bd1c24cdbBA57BC58A0Af75c66cDE412"
+  },
+  {
+    "username": "FuegoPicante",
+    "address": "0xfDCc8786446A44964Ce48d7cA2a267E50e2a6Bb4"
+  },
+  {
+    "username": "hehechibby",
+    "address": "0xC2b18c51d46B7C7b82DeFAfDC319E2D7Cbe79c41"
+  },
+  {
+    "username": "ArtPlusScience",
+    "address": "0x460895f50BbA7670CD979F9016F1C1799E6dB265"
+  },
+  {
+    "username": "AIR_MAX_97",
+    "address": "0xC88F7D7208E0268907F7540aa0862D22944BF44F"
+  },
+  {
+    "username": "roberthonker",
+    "address": "0xf3E9CB1347B533F0ab2eF482Fe4f3718b9Df1099"
+  },
+  {
+    "username": "toiletpaperOG",
+    "address": "0x033e69bAbe3aB1891Adb2754a732b72F255F5691"
+  },
+  {
+    "username": "AmaranthN",
+    "address": "0x2b829F1536a6052Ae45e3Cf8a8D1fBC603E708d8"
+  },
+  {
+    "username": "cantstopjon",
+    "address": "0xd4468197349EB15E2C8771B343ff892388835036"
+  },
+  {
+    "username": "mauriceluxx",
+    "address": "0x98F7526a8bCEAE76BfDcCE42d729feD0D0F09cab"
+  },
+  {
+    "username": "JusteSam",
+    "address": "0x9c6c2C00f158d66290200AbCe93bb15eD5d17BFf"
+  },
+  {
+    "username": "YBYAl",
+    "address": "0x3Ce7E279Bd458b2C56608C40f7dB15f86F79613E"
+  },
+  {
+    "username": "Errmergerd_",
+    "address": "0xa656e547a1Eb50Fbb3a2e275C5bAD1ccD776f425"
+  },
+  {
+    "username": "vanillabongburner",
+    "address": "0x482793Cb7Ed29aaC067b22bA899D044b9cb0d0B4"
+  },
+  {
+    "username": "Easy-Tangerine-7420",
+    "address": "0xbE854B99F3E0FdFD904182361085073cfB6C8ec1"
+  },
+  {
+    "username": "KayabaAkihikoBDO",
+    "address": "0x10E6E1BC7E9b7968461cBD2a6d7048D016EB32E1"
+  },
+  {
+    "username": "Valditos",
+    "address": "0x1E46479914293a1B725912e1BFDBE6ef037ab05C"
+  },
+  {
+    "username": "fechler",
+    "address": "0xB51a6bf09D1263cF14b1cd508d15e7Fe7C615CA6"
+  },
+  {
+    "username": "that_cassie_chick",
+    "address": "0x24228FdB3b84979da6362540479618a3a6Ea1089"
+  },
+  {
+    "username": "spookily1",
+    "address": "0x24fe6fD87254B9c5B1bcA7fA1Bb8Bf7eF2f3D4B0"
+  },
+  {
+    "username": "smith_g",
+    "address": "0xE736dd6baC71C220293810d21B29AA08175F550b"
+  },
+  {
+    "username": "jmor11",
+    "address": "0x98B3b390E627Fe5770365f54f06C9CBeAFE38E78"
+  },
+  {
+    "username": "Corncobtacular",
+    "address": "0x6E51E72a0ab90F30fC397446EE5eaDc6220Ee09e"
+  },
+  {
+    "username": "shurikensix",
+    "address": "0x902F2f31Ecf6A7cc8c0046f91369b7742E2cEF18"
+  },
+  {
+    "username": "Ruckxs",
+    "address": "0x6715713f8db8094f4333ae1A26f4264f1620224F"
+  },
+  {
+    "username": "LCaceresG",
+    "address": "0xf0d113d759de80aCe59B3E04A0Ae4A855385a933"
+  },
+  {
+    "username": "prajwalaugustine",
+    "address": "0x0671cb07E9E01E02F3782cC7BeD4DF780Fca76B6"
+  },
+  {
+    "username": "Mav3r1ck77",
+    "address": "0xb70cd738008e875e028c268613f700f78d491e5B"
+  },
+  {
+    "username": "FrshlySqueezed",
+    "address": "0x9E0A532798C932Bf5F60f916B0400b4436e3bdF0"
+  },
+  {
+    "username": "nmnlol",
+    "address": "0x6a2E7D1c06b023b8591DBcc53d1a9E6E72BA5dc4"
+  },
+  {
+    "username": "baybiz510",
+    "address": "0x3885Ba474c3267cc4CB03Ab817c8D95990dC0CbA"
+  },
+  {
+    "username": "paedocypriz",
+    "address": "0xAb6bfc3a5AF2bB442860931e8bef7EaE9f18bc6d"
+  },
+  {
+    "username": "lodes0",
+    "address": "0x9f403C41e4d4008F2FAfbB49dDFb25313d77d4f3"
+  },
+  {
+    "username": "FastFarmer",
+    "address": "0x1f971C5396158f00a111d4275C443a4b4A90959A"
+  },
+  {
+    "username": "Robo13",
+    "address": "0x33742ed4162FB67fBe93e63eC8f5c621B87d72f5"
+  },
+  {
+    "username": "alexkurchev",
+    "address": "0xD00Ef08a0e27ba8887A15B3BB33300e7adBD946b"
+  },
+  {
+    "username": "SqrHornet",
+    "address": "0x83800BDc4F58a6CBDf156a9F35158E5c6241551e"
+  },
+  {
+    "username": "JackSchiavone",
+    "address": "0x6E70a342830950CA1a02f2472Bd86B4f594c0D17"
+  },
+  {
+    "username": "soundmotives",
+    "address": "0x682ab48372145227f1aa1CEaE59F33B7a914bD1c"
+  },
+  {
+    "username": "Qckdck",
+    "address": "0x77c39c2Cc5ecF9ecc0625739062Ffc00295B7bfB"
+  },
+  {
+    "username": "Rohan57",
+    "address": "0x28E98E939A65480AFb76624E16Fa2027d1c7A801"
+  },
+  {
+    "username": "magx88888",
+    "address": "0xe9b8d19421278C4776775FF82cb8d7df65A510d4"
+  },
+  {
+    "username": "DaddyWarbucks666",
+    "address": "0xbF97D91b0d0b9dC40Ff43c18fC993375B4d422D9"
+  },
+  {
+    "username": "urbanbrew",
+    "address": "0x139d81BE65e2f5c0dd19512412D937664d61455B"
+  },
+  {
+    "username": "Swallowingmoon",
+    "address": "0x1BE0B63C44AcFE30B5768f32F4F1FD9212377EB8"
+  },
+  {
+    "username": "xino00_",
+    "address": "0x369d826DF9f37d027105b3f93934ba75a504AbaA"
+  },
+  {
+    "username": "investmnt_noob",
+    "address": "0xf4D5C60867b406Fb8e4353d4E8e9a04336386755"
+  },
+  {
+    "username": "toby555551",
+    "address": "0xC135373369EFA261bcFb32d2A8d1463C0D5e1926"
+  },
+  {
+    "username": "deputyYA",
+    "address": "0x7cEd499d61b5Ae758cbf6FA7CE5e805a3064459a"
+  },
+  {
+    "username": "WallStreetElephant",
+    "address": "0x5D29DdEaaD689ad16428e5adF941B87a5b480d54"
+  },
+  {
+    "username": "callmev269",
+    "address": "0x70ba3e6E7e64887D3F82552F0e3101dC81Ca1543"
+  },
+  {
+    "username": "qwertymert",
+    "address": "0xa06F25cbBc555e9141dEc7CCB182Ee39288c84fb"
+  },
+  {
+    "username": "jetropolis",
+    "address": "0x3b7eE8eB8b871Fd5550eb124e821Ad86a95DF88E"
+  },
+  {
+    "username": "ChrisFoxie",
+    "address": "0x79e0460cE7F4EE95f9f488869c802E4d8A28EE46"
+  },
+  {
+    "username": "jwalker37",
+    "address": "0x2b5d4A0C5d720fC35005987Cbb65c47E97Fb0cde"
+  },
+  {
+    "username": "johnthevikingjesus",
+    "address": "0x7618fb77CE1A67Ff3bf651d49a1fE7105AD219AF"
+  },
+  {
+    "username": "stevengineer",
+    "address": "0x53d3F799EC47411c3eF444F6Cd5E60262C61A404"
+  },
+  {
+    "username": "NoUsername868",
+    "address": "0x28aBfDF378b536BFc87AD2b9F87CF8896e445132"
+  },
+  {
+    "username": "CLSmith15",
+    "address": "0xab0ae13467Ae3ae933f9397DEe5b1b2D46eC26f8"
+  },
+  {
+    "username": "AlexIcedCoffee",
+    "address": "0x7bDeA6A8fC2aCf0b5A52b08002cb010ae5499326"
+  },
+  {
+    "username": "slonsi",
+    "address": "0x144EC6D9C71E0b9c81c75736D618e40E18F8B65E"
+  },
+  {
+    "username": "ayowegot10for10",
+    "address": "0xcd2B3b82b6024a9e2A85c3820c901f04Ae0a6C45"
+  },
+  {
+    "username": "mshcat",
+    "address": "0x59CA24fd1b048cCa538062DF15e92d87E1620dba"
+  },
+  {
+    "username": "teljaninaellinsar",
+    "address": "0x455632AC0595A712A33404e7915Cc75D9Fd59De1"
+  },
+  {
+    "username": "SuiteSubstitute",
+    "address": "0x0973E522f206bAb0dAe8D194E0A0c7C1Af743927"
+  },
+  {
+    "username": "AjanPerry",
+    "address": "0x139083ee5e2FC30eCD0B78CE71Be383CeeC6e5A3"
+  },
+  {
+    "username": "DodgeR-DSD",
+    "address": "0x59c6bE82a0363EE19cf9781BEF949163A60F91A8"
+  },
+  {
+    "username": "pticjagripa",
+    "address": "0xa8049F484523b3483C418869859A304fA24D42A1"
+  },
+  {
+    "username": "Pacmandarin_b",
+    "address": "0x5B2278583253469c1E64e3Dfaabb71E089Df0292"
+  },
+  {
+    "username": "GOD_Official_Reddit",
+    "address": "0x268dB84D04fFd9226FD171D0Ff9dF56Ae0814516"
+  },
+  {
+    "username": "SiriusCasanova",
+    "address": "0xc34771eB9a54786c35dC5f3e9F1469b56061D440"
+  },
+  {
+    "username": "TheGodlyBird",
+    "address": "0x64cA2324d692c3F82AdFc9653c81b159A8931f01"
+  },
+  {
+    "username": "IAmBadAtCryptoTrade",
+    "address": "0x5687B59aeaD3d5F22be8AE33bfCeEcBAcB4Aa210"
+  },
+  {
+    "username": "thecryptos",
+    "address": "0xe77D2793F6B75A92BF25F797056Fc4693C1bE2d6"
+  },
+  {
+    "username": "Yirii",
+    "address": "0xA63E9c3d06366Cab560831E767DA00504D72fab9"
+  },
+  {
+    "username": "drauthlin",
+    "address": "0x58EF897418fC1818CAf0376aA41bc705A06fF41D"
+  },
+  {
+    "username": "LoveReady",
+    "address": "0x59C2428e25e174b2005Fd099da5fc01FBB9Be5f0"
+  },
+  {
+    "username": "memenesi",
+    "address": "0x2CCcBc1D103135F871B525b4e6E9973a5C7c2963"
+  },
+  {
+    "username": "BitBill2000",
+    "address": "0xb9013682723e5A61b51FafB0ad9e736F78251441"
+  },
+  {
+    "username": "TheNicePirate",
+    "address": "0x791eCE00Af58625e6775Cfd5769829E57EE6697D"
+  },
+  {
+    "username": "Fatmiewchef",
+    "address": "0xDF126f9524fE91DD0Ad18a650726993Ddb81aF88"
+  },
+  {
+    "username": "Hans_Luft",
+    "address": "0x66c71355B32a0de91b7d7d54Fcb40E8C3c126Da9"
+  },
+  {
+    "username": "duxarchiteuthis",
+    "address": "0x65e203F6d2f4C25121315F65a94a0Df218AeDc6A"
+  },
+  {
+    "username": "LordBroseph",
+    "address": "0x7b029E7e8877688f1b319e78Da4ba1273F68071F"
+  },
+  {
+    "username": "kuribah",
+    "address": "0xDa98c1e4Df4D2A84769A2Ea7e0C0b2bDA92391Aa"
+  },
+  {
+    "username": "mathroyale",
+    "address": "0x1735B275497DfC2463EAe21A94727e457C0C5DB7"
+  },
+  {
+    "username": "sandle_wearer",
+    "address": "0xaEf86db9B3BCd0dA8Bbe5AF17983756c2c27B449"
+  },
+  {
+    "username": "lepies_pegao",
+    "address": "0xF328bae7909a30C0d485cCd4d31a10c25F89cdC2"
+  },
+  {
+    "username": "Ber10",
+    "address": "0x67e7712e73f35E66757c868bc5Abb4937d2207eF"
+  },
+  {
+    "username": "roetkroet",
+    "address": "0x68394FECFb87b6403c952Df99f3702D97FDbD5F9"
+  },
+  {
+    "username": "Street-Ad9044",
+    "address": "0x15D0a55E128f940b8B12B102C0f61427d488D361"
+  },
+  {
+    "username": "humpstyles",
+    "address": "0x4939C898da18b0c1E71DC2A42aa545AD228711B5"
+  },
+  {
+    "username": "TBF_FML",
+    "address": "0x5E166bBe59236351ecd007628909dB8DF8bD4c6E"
+  },
+  {
+    "username": "Leif_Erickson23",
+    "address": "0x7e2b3e6d82dA65d20AeC7cd3f2481854eeE9886c"
+  },
+  {
+    "username": "PsychicGnome",
+    "address": "0x31E6a87815718BDC2e7A4824dD8bb7Aaf4C54b70"
+  },
+  {
+    "username": "Lucas_uvoucher",
+    "address": "0x14fC0bE8e90aB768226cCCf952506Ce00Bde5029"
+  },
+  {
+    "username": "helfo",
+    "address": "0x1111777D97A92853892127b02Bf32F560A3A8D28"
+  },
+  {
+    "username": "TheRealM4",
+    "address": "0x0B4b002fA4D6ff704CEc76827A1C70ff8298Fa7c"
+  },
+  {
+    "username": "Roflha",
+    "address": "0x3bBC2044e25E5b013eF2Be7ea284e390A481AFC0"
+  },
+  {
+    "username": "HovercraftSpare186",
+    "address": "0x7BD37cf35056D3c9D7898b58A72622A75fbc0007"
+  },
+  {
+    "username": "ernbergflerber",
+    "address": "0xCb47939CF2fe1614331F8368DA370eDc1B0F8005"
+  },
+  {
+    "username": "Potential-Permit-351",
+    "address": "0xD74CC528aF0c7b27EAd2BC26B8A070e3AE18e913"
+  },
+  {
+    "username": "VidhayakChacha01",
+    "address": "0x9ed77753e47055ca8C03A1eC810cD2411492616d"
+  },
+  {
+    "username": "DAMbustn22",
+    "address": "0xAd4903d95D6094f78C7B36767595Bc17C0825707"
+  },
+  {
+    "username": "JooSerr",
+    "address": "0x76B4C9Be7ff78878B4ddb6971c6F1D858FB0f04b"
+  },
+  {
+    "username": "wellykiwilad",
+    "address": "0x55076dBe8545d1F8bC2046BC4725a0b76475A6bB"
+  },
+  {
+    "username": "umme_kulsoom",
+    "address": "0x0d73f981485410379383ffAb5963cb5C92c1a790"
+  },
+  {
+    "username": "spiffco7",
+    "address": "0x27Abd155607611fAd6343cF93c5E97023f949895"
+  },
+  {
+    "username": "MilkySoft111",
+    "address": "0x1a42c1625D15861E26a6F840a9285d99182839A7"
+  },
+  {
+    "username": "botchedcoffee",
+    "address": "0xb70c560Fc5AA488aC4199Da868381809638C443C"
+  },
+  {
+    "username": "Spock_1984",
+    "address": "0xd48f1A44e56526e96A983FF750559aa365810D5A"
+  },
+  {
+    "username": "ithilienwanderer",
+    "address": "0x0300aD6951c2A14cFa34F6D4c2CA7E4Bf836B216"
+  },
+  {
+    "username": "nipochi",
+    "address": "0x8097E4294d905360C9dD6b3580bD836f4DcbEA11"
+  },
+  {
+    "username": "Lanztar",
+    "address": "0x385A112A9b4e64b760262cCFcc9819fab88FE13B"
+  },
+  {
+    "username": "beemoTheAngryRoomba",
+    "address": "0x1b151e861B111daf47B3B6AFD127D65496477d30"
+  },
+  {
+    "username": "noby74",
+    "address": "0x8C8b5C9E2433Df70233746847805939640198426"
+  },
+  {
+    "username": "TrynnaFindaBalance",
+    "address": "0x83010D058EbCd135a87b77D494257c428Aa31d75"
+  },
+  {
+    "username": "trkruthik",
+    "address": "0xA72E209F1AdD323FF294299C7b6E790faE0D0327"
+  },
+  {
+    "username": "muhcoinzplz",
+    "address": "0xb7966B82de229e31bc8c3fF4Af4ab688589Cbc60"
+  },
+  {
+    "username": "DNAprototype",
+    "address": "0x839e347B45896e1abE21a409a3bF2F62034802D2"
+  },
+  {
+    "username": "ihatespidersdoyou",
+    "address": "0xCe83Ef147d12bDC4E129C4327577A180ef520bfD"
+  },
+  {
+    "username": "Dynamic_Dreamer",
+    "address": "0x5023BDaBE2Ba77018026c388A370150a1C26d1B6"
+  },
+  {
+    "username": "CryptoCurrentAffair",
+    "address": "0x669E203A3eD8c08c554cb3FC08aC56A943de6fb4"
+  },
+  {
+    "username": "maolyx",
+    "address": "0x33379196C84b2Cd4B6cE14a45c877478aC80a3eC"
+  },
+  {
+    "username": "Trillmendous",
+    "address": "0x5Ae82f25bc90D29b99913F80765B639c9761F01E"
+  },
+  {
+    "username": "Dingus_Crawdad",
+    "address": "0x95F61eaDa17a6aEed8686E1F02E1c289Fc23cC66"
+  },
+  {
+    "username": "jfms44",
+    "address": "0x64a9C6f803C9884A64DCe209570fd2Ff04CE21f5"
+  },
+  {
+    "username": "Displaything55",
+    "address": "0xF413b727289d6f8d54E8a9D591D5C33169022884"
+  },
+  {
+    "username": "turfysauce37",
+    "address": "0x7f6AF70863513825Cc14d424130D805273097ce6"
+  },
+  {
+    "username": "LittleBigDonDon",
+    "address": "0x6C2068C39ab2D473d47355645bC6488E8eF7aBF4"
+  },
+  {
+    "username": "SwickDaddy",
+    "address": "0xfF86f38DC8A63782D5b92De6Ed06bE8b839255F2"
+  },
+  {
+    "username": "EEmakesmecry",
+    "address": "0x6CF06ec98cE2bdf6e21103dCBf2474A9AD794a72"
+  },
+  {
+    "username": "mintycrypto",
+    "address": "0x95bd67128bF0799f5CC6db5eDC0378033B5a7300"
+  },
+  {
+    "username": "noisewar",
+    "address": "0xd3DA981dBb34dA127c313cbe87a2f2F0155dA67b"
+  },
+  {
+    "username": "MDWSmusicpls",
+    "address": "0x1346CC20924ab11eb3BeE8b9489012DBFaD2277A"
+  },
+  {
+    "username": "bxislove",
+    "address": "0xc1204Ac4ff9AcA3f47Cf3548DAaB307271F2BC4d"
+  },
+  {
+    "username": "yoshiroumezawa",
+    "address": "0x71878a7B42e427206cA9c6f7a874c5631E9a46cB"
+  },
+  {
+    "username": "Shillofnoone",
+    "address": "0x69Ab4786877947B84F5A2F85A0a8A9b4700950e8"
+  },
+  {
+    "username": "Jacelius",
+    "address": "0x9F9Af9C5116b59305308E8676555f4F8b3E4e1c3"
+  },
+  {
+    "username": "makala1",
+    "address": "0x27e9beAEECc13873348d3ed88dCE229A3ae8191D"
+  },
+  {
+    "username": "twoRay",
+    "address": "0x15320BF6fa26fA95A51A03fA614879909896Cb28"
+  },
+  {
+    "username": "Icarus_Shadow",
+    "address": "0xBE252407222386e48EC83877a8462674A51b6859"
+  },
+  {
+    "username": "Papercutter0324",
+    "address": "0x497857fa18b1ed0Cd1d8ed454b502907aAD43843"
+  },
+  {
+    "username": "Illustrious_Milk_650",
+    "address": "0xa9076CA6EA98ae0281D7F20312F2125cd0040F1c"
+  },
+  {
+    "username": "Fieldbeyond",
+    "address": "0xEA8EdAbdbA21f16Db0F49EA3183e4c1B173b6fDc"
+  },
+  {
+    "username": "that_one_indian_dude",
+    "address": "0x2FeE594DeF96d1b20e88B026b6bF72eea201e45A"
+  },
+  {
+    "username": "wmredditor",
+    "address": "0xE0949A5aa405229A8F3ED8C950721F97e85526fB"
+  },
+  {
+    "username": "akirodic",
+    "address": "0xe12EaeCc0D40f5f9aD1aE0E7B94373176bDBbb20"
+  },
+  {
+    "username": "UTsnapper",
+    "address": "0xA87A188f6C1647f337B916df8786A470612c7375"
+  },
+  {
+    "username": "NotGalvao",
+    "address": "0xe14Ac9643Fa0985037FACa96f1e0eB549Bd5c880"
+  },
+  {
+    "username": "dallasboy",
+    "address": "0xa3CeCa57E4BEE224A7FE7aa46AE7f4418d54cF8d"
+  },
+  {
+    "username": "turboRock",
+    "address": "0x1F29116E0d6192Fc2e0ABa3d9aFAd6E009BF7519"
+  },
+  {
+    "username": "TopWoodpecker7267",
+    "address": "0xaD13EFa42d9F8848748008923d68d91BB847bcc4"
+  },
+  {
+    "username": "ubeogesh",
+    "address": "0x8DF87999b38969D645b5b4E4b1623330579D05Ac"
+  },
+  {
+    "username": "Cuitarded",
+    "address": "0x36FaCA9C40C03380023C9329F0F756d0e12dF460"
+  },
+  {
+    "username": "portsherry",
+    "address": "0x74eF9d14cA429D95060425b66B90489B74F5244a"
+  },
+  {
+    "username": "fabriziotarara",
+    "address": "0x6E5D304eC32556e3372e97c92Bf436635252F4C2"
+  },
+  {
+    "username": "gunksmtn1216",
+    "address": "0x2ff3eFb7072FD02b8b8e54784aD54DD62Dd77bbF"
+  },
+  {
+    "username": "MuppetZoo",
+    "address": "0x2965bfee49446E16A795ce6eaB6a07ceC60C5c80"
+  },
+  {
+    "username": "WhatAreYou1",
+    "address": "0x76CD0A2171f1238eF88bed2a59fa2b1B4390c139"
+  },
+  {
+    "username": "rainbowBass86",
+    "address": "0xAa29299971d6b90a25ED6Dc01b8a2830c748F38D"
+  },
+  {
+    "username": "Krieger616",
+    "address": "0x767E12c5cc7C979584245393C653930D1b01621b"
+  },
+  {
+    "username": "kentangx12",
+    "address": "0x3Ee4a3ad4DB98fD91CA51ef8416033AD8C4b27E1"
+  },
+  {
+    "username": "LukewarmKoolAid",
+    "address": "0x848C1aF27db974388Ed0434a213d5FD2a5dB2DDf"
+  },
+  {
+    "username": "zrkite98",
+    "address": "0xe24ab941d10CA88160CacFe4D5975ADCD98fAC07"
+  },
+  {
+    "username": "fromtheseven",
+    "address": "0x2e826c0fAfA7BF7465d6aDFD8ce20E05FC326874"
+  },
+  {
+    "username": "Eulalio1515",
+    "address": "0x32078C2377934037544D2F64c02d2b72e50D84aC"
+  },
+  {
+    "username": "ASUS_USUS_WEALLSUS",
+    "address": "0x4e5F2c3B68D5b3aAb74a6F80bc9a9D4913F25A40"
+  },
+  {
+    "username": "Tanmay707",
+    "address": "0x3FE154bEe53BCd19D909Dce18Ce2592cA5B9ee3E"
+  },
+  {
+    "username": "Caralynethegreat",
+    "address": "0xA6A19447eE2d9e3EE8c53F475dDE222ED8155ad8"
+  },
+  {
+    "username": "SirPagac",
+    "address": "0x39445aCf85DdFBe5deF8a9E48a585e5a505f1012"
+  },
+  {
+    "username": "cuhulainn",
+    "address": "0x292039727d563aA9c4cC9CAeee077872B9BC7140"
+  },
+  {
+    "username": "meds888",
+    "address": "0xC97bEd55C603d8066624D79FDb6EcF9707621219"
+  },
+  {
+    "username": "BadManFromBodie",
+    "address": "0x1c3E9D1740Fc8e5779b1F3A88980C907144cD409"
+  },
+  {
+    "username": "Kawalele",
+    "address": "0xCeE77375137011546a40cbeceD2e423add3e3851"
+  },
+  {
+    "username": "GabrielleOnce",
+    "address": "0x689CaafB0a82beCDB97b5b317f18b4680fE5943d"
+  },
+  {
+    "username": "fvckfxce",
+    "address": "0xB4E5c2fd4daa74843f60B19b504FC160fDa7333e"
+  },
+  {
+    "username": "f0kes",
+    "address": "0x44444D93B77c26aE1ef6df2419E42852c9e32Ab5"
+  },
+  {
+    "username": "MarciNyiri",
+    "address": "0xEf23e67636FaA24d4346447f98B38D5a9224c4eD"
+  },
+  {
+    "username": "Lekranom",
+    "address": "0xA2c6Ea6bf3D991232E655BE8E05c165Ef923A45c"
+  },
+  {
+    "username": "m3rl0t",
+    "address": "0x8FB7c11472744F64cF1b3c5ac18691715AbF0F9e"
+  },
+  {
+    "username": "cupfullajuice",
+    "address": "0x774fc6B8a6EC0cc998fb0C364a7219eC3573D6E1"
+  },
+  {
+    "username": "pearli",
+    "address": "0x1387D43fc6f8dfE1c14f508eB1d5739eC2BF6391"
+  },
+  {
+    "username": "Cle4ncuts",
+    "address": "0x7224aDF7Fa9f89e7F7ed55dCDDaAeb5188D20Bfa"
+  },
+  {
+    "username": "SpaceArf",
+    "address": "0x6B8B84F9e13eD16ce2B86Aa6B83E06BebD335294"
+  },
+  {
+    "username": "Iiau_",
+    "address": "0xE00a86B8C26Dc9373C4852BeB853d1C72F132D4b"
+  },
+  {
+    "username": "hang87",
+    "address": "0x04C0eFcE1D5230572e92D4248643eedcF85C11F3"
+  },
+  {
+    "username": "cryptobrahs",
+    "address": "0x5953004a463dD32D35af13bEb43305B770D691d0"
+  },
+  {
+    "username": "NFTFM",
+    "address": "0xD31bD1a793F935d01E5C144150FFFb96a8854495"
+  },
+  {
+    "username": "luker011",
+    "address": "0x4200c6d18925454e8D71C0deE69e377d07EDe713"
+  },
+  {
+    "username": "rombles03",
+    "address": "0x2054fbCdf1ffa717f63885bE7699C826e2D0c38F"
+  },
+  {
+    "username": "Ellers01",
+    "address": "0xE8e49F5612536042F29FbDe23b9d7320b3C4C842"
+  },
+  {
+    "username": "casstraxx",
+    "address": "0xfA1201DA78830645b8b8Ed55Ae06f7c2E11D8053"
+  },
+  {
+    "username": "francescacarolina",
+    "address": "0xF4d15914B438D5796cDceCc894F7963fA41F778B"
+  },
+  {
+    "username": "TappetTappetTappet",
+    "address": "0x4F8C6aC1cC22AeDB55c5a66Ac0c05d42F976DF38"
+  },
+  {
+    "username": "TTVMixmix00",
+    "address": "0x738e8138c9c3f909Da4F88dd06EB32008a30964E"
+  },
+  {
+    "username": "jrmfgd",
+    "address": "0x5E3eed41F1F88dD2958fdcdA7D5A7443e41Fad6b"
+  },
+  {
+    "username": "the4thlilmonkey",
+    "address": "0x0fADCD8D7862bB2B39d63d6a30C6b7c660c41D32"
+  },
+  {
+    "username": "AliasFakeName13",
+    "address": "0xd2CF0bADb383b25Db7F14135322d69fD6416b157"
+  },
+  {
+    "username": "C2themoon",
+    "address": "0xf6613F0046a56381b6d2cD5dC259abE8baF659c2"
+  },
+  {
+    "username": "tesfabpel",
+    "address": "0x1A3aE8b6e3beD8A0E87B7519E0a2656d8823C9C9"
+  },
+  {
+    "username": "likeverybored",
+    "address": "0x1250cb6024BaB87Bf404FdaEfd923E167C328b8c"
+  },
+  {
+    "username": "DrPoupins",
+    "address": "0xF7a93EF473f3597103C110147Fe22e8FDC9b74Af"
+  },
+  {
+    "username": "cosmicseal8",
+    "address": "0xB34817A34a965E426BBcbBFFaD085Aa7B6a09426"
+  },
+  {
+    "username": "stevyhacker",
+    "address": "0x400Fc9C7F01Df3aa919659De434E0c584e68CB29"
+  },
+  {
+    "username": "TCr0wn",
+    "address": "0x9E3508a1dE57a459835a2DFDc451afa7677962DD"
+  },
+  {
+    "username": "Play_Em_Like_Atari",
+    "address": "0x48Fe86F26107Cfb2347eB3221A38f8D7c37cB105"
+  },
+  {
+    "username": "Aikon94",
+    "address": "0x016155B2DCc9E4828C50674E3E24D488f847E3b5"
+  },
+  {
+    "username": "Splooge-mc-duck",
+    "address": "0xA11F85E6c40cD83ABcbA2829Cd6A54cF51118b33"
+  },
+  {
+    "username": "kinaludin",
+    "address": "0xAB4e888384Abc7953e30B29F63936e26BE83F45B"
+  },
+  {
+    "username": "samwiseeeeee",
+    "address": "0x69A715dBe796ad5a6b0Fa22EF9E9De80cff9dAF4"
+  },
+  {
+    "username": "gzli",
+    "address": "0xe6D82Ad544f94c75c9154157eB7C12fF6A4F96ED"
+  },
+  {
+    "username": "moneyfink",
+    "address": "0xBf5F412a5004c5342c31eba5770bDa36aB203A02"
+  },
+  {
+    "username": "PinoP74",
+    "address": "0xb2dA66eB8797Df7eAd05D37edA66dc56F1a128B4"
+  },
+  {
+    "username": "valciro123",
+    "address": "0x4724e3E45eeC2357c075e24C2bc426E447FC0Bd9"
+  },
+  {
+    "username": "nikhil1415926",
+    "address": "0x06B00CCae6e798Dc5C7aA3489973e5E280DD9cB7"
+  },
+  {
+    "username": "kanyangbnr",
+    "address": "0xc9ea2dE58A7b88a4d1885396A8aCF107565F9Eaf"
+  },
+  {
+    "username": "therru_",
+    "address": "0x3F7b3de8118cDEe32E0d8b9779AbD6eb22510D3d"
+  },
+  {
+    "username": "Jackerin0",
+    "address": "0x0A9610d8523a5481A8feb23f56e867308e31780d"
+  },
+  {
+    "username": "Digital_Ctrash",
+    "address": "0x5502f8fa0F4E19F0108DBD0103B65F173a530F75"
+  },
+  {
+    "username": "AzzX",
+    "address": "0x360099C78628C6Fe2560319Fce51c957858b1150"
+  },
+  {
+    "username": "sgtslaughterTV",
+    "address": "0x3c3b35B7C66e2E415cd12E47A12704E6E7da4673"
+  },
+  {
+    "username": "aluhanse12",
+    "address": "0x78225c0f62771d87274fB82ef0F011707A1E6908"
+  },
+  {
+    "username": "Biefstukje272",
+    "address": "0x1b00E29583BF413Fb9bF069d45B06CbE43230c89"
+  },
+  {
+    "username": "FatherJack_Hackett",
+    "address": "0x592d59E51EFbCA1d08F6F1a6A5B120D29f280377"
+  },
+  {
+    "username": "sprkoolguy",
+    "address": "0x96810eB5A521635E0C91B92a59C0bD97DBAaF410"
+  },
+  {
+    "username": "ghadeira",
+    "address": "0xBe80ef1729fe8DC54e980fF9665550C302d747b0"
+  },
+  {
+    "username": "cherif84",
+    "address": "0x0927900023c9bf79Fea6eB670162F71fe7AD688F"
+  },
+  {
+    "username": "waxon_wax_onwax",
+    "address": "0x2b9A794A31F39BfAa1C08d997aDE54578a7DE4cB"
+  },
+  {
+    "username": "ZeroEye",
+    "address": "0xD35B0f527bb77314edFD84dD0444aefEC417E2Fd"
+  },
+  {
+    "username": "telataxco",
+    "address": "0x006F3D2eE78c68DB5Ae4708FD1106231040C1c07"
+  },
+  {
+    "username": "masterofnoneds",
+    "address": "0x15b3cE15D7E514e6AeeF9Dc888fd60F45EE85291"
+  },
+  {
+    "username": "Toamy",
+    "address": "0xEcd5C957D81AfA3E631c2FD93339C02921ad7742"
+  },
+  {
+    "username": "JONTH3",
+    "address": "0xadEA61F9cAD0f66983294e76d3D75bBd74f8815B"
+  },
+  {
+    "username": "zouchaoqun",
+    "address": "0x26f451E928CeF2F2A74b6E9745CECc20a98d66f7"
+  },
+  {
+    "username": "PlasticNatural4282",
+    "address": "0xC2d8F95C82D9d9B1Ec2A6c498B28d60be4135f3f"
+  },
+  {
+    "username": "davidandbrolith",
+    "address": "0xc1aaF0F5236d632442aC86C01960CA72220Fbd22"
+  },
+  {
+    "username": "JJthePlum",
+    "address": "0x5ba3272aF6d3e4bc36f4562974A5716E4DeBc447"
+  },
+  {
+    "username": "peduxe",
+    "address": "0xcfbc23a101cFaCAd311C058DF732aACDE232F480"
+  },
+  {
+    "username": "Giraffeswithneckties",
+    "address": "0x276C8FE1BCb7838d9CA60C335DC835f50218B048"
+  },
+  {
+    "username": "jijay90",
+    "address": "0x7A299d80C249C6f4F4D477E993ba1160Ed4faEC7"
+  },
+  {
+    "username": "cryptograndma1",
+    "address": "0xA5605F717198f2279D2D3389460bD897Bb25aD90"
+  },
+  {
+    "username": "CrashedK1ng",
+    "address": "0x3f4cFC02E81027f8b2cfC5BDd2a470e9FE18eeA0"
+  },
+  {
+    "username": "chillmurray_",
+    "address": "0x95A95ca42D5539BF14536741D9de246a8Ce13Bd8"
+  },
+  {
+    "username": "kentangbakar",
+    "address": "0x656A6D25651bF76C685d224f043696bE8116a2B1"
+  },
+  {
+    "username": "Themikeme23",
+    "address": "0xFB1CF510eFb6E99a3DB1a3FA635EafA51b879959"
+  },
+  {
+    "username": "Arboring",
+    "address": "0x1083D7254E01beCd64C3230612BF20E14010d646"
+  },
+  {
+    "username": "Competitive_Push_52",
+    "address": "0xDE29485dF7e941866442ceb25DCe1b9c64D02A26"
+  },
+  {
+    "username": "ParticularAtmosphere",
+    "address": "0x72F22Afe6ea512396a392eE5C6e4eFBA613373c8"
+  },
+  {
+    "username": "kaikurau",
+    "address": "0x6516Fc0E2B5532945A438Fd192F7E4Aeaef2B0c6"
+  },
+  {
+    "username": "boshiku",
+    "address": "0x3E9Da27AE4Ef00a2B3c4d575638B8D2DddB9957f"
+  },
+  {
+    "username": "Shredhead1260",
+    "address": "0x95549d9D037863acBf98487776eA6c5e91FE8adD"
+  },
+  {
+    "username": "090114",
+    "address": "0x19Ba1bC64781ec9c53439d21fD6998fD1d397cb4"
+  },
+  {
+    "username": "thedolfiin",
+    "address": "0xa59c98991D1629CD88c6E7e59c22d42653459478"
+  },
+  {
+    "username": "doniedon11",
+    "address": "0x3C2Cf09bf860aaBA76Cc9543504F10b7eFB88054"
+  },
+  {
+    "username": "ayradv",
+    "address": "0x9067c70e1E0604350E9046FfD08db59e03589E0d"
+  },
+  {
+    "username": "belacung12",
+    "address": "0x2300ceC938139b9823aE67a06F08667a3164d0fc"
+  },
+  {
+    "username": "kibbles333",
+    "address": "0x63c15f862B8d7572247CCA842C120712e0f6E6D3"
+  },
+  {
+    "username": "JaguarGlad",
+    "address": "0x7A78ef5Ce26e536E534b6A2a8Ba4d8b39603bEc1"
+  },
+  {
+    "username": "switch72",
+    "address": "0xdc952006123517240035981767cf34c9d9C70D9b"
   }
 ]
