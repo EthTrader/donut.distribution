@@ -18,7 +18,7 @@ task("accounts", "Prints the list of accounts", async () => {
  */
 module.exports = {
   mocha: {
-    timeout: 40000
+    timeout: 200000
   },
   networks: {
     hardhat: {

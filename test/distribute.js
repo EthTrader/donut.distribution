@@ -11,7 +11,7 @@ const {
   SigningKey
 } = utils;
 
-const l2_distribution = require("../out/round_96_l2.QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2.json")
+const l2_distribution = require("../out/round_97_l2.QmWXyT6zRod9tHsoi9wvMaqVdJAvRhXKwuEXuTCjx44Rrd.json")
 
 const networkData = {
   xdai: {
