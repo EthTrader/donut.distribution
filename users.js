@@ -17,6 +17,7 @@ let hashes = {
   "0xd16105af9df8954f03626c3ebb74b0f8e7baf8fd0ab27a311b8b18f8874d2f4f": "QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2", // round_96
   "0x80ad7c3838aeec599c2882e0e4002d3d1840c3981cf63bc9a55c735e94fec79b": "QmWXyT6zRod9tHsoi9wvMaqVdJAvRhXKwuEXuTCjx44Rrd", // round_97
   "0x2504597d143a4e2c6453860311c5bf0dc1b930a92db0718443eb5905d1d0e091": "QmW7Tr1dVVfqUGMAFeEinHRkSCRumirNwJdLbbHj2YfwDv"  // round_98
+  "0x6cb9402ccf826bd6cedcb4d98a72dc527ee862ca8bec292f0f0e030af8b69972": "QmNwPTHUTCiw6B2nq6jZfd13vrxtGkKJYqq9to4nQZACU1"  // round_98
 }
 
 main()
