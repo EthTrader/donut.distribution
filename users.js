@@ -13,7 +13,7 @@ const mainnet = new getDefaultProvider('mainnet', {
     projectSecret: env.INFURA_PROJECT_SECRET
   }
 })
-const xdai = new providers.JsonRpcProvider("https://dai.poa.network")
+const xdai = new providers.JsonRpcProvider("https://xdai-archive.blockscout.com/")
 
 const MerkleTwoDropABI = require("./abi/MerkleTwoDropABI")
 const ERC20 = require("./abi/ERC20")
@@ -93,11 +93,11 @@ function getBalances(airdrops, mainnetMultiplier, xdaiMultiplier){
     let donutBal = await donutMainnetInstance.balanceOf(user.address)
     let donutXDaiBal = await donutXDaiInstance.balanceOf(user.address)
 
-    let stakedMainnetBal = await stakingMainnetInstance.balanceOf(user.address)
-    if(stakedMainnetBal.gt(0)) console.log(user.username, stakedMainnetBal.mul(mainnetMultiplier).div(WeiPerEther).toString(), "mainnet")
-    let stakedXDaiBal = await stakingXDaiInstance.balanceOf(user.address)
-    if(stakedXDaiBal.gt(0)) console.log(user.username, stakedXDaiBal.mul(xdaiMultiplier).div(WeiPerEther).toString(), "xdai")
-    
+    let stakedMainnetBal = (await stakingMainnetInstance.balanceOf(user.address)).mul(mainnetMultiplier)
+    if(stakedMainnetBal.gt(0)) {console.log(user.username, stakedMainnetBal.div(WeiPerEther).toString(), "mainnet")}
+    let stakedXDaiBal = (await stakingXDaiInstance.balanceOf(user.address)).mul(xdaiMultiplier)
+    if(stakedXDaiBal.gt(0)) console.log(user.username, stakedXDaiBal.div(WeiPerEther).toString(), "xdai")
+
     donutBal = donutBal.add(donutXDaiBal).add(stakedMainnetBal).add(stakedXDaiBal)
 
     const earned = airdrops.filter((airdrop)=>airdrop.awards.find(a=>a.address.toLowerCase()===user.address.toLowerCase()))
