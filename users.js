@@ -1,16 +1,32 @@
 const { ethers } = require("ethers")
+const { constants, providers, Contract, getDefaultProvider } = ethers
+const { env } = process
+const { WeiPerEther } = constants
 const fetch = require('node-fetch')
 const jsonexport = require('jsonexport')
 const fs = require("fs")
-const provider = new ethers.getDefaultProvider('mainnet', {
-  alchemy: process.env.ALCHEMY_API,
+const Promise = require("bluebird")
+const mainnet = new getDefaultProvider('mainnet', {
+  alchemy: env.ALCHEMY_API,
   infura: {
-    projectId: process.env.INFURA_PROJECT_ID,
-    projectSecret: process.env.INFURA_PROJECT_SECRET
+    projectId: env.INFURA_PROJECT_ID,
+    projectSecret: env.INFURA_PROJECT_SECRET
   }
 })
+const xdai = new providers.JsonRpcProvider("https://dai.poa.network")
+
 const MerkleTwoDropABI = require("./abi/MerkleTwoDropABI")
-const airdrop = new ethers.Contract(process.env.AIRDROP_ADDRESS, MerkleTwoDropABI, provider)
+const ERC20 = require("./abi/ERC20")
+const Staking = require("./abi/Staking")
+const UniToken = ERC20.concat(["function getReserves() public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast)"]);
+const airdropInstance = new Contract(env.AIRDROP_ADDRESS, MerkleTwoDropABI, mainnet)
+const contribInstance = new Contract(env.CONTRIB_ADDRESS, ERC20, mainnet)
+const donutMainnetInstance = new Contract(env.DONUT_MAINNET_ADDRESS, ERC20, mainnet)
+const donutXDaiInstance = new Contract(env.DONUT_XDAI_ADDRESS, ERC20, xdai)
+const stakingMainnetInstance = new Contract(env.STAKING_MAINNET_ADDRESS, Staking, mainnet)
+const lpMainnetInstance = new Contract(env.LP_MAINNET_ADDRESS, UniToken, mainnet)
+const stakingXDaiInstance = new Contract(env.STAKING_XDAI_ADDRESS, Staking, xdai)
+const lpXDaiInstance = new Contract(env.LP_XDAI_ADDRESS, UniToken, xdai)
 const currentUsers = require("./docs/users").reduce((p,{username,address})=>{p[username]={username,address};return p;},{})
 let hashes = {
   "0x1c034aed470bc1e7ed69f9e751b147d23a1470e95c3c28ff8a795617bf881840": "QmSK2S8cAHBRJW1BkKianGZazaTZdMqgHKLDmu123XzNKu", // aggDist
@@ -23,19 +39,18 @@ let hashes = {
 main()
 
 async function main(){
-  let events = await airdrop.queryFilter(airdrop.filters.Start())
+  let events = await airdropInstance.queryFilter(airdropInstance.filters.Start())
   let airdrops = await Promise.all(events.map(async (e)=>{
     const id = e.args.id.toNumber()
-    const root = await airdrop.airdrops(id)
+    const root = await airdropInstance.airdrops(id)
     const hash = hashes[root]
     console.log(id, root, hash)
-    // const hash = (await airdrop.airdrops(id)).dataURI.replace("ipfs:","")
     const {awards} = await (await fetch(`https://ipfs.io/ipfs/${hash}`)).json()
-    return awards
+    return {id, root, hash, awards}
   }))
-  let users = airdrops.reduce((p,airdrop)=>{
+  let usersMap = airdrops.reduce((p,airdrop)=>{
     const re = new RegExp('^u/');
-    airdrop.forEach(award=>{
+    airdrop.awards.forEach(award=>{
       if(award.username){
         const username = award.username.replace(re,"")
         p[username]={username, address: award.address}
@@ -43,13 +58,65 @@ async function main(){
     })
     return p
   },{})
-  users = {...currentUsers, ...users}
-  console.log(Object.keys(users).length)
+
+
+  let lpMainnetSupply = await lpMainnetInstance.totalSupply();
+  let stakingMainnetSupply = await stakingMainnetInstance.totalSupply();
+  let [donutsInMainnetUniswap, ethInUniswap, _1] = await lpMainnetInstance.getReserves();
+  let lpXDaiSupply = await lpXDaiInstance.totalSupply();
+  let stakingXDaiSupply = await stakingXDaiInstance.totalSupply();
+  let [donutsInXDaiUniswap, wxdaiInUniswap, _2] = await lpXDaiInstance.getReserves();
+
+  let mainnetMultiplier = donutsInMainnetUniswap.div(lpMainnetSupply)
+  let xdaiMultiplier = donutsInXDaiUniswap.div(lpXDaiSupply)
+
+  usersMap = {...currentUsers, ...usersMap}
+  let users = Object.values(usersMap)
+  users = await Promise.mapSeries(users, getBalances(airdrops, mainnetMultiplier, xdaiMultiplier))
+  console.log(users.length)
   const newFileNameBase = `${__dirname}/out/users_${new Date().toISOString().slice(0,10)}`
-  fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(Object.values(users), null, 2))
+  fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(users, null, 2))
   // fs.unlinkSync(`${__dirname}/out/users.json`)
   fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/users.json`)
   // fs.symlinkSync(`${newFileNameBase}.json`, `${__dirname}/out/users.json`)
-  const csvOut = await jsonexport(Object.values(users))
+  const csvOut = await jsonexport(users)
   fs.writeFileSync(`${newFileNameBase}.csv`, csvOut)
+}
+
+// + mainnet contrib
+// + aggDist contrib if aggDist not claimed
+// + each round contrib if not claimed
+
+function getBalances(airdrops, mainnetMultiplier, xdaiMultiplier){
+  return async function(user){
+    let contribBal = await contribInstance.balanceOf(user.address)
+    let donutBal = await donutMainnetInstance.balanceOf(user.address)
+    let donutXDaiBal = await donutXDaiInstance.balanceOf(user.address)
+
+    let stakedMainnetBal = await stakingMainnetInstance.balanceOf(user.address)
+    if(stakedMainnetBal.gt(0)) console.log(user.username, stakedMainnetBal.mul(mainnetMultiplier).div(WeiPerEther).toString(), "mainnet")
+    let stakedXDaiBal = await stakingXDaiInstance.balanceOf(user.address)
+    if(stakedXDaiBal.gt(0)) console.log(user.username, stakedXDaiBal.mul(xdaiMultiplier).div(WeiPerEther).toString(), "xdai")
+    
+    donutBal = donutBal.add(donutXDaiBal).add(stakedMainnetBal).add(stakedXDaiBal)
+
+    const earned = airdrops.filter((airdrop)=>airdrop.awards.find(a=>a.address.toLowerCase()===user.address.toLowerCase()))
+    await Promise.all(earned.map(async (airdrop)=>{
+      const awarded = await airdropInstance.awarded(airdrop.id, user.address)
+      if(awarded) return
+      else {
+        const award = airdrop.awards.find(a=>a.address.toLowerCase()===user.address.toLowerCase())
+        contribBal = contribBal.add(award.amount0)
+        donutBal = donutBal.add(award.amount1)
+      }
+    }))
+
+    user.contrib = contribBal.div(WeiPerEther).toString()
+    user.donut = donutBal.div(WeiPerEther).toString()
+    user.weight = donutBal.lt(contribBal) ? donutBal.div(WeiPerEther).toString() : contribBal.div(WeiPerEther).toString()
+
+    console.log(user.username, user.contrib, user.donut, user.weight)
+
+    return user
+  }
 }
