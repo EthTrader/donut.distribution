@@ -5,7 +5,7 @@ const fs = require("fs")
 const ipfsClient = require('ipfs-http-client')
 const merklize = require('./merklize')
 
-const file = `round_100.csv`
+const file = `round_101.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
 const credentials = {
@@ -21,11 +21,21 @@ const reddit = new snoowrap(credentials)
 main()
 
 async function main(){
-  let optInThread = await reddit.getSubmission('ll8wwg').expandReplies({limit: Infinity, depth: Infinity})
-  let optInUsers = optInThread.comments.reduce((p,c)=>{
-    p[`u/${c.author.name}`] = true
+  let optIn1 = (await reddit.getSubmission('ll8wwg').expandReplies({limit: Infinity, depth: 1})).comments
+  console.log(`optIn1: ${optIn1.length}`)
+  let optIn2 = (await reddit.getSubmission('pg1esc').expandReplies({limit: Infinity, depth: 1})).comments
+  console.log(`optIn2: ${optIn2.length}`)
+  let optOuts2 = (await reddit.getComment('h9639cx').expandReplies({limit: Infinity, depth: 1})).replies
+  console.log(`optOuts2: ${optOuts2.length}`)
+  let optIn = optIn1.concat(optIn2)
+  let optInUsers = optIn.reduce((p,c)=>{
+    let out = optOuts2.find(o=>o.author.name===c.author.name)
+    if(!out) {
+      p[`u/${c.author.name}`] = true
+    }
     return p
   },{})
+
   let custody = 0
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
