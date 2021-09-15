@@ -4,6 +4,8 @@ const jsonexport = require('jsonexport')
 const fs = require("fs")
 const ipfsClient = require('ipfs-http-client')
 const merklize = require('./merklize')
+const removedUsers = require('./removed.json')
+console.log(`removed: ${removedUsers}`)
 
 const file = `round_101.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
@@ -40,6 +42,7 @@ async function main(){
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
   const distribution = distributionCSV.reduce((p,c)=>{
+    if(removedUsers.includes(c.username)) return p
     let points = c.points
     if(points && c.contributor_type === "contributor"){
       points = Math.round(points*80/95)                                         // reduce and send to multisig as 15% dev allocation
