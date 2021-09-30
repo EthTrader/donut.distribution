@@ -7,7 +7,7 @@ const merklize = require('./merklize')
 const removedUsers = require('./removed.json')
 console.log(`removed: ${removedUsers}`)
 
-const file = `round_101.csv`
+const file = `round_102.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
 const credentials = {
@@ -43,23 +43,26 @@ async function main(){
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
   const distribution = distributionCSV.reduce((p,c)=>{
     if(removedUsers.includes(c.username)) return p
-    let points = c.points
-    if(points && c.contributor_type === "contributor"){
-      points = Math.round(points*80/95)                                         // reduce and send to multisig as 15% dev allocation
-    }
-    const donut = parseInt(c.donut || points)
-    const contrib = parseInt(c.contrib || points)
+
+
+    const points = parseInt(c.points)
+    // if(points && c.contributor_type === "contributor"){
+    //   points = Math.round(points*80/95)                                         // reduce and send to multisig as 15% dev allocation
+    // }
+    // const donut = parseInt(c.donut || points)
+    // const contrib = parseInt(c.contrib || points)
+
     if(!p[c.blockchain_address])
       p[c.blockchain_address] = {username: c.username, address: c.blockchain_address, contrib:0, donut:0}
-    p[c.blockchain_address].contrib += contrib
+    p[c.blockchain_address].contrib += points
     if(optInUsers[c.username]){
       if(!l2Recipients[c.blockchain_address]){
         l2Recipients[c.blockchain_address] = {username: c.username, address: c.blockchain_address, donut:0}
       }
-      custody += donut
-      l2Recipients[c.blockchain_address].donut += donut
+      custody += points
+      l2Recipients[c.blockchain_address].donut += points
     } else {
-      p[c.blockchain_address].donut += donut
+      p[c.blockchain_address].donut += points
     }
     return p
   },{})
@@ -68,7 +71,8 @@ async function main(){
     username: "DonutMultisig",
     address: multisig,
     contrib: 0,
-    donut: 600000 + custody                                                     // 600k = dev allocation
+    // donut: 600000 + custody                                                     // 600k = dev allocation
+    donut: 510000 + custody                                                     // 510k = dev allocation
   }
 
   let uEthTraderCommunityAward
