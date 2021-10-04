@@ -33,7 +33,8 @@ async function main(){
 
   let optIn1 = (await reddit.getSubmission('ll8wwg').expandReplies({limit: Infinity, depth: 1})).comments
   console.log(`optIn1: ${optIn1.length}`)
-  let optIn2 = (await reddit.getSubmission('pg1esc').expandReplies({limit: Infinity, depth: 1})).comments
+  // let optIn2 = (await reddit.getSubmission('pg1esc').expandReplies({limit: Infinity, depth: 1})).comments
+  let optIn2 = (await reddit.getSubmission('p5ik6b').expandReplies({limit: Infinity, depth: 1})).comments
   console.log(`optIn2: ${optIn2.length}`)
   let optOuts2 = (await reddit.getComment('h9639cx').expandReplies({limit: Infinity, depth: 1})).replies
   console.log(`optOuts2: ${optOuts2.length}`)
