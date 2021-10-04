@@ -1,11 +1,15 @@
-const MerkleTree = require("merkle-tree-solidity").default
-const { bufferToHex, keccak256, setLengthLeft, setLengthRight, toBuffer } = require("ethereumjs-util")
-const csv = require('csvtojson')
-const BigNumber = require('bignumber.js')
-
+// const MerkleTree = require("merkle-tree-solidity").default
+import merkle from "merkle-tree-solidity"
+import { bufferToHex, keccak256, setLengthLeft, setLengthRight, toBuffer } from "ethereumjs-util"
+// const { bufferToHex, keccak256, setLengthLeft, setLengthRight, toBuffer } = require("ethereumjs-util")
+import csv from "csvtojson"
+// const csv = require('csvtojson')
+import BigNumber from "bignumber.js"
+// const BigNumber = require('bignumber.js')
+const MerkleTree = merkle.default
 const decimals = new BigNumber(10).pow(18)
 
-module.exports = function(data, addressField, amount0Field, amount1Field, include) {
+export default function(data, addressField, amount0Field, amount1Field, include) {
   const awards = data.reduce((prev, curr)=>{
     const address = curr[addressField]
     const existing = prev.find(u=>u.address===address)

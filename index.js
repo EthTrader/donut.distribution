@@ -1,13 +1,20 @@
-const snoowrap = require('snoowrap')
-const csv=require("csvtojson")
-const jsonexport = require('jsonexport')
-const fs = require("fs")
-const ipfsClient = require('ipfs-http-client')
-const merklize = require('./merklize')
-const removedUsers = require('./removed.json')
+import snoowrap from "snoowrap"
+import csv from "csvtojson"
+import jsonexport from "jsonexport"
+import fs from "fs"
+import ipfsClient from "ipfs-http-client"
+import fetch from "node-fetch"
+import merklize from "./merklize.js"
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// const merklize = require('./merklize')
+const removedUsers = ["Positive_Eagle_"]
 console.log(`removed: ${removedUsers}`)
 
-const file = `round_102.csv`
+const label = `round_102`
+const file = `${label}.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
 const credentials = {
@@ -23,6 +30,7 @@ const reddit = new snoowrap(credentials)
 main()
 
 async function main(){
+
   let optIn1 = (await reddit.getSubmission('ll8wwg').expandReplies({limit: Infinity, depth: 1})).comments
   console.log(`optIn1: ${optIn1.length}`)
   let optIn2 = (await reddit.getSubmission('pg1esc').expandReplies({limit: Infinity, depth: 1})).comments
@@ -33,7 +41,7 @@ async function main(){
   let optInUsers = optIn.reduce((p,c)=>{
     let out = optOuts2.find(o=>o.author.name===c.author.name)
     if(!out) {
-      p[`u/${c.author.name}`] = true
+      p[`${c.author.name}`] = true
     }
     return p
   },{})
@@ -42,30 +50,58 @@ async function main(){
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${file}`)
   const distribution = distributionCSV.reduce((p,c)=>{
-    if(removedUsers.includes(c.username)) return p
-
-
     const points = parseInt(c.points)
-    // if(points && c.contributor_type === "contributor"){
-    //   points = Math.round(points*80/95)                                         // reduce and send to multisig as 15% dev allocation
-    // }
-    // const donut = parseInt(c.donut || points)
-    // const contrib = parseInt(c.contrib || points)
+    const username = c.username.replace(new RegExp('^u/'),"")
 
-    if(!p[c.blockchain_address])
-      p[c.blockchain_address] = {username: c.username, address: c.blockchain_address, contrib:0, donut:0}
-    p[c.blockchain_address].contrib += points
-    if(optInUsers[c.username]){
-      if(!l2Recipients[c.blockchain_address]){
-        l2Recipients[c.blockchain_address] = {username: c.username, address: c.blockchain_address, donut:0}
+    if(!p[username])
+      p[username] = {username, address: c.blockchain_address, contrib:0, donut:0}
+    p[username].contrib += points
+    if(optInUsers[username]){
+      if(!l2Recipients[username]){
+        l2Recipients[username] = {username, address: c.blockchain_address, donut:0}
       }
       custody += points
-      l2Recipients[c.blockchain_address].donut += points
+      l2Recipients[username].donut += points
     } else {
-      p[c.blockchain_address].donut += points
+      p[username].donut += points
     }
     return p
   },{})
+
+  const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${label}.json`).then(res=>res.json())).rewards
+  const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
+  donutUpvoteRewards.forEach(c=>{
+    const points = parseInt(c.points)
+    const username = c.username.replace(new RegExp('^u/'),"")
+    if(distribution[username]){
+      distribution[username].contrib += points
+      if(optInUsers[username]) {
+        custody += points
+        l2Recipients[username].donut += points
+      } else {
+        distribution[username].donut += points
+      }
+    } else {
+      const user = users.find(u=>u.username===username)
+      if(user){
+        const { address } = user
+        distribution[username] = {username, address, contrib: points, donut:0}
+        if(optInUsers[username]) {
+          if(!l2Recipients[username]){
+            l2Recipients[username] = {username, address, donut:0}
+          }
+          custody += points
+          l2Recipients[username].donut += points
+        } else {
+          distribution[username].donut += points
+        }
+      } else {
+        console.log(`no registered address for ${username}`)
+      }
+    }
+  })
+
+  removedUsers.forEach(username=>delete distribution[username])
 
   distribution["DonutMultisig"] = {
     username: "DonutMultisig",
