@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 const removedUsers = ["Positive_Eagle_"]
 console.log(`removed: ${removedUsers}`)
 
-const label = `round_103`
+const label = `round_104`
 const file = `${label}.csv`
 const multisig = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const uEthTraderCommunityAddress = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
