@@ -78,3 +78,10 @@ i'm going to walk through the steps that i do here:
     ```
 4. Drop the edited file into the CSV Airdrop app on the xDai gnosis safe.
 5. Complete and add to signing queue
+
+## Step 6: Update Governance Totals
+1. This step requires accesss to reliable xdai node
+2. Add the IPFS root and hash below `line 52` in `users.js`
+3. Start ipfs with `ipfs daemon` if it's not already running
+4. `yarn users`. This will update the `users.json` file in `docs/`
+5. Push to the repo 
