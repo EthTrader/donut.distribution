@@ -29,7 +29,7 @@ i'm going to walk through the steps that i do here:
 7. Share on discord for verification
 
 ## Step 2: Initiate Mainnet Multisig 'Start' Transaction
-1. Manually add the ipfs hash to pinata.cloud to pin
+1. Manually add the ipfs hash to pinata.cloud to pin.
 2. Check that the distribution will load up on ipfs: for this one, https://ipfs.io/ipfs/QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2
 3. `New transaction` on the gnosis multisig https://gnosis-safe.io/app/#/safes/0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E/transactions
 4. Contract interaction ->
@@ -63,4 +63,18 @@ i'm going to walk through the steps that i do here:
     - Token Address: `0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9`           //mainnet Donuts address
     - Receiver Address: `0x682b5664C2b9a6a93749f2159F95c23fEd654F0A`        //xdai gnosis safe
     - Value: `2950780000000000000000000`                                    //same as DonutMultisig claim
+5. Complete and add to signing queue
+
+## Step 5: Initiate xDai Multisig Distribution Transactions
+1. Drop the xdai distribution json from `out/donut.distribution/out/round_104_l2.QmQKKzZMhE33qepK7NSmHV6pSp5PpT5uY8sfRte1GHxTnx.json` into a JSON<->CSV converter and paste the CSV into a google sheet for editing.
+2. Columns should be: `token_address`, `receiver`, and `amount`
+3. `token_address` is just `0x524B969793a64a602342d89BC2789D43a016B13A` for everyone. The `amount` column does not use the 18 decimals, so it ends up looking like:
+    ```
+    token_address,receiver,amount
+    0x524B969793a64a602342d89BC2789D43a016B13A,0xe1C712Df934f18486A7605D80ca0B310340A4E52,112400
+    0x524B969793a64a602342d89BC2789D43a016B13A,0xa917f72B30A7D49fcadFeEBFAAaFC3CacC1c2105,74414
+    0x524B969793a64a602342d89BC2789D43a016B13A,0x58edD08A8f51ceA4c0faF176c71ab8C7c40ba1bc,66195
+    0x524B969793a64a602342d89BC2789D43a016B13A,0x7D06FC39A029cf93115d2da3Fad7e9b9fc22C9E7,67703 
+    ```
+4. Drop the edited file into the CSV Airdrop app on the xDai gnosis safe.
 5. Complete and add to signing queue
