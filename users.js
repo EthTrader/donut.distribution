@@ -29,7 +29,7 @@ const mainnet = new getDefaultProvider('mainnet', {
 })
 
 // const XDAI_JSON_RPC = "https://xdai.poanetwork.dev"
-const XDAI_JSON_RPC = "http://192.168.1.18:8545/"
+const XDAI_JSON_RPC = "http://127.0.0.1:8545/"
 // const XDAI_JSON_RPC = "https://dai.poa.network/"
 // const xdai = new providers.WebSocketProvider("wss://rpc.xdaichain.com/wss")
 const xdai = new providers.JsonRpcProvider(XDAI_JSON_RPC)
@@ -64,7 +64,8 @@ let hashes = {
   "0xc7ae82b5a66c994317b8cb2f07b89a975510e7941536478ac656f0843e9818b3": "QmawS3Q117PNppt2SQHcfFKii2wGpGFh8wPpA4AhwmL6qx", // round_101
   "0x4934cf7ec01671ead9c3355a8c9cc202f611b275d5f4d9ff27adb9bff560858f": "QmedigsXvwVXKQMkr3X2y1jxdUMKnPtXoAq4wBkgetnwJz", // round_102
   "0x2b9c711c4457dd4444f28f8828779a3b52f2d6cb7d0a1e6d5635b08df03a5d4f": "QmcGkH33Z2egCweCapEPiKzojQnYdL4pZGfAASqAx72mQA", // round_103
-  "0x11f394d28e9be1fbcecfd5634e9ec3c9d5cc4d34b080dce287d18955fc16e56d": "QmQKKzZMhE33qepK7NSmHV6pSp5PpT5uY8sfRte1GHxTnx"  // round_104
+  "0x11f394d28e9be1fbcecfd5634e9ec3c9d5cc4d34b080dce287d18955fc16e56d": "QmQKKzZMhE33qepK7NSmHV6pSp5PpT5uY8sfRte1GHxTnx", // round_104
+  "0xc0b481fb196e02717e3d2d25317ec23a61f2717a98029bb6fbc172e9aceae062": "Qmd4gC4A4gc1Ft5dQ6JHo2q7piUetyEGMqZ1cJZQCfCU3p"  // round_105
 }
 
 main()
