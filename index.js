@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 const removedUsers = ["Positive_Eagle_"]
 console.log(`removed: ${removedUsers}`)
 
-const LABEL = `round_107`
+const LABEL = `round_108`
 // !!Note - 2022 batch 1 (6 months) done on round_105
 const DO_XDAI_DONUT_BATCH_TRANSFER = false                                       // !!important to be correct!!
 const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 20400000                               //3,400,000 for 6 months
