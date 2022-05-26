@@ -10,10 +10,10 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // const merklize = require('./merklize')
-const removedUsers = ["Positive_Eagle_"]
-console.log(`removed: ${removedUsers}`)
+// const removedUsers = ["Positive_Eagle_"]
+// console.log(`removed: ${removedUsers}`)
 
-const LABEL = `round_108`
+const LABEL = `round_110`
 // !!Note - 2022 batch 1 (6 months) done on round_105
 const DO_XDAI_DONUT_BATCH_TRANSFER = false                                       // !!important to be correct!!
 const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 20400000                               //3,400,000 for 6 months
@@ -55,7 +55,7 @@ async function main(){
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
-    const points = parseInt(c.points)
+    const points = parseInt(c.points)/2      // !!important to remove '/2' if Reddit halves the karma csv!!
     const username = c.username.replace(new RegExp('^u/'),"")
 
     if(!p[username])
@@ -82,10 +82,11 @@ async function main(){
     return p
   },{})
 
+  const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/banned.json").then(res=>res.json())
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
   const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
   donutUpvoteRewards.forEach(c=>{
-    const points = parseInt(c.points)
+    const points = parseInt(c.points)/2      // !!important to remove '/2' if Reddit halves the karma csv!!
     const username = c.username.replace(new RegExp('^u/'),"")
     if(distribution[username]){
       distribution[username].contrib += points
