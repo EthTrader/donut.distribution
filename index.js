@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 // const removedUsers = ["Positive_Eagle_"]
 // console.log(`removed: ${removedUsers}`)
 
-const LABEL = `round_110`
+const LABEL = `round_110b`
 // !!Note - 2022 batch 1 (6 months) done on round_105
 const DO_XDAI_DONUT_BATCH_TRANSFER = false                                       // !!important to be correct!!
 const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 20400000                               //3,400,000 for 6 months
@@ -82,7 +82,7 @@ async function main(){
     return p
   },{})
 
-  const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/banned.json").then(res=>res.json())
+  const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/ineligible.json").then(res=>res.json())
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
   const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
   donutUpvoteRewards.forEach(c=>{
@@ -126,6 +126,7 @@ async function main(){
       }
     }
   })
+
 
   removedUsers.forEach(username=>delete distribution[username])
 
