@@ -13,10 +13,10 @@ const __dirname = path.dirname(__filename);
 // const removedUsers = ["Positive_Eagle_"]
 // console.log(`removed: ${removedUsers}`)
 
-const LABEL = `round_110`
+const LABEL = `round_111`
 // !!Note - 2022 batch 1 (6 months) done on round_105
-const DO_XDAI_DONUT_BATCH_TRANSFER = false                                       // !!important to be correct!!
-const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 20400000                               //3,400,000 for 6 months
+const DO_XDAI_DONUT_BATCH_TRANSFER = true                                       // !!important to be correct!!
+const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000                               //1,700,000 for 6 months
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
