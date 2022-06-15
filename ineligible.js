@@ -14,6 +14,7 @@ const inactive = []
 
 const LABEL = `round_110`
 const FILE = `${LABEL}.csv`
+const DATE = Math.floor(Date.now() / 1000) - 5184000
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -56,14 +57,19 @@ async function main(){
 async function invalidAccount(name){
   await wait(2500)
   if(name == "[deleted]") return name
-  let user
+  let user, newUser, newPoster
   try {
     console.log(`checking ${name}`)
     user = await reddit.getUser(name).fetch()
+    if(user.link_karma < 1000) {
+      newPoster = true
+    } else if (user.created > DATE) {
+      newUser = true
+    }
   } catch(e){
     console.log(e)
   }
-  if(!user || user.is_suspended) return name
+  if(!user || user.is_suspended || newUser || newPoster) return name
   else return null
 }
 
