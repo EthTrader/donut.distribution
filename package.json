@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": ". ./.env && node index.js",
-    "users": ". ./.env && node users.js",
+    "users": ". ./.env && node users-gnosis.js",
     "aggDist": ". ./.env && node aggregate.js",
     "removed": ". ./.env && node ineligible.js"
   },
