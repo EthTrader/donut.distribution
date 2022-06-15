@@ -7,7 +7,7 @@
     "start": ". ./.env && node index.js",
     "users": ". ./.env && node users.js",
     "aggDist": ". ./.env && node aggregate.js",
-    "removed": ". ./.env && node banned.js"
+    "removed": ". ./.env && node ineligible.js"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
