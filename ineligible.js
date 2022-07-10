@@ -14,7 +14,8 @@ const inactive = []
 
 const LABEL = `round_111`
 const FILE = `${LABEL}.csv`
-const DATE = Math.floor(Date.now() / 1000) - 5184000
+//const DATE = Math.floor(Date.now() / 1000) - 5184000 
+const DATE = Math.floor(Date.now() / 1000) - 7344000
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -25,12 +26,11 @@ const credentials = {
 }
 
 const reddit = new snoowrap(credentials)
+const banList = (await reddit.getSubreddit('ethtrader').getBannedUsers({limit: Infinity}).map(({ name }) => name))
 
 main()
 
 async function main(){
-    const removedUsers = (await reddit.getSubreddit('ethtrader').getBannedUsers({limit: Infinity}).map(({ name }) => name))
-    
     /* 
     If we need to fetch the entire Users list uncomment both lines below
     Processing via Reddit API will take quite a long time. 
@@ -40,37 +40,78 @@ async function main(){
     // const names = users.map(({ username }) => username)
     
     const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)    
-    const names = distributionCSV.map(({ username }) => username.replace(new RegExp('^u/'),""))
+    const namesDistribution = distributionCSV.map(({ username }) => username.replace(new RegExp('^u/'),""))
 
-    const inactiveUsers = await Promise.mapSeries(names, invalidAccount)
-    const ineligbleNames = [...removedUsers, ...inactiveUsers].filter(e => e)
-
-    console.log(`ineligble names: ${ineligbleNames.join(', ')}`)
+    const tipCSV = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
+    const namesTips = tipCSV.map(({ username }) => username)
+    
+    let names = [...namesDistribution, ...namesTips].filter(e => e)
+    names = [...new Set(names)];
+    
+    const removedList = await Promise.mapSeries(names, checkAccounts)
+    
+    const cleanList = removedList.filter(element => {
+      return element !== null;
+    });
 
     const newFileNameBase = `${__dirname}/out/ineligible_${new Date().toISOString().slice(0,10)}`
-    fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(ineligbleNames, null, 2))
+    fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(cleanList, null, 2))
     fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/ineligible.json`)
-    const csvOut = await jsonexport(ineligbleNames)
+    const csvOut = await jsonexport(cleanList)
     fs.writeFileSync(`${newFileNameBase}.csv`, csvOut)
 }
 
-async function invalidAccount(name){
+
+async function checkAccounts(name){
   await wait(2500)
-  if(name == "[deleted]") return name
-  let user, newUser, newPoster
+  console.log(`checking ${name}`)
+  let user, newUser, newPoster, deletedUser, suspendedUser, bannedUser, removalReason
+
+  if(name == "[deleted]") {
+    deletedUser = true
+    removalReason = 'deleted'
+    console.log(`removed  ${name}: account deleted`)
+  }
+
+  if (banList.includes(name)) {
+    bannedUser = true
+    removalReason = 'banned'
+    console.log(`removed  ${name}: account banned`)
+  }
+
   try {
-    console.log(`checking ${name}`)
     user = await reddit.getUser(name).fetch()
-    if(user.link_karma < 1000) {
+    let karma = user.link_karma + user.comment_karma
+    if (user.is_suspended) {
+      suspendedUser = true
+      removalReason = 'suspended'
+      console.log(`removed  ${name}: account suspended`)
+    } else if(karma < 1000) {
       newPoster = true
+      removalReason = 'karma'
+      console.log(`removed  ${name}: karma < 1000`)
     } else if (user.created > DATE) {
       newUser = true
+      removalReason = 'age'
+      console.log(`removed  ${name}: account age < 60 days`)
     }
   } catch(e){
-    console.log(e)
+    if (e.statusCode = 404) {
+      deletedUser = true
+      removalReason = 'deleted'
+      console.log(`removed  ${name}: account deleted`)
+    } else {
+      console.log(e.error)
+    }
   }
-  if(!user || user.is_suspended || newUser || newPoster) return name
-  else return null
+  
+  if(newUser || newPoster || deletedUser || bannedUser || suspendedUser) {
+    var removedUser = {
+      username: name, 
+      removal: removalReason
+    }
+    return removedUser
+  } else return null
 }
 
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms));

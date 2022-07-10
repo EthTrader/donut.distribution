@@ -35,22 +35,6 @@ main()
 
 async function main(){
 
-  // let optIn1 = (await reddit.getSubmission('ll8wwg').expandReplies({limit: Infinity, depth: 1})).comments
-  // console.log(`optIn1: ${optIn1.length}`)
-  // // let optIn2 = (await reddit.getSubmission('pg1esc').expandReplies({limit: Infinity, depth: 1})).comments
-  // let optIn2 = (await reddit.getSubmission('p5ik6b').expandReplies({limit: Infinity, depth: 1})).comments
-  // console.log(`optIn2: ${optIn2.length}`)
-  // let optOuts2 = (await reddit.getComment('h9639cx').expandReplies({limit: Infinity, depth: 1})).replies
-  // console.log(`optOuts2: ${optOuts2.length}`)
-  // let optIn = optIn1.concat(optIn2)
-  // let optInUsers = optIn.reduce((p,c)=>{
-  //   let out = optOuts2.find(o=>o.author.name===c.author.name)
-  //   if(!out) {
-  //     p[`${c.author.name}`] = true
-  //   }
-  //   return p
-  // },{})
-
   let custody = 0
   let l2Recipients = {}
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
@@ -69,20 +53,13 @@ async function main(){
     custody += points
     l2Recipients[username].donut += points
 
-    // if(optInUsers[username]){
-    //   if(!l2Recipients[username]){
-    //     l2Recipients[username] = {username, address: c.blockchain_address, donut:0}
-    //   }
-    //   custody += points
-    //   l2Recipients[username].donut += points
-    // } else {
-    //   p[username].donut += points
-    // }
-
     return p
   },{})
 
   const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/ineligible.json").then(res=>res.json())
+  const removedNames = removedUsers.map(({ username }) => username)
+  console.log(removedNames)
+
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
   const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
   donutUpvoteRewards.forEach(c=>{
@@ -94,12 +71,6 @@ async function main(){
       custody += points
       l2Recipients[username].donut += points
 
-      // if(optInUsers[username]) {
-      //   custody += points
-      //   l2Recipients[username].donut += points
-      // } else {
-      //   distribution[username].donut += points
-      // }
     } else {
       const user = users.find(u=>u.username===username)
       if(user){
@@ -112,23 +83,13 @@ async function main(){
         custody += points
         l2Recipients[username].donut += points
 
-        // if(optInUsers[username]) {
-        //   if(!l2Recipients[username]){
-        //     l2Recipients[username] = {username, address, donut:0}
-        //   }
-        //   custody += points
-        //   l2Recipients[username].donut += points
-        // } else {
-        //   distribution[username].donut += points
-        // }
       } else {
         console.log(`no registered address for ${username}`)
       }
     }
   })
 
-
-  removedUsers.forEach(username=>delete distribution[username])
+  removedNames.forEach(username=>delete distribution[username])
 
   if(DO_XDAI_DONUT_BATCH_TRANSFER){
     distribution["DonutMultisig"] = {
