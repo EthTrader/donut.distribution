@@ -12,10 +12,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const inactive = []
 
-const LABEL = `round_111`
+const LABEL = `round_112`
 const FILE = `${LABEL}.csv`
-//const DATE = Math.floor(Date.now() / 1000) - 5184000 
-const DATE = Math.floor(Date.now() / 1000) - 7344000
+const DATE = Math.floor(Date.now() / 1000) - 5184000 
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',

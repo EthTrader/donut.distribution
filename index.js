@@ -10,17 +10,21 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // const merklize = require('./merklize')
-// const removedUsers = ["Positive_Eagle_"]
-// console.log(`removed: ${removedUsers}`)
 
-const LABEL = `round_111`
-// !!Note - 2022 batch 1 (6 months) done on round_105
-const DO_XDAI_DONUT_BATCH_TRANSFER = true                                       // !!important to be correct!!
-const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000                               //1,700,000 for 6 months
+
+/* 
+NOTE - 2022 batch 1 (6 months) done on round_105, batch 2 on round_111
+*/
+const DO_XDAI_DONUT_BATCH_TRANSFER = false                   // !!important to be correct!!
+const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000            //1,700,000 for 6 months (reflects latest halving)
+
+const LABEL = `round_112`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
 const ETHTRADER_COMMUNITY_ADDRESS = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
+
+
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
   clientId: process.env.REDDIT_SCRIPT_CLIENT_ID,
@@ -55,11 +59,10 @@ async function main(){
 
     return p
   },{})
-
-  const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/ineligible.json").then(res=>res.json())
-  const removedNames = removedUsers.map(({ username }) => username)
-  console.log(removedNames)
-
+  
+  /*
+  DONUT UPVOTES (TIPS) SCRIPT: 
+  */
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
   const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
   donutUpvoteRewards.forEach(c=>{
@@ -89,14 +92,41 @@ async function main(){
     }
   })
 
+  /*
+  PAY2POST SCRIPT: 
+  */
+  const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+
+  pay2Post.forEach(c=>{
+    const points = parseInt(c.donutFee)
+    const username = c.username
+
+    if(distribution[username]){
+      distribution[username].contrib -= points
+      l2Recipients[username].donut -= points
+      if (distribution[username].contrib < 0) {
+        distribution[username].contrib = 0
+        l2Recipients[username].donut = 0
+      }
+    }
+  })
+
+  /*
+  REMOVED USERS SCRIPT: 
+  */
+  const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/ineligible.json").then(res=>res.json())
+  const removedNames = removedUsers.map(({ username }) => username)
+
   removedNames.forEach(username=>delete distribution[username])
 
+  /*
+  BRIDGE DONUTS TO GNOSIS CHAIN
+  */
   if(DO_XDAI_DONUT_BATCH_TRANSFER){
     distribution["DonutMultisig"] = {
       username: "DonutMultisig",
       address: MULTISIG_MAINNET,
       contrib: 0,
-      // donut: 510000 + custody                                                     // 510k = dev allocation
       donut: XDAI_DONUT_BATCH_TRANSFER_AMOUNT
     }
   } else {
@@ -108,13 +138,6 @@ async function main(){
     } 
   }
 
-  // let uEthTraderCommunityAward
-  // if(distribution[ETHTRADER_COMMUNITY_ADDRESS]){
-  //   uEthTraderCommunityAward = distribution[ETHTRADER_COMMUNITY_ADDRESS].donut
-  //   distribution["DonutMultisig"].donut += uEthTraderCommunityAward
-  //   console.log(`redirect ${uEthTraderCommunityAward} from u/EthTraderCommunity to DonutMultisig`)
-  //   delete distribution[ETHTRADER_COMMUNITY_ADDRESS]
-  // }
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`custody: ${custody}, contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
@@ -122,7 +145,7 @@ async function main(){
   const l2RecipientTotal = Object.values(l2Recipients).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`l2 recipient total: ${l2RecipientTotal}`)
   const csvOut = await jsonexport(Object.values(distribution))
-  // console.log(csvOut)
+
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
 
   let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
@@ -131,7 +154,4 @@ async function main(){
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_l2.${path}.json`)}`, JSON.stringify(Object.values(l2Recipients)))
   console.log(path)
-  // for await (const item of added) {
-  //   console.log(item)
-  // }
 }
