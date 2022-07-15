@@ -7,6 +7,7 @@ import fetch from "node-fetch"
 import merklize from "./merklize.js"
 import path from 'path';
 import { fileURLToPath } from 'url';
+// import { noConflict } from "snoowrap"
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // const merklize = require('./merklize')
@@ -40,26 +41,41 @@ main()
 async function main(){
 
   let custody = 0
-  let l2Recipients = {}
+  let distributionSummary = {}
+  
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
     const points = parseInt(c.points)/2      // !!important to remove '/2' if Reddit halves the karma csv!!
     const username = c.username.replace(new RegExp('^u/'),"")
 
-    if(!p[username])
+    if(!p[username]){
       p[username] = {username, address: c.blockchain_address, contrib:0, donut:0}
-    p[username].contrib += points
-
-
-    if(!l2Recipients[username]){
-      l2Recipients[username] = {username, address: c.blockchain_address, donut:0}
     }
+
+    if(!distributionSummary[username]){
+      distributionSummary[username] = {
+        username, 
+        address: c.blockchain_address, 
+        donut: 0,
+        data: {
+          removed: false,
+          removalReason: null,
+          fromKarma: 0,
+          fromTipsGiven: 0,
+          fromTipsRecd: 0,
+          pay2PostFee: 0
+        }
+      }}
+
+    p[username].contrib += points
     custody += points
-    l2Recipients[username].donut += points
+    distributionSummary[username].donut += points
+    distributionSummary[username].data.fromKarma += points
 
     return p
   },{})
-  
+
+
   /*
   DONUT UPVOTES (TIPS) SCRIPT: 
   */
@@ -72,7 +88,10 @@ async function main(){
       distribution[username].contrib += points
 
       custody += points
-      l2Recipients[username].donut += points
+      distributionSummary[username].donut += points
+
+      if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
+      if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
 
     } else {
       const user = users.find(u=>u.username===username)
@@ -80,11 +99,27 @@ async function main(){
         const { address } = user
         distribution[username] = {username, address, contrib: points, donut:0}
 
-        if(!l2Recipients[username]){
-          l2Recipients[username] = {username, address, donut:0}
+        if(!distributionSummary[username]){
+          distributionSummary[username] = {
+            username, 
+            address: c.blockchain_address, 
+            donut: 0,
+            data: {
+              removed: false,
+              removalReason: null,
+              fromKarma: 0,
+              fromTipsGiven: 0,
+              fromTipsRecd: 0,
+              pay2PostFee: 0
+            }
+            
+          }
         }
         custody += points
-        l2Recipients[username].donut += points
+        distributionSummary[username].donut += points
+        
+        if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
+        if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
 
       } else {
         console.log(`no registered address for ${username}`)
@@ -103,10 +138,13 @@ async function main(){
 
     if(distribution[username]){
       distribution[username].contrib -= points
-      l2Recipients[username].donut -= points
+      distributionSummary[username].donut -= points
+      distributionSummary[username].data.pay2PostFee = points
+
       if (distribution[username].contrib < 0) {
         distribution[username].contrib = 0
-        l2Recipients[username].donut = 0
+        distributionSummary[username].donut = 0
+        distributionSummary[username].data.pay2PostFee = 0
       }
     }
   })
@@ -117,10 +155,22 @@ async function main(){
   const removedUsers = await fetch("https://ethtrader.github.io/donut.distribution/ineligible.json").then(res=>res.json())
   const removedNames = removedUsers.map(({ username }) => username)
 
+  removedUsers.forEach( c => {
+    const reason = c.removal
+    const username = c.username
+
+    if(distribution[username]){
+      distributionSummary[username].data.removed = true
+      distributionSummary[username].data.removalReason = reason
+      distributionSummary[username].donut = 0
+    }
+  })
+
   removedNames.forEach(username=>delete distribution[username])
 
+
   /*
-  BRIDGE DONUTS TO GNOSIS CHAIN
+  BRIDGE donut TO GNOSIS CHAIN
   */
   if(DO_XDAI_DONUT_BATCH_TRANSFER){
     distribution["DonutMultisig"] = {
@@ -137,12 +187,12 @@ async function main(){
       donut: 0
     } 
   }
-
+  
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`custody: ${custody}, contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
 
-  const l2RecipientTotal = Object.values(l2Recipients).reduce((p,c)=>{p+=c.donut;return p;},0)
+  const l2RecipientTotal = Object.values(distributionSummary).reduce((p,c)=>{p+=c.donut;return p;},0)
   console.log(`l2 recipient total: ${l2RecipientTotal}`)
   const csvOut = await jsonexport(Object.values(distribution))
 
@@ -152,6 +202,7 @@ async function main(){
   let {path} = await ipfs.add(JSON.stringify(data))
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${path}.csv`)}`, csvOut)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_l2.${path}.json`)}`, JSON.stringify(Object.values(l2Recipients)))
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(Object.values(distributionSummary)))
+
   console.log(path)
 }
