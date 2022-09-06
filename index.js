@@ -16,10 +16,14 @@ const __dirname = path.dirname(__filename);
 /* 
 NOTE - 2022 batch 1 (6 months) done on round_105, batch 2 on round_111
 */
-const DO_XDAI_DONUT_BATCH_TRANSFER = false                   // !!important to be correct!!
-const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000            //1,700,000 for 6 months (reflects latest halving)
+const DO_XDAI_DONUT_BATCH_TRANSFER = false                // !!important to be correct!!
+const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 months (reflects latest halving)
 
-const LABEL = `round_113`
+// This should be set to 0
+const MAINNET_MULTISIG_MINT_AMOUNT = 5200000              // use only for one time mints. 9/06 - fund mainnet staking contract
+
+
+const LABEL = `round_114`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
@@ -184,7 +188,7 @@ async function main(){
       username: "DonutMultisig",
       address: MULTISIG_MAINNET,
       contrib: 0,
-      donut: 0
+      donut: MAINNET_MULTISIG_MINT_AMOUNT
     } 
   }
   
