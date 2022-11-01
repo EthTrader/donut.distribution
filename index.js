@@ -148,7 +148,7 @@ async function main(){
       if (distribution[username].contrib < 0) {
         distribution[username].contrib = 0
         distributionSummary[username].donut = 0
-        distributionSummary[username].data.pay2PostFee = 0
+        distributionSummary[username].data.pay2PostFee = points
       }
     }
   })
