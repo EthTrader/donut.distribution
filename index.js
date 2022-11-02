@@ -46,6 +46,8 @@ async function main(){
 
   let custody = 0
   let distributionSummary = {}
+  let totalPay2Post = 0
+  let totalIneligible = 0
   
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
@@ -144,8 +146,10 @@ async function main(){
       distribution[username].contrib -= points
       distributionSummary[username].donut -= points
       distributionSummary[username].data.pay2PostFee = points
+      totalPay2Post += points
 
       if (distribution[username].contrib < 0) {
+        totalPay2Post += distribution[username].contrib
         distribution[username].contrib = 0
         distributionSummary[username].donut = 0
         distributionSummary[username].data.pay2PostFee = points
@@ -167,6 +171,7 @@ async function main(){
       distributionSummary[username].data.removed = true
       distributionSummary[username].data.removalReason = reason
       distributionSummary[username].donut = 0
+      totalIneligible += distribution[username].contrib
     }
   })
 
@@ -191,13 +196,16 @@ async function main(){
       donut: MAINNET_MULTISIG_MINT_AMOUNT
     } 
   }
+
   
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
-  console.log(`custody: ${custody}, contrib: ${totalContrib}, donut: ${totalDonut}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
 
-  const l2RecipientTotal = Object.values(distributionSummary).reduce((p,c)=>{p+=c.donut;return p;},0)
-  console.log(`l2 recipient total: ${l2RecipientTotal}`)
+  const out = {label: LABEL, totalDistribution: totalContrib, pay2post: totalPay2Post, totalFromRemovedUsers: totalIneligible, summary: distributionSummary}
+  console.log(`custody: ${custody}, total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
+
+  // const l2RecipientTotal = Object.values(distributionSummary).reduce((p,c)=>{p+=c.donut;return p;},0)
+  // console.log(`l2 recipient total: ${l2RecipientTotal}`)
   const csvOut = await jsonexport(Object.values(distribution))
 
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
@@ -206,7 +214,7 @@ async function main(){
   let {path} = await ipfs.add(JSON.stringify(data))
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${path}.csv`)}`, csvOut)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(Object.values(distributionSummary)))
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(out))
 
   console.log(path)
 }
