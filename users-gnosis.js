@@ -55,12 +55,53 @@ const lpXDaiInstance = new Contract(env.LP_XDAI_ADDRESS, UniToken, xdai)
 const currentUsers = JSON.parse(fs.readFileSync('./docs/users.json')).reduce((p,{username,address})=>{p[username]={username,address};return p;},{})
 
 
-let hashes = []
+let hashes = [
+  "QmSK2S8cAHBRJW1BkKianGZazaTZdMqgHKLDmu123XzNKu", // aggDist
+  "QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2", // round_96
+  "QmWXyT6zRod9tHsoi9wvMaqVdJAvRhXKwuEXuTCjx44Rrd", // round_97
+  "QmW7Tr1dVVfqUGMAFeEinHRkSCRumirNwJdLbbHj2YfwDv", // round_98
+  "QmNwPTHUTCiw6B2nq6jZfd13vrxtGkKJYqq9to4nQZACU1", // round_99
+  "QmVESP61B4NwWvqQqtVdjyNLG62a6ryUK7LrwMJK45TTBq", // round_100
+  "QmawS3Q117PNppt2SQHcfFKii2wGpGFh8wPpA4AhwmL6qx", // round_101
+  "QmedigsXvwVXKQMkr3X2y1jxdUMKnPtXoAq4wBkgetnwJz", // round_102
+  "QmcGkH33Z2egCweCapEPiKzojQnYdL4pZGfAASqAx72mQA", // round_103
+  "QmQKKzZMhE33qepK7NSmHV6pSp5PpT5uY8sfRte1GHxTnx", // round_104
+  "Qmd4gC4A4gc1Ft5dQ6JHo2q7piUetyEGMqZ1cJZQCfCU3p", // round_105
+  "QmWsejDYfi5wQUuXTmu4RjX7GUpSF7kM2GXHAAQHYAFnur", // round_106
+  "QmZBerHmuj85KXpzaVtycMySjrnJ1MXFNBJPfnQicWkpqc", // round_107
+  "QmZUKyWddQRoLk5qRectNdU8YKgttLzKhrL7e7eV7ZHtsh", // round_108
+  "QmXcteXjAJ9aMvHPcCuiBmKPYsojFQ4r8u9861f3v5z5xr", // round_109
+  "QmcrjPQf1fEkBvsCa32KCM2nFpwc5nwb2JYh2rDK61AbDK", // round_110
+  "QmYSLVMg9LLpXrmo2EVtMQWKU6ToqsjcJNTgvVXSnPGbjF", // round_111
+  "Qmb8chnctkR4SEi2A3ohqXpoUnpat65YNEDm1rpQB3Vx8t", // round_112
+  "QmSMra7ymRNV4ngXXN9NHMkLPnFB1CrptQNVjCqi7ieBTg", // round_113
+  "QmTfXL8AAaPkEKutBMtbm54ACPwwwzQ5q9UneAExypiw8i", // round_114
+  "QmTgEA29PcuqT2X1a7qYcpRKtLCReZyGNXghMsd2tBmmzh", // round_115
+  "QmeWzP7tYRqZej9rabH2EUGozpTbLQw6fUov33axhnyMQ8" // round_116
+]
 
 main()
 
 async function main(){
-  let usersMap = {}
+
+  let airdrops = await Promise.all(hashes.map(async (e)=>{
+    const hash = hashes[e]
+    console.log(e)
+    const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
+    return {hash, awards}
+
+  }))
+
+  let usersMap = airdrops.reduce((p,airdrop)=>{
+    const re = new RegExp('^u/');
+    airdrop.awards.forEach(award=>{
+      if(award.username){
+        const username = award.username.replace(re,"")
+        p[username]={username, address: award.address}
+      }
+    })
+    return p
+  },{})
 
 
   let lpMainnetSupply = await lpMainnetInstance.totalSupply();
@@ -79,50 +120,11 @@ async function main(){
   console.log(users.length)
   const newFileNameBase = `${__dirname}/out/users_${new Date().toISOString().slice(0,10)}`
   fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(users, null, 2))
-  // fs.unlinkSync(`${__dirname}/out/users.json`)
   fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/users.json`)
-  // fs.symlinkSync(`${newFileNameBase}.json`, `${__dirname}/out/users.json`)
   const csvOut = await jsonexport(users)
   fs.writeFileSync(`${newFileNameBase}.csv`, csvOut)
 }
 
-// + mainnet contrib
-// + aggDist contrib if aggDist not claimed
-// + each round contrib if not claimed
-
-//function getBalances(airdrops, mainnetMultiplier, xdaiMultiplier){
-//  return async function(user){
-//    let contribBal = await contribInstance.balanceOf(user.address)
-//    let donutBal = await donutMainnetInstance.balanceOf(user.address)
-//    let donutXDaiBal = await donutXDaiInstance.balanceOf(user.address)
-
-//    let stakedMainnetBal = (await stakingMainnetInstance.balanceOf(user.address)).mul(mainnetMultiplier)
-//    if(stakedMainnetBal.gt(0)) {console.log(user.username, stakedMainnetBal.div(WeiPerEther).toString(), "mainnet")}
-//    let stakedXDaiBal = (await stakingXDaiInstance.balanceOf(user.address)).mul(xdaiMultiplier)
-//    if(stakedXDaiBal.gt(0)) console.log(user.username, stakedXDaiBal.div(WeiPerEther).toString(), "xdai")
-
-//    donutBal = donutBal.add(donutXDaiBal).add(stakedMainnetBal).add(stakedXDaiBal)
-
-//    const earned = airdrops.filter((airdrop)=>airdrop.awards.find(a=>a.address.toLowerCase()===user.address.toLowerCase()))
-//    await Promise.all(earned.map(async (airdrop)=>{
-//      const awarded = await airdropInstance.awarded(airdrop.id, user.address)
-//      if(awarded) return
-//      else {
-//        const award = airdrop.awards.find(a=>a.address.toLowerCase()===user.address.toLowerCase())
-//        contribBal = contribBal.add(award.amount0)
-//        donutBal = donutBal.add(award.amount1)
-//      }
-//    }))
-
-//    user.contrib = contribBal.div(WeiPerEther).toString()
-//    user.donut = donutBal.div(WeiPerEther).toString()
-//    user.weight = donutBal.lt(contribBal) ? donutBal.div(WeiPerEther).toString() : contribBal.div(WeiPerEther).toString()
-
-//    console.log(user.username, user.contrib, user.donut, user.weight)
-
-//    return user
-//  }
-//}
 
 function getBalances(mainnetMultiplier, xdaiMultiplier){
   return async function(user){
