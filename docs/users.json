@@ -16,9 +16,9 @@
   {
     "username": "carlslarson",
     "address": "0x95D9bED31423eb7d5B68511E0352Eae39a3CDD20",
-    "contrib": "6481197",
-    "donut": "5374862",
-    "weight": "5374862"
+    "contrib": "6471847",
+    "donut": "5261487",
+    "weight": "5261487"
   },
   {
     "username": "Mr_Yukon_C",
@@ -30,16 +30,16 @@
   {
     "username": "dont_forget_canada",
     "address": "0x009af493e9A3a3Ba3DFfBF734E1B2a5B0352dF46",
-    "contrib": "6768846",
-    "donut": "270729",
-    "weight": "270729"
+    "contrib": "6757132",
+    "donut": "259015",
+    "weight": "259015"
   },
   {
     "username": "aminok",
     "address": "0xbEA18A39a1cEe253705eB5e966fe23F26dD109eF",
-    "contrib": "7028772",
-    "donut": "3880276",
-    "weight": "3880276"
+    "contrib": "7019022",
+    "donut": "3870520",
+    "weight": "3870520"
   },
   {
     "username": "heliumcraft",
@@ -65,9 +65,9 @@
   {
     "username": "towjamb",
     "address": "0x6AA08E1E39958055836F31906C6ff8c072e8C0F3",
-    "contrib": "1772696",
-    "donut": "1681189",
-    "weight": "1681189"
+    "contrib": "1770998",
+    "donut": "1679491",
+    "weight": "1679491"
   },
   {
     "username": "krokodilmannchen",
@@ -79,9 +79,9 @@
   {
     "username": "nootropicat",
     "address": "0x52727E01d666BeF35cEF630E14E096CA873d2783",
-    "contrib": "4351434",
-    "donut": "3124608",
-    "weight": "3124608"
+    "contrib": "4342084",
+    "donut": "3115258",
+    "weight": "3115258"
   },
   {
     "username": "ruvalm",
@@ -114,9 +114,9 @@
   {
     "username": "Basoosh",
     "address": "0x80148c5d2b61182107f43FAE67f8F2ec4b5dbcDE",
-    "contrib": "3603098",
-    "donut": "2888388",
-    "weight": "2888388"
+    "contrib": "3576548",
+    "donut": "2705940",
+    "weight": "2705940"
   },
   {
     "username": "Nooku",
@@ -142,9 +142,9 @@
   {
     "username": "pegcity",
     "address": "0xB2FF35A8457B74bbBE8BBB703c9d10f5E554506B",
-    "contrib": "1290147",
-    "donut": "33074",
-    "weight": "33074"
+    "contrib": "1289748",
+    "donut": "32675",
+    "weight": "32675"
   },
   {
     "username": "BakedEnt",
@@ -261,9 +261,9 @@
   {
     "username": "NefariousNaz",
     "address": "0xAA39937AD52e1925c02D4D13EfD0A04AD260b0f5",
-    "contrib": "376775",
-    "donut": "21410",
-    "weight": "21410"
+    "contrib": "376742",
+    "donut": "21377",
+    "weight": "21377"
   },
   {
     "username": "FuckFaceGG",
@@ -303,9 +303,9 @@
   {
     "username": "dont_hate_scienceguy",
     "address": "0x453646b0AD86697F3bfbE61F086F10FBf9954c72",
-    "contrib": "556472",
-    "donut": "483116",
-    "weight": "483116"
+    "contrib": "556273",
+    "donut": "482917",
+    "weight": "482917"
   },
   {
     "username": "PlayThatFunkyMusic69",
@@ -337,7 +337,7 @@
   },
   {
     "username": "SpacePirateM",
-    "address": "0x6fd35d2221f673deee6aa332e643fb63671da072",
+    "address": "0x6FD35d2221F673DeEE6aa332E643FB63671da072",
     "contrib": "952591",
     "donut": "358",
     "weight": "358"
@@ -528,7 +528,7 @@
     "username": "Eth_Man",
     "address": "0x0e066ED845a6853557A0d580b3BA998b0283ACA8",
     "contrib": "378263",
-    "donut": "3687271",
+    "donut": "3456463",
     "weight": "378263"
   },
   {
@@ -772,9 +772,9 @@
   {
     "username": "-AndyDufresne-",
     "address": "0x3579D9aebd730C2a6291104ba04B3e3BddbAdD87",
-    "contrib": "695228",
-    "donut": "10729",
-    "weight": "10729"
+    "contrib": "694321",
+    "donut": "9822",
+    "weight": "9822"
   },
   {
     "username": "PurpleHamster",
@@ -996,16 +996,16 @@
   {
     "username": "ngin-x",
     "address": "0x0bcAF5A735a42CF11cb406621884BB02098a2F5c",
-    "contrib": "222896",
-    "donut": "1716",
-    "weight": "1716"
+    "contrib": "222596",
+    "donut": "1416",
+    "weight": "1416"
   },
   {
     "username": "Sargos",
     "address": "0xaCf4C2950107eF9b1C37faA1F9a866C8F0da88b9",
     "contrib": "66197",
-    "donut": "63882",
-    "weight": "63882"
+    "donut": "63380",
+    "weight": "63380"
   },
   {
     "username": "TheTT",
@@ -1045,9 +1045,9 @@
   {
     "username": "okrim_cro",
     "address": "0x03a8300dbb70BA2415616E800730Dc74DA272f6f",
-    "contrib": "5212",
-    "donut": "1870",
-    "weight": "1870"
+    "contrib": "5145",
+    "donut": "1803",
+    "weight": "1803"
   },
   {
     "username": "bitcoinsky",
@@ -1081,8 +1081,8 @@
     "username": "MemeyCurmudgeon",
     "address": "0x7f25555A0C85B53Cb8934960D0e4ae2DF65CeCaB",
     "contrib": "952267",
-    "donut": "362733",
-    "weight": "362733"
+    "donut": "322429",
+    "weight": "322429"
   },
   {
     "username": "_lotuseater",
@@ -1150,9 +1150,9 @@
   {
     "username": "MaconBacon01",
     "address": "0xC05cFB4fa62BB3C9dF7Ac65fE77d28345aFa3485",
-    "contrib": "45243",
-    "donut": "750",
-    "weight": "750"
+    "contrib": "45144",
+    "donut": "651",
+    "weight": "651"
   },
   {
     "username": "baptiiste",
@@ -1339,9 +1339,9 @@
   {
     "username": "joekercom",
     "address": "0x0c386D32c3FDb63ac74454c823eDee71E824A2E6",
-    "contrib": "39353",
-    "donut": "2618",
-    "weight": "2618"
+    "contrib": "39253",
+    "donut": "2518",
+    "weight": "2518"
   },
   {
     "username": "CarrionCall",
@@ -1591,9 +1591,9 @@
   {
     "username": "ethbullrun",
     "address": "0x9F822B3109BF243565C5123d8A614838668F06f1",
-    "contrib": "74402",
-    "donut": "20289",
-    "weight": "20289"
+    "contrib": "74336",
+    "donut": "20223",
+    "weight": "20223"
   },
   {
     "username": "hammerhoid",
@@ -1710,9 +1710,9 @@
   {
     "username": "geniusboy91",
     "address": "0x9B1d95c93ecd5ec23Bc883fa9899cFDA8e38779A",
-    "contrib": "62500",
-    "donut": "1022",
-    "weight": "1022"
+    "contrib": "62433",
+    "donut": "955",
+    "weight": "955"
   },
   {
     "username": "ChewlyHans",
@@ -1787,9 +1787,9 @@
   {
     "username": "Admirral",
     "address": "0x23930436f8ecBCC18149f68e82E60Eeb7b0aF4D0",
-    "contrib": "37662",
-    "donut": "36173",
-    "weight": "36173"
+    "contrib": "37462",
+    "donut": "35973",
+    "weight": "35973"
   },
   {
     "username": "alphamale212",
@@ -1933,7 +1933,7 @@
   },
   {
     "username": "Wasted99",
-    "address": "0x7e669dc1d75ef8fc7e0a107253f16f950dffa1e3",
+    "address": "0x7e669DC1d75Ef8fC7E0A107253F16F950Dffa1e3",
     "contrib": "12179",
     "donut": "12207",
     "weight": "12179"
@@ -1983,16 +1983,16 @@
   {
     "username": "PinkPuppyBall",
     "address": "0xa4f88C966Ec4537B9769Ff781bcf125Fc24E7e39",
-    "contrib": "22936",
-    "donut": "1332",
-    "weight": "1332"
+    "contrib": "22836",
+    "donut": "1232",
+    "weight": "1232"
   },
   {
     "username": "jeffreythesnake",
     "address": "0x1D7B64421c367bA4EE02b399A698f9cb3e9d6676",
-    "contrib": "41988",
-    "donut": "3646",
-    "weight": "3646"
+    "contrib": "41788",
+    "donut": "3446",
+    "weight": "3446"
   },
   {
     "username": "mistrustless",
@@ -2004,9 +2004,9 @@
   {
     "username": "specific_tumbleweed",
     "address": "0x138aF5DA1A3D76DFAfd6EA53CBded4e139c030Fd",
-    "contrib": "12513",
-    "donut": "10833",
-    "weight": "10833"
+    "contrib": "12480",
+    "donut": "10800",
+    "weight": "10800"
   },
   {
     "username": "cryptofuck_",
@@ -2144,9 +2144,9 @@
   {
     "username": "bzzking",
     "address": "0x7C48CF841a4cd5754127148fB9B20580Fc51eBeb",
-    "contrib": "259816",
-    "donut": "298946",
-    "weight": "259816"
+    "contrib": "250677",
+    "donut": "260700",
+    "weight": "250677"
   },
   {
     "username": "runny-eggs",
@@ -2353,7 +2353,7 @@
   },
   {
     "username": "flsurf7",
-    "address": "0x2a24626ef14016d5474fa6c4298220bd2d57081e",
+    "address": "0x2A24626eF14016D5474fa6c4298220BD2D57081e",
     "contrib": "5187",
     "donut": "5021",
     "weight": "5021"
@@ -2403,9 +2403,9 @@
   {
     "username": "Suishou",
     "address": "0x68De51b8A5A53fE8E62705fDcFedd7B243245D26",
-    "contrib": "54323",
-    "donut": "43770",
-    "weight": "43770"
+    "contrib": "54090",
+    "donut": "43537",
+    "weight": "43537"
   },
   {
     "username": "CorndogJimmy",
@@ -2480,9 +2480,9 @@
   {
     "username": "Jake123194",
     "address": "0x48AFb64D55c79A2E711c14a2Bf903A7C3842baCC",
-    "contrib": "726477",
-    "donut": "500644",
-    "weight": "500644"
+    "contrib": "715242",
+    "donut": "488385",
+    "weight": "488385"
   },
   {
     "username": "imagranny",
@@ -2529,9 +2529,9 @@
   {
     "username": "The_Vegan_Chef",
     "address": "0x196ee87CE11A07ec155773Aea61f6d192A9032c6",
-    "contrib": "9923",
-    "donut": "8524",
-    "weight": "8524"
+    "contrib": "9424",
+    "donut": "8025",
+    "weight": "8025"
   },
   {
     "username": "Thavash",
@@ -2921,9 +2921,9 @@
   {
     "username": "beep_bop_boop_4",
     "address": "0x4B7C0Da1C299Ce824f55A0190Efb13663442FA2c",
-    "contrib": "99175",
-    "donut": "104213",
-    "weight": "99175"
+    "contrib": "99042",
+    "donut": "93425",
+    "weight": "93425"
   },
   {
     "username": "mfinner",
@@ -3368,7 +3368,7 @@
   },
   {
     "username": "steppe5",
-    "address": "0x940d5dc8af7acc0b9880fa0062a453eab22630c3",
+    "address": "0x940d5dC8aF7aCC0B9880Fa0062a453EAb22630C3",
     "contrib": "151061",
     "donut": "116",
     "weight": "116"
@@ -3466,10 +3466,10 @@
   },
   {
     "username": "DigitalStefan",
-    "address": "0x828713e631d7413e12b8fd6a33fc3b685b77f558",
-    "contrib": "60393",
-    "donut": "59853",
-    "weight": "59853"
+    "address": "0x1f4Be4af0996848401a1b107f0237BdaC1F09e9a",
+    "contrib": "86",
+    "donut": "86",
+    "weight": "86"
   },
   {
     "username": "Draekus",
@@ -3760,7 +3760,7 @@
   },
   {
     "username": "409h",
-    "address": "0x11b6a5fe2906f3354145613db0d99ceb51f604c9",
+    "address": "0x11b6A5fE2906F3354145613DB0d99CEB51f604C9",
     "contrib": "12835",
     "donut": "27",
     "weight": "27"
@@ -3816,7 +3816,7 @@
   },
   {
     "username": "river_tree_nut",
-    "address": "0xed69465f40615f60af876848ca4ee5d00e467ed3",
+    "address": "0xed69465F40615f60AF876848Ca4Ee5D00E467ed3",
     "contrib": "32850",
     "donut": "22980",
     "weight": "22980"
@@ -3838,9 +3838,9 @@
   {
     "username": "sdmikecfc",
     "address": "0x45f3d2BB22d9FEFbd2aF292833dAcf727Ab19dd7",
-    "contrib": "10714",
-    "donut": "1229",
-    "weight": "1229"
+    "contrib": "10315",
+    "donut": "830",
+    "weight": "830"
   },
   {
     "username": "Token_Brice",
@@ -4209,9 +4209,9 @@
   {
     "username": "Yoldark",
     "address": "0x1542cBd59A301e8b8bceD150c752e5a49D196F04",
-    "contrib": "26846",
-    "donut": "4809",
-    "weight": "4809"
+    "contrib": "26713",
+    "donut": "4676",
+    "weight": "4676"
   },
   {
     "username": "Puzzled_Badger",
@@ -4328,9 +4328,9 @@
   {
     "username": "split41",
     "address": "0x54f38f4E33e47BD13e7A0F46Ed7AfAD61A40BFc1",
-    "contrib": "6720",
-    "donut": "403",
-    "weight": "403"
+    "contrib": "6654",
+    "donut": "337",
+    "weight": "337"
   },
   {
     "username": "Steewrit",
@@ -4482,9 +4482,9 @@
   {
     "username": "rustedpopcorn",
     "address": "0xd2D117e6dbbfdD74D6b865ff859a4611bD29F3Ed",
-    "contrib": "1579717",
-    "donut": "285167",
-    "weight": "285167"
+    "contrib": "1570334",
+    "donut": "275784",
+    "weight": "275784"
   },
   {
     "username": "Tricky_Troll",
@@ -4517,9 +4517,9 @@
   {
     "username": "z6joker9",
     "address": "0x96c32AC9F3fCf1077C25453BF85a7af3276D84c0",
-    "contrib": "23508",
-    "donut": "4511",
-    "weight": "4511"
+    "contrib": "23442",
+    "donut": "4445",
+    "weight": "4445"
   },
   {
     "username": "FluxTape",
@@ -4783,9 +4783,9 @@
   {
     "username": "PocketSandThroatKick",
     "address": "0x63cF2f0e2Ef4a5EF6934435b97135451F64f7033",
-    "contrib": "9609",
-    "donut": "115",
-    "weight": "115"
+    "contrib": "9543",
+    "donut": "49",
+    "weight": "49"
   },
   {
     "username": "defi-chad",
@@ -4797,9 +4797,9 @@
   {
     "username": "ObiTwoKenobi",
     "address": "0xA8F6947250D8e0C4FD886803eC0b518053577C55",
-    "contrib": "11854",
-    "donut": "1472",
-    "weight": "1472"
+    "contrib": "11721",
+    "donut": "1339",
+    "weight": "1339"
   },
   {
     "username": "DownvoteToKarmaHell",
@@ -4895,9 +4895,9 @@
   {
     "username": "Homunculistic",
     "address": "0xd092769f5374Cdbf01C5547A85aCAfEEe9e8d41a",
-    "contrib": "5595",
-    "donut": "2010",
-    "weight": "2010"
+    "contrib": "5462",
+    "donut": "1877",
+    "weight": "1877"
   },
   {
     "username": "LilG55",
@@ -4965,16 +4965,16 @@
   {
     "username": "iiJokerzace",
     "address": "0x3F32f262CF3052c1Adc5AE32D2114870F255BF22",
-    "contrib": "6156",
-    "donut": "594",
-    "weight": "594"
+    "contrib": "6023",
+    "donut": "461",
+    "weight": "461"
   },
   {
     "username": "stedgyson",
     "address": "0xe2dAf0e33492720d5Fc29749CDfbEe46b46B27cc",
-    "contrib": "69332",
-    "donut": "46452",
-    "weight": "46452"
+    "contrib": "67768",
+    "donut": "44887",
+    "weight": "44887"
   },
   {
     "username": "AssTokenDev",
@@ -5020,7 +5020,7 @@
   },
   {
     "username": "Dantello1",
-    "address": "0x6671219099ea6ccc75eb3f4f4200d46a97b09a19",
+    "address": "0x6671219099eA6CCC75Eb3f4f4200D46A97b09a19",
     "contrib": "491",
     "donut": "146",
     "weight": "146"
@@ -5175,9 +5175,9 @@
   {
     "username": "EthTraderCommunity",
     "address": "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25",
-    "contrib": "2315045",
-    "donut": "1189494",
-    "weight": "1189494"
+    "contrib": "2179134",
+    "donut": "1053535",
+    "weight": "1053535"
   },
   {
     "username": "Triadji",
@@ -5266,9 +5266,9 @@
   {
     "username": "KRE1ON",
     "address": "0xCeEC06CABe2B0d6fDC8fFc713cAD8fF4Ef45B5cB",
-    "contrib": "9207",
-    "donut": "350",
-    "weight": "350"
+    "contrib": "9108",
+    "donut": "251",
+    "weight": "251"
   },
   {
     "username": "lord_of_crypto",
@@ -5405,10 +5405,10 @@
   },
   {
     "username": "richards_86",
-    "address": "0x027d14bd2a9a60ca0242318bacff87d6fbf4e1db",
-    "contrib": "3363",
-    "donut": "199",
-    "weight": "199"
+    "address": "0x027D14Bd2a9a60Ca0242318BacfF87d6Fbf4e1dB",
+    "contrib": "3164",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "topcontender",
@@ -5420,9 +5420,9 @@
   {
     "username": "BitchinWarlock",
     "address": "0xd5a101a1AeFaa9183c2aeda9BA992aa78C56eB42",
-    "contrib": "8525",
-    "donut": "1024",
-    "weight": "1024"
+    "contrib": "8425",
+    "donut": "924",
+    "weight": "924"
   },
   {
     "username": "silver_light",
@@ -5476,16 +5476,16 @@
   {
     "username": "NoDesinformatziya",
     "address": "0xc4C87313e79d7d7f91Ae75692b5D1aeD253B118a",
-    "contrib": "68057",
-    "donut": "10216",
-    "weight": "10216"
+    "contrib": "66792",
+    "donut": "8951",
+    "weight": "8951"
   },
   {
     "username": "keatonatron",
     "address": "0x7c80435964Bde8071e1D3Df76Da870C2F03b44F2",
-    "contrib": "9417",
-    "donut": "5524",
-    "weight": "5524"
+    "contrib": "9384",
+    "donut": "5491",
+    "weight": "5491"
   },
   {
     "username": "allyoucangeth",
@@ -5511,9 +5511,9 @@
   {
     "username": "Cryptolosopher",
     "address": "0x7970Cb7587983FeEEaaB91317f920Ea3e345AB02",
-    "contrib": "4912",
-    "donut": "1286",
-    "weight": "1286"
+    "contrib": "4479",
+    "donut": "853",
+    "weight": "853"
   },
   {
     "username": "bryanwag",
@@ -5559,7 +5559,7 @@
   },
   {
     "username": "hbhades",
-    "address": "0xe0deb73d3c15bdb75d48cf151b8f0cb948a6fb88",
+    "address": "0xE0deb73D3C15bDb75D48Cf151b8F0CB948A6Fb88",
     "contrib": "1551",
     "donut": "317",
     "weight": "317"
@@ -6112,7 +6112,7 @@
   },
   {
     "username": "Lauwie007",
-    "address": "0xa4e2c5858d793632aa316a5b123f17477a917648",
+    "address": "0xA4E2C5858d793632AA316A5b123f17477A917648",
     "contrib": "838",
     "donut": "28",
     "weight": "28"
@@ -6358,9 +6358,9 @@
   {
     "username": "deluded_soul",
     "address": "0xB04d7EFfdEDCcFAa405BC68C5bF73153F31e0b1b",
-    "contrib": "58641",
-    "donut": "19154",
-    "weight": "19154"
+    "contrib": "58508",
+    "donut": "19021",
+    "weight": "19021"
   },
   {
     "username": "Papazio",
@@ -6421,9 +6421,9 @@
   {
     "username": "devboricha",
     "address": "0x1D63d569c1E02a9EA187905F95d47B7701AaE3A3",
-    "contrib": "1267658",
-    "donut": "1167",
-    "weight": "1167"
+    "contrib": "1267159",
+    "donut": "668",
+    "weight": "668"
   },
   {
     "username": "acenksz",
@@ -6764,9 +6764,9 @@
   {
     "username": "g_squidman",
     "address": "0x71c1c84BEF2e7483B69da8dB531844868D702feB",
-    "contrib": "9245",
-    "donut": "2499",
-    "weight": "2499"
+    "contrib": "8779",
+    "donut": "2033",
+    "weight": "2033"
   },
   {
     "username": "scannachiappolo",
@@ -7317,9 +7317,9 @@
   {
     "username": "RogerWilco357",
     "address": "0x3Ac12a776685aD358E9454De0C657C1C4C8Bfb99",
-    "contrib": "28962",
-    "donut": "5462",
-    "weight": "5462"
+    "contrib": "28363",
+    "donut": "4863",
+    "weight": "4863"
   },
   {
     "username": "GunnBelievable01",
@@ -7345,9 +7345,9 @@
   {
     "username": "Roy1984",
     "address": "0x0cC7dAE1748e8E5371b2e2b47a5D9446E1D46546",
-    "contrib": "825399",
-    "donut": "18661",
-    "weight": "18661"
+    "contrib": "823136",
+    "donut": "16397",
+    "weight": "16397"
   },
   {
     "username": "macx333",
@@ -7527,9 +7527,9 @@
   {
     "username": "Karavusk",
     "address": "0xec1a7E731035F4A561734A2313BB35EBb04445A2",
-    "contrib": "3118",
-    "donut": "1722",
-    "weight": "1722"
+    "contrib": "2486",
+    "donut": "1090",
+    "weight": "1090"
   },
   {
     "username": "astoneta",
@@ -7612,8 +7612,8 @@
     "username": "Prof_Void",
     "address": "0x2c6d7304dF9e0e7687d9Ad72a7770d96eB2fD174",
     "contrib": "169486",
-    "donut": "0",
-    "weight": "0"
+    "donut": "1560",
+    "weight": "1560"
   },
   {
     "username": "Ntdark",
@@ -7646,9 +7646,9 @@
   {
     "username": "coinfeeds-bot",
     "address": "0xd056666321700092B032b2571431B2478cD6512E",
-    "contrib": "346989",
-    "donut": "265657",
-    "weight": "265657"
+    "contrib": "304511",
+    "donut": "223179",
+    "weight": "223179"
   },
   {
     "username": "Aldennnnnnnn",
@@ -7674,16 +7674,16 @@
   {
     "username": "JoJuiceboi",
     "address": "0x943e03AB9d73Eb8503EB30aD92E38b387e496A40",
-    "contrib": "26533",
-    "donut": "13792",
-    "weight": "13792"
+    "contrib": "25302",
+    "donut": "12561",
+    "weight": "12561"
   },
   {
     "username": "ethereum88",
     "address": "0x191692F362fC815F39ED894926cFd5E672e35B3E",
-    "contrib": "1217804",
-    "donut": "190854",
-    "weight": "190854"
+    "contrib": "1205203",
+    "donut": "158450",
+    "weight": "158450"
   },
   {
     "username": "FurFaceMcBeard",
@@ -7709,9 +7709,9 @@
   {
     "username": "BaconRaven",
     "address": "0xDF3D3BE6a15B9b1004b4cb8B1aa862388B51F137",
-    "contrib": "30368",
-    "donut": "30368",
-    "weight": "30368"
+    "contrib": "29735",
+    "donut": "29735",
+    "weight": "29735"
   },
   {
     "username": "0xholdthedoor",
@@ -7731,8 +7731,8 @@
     "username": "Memeboidad3",
     "address": "0xCd909F639eD2b6942CdED406010575D0b58123d0",
     "contrib": "17972",
-    "donut": "8381",
-    "weight": "8381"
+    "donut": "8380",
+    "weight": "8380"
   },
   {
     "username": "Robdeprop",
@@ -7745,8 +7745,8 @@
     "username": "Buzz_Sensei",
     "address": "0x2b8Fcb480f1c426C276328Dc36C3543e73FC1EfD",
     "contrib": "475199",
-    "donut": "700",
-    "weight": "700"
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "DivineEu",
@@ -7996,9 +7996,9 @@
   {
     "username": "TripleReward",
     "address": "0x9E7105436F494938814E5a0bd9284C82c52f9766",
-    "contrib": "13524",
-    "donut": "8696",
-    "weight": "8696"
+    "contrib": "13391",
+    "donut": "8563",
+    "weight": "8563"
   },
   {
     "username": "Delectrixz",
@@ -8116,8 +8116,8 @@
     "username": "VoodooReload",
     "address": "0x8000f0E6b2349a1554a88830E2e38F47B2fac889",
     "contrib": "2120",
-    "donut": "1486",
-    "weight": "1486"
+    "donut": "1328",
+    "weight": "1328"
   },
   {
     "username": "hawkwardcoins",
@@ -8359,7 +8359,7 @@
   },
   {
     "username": "therosseverett",
-    "address": "0x24bfac44dfa0c2c6924a34932a7d7cc64a15452c",
+    "address": "0x24BfAC44dfA0c2C6924a34932A7d7CC64a15452C",
     "contrib": "109",
     "donut": "28",
     "weight": "28"
@@ -8479,9 +8479,9 @@
   {
     "username": "ETHWarrior0",
     "address": "0xf2B70c5D0AD665aE4038c02F142a0bE4D3143A5A",
-    "contrib": "93163",
-    "donut": "8270",
-    "weight": "8270"
+    "contrib": "88403",
+    "donut": "3510",
+    "weight": "3510"
   },
   {
     "username": "itsckomi",
@@ -8514,9 +8514,9 @@
   {
     "username": "kohrts",
     "address": "0x4EF0eae978Cc851aD05f90D34cE58D51D27EB096",
-    "contrib": "617190",
-    "donut": "815465",
-    "weight": "617190"
+    "contrib": "593727",
+    "donut": "740025",
+    "weight": "593727"
   },
   {
     "username": "streeteth",
@@ -8606,7 +8606,7 @@
     "username": "tchildthemajestic",
     "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
     "contrib": "29652",
-    "donut": "40278",
+    "donut": "36323",
     "weight": "29652"
   },
   {
@@ -8627,7 +8627,7 @@
     "username": "Cryptonault",
     "address": "0x226E9dA4B9C4DCbda571B5a01646C55AE0b5a52a",
     "contrib": "67484",
-    "donut": "94239",
+    "donut": "89548",
     "weight": "67484"
   },
   {
@@ -8780,9 +8780,9 @@
   {
     "username": "DarkestTimelineJeff",
     "address": "0xa15499E085B440b04d790cbE24e03597E3717F3A",
-    "contrib": "15780",
-    "donut": "9193",
-    "weight": "9193"
+    "contrib": "15414",
+    "donut": "8827",
+    "weight": "8827"
   },
   {
     "username": "ScorseseTheGoat86",
@@ -8864,9 +8864,9 @@
   {
     "username": "Dreampopgazer",
     "address": "0x156176bd9A30a8f3B2bf6FA25c733CA6426ed639",
-    "contrib": "5643",
-    "donut": "1131",
-    "weight": "1131"
+    "contrib": "4611",
+    "donut": "99",
+    "weight": "99"
   },
   {
     "username": "LilDrillBoy",
@@ -8913,9 +8913,9 @@
   {
     "username": "mybed54",
     "address": "0x6ccbEa066517892Eb3e9547512Aa1110eEFefa1a",
-    "contrib": "17781",
-    "donut": "15982",
-    "weight": "15982"
+    "contrib": "9976",
+    "donut": "8177",
+    "weight": "8177"
   },
   {
     "username": "Vo1ture",
@@ -9438,9 +9438,9 @@
   {
     "username": "IHaventEvenGotADog",
     "address": "0xf404C300d704C358ab2933D3203c238C337CB1b7",
-    "contrib": "32254",
-    "donut": "85566",
-    "weight": "32254"
+    "contrib": "32221",
+    "donut": "76029",
+    "weight": "32221"
   },
   {
     "username": "dgdfgdfhdfhdfv",
@@ -9591,7 +9591,7 @@
   },
   {
     "username": "Angoram",
-    "address": "0xf116ba6f60f45616c891a5a762002a04495ae973",
+    "address": "0xF116Ba6f60f45616c891a5a762002a04495aE973",
     "contrib": "812",
     "donut": "101",
     "weight": "101"
@@ -10102,7 +10102,7 @@
   },
   {
     "username": "syzygy00778",
-    "address": "0x5157ea7c032ef41fda03095bd463c139d2826563",
+    "address": "0x5157ea7C032eF41fda03095BD463C139D2826563",
     "contrib": "2026",
     "donut": "1734",
     "weight": "1734"
@@ -10187,16 +10187,16 @@
   {
     "username": "hwaite",
     "address": "0x19dCB05BDc5226eEa5d908Db0DfC94E3bd755b50",
-    "contrib": "13962",
-    "donut": "10206",
-    "weight": "10206"
+    "contrib": "13896",
+    "donut": "10140",
+    "weight": "10140"
   },
   {
     "username": "fractionofawhole",
     "address": "0xc25c912Efce700Ad1042CFaCaeF145195217BDC8",
-    "contrib": "43595",
-    "donut": "30537",
-    "weight": "30537"
+    "contrib": "43030",
+    "donut": "29972",
+    "weight": "29972"
   },
   {
     "username": "HypeGod_77",
@@ -10508,7 +10508,7 @@
   },
   {
     "username": "Clash_onthe_Can",
-    "address": "0xc16d1bb0103b0c351dc58e1efac5b64d785feeb0",
+    "address": "0xC16d1Bb0103B0c351Dc58e1EFaC5b64D785FEeb0",
     "contrib": "635",
     "donut": "489",
     "weight": "489"
@@ -11201,7 +11201,7 @@
   },
   {
     "username": "AudaciousAsh",
-    "address": "0xeeaf61935c0c48f8f8cc28c381683d7fa2f75e1c",
+    "address": "0xeEAF61935C0c48f8F8cC28C381683d7fA2F75E1c",
     "contrib": "96",
     "donut": "23",
     "weight": "23"
@@ -11530,7 +11530,7 @@
   },
   {
     "username": "LordKrondore",
-    "address": "0x4991e49d44b20f783f5eecf17777b0b9e033acb9",
+    "address": "0x4991e49D44b20f783f5EEcf17777b0B9e033acB9",
     "contrib": "4508",
     "donut": "3449",
     "weight": "3449"
@@ -11621,7 +11621,7 @@
   },
   {
     "username": "Thisisvexx",
-    "address": "0x7b5c441d118f37edecc182b48c5e450f239d39d7",
+    "address": "0x7b5C441D118F37eDECc182b48c5e450F239D39D7",
     "contrib": "503",
     "donut": "133",
     "weight": "133"
@@ -11944,9 +11944,9 @@
   {
     "username": "Artificial8Wanderer",
     "address": "0x47311fcD99cfb2F0764054b2546cBE0467d98fD2",
-    "contrib": "92268",
-    "donut": "93728",
-    "weight": "92268"
+    "contrib": "91902",
+    "donut": "93152",
+    "weight": "91902"
   },
   {
     "username": "retsuvls123456",
@@ -12273,9 +12273,9 @@
   {
     "username": "studdmufin",
     "address": "0x4991eF523C86F02B76963e7c04dF084EccF2995e",
-    "contrib": "12472",
-    "donut": "5403",
-    "weight": "5403"
+    "contrib": "12439",
+    "donut": "5370",
+    "weight": "5370"
   },
   {
     "username": "jkwon7",
@@ -12554,8 +12554,8 @@
     "username": "rsblk",
     "address": "0xF08E242722aF03F5575A50E8bFbA0c56EFF6D134",
     "contrib": "313402",
-    "donut": "45",
-    "weight": "45"
+    "donut": "40",
+    "weight": "40"
   },
   {
     "username": "finesse_finesse",
@@ -12671,7 +12671,7 @@
   },
   {
     "username": "Kompottkopf",
-    "address": "0x954184ad0fbc67332bab62a6c5958c4c5e2cfec2",
+    "address": "0x954184AD0Fbc67332Bab62a6c5958c4C5E2CFeC2",
     "contrib": "186",
     "donut": "81",
     "weight": "81"
@@ -12853,7 +12853,7 @@
   },
   {
     "username": "neo-caridina",
-    "address": "0x9365a7fb2fdbdf285c617efff86ae4cc0b2d13a8",
+    "address": "0x9365a7fb2fdBDF285C617efff86ae4CC0B2D13A8",
     "contrib": "186",
     "donut": "28",
     "weight": "28"
@@ -12909,7 +12909,7 @@
   },
   {
     "username": "chrisek",
-    "address": "0x610351848efbb815a500d9dac2fb15b0a51727b3",
+    "address": "0x610351848efBB815A500d9dac2Fb15b0a51727b3",
     "contrib": "106",
     "donut": "54",
     "weight": "54"
@@ -12938,9 +12938,9 @@
   {
     "username": "chucchinchilla",
     "address": "0x8D6eC6aBAfd2e5578d6F00584bB1F0492e702105",
-    "contrib": "96013",
-    "donut": "76572",
-    "weight": "76572"
+    "contrib": "95714",
+    "donut": "76273",
+    "weight": "76273"
   },
   {
     "username": "GarlicAffectionate69",
@@ -12960,7 +12960,7 @@
     "username": "evil_betty_",
     "address": "0x1A86440fD49a1e85C46c66ba64C46b98b0e3b6Ab",
     "contrib": "167365",
-    "donut": "212893",
+    "donut": "201410",
     "weight": "167365"
   },
   {
@@ -13127,9 +13127,9 @@
   {
     "username": "TheProfessorCrypto",
     "address": "0xD21C03D85CAbBf723FF814536DAec296c4dFC4f3",
-    "contrib": "77783",
-    "donut": "1829",
-    "weight": "1829"
+    "contrib": "77517",
+    "donut": "1563",
+    "weight": "1563"
   },
   {
     "username": "killawaspattack",
@@ -13302,9 +13302,9 @@
   {
     "username": "Aguaskeepartdeux",
     "address": "0x8F8E6bb6D20fB56a6988F91E60cf8b5437CC052f",
-    "contrib": "25018",
-    "donut": "100688",
-    "weight": "25018"
+    "contrib": "22655",
+    "donut": "87399",
+    "weight": "22655"
   },
   {
     "username": "theylie86",
@@ -13555,7 +13555,7 @@
     "username": "13illini",
     "address": "0x1d46Edca0eF607e414141A7d3b72a7894e5f6257",
     "contrib": "10128",
-    "donut": "20806",
+    "donut": "18576",
     "weight": "10128"
   },
   {
@@ -13575,9 +13575,9 @@
   {
     "username": "shostakofiev",
     "address": "0x143884B56a50c2cE9a90c4029F339672a8dFc1AE",
-    "contrib": "27633",
-    "donut": "12862",
-    "weight": "12862"
+    "contrib": "27434",
+    "donut": "12663",
+    "weight": "12663"
   },
   {
     "username": "DetroitMotorShow",
@@ -13883,9 +13883,9 @@
   {
     "username": "j1mmie",
     "address": "0xBAe995278B1102CEb8E86d6eB87d5f0C1caa3986",
-    "contrib": "16530",
-    "donut": "11848",
-    "weight": "11848"
+    "contrib": "16430",
+    "donut": "11748",
+    "weight": "11748"
   },
   {
     "username": "sloaleks",
@@ -14135,9 +14135,9 @@
   {
     "username": "ismashugood",
     "address": "0x392319CD53fa7D2e9e738e1C66DF9929AaFd6168",
-    "contrib": "6432",
-    "donut": "4162",
-    "weight": "4162"
+    "contrib": "5467",
+    "donut": "3197",
+    "weight": "3197"
   },
   {
     "username": "trident96",
@@ -14268,9 +14268,9 @@
   {
     "username": "NeuroDS",
     "address": "0x62EA345FB99855D10b0E9EB9d98cABC844e81E84",
-    "contrib": "1160",
-    "donut": "199",
-    "weight": "199"
+    "contrib": "961",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "Legendhidde",
@@ -14324,9 +14324,9 @@
   {
     "username": "RatEnabler",
     "address": "0xc99f22f1428779183d7fF2eE4F7041DcD67C73E0",
-    "contrib": "430",
-    "donut": "33",
-    "weight": "33"
+    "contrib": "397",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "pukem0n",
@@ -14605,8 +14605,8 @@
     "username": "Samir2298",
     "address": "0x54C334fa1A5BC243874eB6f7573E2e6e4e305Df0",
     "contrib": "409469",
-    "donut": "13",
-    "weight": "13"
+    "donut": "11",
+    "weight": "11"
   },
   {
     "username": "ThrowAway0183910",
@@ -14626,22 +14626,22 @@
     "username": "rayQuGR",
     "address": "0x2CF036f1Fe2833a344E43d9Da9372667F084d5A5",
     "contrib": "67172",
-    "donut": "4",
-    "weight": "4"
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "Acceptable-Sort-8429",
     "address": "0xD2402fa7e38Ed36c6B11fF58D738AD262631d9Eb",
-    "contrib": "405718",
-    "donut": "0",
-    "weight": "0"
+    "contrib": "334028",
+    "donut": "8",
+    "weight": "8"
   },
   {
     "username": "camp2gg",
     "address": "0x2D18A4f7DcA01c833f1ca09bCb947aEc80D0b8C2",
     "contrib": "40659",
-    "donut": "3270",
-    "weight": "3270"
+    "donut": "3266",
+    "weight": "3266"
   },
   {
     "username": "AbjectList8",
@@ -14653,9 +14653,9 @@
   {
     "username": "Clean_Eyes",
     "address": "0xD2654FeEC77934D2Bc687E4fa1Fe13442Dd9011d",
-    "contrib": "113779",
-    "donut": "71417",
-    "weight": "71417"
+    "contrib": "112552",
+    "donut": "70189",
+    "weight": "70189"
   },
   {
     "username": "sgriosadair",
@@ -14710,7 +14710,7 @@
     "username": "sirjakobos",
     "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
     "contrib": "77884",
-    "donut": "86977",
+    "donut": "79813",
     "weight": "77884"
   },
   {
@@ -14808,7 +14808,7 @@
     "username": "what_the_deuce",
     "address": "0xe809BbE8dBE425035d955a30a902a09B58683198",
     "contrib": "6154",
-    "donut": "14023",
+    "donut": "12465",
     "weight": "6154"
   },
   {
@@ -14850,15 +14850,15 @@
     "username": "CryptoCNewsBot",
     "address": "0xc7b0fb544a036f77D922636fDE08405A218B5CA6",
     "contrib": "28969",
-    "donut": "3",
-    "weight": "3"
+    "donut": "2",
+    "weight": "2"
   },
   {
     "username": "MkWPB",
     "address": "0x46FdD3378dF1856Ed06CEC671Dc7f8FC44a716E3",
-    "contrib": "7137",
-    "donut": "384",
-    "weight": "384"
+    "contrib": "6937",
+    "donut": "184",
+    "weight": "184"
   },
   {
     "username": "Independent_Monk9861",
@@ -14884,9 +14884,9 @@
   {
     "username": "SacredHam00",
     "address": "0x6a6C75DF55bA88e3eaB15bC54Fda3ADE12786Bc5",
-    "contrib": "396344",
-    "donut": "9674",
-    "weight": "9674"
+    "contrib": "389665",
+    "donut": "2995",
+    "weight": "2995"
   },
   {
     "username": "NewMarionberry7703",
@@ -14996,9 +14996,9 @@
   {
     "username": "Siliconb3ach",
     "address": "0x0FC03ceF716F89a5b91277fBcACF680814B71169",
-    "contrib": "6589",
-    "donut": "1531",
-    "weight": "1531"
+    "contrib": "6523",
+    "donut": "1465",
+    "weight": "1465"
   },
   {
     "username": "AlejandroV750",
@@ -15031,9 +15031,9 @@
   {
     "username": "ppc-hero",
     "address": "0xC8507BA9c013Fc5611A69cbd13EaA95ead0feB7c",
-    "contrib": "3081",
-    "donut": "66",
-    "weight": "66"
+    "contrib": "3015",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "UnnaturalAnnoyance",
@@ -15081,14 +15081,14 @@
     "username": "JollyFaithlessness3",
     "address": "0x2Aa4691B454aC60EBE4C5Ec25c6c924ecC1AE6D6",
     "contrib": "28216",
-    "donut": "24865",
-    "weight": "24865"
+    "donut": "22209",
+    "weight": "22209"
   },
   {
     "username": "Prof-till-end",
     "address": "0x8822C35BC6Ad7cd71b9a4A565744ea7BbF0757f5",
     "contrib": "33806",
-    "donut": "38972",
+    "donut": "37083",
     "weight": "33806"
   },
   {
@@ -15130,7 +15130,7 @@
     "username": "marilketh",
     "address": "0x2bdD5A5c7023Fbd1b5d32b9BD46e356e7c4db3Cc",
     "contrib": "15741",
-    "donut": "17655",
+    "donut": "16256",
     "weight": "15741"
   },
   {
@@ -15220,9 +15220,9 @@
   {
     "username": "steamyp",
     "address": "0x268d91CAA7B25eC0Fe3D84bca24d5230a6aAF1d1",
-    "contrib": "14109",
-    "donut": "4652",
-    "weight": "4652"
+    "contrib": "13510",
+    "donut": "4053",
+    "weight": "4053"
   },
   {
     "username": "Kappa996",
@@ -15270,8 +15270,8 @@
     "username": "TheRempo",
     "address": "0xC5308238EB28b03c63F2a7845B164379120a6B96",
     "contrib": "3225",
-    "donut": "2170",
-    "weight": "2170"
+    "donut": "2058",
+    "weight": "2058"
   },
   {
     "username": "D2HLC",
@@ -15333,7 +15333,7 @@
     "username": "zzinolol",
     "address": "0x22a890Be8d7223692C81263CEfBbE2F34AB46193",
     "contrib": "19072",
-    "donut": "25389",
+    "donut": "23139",
     "weight": "19072"
   },
   {
@@ -15430,9 +15430,9 @@
   {
     "username": "fulento42",
     "address": "0xa1523c475292067C102C6D5C68c4c194B8f264C2",
-    "contrib": "11550",
-    "donut": "10761",
-    "weight": "10761"
+    "contrib": "10984",
+    "donut": "10195",
+    "weight": "10195"
   },
   {
     "username": "Under-Maintenace",
@@ -15570,9 +15570,9 @@
   {
     "username": "IamAFlaw",
     "address": "0x92101D5131D2b8453E3F71077b78331907a52BDC",
-    "contrib": "24171",
-    "donut": "23265",
-    "weight": "23265"
+    "contrib": "23256",
+    "donut": "22350",
+    "weight": "22350"
   },
   {
     "username": "astrobrite_",
@@ -15661,9 +15661,9 @@
   {
     "username": "chubky",
     "address": "0xB9aa2CEB0c01Dc715609cB9DBD49474c800A98C7",
-    "contrib": "6448",
-    "donut": "319",
-    "weight": "319"
+    "contrib": "6381",
+    "donut": "252",
+    "weight": "252"
   },
   {
     "username": "bri_82",
@@ -16207,9 +16207,9 @@
   {
     "username": "drauthlin",
     "address": "0x58EF897418fC1818CAf0376aA41bc705A06fF41D",
-    "contrib": "3783",
-    "donut": "8261",
-    "weight": "3783"
+    "contrib": "3650",
+    "donut": "8128",
+    "weight": "3650"
   },
   {
     "username": "LoveReady",
@@ -16641,9 +16641,9 @@
   {
     "username": "Shillofnoone",
     "address": "0x69Ab4786877947B84F5A2F85A0a8A9b4700950e8",
-    "contrib": "9412",
-    "donut": "1586",
-    "weight": "1586"
+    "contrib": "8048",
+    "donut": "222",
+    "weight": "222"
   },
   {
     "username": "Jacelius",
@@ -17530,23 +17530,23 @@
   {
     "username": "cryptbunks",
     "address": "0x8939F06ef2b75B5082767Ca6b0dAa2C0Fc1A82eE",
-    "contrib": "170581",
-    "donut": "9907",
-    "weight": "9907"
+    "contrib": "160728",
+    "donut": "54",
+    "weight": "54"
   },
   {
     "username": "cryptopunk661",
     "address": "0xAC18A1B674F7A966E57D1F08103F0efE2923cBa7",
-    "contrib": "266613",
-    "donut": "0",
-    "weight": "0"
+    "contrib": "230225",
+    "donut": "637",
+    "weight": "637"
   },
   {
     "username": "PoojaaPriyaa",
     "address": "0x525465D20141d324fe857485F8f4E11740AAcCE1",
-    "contrib": "57838",
-    "donut": "69470",
-    "weight": "57838"
+    "contrib": "55724",
+    "donut": "63067",
+    "weight": "55724"
   },
   {
     "username": "Chesterbobby",
@@ -17579,23 +17579,23 @@
   {
     "username": "ALiteralHamSandwich",
     "address": "0x5f9D94CC0071aCaF471Ec711143085E0DCdf453a",
-    "contrib": "136239",
-    "donut": "189431",
-    "weight": "136239"
+    "contrib": "136206",
+    "donut": "168354",
+    "weight": "136206"
   },
   {
     "username": "greenpepperhypernova",
     "address": "0xA3cf05bAd78612f9F5807b9939908A3827FB8e2B",
-    "contrib": "254516",
-    "donut": "18711",
-    "weight": "18711"
+    "contrib": "236527",
+    "donut": "722",
+    "weight": "722"
   },
   {
     "username": "ethereumshield",
     "address": "0x168a0997dbD0c93627edf7E3Ce0e0d4b31fBB1C1",
-    "contrib": "124620",
-    "donut": "2415",
-    "weight": "2415"
+    "contrib": "122749",
+    "donut": "544",
+    "weight": "544"
   },
   {
     "username": "Level_20_GameMaster",
@@ -17608,8 +17608,8 @@
     "username": "Alejandro_Last_Name",
     "address": "0xd6Eee4FC1b33c38510B6c9201185184737731131",
     "contrib": "15612",
-    "donut": "8165",
-    "weight": "8165"
+    "donut": "7319",
+    "weight": "7319"
   },
   {
     "username": "Rainbow_Sheen",
@@ -17629,14 +17629,14 @@
     "username": "Suthekingg",
     "address": "0x02801E0a37E6DbB71E1df771fe5467a23916A47D",
     "contrib": "713318",
-    "donut": "5446",
-    "weight": "5446"
+    "donut": "5431",
+    "weight": "5431"
   },
   {
     "username": "gustavossj",
     "address": "0xE1282993bF336883e0C2F9dab5A39f16Ffa0c7e0",
     "contrib": "190298",
-    "donut": "252509",
+    "donut": "251941",
     "weight": "190298"
   },
   {
@@ -17657,8 +17657,8 @@
     "username": "Hodling-Since2018",
     "address": "0xBD5b8A59f5016fA7B8f48Dffa5a3260b1Cb4A269",
     "contrib": "352960",
-    "donut": "3584",
-    "weight": "3584"
+    "donut": "3568",
+    "weight": "3568"
   },
   {
     "username": "johnzander1",
@@ -17684,9 +17684,9 @@
   {
     "username": "energetic-dad",
     "address": "0xC67FA671B98D861A9c956c3DA8C570c977aC8c15",
-    "contrib": "33613",
-    "donut": "12300",
-    "weight": "12300"
+    "contrib": "33580",
+    "donut": "12267",
+    "weight": "12267"
   },
   {
     "username": "ArieJ010",
@@ -17733,9 +17733,9 @@
   {
     "username": "SxQuadro",
     "address": "0xC8D7219527E1fe9f938D66fF13bCbc8A5b04351e",
-    "contrib": "859450",
-    "donut": "13312",
-    "weight": "13312"
+    "contrib": "851461",
+    "donut": "30322",
+    "weight": "30322"
   },
   {
     "username": "markelaborates",
@@ -17818,8 +17818,8 @@
     "username": "DaaisyJain",
     "address": "0xcfa171Dd359432f205eCecA9dD1F34210dacea37",
     "contrib": "4172",
-    "donut": "2486",
-    "weight": "2486"
+    "donut": "2453",
+    "weight": "2453"
   },
   {
     "username": "aimeleon",
@@ -17922,9 +17922,9 @@
   {
     "username": "Giga79",
     "address": "0xA50d3EE17c994864F88a2acc24303860Ebc81F50",
-    "contrib": "6381",
-    "donut": "4169",
-    "weight": "4169"
+    "contrib": "6282",
+    "donut": "4070",
+    "weight": "4070"
   },
   {
     "username": "Slightlynorth",
@@ -18041,9 +18041,9 @@
   {
     "username": "spritefire",
     "address": "0xd4999085bc8c5c12EdCEfd03aB205cC84F605Cc8",
-    "contrib": "2290",
-    "donut": "1617",
-    "weight": "1617"
+    "contrib": "2223",
+    "donut": "1550",
+    "weight": "1550"
   },
   {
     "username": "sufkas",
@@ -18083,9 +18083,9 @@
   {
     "username": "thecryptopile",
     "address": "0xFe980b1063c13d146E7BEA41Ab2fA9B98aeA3594",
-    "contrib": "67107",
-    "donut": "3522",
-    "weight": "3522"
+    "contrib": "63823",
+    "donut": "238",
+    "weight": "238"
   },
   {
     "username": "ObjectiveDog3046",
@@ -18097,9 +18097,9 @@
   {
     "username": "DrXaos",
     "address": "0xB1d5bBe4734f9Eb4F20632f75385D882Ac540971",
-    "contrib": "2340",
-    "donut": "1053",
-    "weight": "1053"
+    "contrib": "1708",
+    "donut": "421",
+    "weight": "421"
   },
   {
     "username": "NukaYoloti",
@@ -18161,7 +18161,7 @@
     "username": "Wilt_The_Stilt_",
     "address": "0x58a19d526bf1130618a0Cb1422Df68AD60501747",
     "contrib": "4459",
-    "donut": "7163",
+    "donut": "6465",
     "weight": "4459"
   },
   {
@@ -18272,9 +18272,9 @@
   {
     "username": "forstyy",
     "address": "0x89D4B57fB8636fF40C94Ec407D7Cc6080D6157cE",
-    "contrib": "2684",
-    "donut": "1083",
-    "weight": "1083"
+    "contrib": "2618",
+    "donut": "1017",
+    "weight": "1017"
   },
   {
     "username": "kellicanpelican",
@@ -18637,8 +18637,8 @@
     "username": "Spryquasar",
     "address": "0x1afD3ceFCd5Ca008E043BF8d3761D81aeC2A55e3",
     "contrib": "947",
-    "donut": "837",
-    "weight": "837"
+    "donut": "744",
+    "weight": "744"
   },
   {
     "username": "ekv88",
@@ -19287,9 +19287,9 @@
   {
     "username": "fitbhai",
     "address": "0xF2dcB3440e4884d24467280E5c5b978Eead25Ce7",
-    "contrib": "309733",
-    "donut": "3288",
-    "weight": "3288"
+    "contrib": "309567",
+    "donut": "3122",
+    "weight": "3122"
   },
   {
     "username": "srpres",
@@ -19300,10 +19300,10 @@
   },
   {
     "username": "JeffyJackson101",
-    "address": "0x49488475cE9e42230Aa3ef9E8E381Bd505bc6636",
-    "contrib": "178352",
-    "donut": "99",
-    "weight": "99"
+    "address": "0xFB0540545D81E964d9c3da114233501bC110Ed58",
+    "contrib": "183269",
+    "donut": "166045",
+    "weight": "166045"
   },
   {
     "username": "Turbo_Fox_Fucker",
@@ -19315,16 +19315,16 @@
   {
     "username": "Introvertive_Crawler",
     "address": "0x99f0fCb2e944f189cF9d9084990129Bba7C96579",
-    "contrib": "76750",
-    "donut": "5043",
-    "weight": "5043"
+    "contrib": "73584",
+    "donut": "1878",
+    "weight": "1878"
   },
   {
     "username": "420weedscopes",
     "address": "0x4d22f2d09f9E49B014E3a1AFC4f903a25a8c17FD",
-    "contrib": "89534",
-    "donut": "98767",
-    "weight": "89534"
+    "contrib": "88185",
+    "donut": "85856",
+    "weight": "85856"
   },
   {
     "username": "ComprehensiveLab7591",
@@ -19336,16 +19336,16 @@
   {
     "username": "massimoed",
     "address": "0x6917F22bF927a8dA07592dc4ae8c7d8C6C499419",
-    "contrib": "11240",
-    "donut": "326",
-    "weight": "326"
+    "contrib": "11207",
+    "donut": "293",
+    "weight": "293"
   },
   {
     "username": "diggipiggi",
     "address": "0x6b7F6E0F022c30cf1a2A2d735CF02eBCe9E4b6f2",
     "contrib": "46081",
-    "donut": "1700",
-    "weight": "1700"
+    "donut": "1680",
+    "weight": "1680"
   },
   {
     "username": "damittydam",
@@ -19441,9 +19441,9 @@
   {
     "username": "lunar2solar",
     "address": "0xC70f0a9da5b08E92CAd316E5D65ffF328B7D2f8b",
-    "contrib": "7862",
-    "donut": "4284",
-    "weight": "4284"
+    "contrib": "5799",
+    "donut": "2221",
+    "weight": "2221"
   },
   {
     "username": "too_lazy_2_punctuate",
@@ -19469,9 +19469,9 @@
   {
     "username": "deltavictory",
     "address": "0xD1A7c1ffD97e8fB1B7FD55c62C8b6a4a3bA45de4",
-    "contrib": "25266",
-    "donut": "25266",
-    "weight": "25266"
+    "contrib": "24634",
+    "donut": "24634",
+    "weight": "24634"
   },
   {
     "username": "highBrowMeow",
@@ -19490,9 +19490,9 @@
   {
     "username": "mryauch",
     "address": "0x003b8292760aE87F3F7c7B40b4Cd2cC0F30245f7",
-    "contrib": "5827",
-    "donut": "2950",
-    "weight": "2950"
+    "contrib": "5794",
+    "donut": "2917",
+    "weight": "2917"
   },
   {
     "username": "Additional-Bug-7537",
@@ -19518,9 +19518,9 @@
   {
     "username": "wytherlanejazz",
     "address": "0x9663DcbcF075ab5d3A1aE2e96A52DbdD88c886Ff",
-    "contrib": "8161",
-    "donut": "1443",
-    "weight": "1443"
+    "contrib": "8128",
+    "donut": "1410",
+    "weight": "1410"
   },
   {
     "username": "BattleCoder",
@@ -19546,9 +19546,9 @@
   {
     "username": "PeacefullyFighting",
     "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
-    "contrib": "2561",
-    "donut": "19118",
-    "weight": "2561"
+    "contrib": "2461",
+    "donut": "16905",
+    "weight": "2461"
   },
   {
     "username": "fuckitlmao",
@@ -19637,9 +19637,9 @@
   {
     "username": "lpez33",
     "address": "0x66D93f954901aAc212786b1e5AAF888748e19f66",
-    "contrib": "2309",
-    "donut": "664",
-    "weight": "664"
+    "contrib": "2276",
+    "donut": "631",
+    "weight": "631"
   },
   {
     "username": "sfgisz",
@@ -19729,8 +19729,8 @@
     "username": "thestonkinator",
     "address": "0xfd365b466Baa3eea695f787Ba9367E6E2962992D",
     "contrib": "1349",
-    "donut": "1513",
-    "weight": "1349"
+    "donut": "1345",
+    "weight": "1345"
   },
   {
     "username": "adoxxvegas",
@@ -19876,7 +19876,7 @@
     "username": "Interesting-Engine34",
     "address": "0x6025CE55f2f766975991dAf8AA3058d09Cc39773",
     "contrib": "40768",
-    "donut": "52606",
+    "donut": "51468",
     "weight": "40768"
   },
   {
@@ -19945,9 +19945,9 @@
   {
     "username": "mrNas11",
     "address": "0x8E175BE5B897C30d69fdc57FddE8F537e2e07400",
-    "contrib": "744",
-    "donut": "148",
-    "weight": "148"
+    "contrib": "645",
+    "donut": "49",
+    "weight": "49"
   },
   {
     "username": "1-800-LICK-BOOTY",
@@ -20303,7 +20303,7 @@
     "username": "zmlari",
     "address": "0x06d933D482A52bfe0DE041d625dECCB8cc4f1f6E",
     "contrib": "2213",
-    "donut": "3791",
+    "donut": "3371",
     "weight": "2213"
   },
   {
@@ -20358,9 +20358,9 @@
   {
     "username": "ryker_69",
     "address": "0x82d610d2296F6C6341FEB7b096903050d1de1B9A",
-    "contrib": "365",
-    "donut": "33",
-    "weight": "33"
+    "contrib": "332",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "Wild_Ask_2641",
@@ -20421,16 +20421,16 @@
   {
     "username": "666CryptoGod420",
     "address": "0x7E73E49E524A95dC0E1Ba9355Dc2BdE4Db443580",
-    "contrib": "428725",
-    "donut": "39459",
-    "weight": "39459"
+    "contrib": "423227",
+    "donut": "33961",
+    "weight": "33961"
   },
   {
     "username": "RayG1991",
     "address": "0x796F60CC634E9072FE0D702b05402Da5419Aaa0E",
-    "contrib": "196087",
-    "donut": "75314",
-    "weight": "75314"
+    "contrib": "195222",
+    "donut": "66257",
+    "weight": "66257"
   },
   {
     "username": "Jerry200px",
@@ -20477,23 +20477,23 @@
   {
     "username": "raymv1987",
     "address": "0x2A043F315F24762937CBCf0EB6CB313a43bDE534",
-    "contrib": "588505",
-    "donut": "80420",
-    "weight": "80420"
+    "contrib": "536373",
+    "donut": "28293",
+    "weight": "28293"
   },
   {
     "username": "LivingFondant1419",
     "address": "0x3630De8985d2B2Ff2D6f0f5876a368ba2C1A9b3a",
-    "contrib": "296944",
-    "donut": "294607",
-    "weight": "294607"
+    "contrib": "291818",
+    "donut": "289481",
+    "weight": "289481"
   },
   {
     "username": "Arafel_Electronics",
     "address": "0xd87c138715649Aab580069F24e3716CC56A51C43",
-    "contrib": "71375",
-    "donut": "109066",
-    "weight": "71375"
+    "contrib": "63249",
+    "donut": "93024",
+    "weight": "63249"
   },
   {
     "username": "jtsai943",
@@ -20526,9 +20526,9 @@
   {
     "username": "sartoshi_nft",
     "address": "0xBe822892cAcD6c7E4d312303e3caaf79EAE2A7B7",
-    "contrib": "138018",
-    "donut": "2663",
-    "weight": "2663"
+    "contrib": "135355",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "GenDoc24",
@@ -20547,9 +20547,9 @@
   {
     "username": "Defiboy",
     "address": "0x18ED21788DD68d620D7d56dE059Cd5783B47e563",
-    "contrib": "104485",
-    "donut": "6000",
-    "weight": "6000"
+    "contrib": "98834",
+    "donut": "348",
+    "weight": "348"
   },
   {
     "username": "donLto",
@@ -20604,8 +20604,8 @@
     "username": "JETTTZOR",
     "address": "0x401cD2a6590a19E9860281A3157b0B5E76dE1dc2",
     "contrib": "65748",
-    "donut": "53277",
-    "weight": "53277"
+    "donut": "53196",
+    "weight": "53196"
   },
   {
     "username": "riicky_morty",
@@ -20659,9 +20659,9 @@
   {
     "username": "Massive-Tension-1055",
     "address": "0xae3e0e714362Fe0012776312Eba649691561F413",
-    "contrib": "30883",
-    "donut": "12605",
-    "weight": "12605"
+    "contrib": "30350",
+    "donut": "12072",
+    "weight": "12072"
   },
   {
     "username": "AlphaHuman304",
@@ -20772,8 +20772,8 @@
     "username": "SuperNoise5209",
     "address": "0x18722119EA2D21ED8b5E13E796BD92A7345C1802",
     "contrib": "42008",
-    "donut": "46136",
-    "weight": "42008"
+    "donut": "41038",
+    "weight": "41038"
   },
   {
     "username": "kaleis007",
@@ -20813,9 +20813,9 @@
   {
     "username": "taimapanda",
     "address": "0x470f7b7eAaF7e74FE653d220Beec22bBAbAc9c5e",
-    "contrib": "6264",
-    "donut": "4720",
-    "weight": "4720"
+    "contrib": "5132",
+    "donut": "3588",
+    "weight": "3588"
   },
   {
     "username": "derika22",
@@ -20877,7 +20877,7 @@
     "username": "whaterloowhorks",
     "address": "0xdb721582DC092c59692221D89103061c8B955d7C",
     "contrib": "15908",
-    "donut": "25212",
+    "donut": "22428",
     "weight": "15908"
   },
   {
@@ -20919,8 +20919,8 @@
     "username": "majic2",
     "address": "0x14a74D1811786A3D00a7EcF2162EFb870a127531",
     "contrib": "14667",
-    "donut": "5466",
-    "weight": "5466"
+    "donut": "5071",
+    "weight": "5071"
   },
   {
     "username": "Commercial-Bass-3668",
@@ -20961,7 +20961,7 @@
     "username": "Naeril_HS",
     "address": "0xd07968FA184d9E8b2D0df10e9c885B8De44eEfAd",
     "contrib": "5414",
-    "donut": "8103",
+    "donut": "7203",
     "weight": "5414"
   },
   {
@@ -20988,9 +20988,9 @@
   {
     "username": "Lancer37",
     "address": "0xBdC0853A3AdB98747F8593829917A9B845669DD9",
-    "contrib": "5216",
-    "donut": "5216",
-    "weight": "5216"
+    "contrib": "3053",
+    "donut": "3053",
+    "weight": "3053"
   },
   {
     "username": "PhilDesenex",
@@ -21044,9 +21044,9 @@
   {
     "username": "nickos_e",
     "address": "0x79AeaB0D043f4086f6b57f35054fd8Ce32995E94",
-    "contrib": "2974",
-    "donut": "1952",
-    "weight": "1952"
+    "contrib": "2908",
+    "donut": "1886",
+    "weight": "1886"
   },
   {
     "username": "HW-BTW",
@@ -21108,8 +21108,8 @@
     "username": "JoblessJessica",
     "address": "0x8f66082067D4ca2210362C0F7718598415cDF32A",
     "contrib": "10627",
-    "donut": "552",
-    "weight": "552"
+    "donut": "508",
+    "weight": "508"
   },
   {
     "username": "kyonlife",
@@ -21198,9 +21198,9 @@
   {
     "username": "DemApples4u",
     "address": "0x7FDCd2E33E371ec87B95bbFfc2554E0b2009E446",
-    "contrib": "27725",
-    "donut": "88203",
-    "weight": "27725"
+    "contrib": "27492",
+    "donut": "78824",
+    "weight": "27492"
   },
   {
     "username": "tschmitt2021",
@@ -21213,7 +21213,7 @@
     "username": "mcjon3z",
     "address": "0x32dfd5adb7849EB691B1c13cD3d7cbC85b30c202",
     "contrib": "2036",
-    "donut": "2790",
+    "donut": "2480",
     "weight": "2036"
   },
   {
@@ -21283,8 +21283,8 @@
     "username": "fanriver",
     "address": "0xC90A43D55D67CF44aF357176d7EFC526b974dC7B",
     "contrib": "11097",
-    "donut": "8871",
-    "weight": "8871"
+    "donut": "7931",
+    "weight": "7931"
   },
   {
     "username": "Mousewithholes",
@@ -21311,7 +21311,7 @@
     "username": "Diggable_Acrobat5050",
     "address": "0xD4278bB2859F55493E8Ad704D8a2837000860F8a",
     "contrib": "736",
-    "donut": "932",
+    "donut": "853",
     "weight": "736"
   },
   {
@@ -21367,8 +21367,8 @@
     "username": "Zues6921",
     "address": "0xe4dE4cEe63470FAe11dd90280ee427a89be62Ee2",
     "contrib": "6461",
-    "donut": "6372",
-    "weight": "6372"
+    "donut": "5613",
+    "weight": "5613"
   },
   {
     "username": "lcalley",
@@ -21562,9 +21562,9 @@
   {
     "username": "Sharkytrs",
     "address": "0xE120ffC02ff9E6685aD3D65f998D8e40b4578A17",
-    "contrib": "19560",
-    "donut": "38156",
-    "weight": "19560"
+    "contrib": "19527",
+    "donut": "32507",
+    "weight": "19527"
   },
   {
     "username": "-uTz-",
@@ -21598,7 +21598,7 @@
     "username": "ralfy00",
     "address": "0xD10bA028C458DA9Ac231B935c287F048Fc4fdfA4",
     "contrib": "3193",
-    "donut": "3722",
+    "donut": "3548",
     "weight": "3193"
   },
   {
@@ -21668,7 +21668,7 @@
     "username": "dperabeles",
     "address": "0x4AAb780eF04D01b0A6E65A66EF256F1AAF4163F8",
     "contrib": "140",
-    "donut": "148",
+    "donut": "147",
     "weight": "140"
   },
   {
@@ -21716,9 +21716,9 @@
   {
     "username": "ixtechau",
     "address": "0x50AA5b0BB4533EB1735932751Fe40681bcf3F9c8",
-    "contrib": "182",
-    "donut": "182",
-    "weight": "182"
+    "contrib": "116",
+    "donut": "116",
+    "weight": "116"
   },
   {
     "username": "quokka3d",
@@ -22199,9 +22199,9 @@
   {
     "username": "The_Nutcrack",
     "address": "0x0B3AB5A8d926d07275291c074225f258d00B4F08",
-    "contrib": "278549",
-    "donut": "76422",
-    "weight": "76422"
+    "contrib": "278098",
+    "donut": "72131",
+    "weight": "72131"
   },
   {
     "username": "Grouchy-Jellyfish267",
@@ -22213,9 +22213,9 @@
   {
     "username": "comfyggs",
     "address": "0xe4C120ca4D1245292918395426E9C66Fb12e10D0",
-    "contrib": "140483",
-    "donut": "30603",
-    "weight": "30603"
+    "contrib": "139884",
+    "donut": "26671",
+    "weight": "26671"
   },
   {
     "username": "Puddingbuks26",
@@ -22242,7 +22242,7 @@
     "username": "UnfinishedAle",
     "address": "0xE86bdD706F97fB0fb1540e8fC7A3b3DBA8A42C5B",
     "contrib": "13267",
-    "donut": "18377",
+    "donut": "16348",
     "weight": "13267"
   },
   {
@@ -22277,7 +22277,7 @@
     "username": "likelysomeone3",
     "address": "0x349Cb3d3Db85A1bFF571eCAAafF4CFf48503cd54",
     "contrib": "43880",
-    "donut": "59039",
+    "donut": "52479",
     "weight": "43880"
   },
   {
@@ -22291,7 +22291,7 @@
     "username": "MasterBurro",
     "address": "0xfE1ba828b04233d20baf7b402a15544e4DC09E5e",
     "contrib": "24105",
-    "donut": "29424",
+    "donut": "26798",
     "weight": "24105"
   },
   {
@@ -22333,8 +22333,8 @@
     "username": "Doggybone_treat",
     "address": "0x7B3E7E5243228995f9F77A3E7479F263338cd51A",
     "contrib": "23958",
-    "donut": "22597",
-    "weight": "22597"
+    "donut": "20099",
+    "weight": "20099"
   },
   {
     "username": "_Wrong_doer",
@@ -22368,8 +22368,8 @@
     "username": "chad_monkey",
     "address": "0xfF6017e8794834C1625D14B848C0F7E94fdeD94b",
     "contrib": "5766",
-    "donut": "29",
-    "weight": "29"
+    "donut": "26",
+    "weight": "26"
   },
   {
     "username": "DarthRevis3",
@@ -22437,9 +22437,9 @@
   {
     "username": "Nikolai_Volkoff88",
     "address": "0x8AAfb3b4d83B91035066C671720172B492581C88",
-    "contrib": "6807",
-    "donut": "4562",
-    "weight": "4562"
+    "contrib": "6774",
+    "donut": "4523",
+    "weight": "4523"
   },
   {
     "username": "MoldyCheesey",
@@ -22493,9 +22493,9 @@
   {
     "username": "Vivarevo",
     "address": "0x8a945Ff7dBC68D7DEFeA264c9B838F6824671c01",
-    "contrib": "25576",
-    "donut": "8383",
-    "weight": "8383"
+    "contrib": "21282",
+    "donut": "4089",
+    "weight": "4089"
   },
   {
     "username": "Crypthomie",
@@ -22557,8 +22557,8 @@
     "username": "ghochumal",
     "address": "0xaFd2141A0DE3CE28d4E47ba0E7E94b1f8df02e52",
     "contrib": "45147",
-    "donut": "19629",
-    "weight": "19629"
+    "donut": "17785",
+    "weight": "17785"
   },
   {
     "username": "susfactor",
@@ -22704,15 +22704,15 @@
     "username": "IridiumHorseshoe",
     "address": "0x6924DB938a76335DFCC13c61C70bae503aD598d7",
     "contrib": "11342",
-    "donut": "19154",
+    "donut": "17106",
     "weight": "11342"
   },
   {
     "username": "_dekappatated",
     "address": "0xdb5c82a2472821F7016BE58c23CE1a9DdFB09349",
-    "contrib": "6988",
-    "donut": "6181",
-    "weight": "6181"
+    "contrib": "6788",
+    "donut": "5981",
+    "weight": "5981"
   },
   {
     "username": "trianglefor2",
@@ -22858,15 +22858,15 @@
     "username": "boomerberg",
     "address": "0xB7759AC2C45C5462c36f6AD226174763b1BE0871",
     "contrib": "2574",
-    "donut": "2122",
-    "weight": "2122"
+    "donut": "2120",
+    "weight": "2120"
   },
   {
     "username": "PM_ME_YOUR_HONEY",
     "address": "0xB662E863aCAefDEE1C80Ef79590e1983981C3783",
-    "contrib": "9908",
-    "donut": "8644",
-    "weight": "8644"
+    "contrib": "7478",
+    "donut": "6213",
+    "weight": "6213"
   },
   {
     "username": "RudeClock9740",
@@ -22879,8 +22879,8 @@
     "username": "Efficient-Ad-7192",
     "address": "0x94Cef2c7E22CAc03AcBD3317Fe29967a21b5a451",
     "contrib": "7101",
-    "donut": "472",
-    "weight": "472"
+    "donut": "420",
+    "weight": "420"
   },
   {
     "username": "trithi",
@@ -22962,9 +22962,9 @@
   {
     "username": "readit145",
     "address": "0x1b6A422EAb329272bc1b6435a057847dC9Eb4621",
-    "contrib": "10468",
-    "donut": "7076",
-    "weight": "7076"
+    "contrib": "10435",
+    "donut": "7043",
+    "weight": "7043"
   },
   {
     "username": "duhaddeengoddag",
@@ -22984,15 +22984,15 @@
     "username": "Staralset",
     "address": "0x6542EB425E55859df7874F727Fe50b04da8d4b6c",
     "contrib": "917",
-    "donut": "1031",
+    "donut": "917",
     "weight": "917"
   },
   {
     "username": "TheOT1001",
     "address": "0xA8e706AdF619e4232E2f61b8ed02AA34edd86d8d",
-    "contrib": "5403",
-    "donut": "3766",
-    "weight": "3766"
+    "contrib": "5370",
+    "donut": "3733",
+    "weight": "3733"
   },
   {
     "username": "CageMyElephant",
@@ -23103,8 +23103,8 @@
     "username": "bmahbub",
     "address": "0xd8cEf81f712F0b7823Ed444DC4169F0770baD48E",
     "contrib": "37235",
-    "donut": "21225",
-    "weight": "21225"
+    "donut": "18787",
+    "weight": "18787"
   },
   {
     "username": "normanthedorman",
@@ -23257,8 +23257,8 @@
     "username": "hnr01",
     "address": "0xd92eac431b6b63C95FdEcF91784eeaA47d391DbD",
     "contrib": "17648",
-    "donut": "3061",
-    "weight": "3061"
+    "donut": "2721",
+    "weight": "2721"
   },
   {
     "username": "dou8le8u88le",
@@ -23278,8 +23278,8 @@
     "username": "Zymurgency",
     "address": "0x9f9e0a2e816D312B891C488dBd5732EC086D5ea1",
     "contrib": "233",
-    "donut": "81",
-    "weight": "81"
+    "donut": "73",
+    "weight": "73"
   },
   {
     "username": "skullllll",
@@ -23348,7 +23348,7 @@
     "username": "mrsenthil",
     "address": "0x684CCC8EF670165a05eD7f4f3d36F2834b961547",
     "contrib": "4864",
-    "donut": "4901",
+    "donut": "4899",
     "weight": "4864"
   },
   {
@@ -23502,7 +23502,7 @@
     "username": "Haruhi4",
     "address": "0x12985951Fa7051f0b1AE2C0749C8285bD742A82b",
     "contrib": "1664",
-    "donut": "122934",
+    "donut": "109170",
     "weight": "1664"
   },
   {
@@ -23585,9 +23585,9 @@
   {
     "username": "ETHBTCVET",
     "address": "0x8342D70dc085fa5D8E759F2bf4dE114fF46f81E9",
-    "contrib": "3901",
-    "donut": "3903",
-    "weight": "3901"
+    "contrib": "3336",
+    "donut": "3338",
+    "weight": "3336"
   },
   {
     "username": "akejavel",
@@ -23991,16 +23991,16 @@
   {
     "username": "cee8719",
     "address": "0x76914F9ED1c3e647A627F81883434a19d08C6C9F",
-    "contrib": "323",
-    "donut": "323",
-    "weight": "323"
+    "contrib": "157",
+    "donut": "157",
+    "weight": "157"
   },
   {
     "username": "Crypto_Gaming_",
     "address": "0x58edD08A8f51ceA4c0faF176c71ab8C7c40ba1bc",
-    "contrib": "320571",
-    "donut": "288365",
-    "weight": "288365"
+    "contrib": "313948",
+    "donut": "271588",
+    "weight": "271588"
   },
   {
     "username": "OrganizationJaded615",
@@ -24131,9 +24131,9 @@
   {
     "username": "bigmammoth2310",
     "address": "0x38F6d05EF598C76D183Cf25e296687fd74400d38",
-    "contrib": "429755",
-    "donut": "371295",
-    "weight": "371295"
+    "contrib": "408776",
+    "donut": "350316",
+    "weight": "350316"
   },
   {
     "username": "leighb06",
@@ -24188,15 +24188,15 @@
     "username": "SufficientMonkey",
     "address": "0xB04b53fC1E511D09651Cf48642469Ebc48C50f68",
     "contrib": "17130",
-    "donut": "20902",
+    "donut": "19289",
     "weight": "17130"
   },
   {
     "username": "Lord-Nagafen",
     "address": "0xCB5a385fBfc15929c18E1Df889a2073aDE320588",
-    "contrib": "9725",
-    "donut": "9725",
-    "weight": "9725"
+    "contrib": "9659",
+    "donut": "9659",
+    "weight": "9659"
   },
   {
     "username": "Zealousideal_Ice8918",
@@ -24327,9 +24327,9 @@
   {
     "username": "ens91",
     "address": "0x1a6706F8abD55Aaafdf9d3117428905e6447F59A",
-    "contrib": "1967",
-    "donut": "1967",
-    "weight": "1967"
+    "contrib": "1901",
+    "donut": "1901",
+    "weight": "1901"
   },
   {
     "username": "Buzz_Le_Dingo",
@@ -24398,7 +24398,7 @@
     "username": "royalewcheeze",
     "address": "0x2f02c225e1B901F76d7094b7838EfF474687202c",
     "contrib": "7228",
-    "donut": "9468",
+    "donut": "8666",
     "weight": "7228"
   },
   {
@@ -24412,8 +24412,8 @@
     "username": "Humble-Grape1012",
     "address": "0xe1E21819b7F2918980bB85f9F1892e835215a026",
     "contrib": "98512",
-    "donut": "78421",
-    "weight": "78421"
+    "donut": "78420",
+    "weight": "78420"
   },
   {
     "username": "jsthack",
@@ -24467,9 +24467,9 @@
   {
     "username": "Moikee",
     "address": "0x641b6a9c53b9e12947f77354d6E387C26A1B7D68",
-    "contrib": "7266",
-    "donut": "6113",
-    "weight": "6113"
+    "contrib": "6966",
+    "donut": "5813",
+    "weight": "5813"
   },
   {
     "username": "BerthjeTTV",
@@ -24523,9 +24523,9 @@
   {
     "username": "nutboltUK1",
     "address": "0xDe626e3cE4cd202f45b671A907E5B31cEe15f3b0",
-    "contrib": "721",
-    "donut": "339",
-    "weight": "339"
+    "contrib": "688",
+    "donut": "306",
+    "weight": "306"
   },
   {
     "username": "ashiqurme",
@@ -24649,9 +24649,9 @@
   {
     "username": "nsaplzstahp",
     "address": "0x873995d400C01B397D89a5e42C66C6E14C8A35eC",
-    "contrib": "1342",
-    "donut": "1125",
-    "weight": "1125"
+    "contrib": "1243",
+    "donut": "1026",
+    "weight": "1026"
   },
   {
     "username": "Mr_GumGum_",
@@ -24698,9 +24698,9 @@
   {
     "username": "SuccessOtherwise2760",
     "address": "0x0757C3379884621eDD377bB167ac6B4236C9A421",
-    "contrib": "16466",
-    "donut": "6049",
-    "weight": "6049"
+    "contrib": "16367",
+    "donut": "5950",
+    "weight": "5950"
   },
   {
     "username": "syl3n",
@@ -24783,7 +24783,7 @@
     "username": "K_Konster",
     "address": "0xbEA395DD3AE7cE1Ec5fE2a909fe5DE46e63126Fa",
     "contrib": "110",
-    "donut": "253",
+    "donut": "224",
     "weight": "110"
   },
   {
@@ -24880,9 +24880,9 @@
   {
     "username": "Eru_Iluvatarh",
     "address": "0xb8F82344F9708E0B59130cc961714Fd219cB7D98",
-    "contrib": "910",
-    "donut": "832",
-    "weight": "832"
+    "contrib": "78",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "southLDNlad",
@@ -24936,9 +24936,9 @@
   {
     "username": "LoganGyre",
     "address": "0x8289E32357f716d689578A1CE7382e16B108C3bF",
-    "contrib": "2901",
-    "donut": "2220",
-    "weight": "2220"
+    "contrib": "2469",
+    "donut": "1788",
+    "weight": "1788"
   },
   {
     "username": "nvllsekt",
@@ -24992,9 +24992,9 @@
   {
     "username": "Imaginary-Adagio2231",
     "address": "0x99f5EeEBbc52b763C282f6d9350954C229fE458f",
-    "contrib": "328932",
-    "donut": "276526",
-    "weight": "276526"
+    "contrib": "286717",
+    "donut": "234311",
+    "weight": "234311"
   },
   {
     "username": "amagad2015",
@@ -25188,9 +25188,9 @@
   {
     "username": "gorfnu",
     "address": "0x7AFaCE6a420BecF5e72E53242ad021fACc4c9aC7",
-    "contrib": "64",
-    "donut": "33",
-    "weight": "33"
+    "contrib": "31",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "rezzy333",
@@ -25468,9 +25468,9 @@
   {
     "username": "ReitHodlr",
     "address": "0x1b036f17F5DcB000005e14773f8636b4dde76e39",
-    "contrib": "61591",
-    "donut": "59060",
-    "weight": "59060"
+    "contrib": "59594",
+    "donut": "50724",
+    "weight": "50724"
   },
   {
     "username": "AbsolutBadLad",
@@ -25496,9 +25496,9 @@
   {
     "username": "Visible-Ad743",
     "address": "0xAacc079965F0F9473BF4299d930eF639690a9792",
-    "contrib": "160427",
-    "donut": "50317",
-    "weight": "50317"
+    "contrib": "151843",
+    "donut": "37139",
+    "weight": "37139"
   },
   {
     "username": "Just1_More",
@@ -25559,9 +25559,9 @@
   {
     "username": "imjakedaniels",
     "address": "0xD7Fa72199Dd1B5F281Bc3D923918ebE56A6bb07b",
-    "contrib": "7344",
-    "donut": "4158",
-    "weight": "4158"
+    "contrib": "4032",
+    "donut": "846",
+    "weight": "846"
   },
   {
     "username": "Desperate_Day_8813",
@@ -25615,23 +25615,23 @@
   {
     "username": "Targerian-King",
     "address": "0xB35b44068c106bdf0cB447B699D52100036Cb63D",
-    "contrib": "151461",
-    "donut": "147779",
-    "weight": "147779"
+    "contrib": "141992",
+    "donut": "138310",
+    "weight": "138310"
   },
   {
     "username": "Icy-Order-3200",
     "address": "0xdbc54173874eBc2D30a6ba3DAF971Cb3A0B0C3ac",
-    "contrib": "591593",
-    "donut": "24528",
-    "weight": "24528"
+    "contrib": "568061",
+    "donut": "1001",
+    "weight": "1001"
   },
   {
     "username": "LostMyPPMs",
     "address": "0x119ECA67B5d5a6Ed85F5f0e56301273Bc56B84a8",
-    "contrib": "200375",
-    "donut": "47819",
-    "weight": "47819"
+    "contrib": "181608",
+    "donut": "29046",
+    "weight": "29046"
   },
   {
     "username": "Smiling_Jack_",
@@ -25664,9 +25664,9 @@
   {
     "username": "BroChad69",
     "address": "0x08E1DB9687DE2b1A0a18AE23df25730f69bf5A4f",
-    "contrib": "3229",
-    "donut": "3229",
-    "weight": "3229"
+    "contrib": "3196",
+    "donut": "3196",
+    "weight": "3196"
   },
   {
     "username": "RabidSalmon",
@@ -25692,9 +25692,9 @@
   {
     "username": "JVHooligan",
     "address": "0x7B42384a6faE59cc0262CC70fCB85E8e4bd88eDD",
-    "contrib": "44943",
-    "donut": "20694",
-    "weight": "20694"
+    "contrib": "24253",
+    "donut": "5",
+    "weight": "5"
   },
   {
     "username": "TheSilverBug",
@@ -25748,9 +25748,9 @@
   {
     "username": "LWKD",
     "address": "0x313Fa8a362d5c0C3d5c5F408F1703f9Cbb3b7516",
-    "contrib": "16926",
-    "donut": "10859",
-    "weight": "10859"
+    "contrib": "16626",
+    "donut": "10559",
+    "weight": "10559"
   },
   {
     "username": "rndaom",
@@ -25804,9 +25804,9 @@
   {
     "username": "salty-bois",
     "address": "0xC29236dA2212f7589115a53FabcDeB1bfA03ddFE",
-    "contrib": "29442",
-    "donut": "22407",
-    "weight": "22407"
+    "contrib": "27544",
+    "donut": "18242",
+    "weight": "18242"
   },
   {
     "username": "Unfair_Hovercraft_83",
@@ -25860,9 +25860,9 @@
   {
     "username": "ghfsigiwaa",
     "address": "0x49155896F97660E6eA12170ab63BFD5822E796Da",
-    "contrib": "60796",
-    "donut": "50956",
-    "weight": "50956"
+    "contrib": "56908",
+    "donut": "41862",
+    "weight": "41862"
   },
   {
     "username": "7SM",
@@ -25923,9 +25923,9 @@
   {
     "username": "Kevkillerke",
     "address": "0x3B6CE9e2D18B88266e7b5A2332207C51E6fEb7a7",
-    "contrib": "2622",
-    "donut": "2175",
-    "weight": "2175"
+    "contrib": "2589",
+    "donut": "2142",
+    "weight": "2142"
   },
   {
     "username": "pcvcolin",
@@ -25944,9 +25944,9 @@
   {
     "username": "Cheese6260",
     "address": "0x15521B5cDe0D580Cd4F39c64e7cD51f8C03Be033",
-    "contrib": "817",
-    "donut": "822",
-    "weight": "817"
+    "contrib": "251",
+    "donut": "256",
+    "weight": "251"
   },
   {
     "username": "Onelinersandblues",
@@ -26021,9 +26021,9 @@
   {
     "username": "korben2600",
     "address": "0x31793cF3ad9bD868C3569D10387bea93E9C2822b",
-    "contrib": "4083",
-    "donut": "3984",
-    "weight": "3984"
+    "contrib": "3684",
+    "donut": "3585",
+    "weight": "3585"
   },
   {
     "username": "Acceptable-Hold-7601",
@@ -26343,9 +26343,9 @@
   {
     "username": "vkashen",
     "address": "0x039459681384dFcA3ae2514a1904D43220806D94",
-    "contrib": "6844",
-    "donut": "6822",
-    "weight": "6822"
+    "contrib": "6578",
+    "donut": "6556",
+    "weight": "6556"
   },
   {
     "username": "echodelta79",
@@ -26462,9 +26462,9 @@
   {
     "username": "SauceMaster145",
     "address": "0xF79fBA163e9e5ccF83fc601552B1df880b782892",
-    "contrib": "362818",
-    "donut": "100",
-    "weight": "100"
+    "contrib": "345252",
+    "donut": "120",
+    "weight": "120"
   },
   {
     "username": "maverick950",
@@ -26518,9 +26518,9 @@
   {
     "username": "Grim--Reaper-",
     "address": "0xfC7fC0b5A5a9277cBd917D37e0855564BCeDcA7f",
-    "contrib": "113874",
-    "donut": "111833",
-    "weight": "111833"
+    "contrib": "112277",
+    "donut": "110236",
+    "weight": "110236"
   },
   {
     "username": "VarenDerpsAround",
@@ -26672,9 +26672,9 @@
   {
     "username": "GapingFartLocker",
     "address": "0x36D0741763CDB650865c863b7ee9BB62Fa8c6103",
-    "contrib": "9106",
-    "donut": "9106",
-    "weight": "9106"
+    "contrib": "8407",
+    "donut": "8407",
+    "weight": "8407"
   },
   {
     "username": "Awkward_Judge_3308",
@@ -26707,9 +26707,9 @@
   {
     "username": "MrBrew",
     "address": "0x23129A7F5DC33459697c1680DF6e0a51D149B715",
-    "contrib": "1189",
-    "donut": "502",
-    "weight": "502"
+    "contrib": "1023",
+    "donut": "336",
+    "weight": "336"
   },
   {
     "username": "random_reddit_acct",
@@ -27148,9 +27148,9 @@
   {
     "username": "sbp1200",
     "address": "0xE1f9F6e4eC1E57BF063c55018b55d5fFBf5d133E",
-    "contrib": "134",
-    "donut": "75",
-    "weight": "75"
+    "contrib": "101",
+    "donut": "42",
+    "weight": "42"
   },
   {
     "username": "alfred_27",
@@ -27267,16 +27267,16 @@
   {
     "username": "-Krakatau-",
     "address": "0xDDcdfcAc57615A66f30E668f73F821eeB6aEf6c1",
-    "contrib": "3232",
-    "donut": "3232",
-    "weight": "3232"
+    "contrib": "1667",
+    "donut": "1667",
+    "weight": "1667"
   },
   {
     "username": "SecondTimeQuitting",
     "address": "0xb0cE83158AB1B9A6244BD72d6124b8D0B805f7D9",
-    "contrib": "4927",
-    "donut": "4927",
-    "weight": "4927"
+    "contrib": "4727",
+    "donut": "4727",
+    "weight": "4727"
   },
   {
     "username": "baitdad",
@@ -27394,8 +27394,8 @@
     "username": "vanboiDallas",
     "address": "0x7B34db486502f78Afb65769f7b53f57337B87084",
     "contrib": "263",
-    "donut": "267",
-    "weight": "263"
+    "donut": "242",
+    "weight": "242"
   },
   {
     "username": "4rindam",
@@ -27526,9 +27526,9 @@
   {
     "username": "Spare_Imagination648",
     "address": "0x8dcd296041839eb7182E1F8DD1dbedaB9Ff1d6dB",
-    "contrib": "111075",
-    "donut": "70936",
-    "weight": "70936"
+    "contrib": "87612",
+    "donut": "48494",
+    "weight": "48494"
   },
   {
     "username": "SaikyouMegane",
@@ -27540,9 +27540,9 @@
   {
     "username": "tahiraslam8k",
     "address": "0x52C83fbEc050509468Dc7CEF0a2fFd81e95c9F1B",
-    "contrib": "294470",
-    "donut": "0",
-    "weight": "0"
+    "contrib": "282745",
+    "donut": "7200",
+    "weight": "7200"
   },
   {
     "username": "Sergmybro87",
@@ -27575,9 +27575,9 @@
   {
     "username": "Paskee",
     "address": "0xB0c60ccb3C58fAc38421EAdC1bFE65549A031769",
-    "contrib": "2201",
-    "donut": "2201",
-    "weight": "2201"
+    "contrib": "2002",
+    "donut": "2002",
+    "weight": "2002"
   },
   {
     "username": "Dr_Ron_Pol",
@@ -27645,9 +27645,9 @@
   {
     "username": "laulau9025",
     "address": "0x7C9aEC21A1C3E8fb8240C7fe9e968d184b215E61",
-    "contrib": "749",
-    "donut": "749",
-    "weight": "749"
+    "contrib": "649",
+    "donut": "649",
+    "weight": "649"
   },
   {
     "username": "justrelaxandshoegaze",
@@ -27792,9 +27792,9 @@
   {
     "username": "NotGAF",
     "address": "0x59C0Efb47bb1d5EFD0f9960C60d11a459d32426B",
-    "contrib": "866",
-    "donut": "866",
-    "weight": "866"
+    "contrib": "799",
+    "donut": "799",
+    "weight": "799"
   },
   {
     "username": "Cbizztho",
@@ -27939,9 +27939,9 @@
   {
     "username": "abcoathup",
     "address": "0x13ebd3443fa5575F0Eb173e323D8419F7452CfB1",
-    "contrib": "35323",
-    "donut": "39545",
-    "weight": "35323"
+    "contrib": "24746",
+    "donut": "28964",
+    "weight": "24746"
   },
   {
     "username": "war3rd",
@@ -27988,9 +27988,9 @@
   {
     "username": "Lee911123",
     "address": "0x21E024dCE5Ed2ab9951B3735151e351a7b6cE2C7",
-    "contrib": "66782",
-    "donut": "33",
-    "weight": "33"
+    "contrib": "66749",
+    "donut": "0",
+    "weight": "0"
   },
   {
     "username": "nickdl4",
@@ -28107,9 +28107,9 @@
   {
     "username": "ECore",
     "address": "0x0748e47BF9f34893B6963a1E333E64b0e7Ddc38F",
-    "contrib": "2022",
-    "donut": "2022",
-    "weight": "2022"
+    "contrib": "990",
+    "donut": "990",
+    "weight": "990"
   },
   {
     "username": "KittieKat_On_Reddit",
@@ -28157,8 +28157,8 @@
     "username": "stickthintaurus",
     "address": "0xE7CA372E697edb3ACD2354219d055972C4EE4539",
     "contrib": "56",
-    "donut": "10",
-    "weight": "10"
+    "donut": "9",
+    "weight": "9"
   },
   {
     "username": "86Razor",
@@ -28184,9 +28184,9 @@
   {
     "username": "Agent_4--7",
     "address": "0x37DCB9A9C7e39BA3FdC3e57721aDb08Ed1302335",
-    "contrib": "468955",
-    "donut": "30841",
-    "weight": "30841"
+    "contrib": "438753",
+    "donut": "645",
+    "weight": "645"
   },
   {
     "username": "Big-Ad4782",
@@ -28205,9 +28205,9 @@
   {
     "username": "MrPuma86",
     "address": "0xe50B88C71E72138b20B5dB56254a7953D9813683",
-    "contrib": "95765",
-    "donut": "114347",
-    "weight": "95765"
+    "contrib": "79986",
+    "donut": "98568",
+    "weight": "79986"
   },
   {
     "username": "degenrebel",
@@ -28261,16 +28261,16 @@
   {
     "username": "TrashJonny",
     "address": "0xdeBFfC0A510D8630aCDD83411Fde31eed8Cf5d3D",
-    "contrib": "91947",
-    "donut": "2506",
-    "weight": "2506"
+    "contrib": "89530",
+    "donut": "91",
+    "weight": "91"
   },
   {
     "username": "root88",
     "address": "0xd12337B22b6C393edcCF8Db2bdcAA7B9839a257e",
-    "contrib": "35087",
-    "donut": "35088",
-    "weight": "35087"
+    "contrib": "33922",
+    "donut": "33923",
+    "weight": "33922"
   },
   {
     "username": "No_Emotion_1825",
@@ -28318,7 +28318,7 @@
     "username": "t1m3f0rt1m3r",
     "address": "0xCA490aB2a31C40E003a0A8C063442277DF7F8774",
     "contrib": "935",
-    "donut": "1978",
+    "donut": "1863",
     "weight": "935"
   },
   {
@@ -28471,9 +28471,9 @@
   {
     "username": "RightRaisin",
     "address": "0x8ABf3FC0c7fd9625D0ff6FFFDe4574C6273eFC3A",
-    "contrib": "97003",
-    "donut": "1795",
-    "weight": "1795"
+    "contrib": "95971",
+    "donut": "763",
+    "weight": "763"
   },
   {
     "username": "Dry_Solid_9417",
@@ -28569,9 +28569,9 @@
   {
     "username": "OPTIMUS-PRIME27",
     "address": "0x9dFc6AB6E13184bcf4bDb15C7d2f944F85C21D65",
-    "contrib": "95273",
-    "donut": "85270",
-    "weight": "85270"
+    "contrib": "95074",
+    "donut": "85071",
+    "weight": "85071"
   },
   {
     "username": "cocka_doodoo",
@@ -28660,23 +28660,23 @@
   {
     "username": "Easy-Soup140",
     "address": "0xf53106887e33976408beA206B80E6276971cB0b1",
-    "contrib": "372770",
-    "donut": "33733",
-    "weight": "33733"
+    "contrib": "339822",
+    "donut": "800",
+    "weight": "800"
   },
   {
     "username": "Lokiee0077",
     "address": "0x4df57f4A62f05dDB2eC4e6749677AA8e77740a2E",
-    "contrib": "293841",
-    "donut": "21380",
-    "weight": "21380"
+    "contrib": "273886",
+    "donut": "1447",
+    "weight": "1447"
   },
   {
     "username": "TheRock_97",
     "address": "0xfd91efB5990DCd90588ECA99f9C4b8a9386B3C85",
-    "contrib": "339653",
-    "donut": "26195",
-    "weight": "26195"
+    "contrib": "314301",
+    "donut": "843",
+    "weight": "843"
   },
   {
     "username": "Smooth_Sympathy_6273",
@@ -28695,16 +28695,16 @@
   {
     "username": "PotentialClassroom75",
     "address": "0xEc5Dc2f4aae6401514F1205bF1f9B9143a0b8e0D",
-    "contrib": "368396",
-    "donut": "3860",
-    "weight": "3860"
+    "contrib": "364676",
+    "donut": "126",
+    "weight": "126"
   },
   {
     "username": "Elon_mkus",
     "address": "0x3cC47c557E985Cb8b52d1E263a1296fd2097121c",
-    "contrib": "232800",
-    "donut": "7828",
-    "weight": "7828"
+    "contrib": "225371",
+    "donut": "409",
+    "weight": "409"
   },
   {
     "username": "Playful_Ad_1508",
@@ -28716,9 +28716,9 @@
   {
     "username": "SwingContent6806",
     "address": "0x58F1788eE66AcD09A00D039229bf25678ba04c84",
-    "contrib": "66982",
-    "donut": "111",
-    "weight": "111"
+    "contrib": "66949",
+    "donut": "84",
+    "weight": "84"
   },
   {
     "username": "FranDavilaR",
@@ -28799,10 +28799,10 @@
   },
   {
     "username": "FixFull",
-    "address": "0xFc779a1616Edf4189c8e9163354b39405fFA17fc",
-    "contrib": "3776",
-    "donut": "2603",
-    "weight": "2603"
+    "address": "0x12FD083fC3d0dc46F087FF22a0b7cAF880904902",
+    "contrib": "809",
+    "donut": "809",
+    "weight": "809"
   },
   {
     "username": "BlazingHotFireFox",
@@ -29088,7 +29088,7 @@
     "username": "JHGrove3",
     "address": "0x261F436676cFA456a8F086a850160E97550AEA9C",
     "contrib": "184",
-    "donut": "4901",
+    "donut": "4357",
     "weight": "184"
   },
   {
@@ -29405,5 +29405,1013 @@
     "contrib": "36",
     "donut": "36",
     "weight": "36"
+  },
+  {
+    "username": "XpensiveLove",
+    "address": "0x71C0627B3a51B126E661fbf7Cbf6953016BCCA3D",
+    "contrib": "57922",
+    "donut": "10",
+    "weight": "10"
+  },
+  {
+    "username": "FunExpression1858",
+    "address": "0x7d982fd753a8F235f46DD2A165641A7293cAf08C",
+    "contrib": "82355",
+    "donut": "29",
+    "weight": "29"
+  },
+  {
+    "username": "Big_Beyotch",
+    "address": "0x00498C8EeD45FdD106Fe1C6a69d96DD4B6e8175A",
+    "contrib": "200640",
+    "donut": "173",
+    "weight": "173"
+  },
+  {
+    "username": "Consistent_Ad9128",
+    "address": "0xe69a40A4Dc29DC74A293d7e9e4666Ed1ec693768",
+    "contrib": "6323",
+    "donut": "6324",
+    "weight": "6323"
+  },
+  {
+    "username": "Wonderful-Mango123",
+    "address": "0x3E4c978D30c3b17B6E56DEe6F9eeb98e67ffF0a1",
+    "contrib": "5321",
+    "donut": "5321",
+    "weight": "5321"
+  },
+  {
+    "username": "CookieFactory",
+    "address": "0xEaa436Fb85b0b800eE833836dc9a66efE3A2e96c",
+    "contrib": "5508",
+    "donut": "5508",
+    "weight": "5508"
+  },
+  {
+    "username": "coinsRus-2021",
+    "address": "0x610C5Ad8799F645F4dE03dd9509428B96b3b4EA7",
+    "contrib": "6340",
+    "donut": "6340",
+    "weight": "6340"
+  },
+  {
+    "username": "teh0wnah",
+    "address": "0x279685E89af5cB429d8780A3D1d6fD761275B413",
+    "contrib": "2003",
+    "donut": "2003",
+    "weight": "2003"
+  },
+  {
+    "username": "Top_Performance_732",
+    "address": "0x88B8073739F867126C96F392512dDB34EF3A350E",
+    "contrib": "6195",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "002timmy",
+    "address": "0x2af5f3ec4875d9E827256FdA310d2a13B9f2a462",
+    "contrib": "7692",
+    "donut": "7704",
+    "weight": "7692"
+  },
+  {
+    "username": "FuckingBallsDeep",
+    "address": "0x25C0774C493e4BEf6c9DDf5041c2c3EAB88c4253",
+    "contrib": "997",
+    "donut": "998",
+    "weight": "997"
+  },
+  {
+    "username": "Foreplay241",
+    "address": "0xb1A955A7Aa511a7EAA8215b8e086ed2C5d5fE916",
+    "contrib": "739",
+    "donut": "739",
+    "weight": "739"
+  },
+  {
+    "username": "I_am_not_doing_this",
+    "address": "0xf8F41BB5A255Bcd12e0Eb75FD21dB0eF6Fe299D4",
+    "contrib": "640",
+    "donut": "640",
+    "weight": "640"
+  },
+  {
+    "username": "configsql",
+    "address": "0xCAD2Bd6522772391E8Eb03E91E7A808227BC0B3c",
+    "contrib": "470",
+    "donut": "470",
+    "weight": "470"
+  },
+  {
+    "username": "Stolidd",
+    "address": "0xDD1549aD1E1C8d79faC4660F40eBc1B0e1BdF587",
+    "contrib": "197",
+    "donut": "197",
+    "weight": "197"
+  },
+  {
+    "username": "nitrolimitz",
+    "address": "0x272D74197E4bC251381858214418087d214435bA",
+    "contrib": "286",
+    "donut": "286",
+    "weight": "286"
+  },
+  {
+    "username": "sophos101",
+    "address": "0xeB2A37071C4c938c926f03BE1f131D73F9065aA1",
+    "contrib": "197",
+    "donut": "1509",
+    "weight": "197"
+  },
+  {
+    "username": "George-___-",
+    "address": "0xd69937fDB9E8F9bB7A271ADF723E084b96eD37Ea",
+    "contrib": "224",
+    "donut": "996",
+    "weight": "224"
+  },
+  {
+    "username": "Inzpire",
+    "address": "0x79a5dECDA4009c97B63818Eb811a2c829b23e010",
+    "contrib": "98",
+    "donut": "98",
+    "weight": "98"
+  },
+  {
+    "username": "damonkirk1983",
+    "address": "0xEa4c4Bfa565b9DBEA9E6d8d3F16881F1251e61b8",
+    "contrib": "98",
+    "donut": "98",
+    "weight": "98"
+  },
+  {
+    "username": "ConferenceClassic695",
+    "address": "0xf980b70F3874219Fff0bF46aD4f4CF92299733dF",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "someone_2005",
+    "address": "0xE5d5035F3D511147553Ff97f81244CC053eA3389",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "thelalilulelomkii",
+    "address": "0x96625a66D5e4444144aee70701a241581FaCFD23",
+    "contrib": "77",
+    "donut": "77",
+    "weight": "77"
+  },
+  {
+    "username": "Zemmeriah",
+    "address": "0x38DA19eFD432e88c8Ed224c6aF4a963A97D395cb",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "theineffablebob",
+    "address": "0x5F6D694710bb3795118C9e525F1bDc9337DB315A",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "PapaExchange",
+    "address": "0x147994e14984789Ca71881AA1dE38E7cced0cB03",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "aster_xp",
+    "address": "0xf67423C539CC7c6Eb841aBf7EFdF9a1664BFBeCa",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "sin_ner_man",
+    "address": "0xEe86b11B8395dB348410606679f032820A5D29DB",
+    "contrib": "49",
+    "donut": "49",
+    "weight": "49"
+  },
+  {
+    "username": "MalamuteHusk",
+    "address": "0x94673AEF093d86c7187ce5C4cb44bE4757D50177",
+    "contrib": "49",
+    "donut": "53",
+    "weight": "49"
+  },
+  {
+    "username": "Odd_Mulberry_9813",
+    "address": "0xf214d52D850E3Eb7aa2c077d02CAc821D2579F6d",
+    "contrib": "42949",
+    "donut": "46",
+    "weight": "46"
+  },
+  {
+    "username": "Sunny-----",
+    "address": "0x5c56F8A3538b22646AB938DDf229F7B93D45176f",
+    "contrib": "4136",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "TommyBleau",
+    "address": "0xA7CB184218cD1f644627cF8C057CEC5781C28450",
+    "contrib": "5812",
+    "donut": "10353",
+    "weight": "5812"
+  },
+  {
+    "username": "ZER0SE7ENONETH",
+    "address": "0xE3aC807faF285D4dd373237678CC24C6331Ea4A5",
+    "contrib": "1266",
+    "donut": "1268",
+    "weight": "1266"
+  },
+  {
+    "username": "ProtegeAA",
+    "address": "0xBBe9ad0fcBD911d3C0aFcbD62B55A6F825b6C220",
+    "contrib": "584",
+    "donut": "584",
+    "weight": "584"
+  },
+  {
+    "username": "Dolphin_Dinomite",
+    "address": "0xA6e988E09A415d130996138b1353F3Ffe60b913B",
+    "contrib": "2835",
+    "donut": "2835",
+    "weight": "2835"
+  },
+  {
+    "username": "Cravenmoreheadstatus",
+    "address": "0x8Bf1Fa776a41f92F2714A0F766300eD427EEBaa3",
+    "contrib": "232",
+    "donut": "233",
+    "weight": "232"
+  },
+  {
+    "username": "Sad_Nectarine3884",
+    "address": "0x043d4fe8D0c8a027bAAB2e4621249Fe826BC3F44",
+    "contrib": "823",
+    "donut": "823",
+    "weight": "823"
+  },
+  {
+    "username": "Plazma_doge",
+    "address": "0x478f0006c752230bF08a0C7DCD55c40Dac0AAf07",
+    "contrib": "116",
+    "donut": "116",
+    "weight": "116"
+  },
+  {
+    "username": "jaskidd05",
+    "address": "0x0201b4b842aD23E33A5762982cDebACfEeC170E8",
+    "contrib": "116",
+    "donut": "116",
+    "weight": "116"
+  },
+  {
+    "username": "Hibero",
+    "address": "0x8d9ae2842281786B670b19b2979Bb7378792DAAA",
+    "contrib": "92",
+    "donut": "92",
+    "weight": "92"
+  },
+  {
+    "username": "asherkosaraju",
+    "address": "0x1e5302e4d8B3E6d1C9C52C53dbc2455c6d7774fa",
+    "contrib": "1342",
+    "donut": "1345",
+    "weight": "1342"
+  },
+  {
+    "username": "nebulah1",
+    "address": "0x8542769d6A61c85Edab90134a7434A77a4EdD7bF",
+    "contrib": "69",
+    "donut": "69",
+    "weight": "69"
+  },
+  {
+    "username": "phrodreky",
+    "address": "0x4e1d70Cb24a8388992868f0CDaF08B532090Cd97",
+    "contrib": "69",
+    "donut": "70",
+    "weight": "69"
+  },
+  {
+    "username": "ecky--ptang-zooboing",
+    "address": "0x70E12ccF51601D7bfEEc782169737AfBbBcFcdc7",
+    "contrib": "46",
+    "donut": "46",
+    "weight": "46"
+  },
+  {
+    "username": "MassiveHoleInOne",
+    "address": "0xf1F4217fCb21e4a15efEBA4437b1C29cd6Cd0628",
+    "contrib": "46",
+    "donut": "46",
+    "weight": "46"
+  },
+  {
+    "username": "SAGEnnui",
+    "address": "0x3FDcfF4Caa234fBD40621dE0e6D940cbC21Fce96",
+    "contrib": "992",
+    "donut": "992",
+    "weight": "992"
+  },
+  {
+    "username": "Bingbongfly",
+    "address": "0xc80D56CDE1a23907f6AfA9703F58a14AC34a7E31",
+    "contrib": "46",
+    "donut": "46",
+    "weight": "46"
+  },
+  {
+    "username": "MDeez_Nuts",
+    "address": "0x511493D085508eF569d0cBf93641594255141655",
+    "contrib": "23",
+    "donut": "24",
+    "weight": "23"
+  },
+  {
+    "username": "OrringtonBear",
+    "address": "0x98ce3B389D048FEc4aECe66465c7D0095Bc2829D",
+    "contrib": "23",
+    "donut": "23",
+    "weight": "23"
+  },
+  {
+    "username": "ethglutton",
+    "address": "0x002A360042D3e351E62C9FAC2D7BBE70Ce0822b4",
+    "contrib": "23",
+    "donut": "23",
+    "weight": "23"
+  },
+  {
+    "username": "scuczu",
+    "address": "0xfb11Bb4cE13dDA7e23E1D2720D83e1c549089CE2",
+    "contrib": "26724",
+    "donut": "26733",
+    "weight": "26724"
+  },
+  {
+    "username": "Cum_Master_",
+    "address": "0x9c9C42e433E202A2F1DBeF8267Eb4c90CF196986",
+    "contrib": "1572",
+    "donut": "2025",
+    "weight": "1572"
+  },
+  {
+    "username": "mannone",
+    "address": "0xE27859039E5b301CcFc1d346331521b706E3F571",
+    "contrib": "291",
+    "donut": "291",
+    "weight": "291"
+  },
+  {
+    "username": "andrebotelho",
+    "address": "0x3D48ED97D995C1c1Ef3D3b491b15EC3E4BE7E25d",
+    "contrib": "348",
+    "donut": "349",
+    "weight": "348"
+  },
+  {
+    "username": "kingsky123",
+    "address": "0x99fbc25543417Fa6390cF78dB319445F9667C33b",
+    "contrib": "319",
+    "donut": "319",
+    "weight": "319"
+  },
+  {
+    "username": "heymeit",
+    "address": "0xf320c25609d670674507f621DFb162cb4FFa7100",
+    "contrib": "873",
+    "donut": "873",
+    "weight": "873"
+  },
+  {
+    "username": "coip",
+    "address": "0xACe8C3A2b3F6021Bf28a41c00375cC8c60313A85",
+    "contrib": "718",
+    "donut": "718",
+    "weight": "718"
+  },
+  {
+    "username": "PumpkinSpice2Nice",
+    "address": "0xD0FAee7D6405e0F620907B3381E8F56627E2FcfA",
+    "contrib": "593",
+    "donut": "593",
+    "weight": "593"
+  },
+  {
+    "username": "opticsnake",
+    "address": "0xB231B73fe9d71841DA6C5b7760909c9eB96d6Be7",
+    "contrib": "22",
+    "donut": "22",
+    "weight": "22"
+  },
+  {
+    "username": "eat-sleep-rave",
+    "address": "0x531bD0C1Ad5c2F25CC6A46C9e38B9C140587049F",
+    "contrib": "54716",
+    "donut": "9",
+    "weight": "9"
+  },
+  {
+    "username": "Witty-Resolution-412",
+    "address": "0x01EC3D946187cf600423DBbFabE55bdc9F545664",
+    "contrib": "12204",
+    "donut": "12204",
+    "weight": "12204"
+  },
+  {
+    "username": "Thin-Course-4054",
+    "address": "0x33f65AbAF2eCf2460011bbA8a164673002e0e14F",
+    "contrib": "1697",
+    "donut": "1697",
+    "weight": "1697"
+  },
+  {
+    "username": "samuelshix",
+    "address": "0x61cF6c0B69d5B031f6CFd3b30F5f70F3e12D571A",
+    "contrib": "142",
+    "donut": "142",
+    "weight": "142"
+  },
+  {
+    "username": "syphen6",
+    "address": "0xb34DcE5F0033Ec76fe16A4efF2FCEF0d8af0ab7D",
+    "contrib": "549",
+    "donut": "549",
+    "weight": "549"
+  },
+  {
+    "username": "bkuri",
+    "address": "0x4C08C9399E6BE9486e27D36E1237f6f2e3dd135c",
+    "contrib": "751",
+    "donut": "751",
+    "weight": "751"
+  },
+  {
+    "username": "sajjasajji",
+    "address": "0x3519943e8d1fb9009Dcd61dD105130ce3c5914C5",
+    "contrib": "1837",
+    "donut": "1837",
+    "weight": "1837"
+  },
+  {
+    "username": "UnknownBlades",
+    "address": "0x1f15a7340D1D833dE4cfd457173B83317De81FED",
+    "contrib": "421",
+    "donut": "421",
+    "weight": "421"
+  },
+  {
+    "username": "-metabud-",
+    "address": "0x0cbFBa4F440BB48cFc6964aFb09d46A417Ff2b85",
+    "contrib": "4755",
+    "donut": "4755",
+    "weight": "4755"
+  },
+  {
+    "username": "sylsau",
+    "address": "0x49ae2da2e79Bf09aaa6B9a4F1f0ffe1E95A787B9",
+    "contrib": "170",
+    "donut": "172",
+    "weight": "170"
+  },
+  {
+    "username": "AeRUBIK-Cubing",
+    "address": "0x4a106c8B41a05BD940F93274a65d56f98D2aEDdC",
+    "contrib": "146",
+    "donut": "146",
+    "weight": "146"
+  },
+  {
+    "username": "jcl945",
+    "address": "0xc4D32576dE8005821973323752B7984265AC54Ad",
+    "contrib": "109",
+    "donut": "109",
+    "weight": "109"
+  },
+  {
+    "username": "L_Cranston_Shadow",
+    "address": "0xB6A2b6102aA069DA7d6c2e0949AC39Ca47D494cd",
+    "contrib": "684",
+    "donut": "684",
+    "weight": "684"
+  },
+  {
+    "username": "Evil_Landlord",
+    "address": "0xAb24Efc62F92A3Fc92f4dBE5dB13E2Fb23DeC956",
+    "contrib": "36",
+    "donut": "36",
+    "weight": "36"
+  },
+  {
+    "username": "RandomTask100",
+    "address": "0x344d3FfCDD2490EB1DD99eae8e0B048E314210f7",
+    "contrib": "7377",
+    "donut": "7377",
+    "weight": "7377"
+  },
+  {
+    "username": "d_d0g",
+    "address": "0x83bE84249259865b3e5F1efC63a1B97c1B04cAEc",
+    "contrib": "6481",
+    "donut": "6481",
+    "weight": "6481"
+  },
+  {
+    "username": "PopeyesGreenSpinach",
+    "address": "0xb92fB06841CdBd240563405a1C86Db1141Ba139B",
+    "contrib": "4999",
+    "donut": "4999",
+    "weight": "4999"
+  },
+  {
+    "username": "offthewall1066",
+    "address": "0x67754F7E686fFdb89A32b2C10e297f67A0e4df07",
+    "contrib": "1156",
+    "donut": "1156",
+    "weight": "1156"
+  },
+  {
+    "username": "RickyRichard26",
+    "address": "0x24881e056A896311Fd8a7A03ce197e61a6334918",
+    "contrib": "0",
+    "donut": "39",
+    "weight": "0"
+  },
+  {
+    "username": "nibbio1990",
+    "address": "0x62880bEc718a8520675cBC5dAA507755ec6bd7BA",
+    "contrib": "735",
+    "donut": "735",
+    "weight": "735"
+  },
+  {
+    "username": "Wileyking409",
+    "address": "0xc6b1E0a3705fd7455427D7bE6620797A3F140b4A",
+    "contrib": "1023",
+    "donut": "1023",
+    "weight": "1023"
+  },
+  {
+    "username": "velvetblunder",
+    "address": "0x5252DF799C6098Df617D7aa0Bc65497C4523200B",
+    "contrib": "311",
+    "donut": "312",
+    "weight": "311"
+  },
+  {
+    "username": "SurenRongyao",
+    "address": "0x70F395Ff32ae7F9E6b41e1c9C1dB94634cB23AD4",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "shitcoining2themoon",
+    "address": "0x2Df2Be48698CC71C71422dbe7698F4B28dC3576e",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "NePlusUltra89",
+    "address": "0x1950B95a1FD5934511fD0671D9661c83ad3B0640",
+    "contrib": "204",
+    "donut": "204",
+    "weight": "204"
+  },
+  {
+    "username": "illbeback_69",
+    "address": "0xD50F8126B10dcdd03cF900A053f5Db78FBEA95b3",
+    "contrib": "1126",
+    "donut": "854",
+    "weight": "854"
+  },
+  {
+    "username": "Hrithikh455",
+    "address": "0xEf2cc1d0e56b4b8763e46d8243529F5485e01e04",
+    "contrib": "335",
+    "donut": "335",
+    "weight": "335"
+  },
+  {
+    "username": "BSG_JUD",
+    "address": "0xd6Fe55E3C921b511BAC6f3A4AC54C016214108C3",
+    "contrib": "88",
+    "donut": "88",
+    "weight": "88"
+  },
+  {
+    "username": "forthemotherrussia",
+    "address": "0x85f59CBaD4232BBe88aa143d33B1AfcC2dA42027",
+    "contrib": "43485",
+    "donut": "43527",
+    "weight": "43485"
+  },
+  {
+    "username": "wen_eip",
+    "address": "0x9653f86326fe986D45DaA16aE0b904AAA9F9Bcb4",
+    "contrib": "7815",
+    "donut": "7815",
+    "weight": "7815"
+  },
+  {
+    "username": "gimmedatcrypto",
+    "address": "0xFc1529F1E2Cc695ea8ef994dAbdBB5c53c032f04",
+    "contrib": "3296",
+    "donut": "3296",
+    "weight": "3296"
+  },
+  {
+    "username": "Arcc14",
+    "address": "0x01aD78F7eE4305Fd6FBF79F1b770934431fdF3AE",
+    "contrib": "1029",
+    "donut": "1029",
+    "weight": "1029"
+  },
+  {
+    "username": "gnautilus",
+    "address": "0xb3F619c19519b4f2eA3676ef935c7160094Ab487",
+    "contrib": "863",
+    "donut": "863",
+    "weight": "863"
+  },
+  {
+    "username": "muitosabao",
+    "address": "0x0E4ce26D348D1E5b02e0B30c87608abF596854e2",
+    "contrib": "716",
+    "donut": "716",
+    "weight": "716"
+  },
+  {
+    "username": "HeirOfRhoads",
+    "address": "0x76Bd45c129803B26F3ac7977A8136f5749e8c791",
+    "contrib": "0",
+    "donut": "3",
+    "weight": "0"
+  },
+  {
+    "username": "Odlavso",
+    "address": "0x3cAa5fa6358Ae6972bc92F5A96444ED4AabF4737",
+    "contrib": "241",
+    "donut": "2406",
+    "weight": "241"
+  },
+  {
+    "username": "svantetobias",
+    "address": "0x7777238023BA22D86266A5Fe43D0b6E17D05D2C5",
+    "contrib": "675",
+    "donut": "675",
+    "weight": "675"
+  },
+  {
+    "username": "Pill_Murray_",
+    "address": "0x31d3e797b893c0f492E94B916CDc0B388Ce3278D",
+    "contrib": "317",
+    "donut": "327",
+    "weight": "317"
+  },
+  {
+    "username": "kafqatamura",
+    "address": "0x9D7CC4E7d9ffBdE188a9fA8bd47A751db955E6CD",
+    "contrib": "260",
+    "donut": "260",
+    "weight": "260"
+  },
+  {
+    "username": "sith_happenss",
+    "address": "0x8da86Bc75E5a97084218BE11AB1f87305D2C593F",
+    "contrib": "244",
+    "donut": "245",
+    "weight": "244"
+  },
+  {
+    "username": "fUrussia",
+    "address": "0xb07A336b47F6709773dd67fa30715D1Cae3AdD1e",
+    "contrib": "260",
+    "donut": "260",
+    "weight": "260"
+  },
+  {
+    "username": "Felbringerksr",
+    "address": "0x2e05759dd73D42f28d6B82Da09D5AE268aC59176",
+    "contrib": "202",
+    "donut": "202",
+    "weight": "202"
+  },
+  {
+    "username": "SatoshiNakamoto21",
+    "address": "0xb377818af1b86bc530b62db13AAe6Babc4141f0a",
+    "contrib": "202",
+    "donut": "202",
+    "weight": "202"
+  },
+  {
+    "username": "prehistorikmayne",
+    "address": "0xbCFBa32709F59838121c0007Dc1Ca6E8b7432011",
+    "contrib": "202",
+    "donut": "202",
+    "weight": "202"
+  },
+  {
+    "username": "rustic_philosopher",
+    "address": "0xeE2e24cAa7a9878a3ad2D68B72eA768e49B2A9eD",
+    "contrib": "144",
+    "donut": "144",
+    "weight": "144"
+  },
+  {
+    "username": "AssetAlex",
+    "address": "0x80a288E050fBb61425837775453D8AC4613ee802",
+    "contrib": "144",
+    "donut": "144",
+    "weight": "144"
+  },
+  {
+    "username": "AadamAtomic",
+    "address": "0xe12F0d2977bD32835A7ad71398c02003E13b9C1b",
+    "contrib": "1985",
+    "donut": "1985",
+    "weight": "1985"
+  },
+  {
+    "username": "Left-Interaction-414",
+    "address": "0xE55EA97f520fB18557E95bbf7912D662fC316c1F",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "Suzxy",
+    "address": "0x240210f3c7bF0f7969270ef565835c86948D3cBA",
+    "contrib": "140",
+    "donut": "140",
+    "weight": "140"
+  },
+  {
+    "username": "cryptocritical9001",
+    "address": "0x5fcc927B7dA7ac31b262F4398F7DD62D5a894169",
+    "contrib": "57",
+    "donut": "57",
+    "weight": "57"
+  },
+  {
+    "username": "SakuraNinja12",
+    "address": "0x18cB7b1163703459515c201fA57C0B29F9BeB4Ed",
+    "contrib": "57",
+    "donut": "514",
+    "weight": "57"
+  },
+  {
+    "username": "NotoriousJDO",
+    "address": "0xdfeb4D4B02cdCAd88c6eEccD50dB1969e7aC281A",
+    "contrib": "55",
+    "donut": "55",
+    "weight": "55"
+  },
+  {
+    "username": "bimm3r36",
+    "address": "0xEb36479391Ae5FAB0e993162040d680f8A1066df",
+    "contrib": "28",
+    "donut": "28",
+    "weight": "28"
+  },
+  {
+    "username": "JackkT89",
+    "address": "0x92ddf53Bb00796626faC3ebA2EaC7952792616cb",
+    "contrib": "24088",
+    "donut": "27",
+    "weight": "27"
+  },
+  {
+    "username": "gautam_777",
+    "address": "0xBc4dffA5d9747Fe45F32F6B6c465a49052BFe4BB",
+    "contrib": "4286",
+    "donut": "4286",
+    "weight": "4286"
+  },
+  {
+    "username": "jersey-city-park",
+    "address": "0xdcF7d587E6E96Fb58ed9Ff46bb040f73040Cbc6A",
+    "contrib": "813",
+    "donut": "813",
+    "weight": "813"
+  },
+  {
+    "username": "norrissifford8474",
+    "address": "0xE1408f0dDEdd8846A7Ef33b2885e8c5b4E6721E1",
+    "contrib": "2053",
+    "donut": "2053",
+    "weight": "2053"
+  },
+  {
+    "username": "arc4angel100",
+    "address": "0xb3B6C7969861da0A1042e7F390F9535Da7670774",
+    "contrib": "678",
+    "donut": "678",
+    "weight": "678"
+  },
+  {
+    "username": "mytwm",
+    "address": "0xb32A7a7de0fA362BD52e111D51A119f095b42EE3",
+    "contrib": "2027",
+    "donut": "2027",
+    "weight": "2027"
+  },
+  {
+    "username": "Sharp-Subject-047",
+    "address": "0x5b3eA1DEFFd61ff316D14770601B03eD070962a8",
+    "contrib": "569",
+    "donut": "519",
+    "weight": "519"
+  },
+  {
+    "username": "CartographerWorth649",
+    "address": "0xe00A7342f3424018B83Fb65eeCfe171888d142eA",
+    "contrib": "238",
+    "donut": "238",
+    "weight": "238"
+  },
+  {
+    "username": "Purple-Ad-3492",
+    "address": "0xC1862176Bf7de6f6279d430587588013E0D30721",
+    "contrib": "379",
+    "donut": "379",
+    "weight": "379"
+  },
+  {
+    "username": "netnemirepxE",
+    "address": "0xDb0b2794D0b55d86FB9010A367f39c884D220558",
+    "contrib": "325",
+    "donut": "325",
+    "weight": "325"
+  },
+  {
+    "username": "ScaleneZA",
+    "address": "0x9b76AC24322A42ff1ea0902b921C0F331Ad9eF74",
+    "contrib": "298",
+    "donut": "298",
+    "weight": "298"
+  },
+  {
+    "username": "JoeYo743",
+    "address": "0xD793a39aA284C179418Eff321156eAc0A1a10330",
+    "contrib": "271",
+    "donut": "20118",
+    "weight": "271"
+  },
+  {
+    "username": "xxXMrDarknessXxx",
+    "address": "0x167864b9ee4277BB4c6A3Da53E335e06F33B4582",
+    "contrib": "271",
+    "donut": "271",
+    "weight": "271"
+  },
+  {
+    "username": "Most-Butterfly-5056",
+    "address": "0xD8fCc22d37eD0A57A41B598d296fA964D0BE75Ba",
+    "contrib": "271",
+    "donut": "271",
+    "weight": "271"
+  },
+  {
+    "username": "ccmanagement",
+    "address": "0x8fC45D41D38E892552951C0cAD384359E9D60496",
+    "contrib": "0",
+    "donut": "2",
+    "weight": "0"
+  },
+  {
+    "username": "Sad-Struggle7797",
+    "address": "0x2081d1a0078d05e57a877a3775267E9FF9FabD75",
+    "contrib": "244",
+    "donut": "244",
+    "weight": "244"
+  },
+  {
+    "username": "brameshk22",
+    "address": "0x76A8d2BD8B1f5461fF04b6547CDcA9322E132340",
+    "contrib": "189",
+    "donut": "189",
+    "weight": "189"
+  },
+  {
+    "username": "ResponsibleWhile6991",
+    "address": "0xA16387DFb6fd7A20355f804c3131e1E25B3b68F8",
+    "contrib": "162",
+    "donut": "162",
+    "weight": "162"
+  },
+  {
+    "username": "pcmasterrace4201",
+    "address": "0x8f1Ce9Ee32676Eb8b917518348B12F5c6d1D04Fb",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "lorenzomofo",
+    "address": "0xF7B90D54837Ff6b92F974ec7EB57F3e0B4f8d0cc",
+    "contrib": "108",
+    "donut": "108",
+    "weight": "108"
+  },
+  {
+    "username": "idaho22",
+    "address": "0xa550215d922aF5af685461887190cBe1CB7c8071",
+    "contrib": "54",
+    "donut": "54",
+    "weight": "54"
+  },
+  {
+    "username": "Kevcky",
+    "address": "0x9aa2eBC58d2965FBc3c21ab2ce3723A0c53De6D8",
+    "contrib": "54",
+    "donut": "54",
+    "weight": "54"
+  },
+  {
+    "username": "akira_fmx",
+    "address": "0x76DBaeFf797743c363932f21FfE9E5A8076a8010",
+    "contrib": "54",
+    "donut": "54",
+    "weight": "54"
+  },
+  {
+    "username": "suburbiton",
+    "address": "0xDeEc510C0d41e7Be386cfC7dD4D4d5FDdB0848e4",
+    "contrib": "0",
+    "donut": "1",
+    "weight": "0"
+  },
+  {
+    "username": "Lillica_Golden_SHIB",
+    "address": "0xB1151e3F86D4FEbcc4f75Eb3ad8E6F39104daa06",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "sidmehra1992",
+    "address": "0x8b8b367466CAD36cbbD3dde46682927371dFF630",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "Seatdestroyer",
+    "address": "0x56Bf2b7414b3d26191b965D53Aba1CD768df860E",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "sporobolus_sp",
+    "address": "0xe897886282C5FF3728F8c1e7c31688B85D04bD3f",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "investigator100",
+    "address": "0x475aDabfb3BCBC936adfc4FdDB32583EE2b915E3",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "dericecourcy",
+    "address": "0x4275bda9709E948FeC49C793fdb13D4a5788d9af",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
+  },
+  {
+    "username": "Ashamed-Salary5692",
+    "address": "0x8eBF31A4b979813838dda8c107Ae2e588C5ad1b6",
+    "contrib": "0",
+    "donut": "57",
+    "weight": "0"
+  },
+  {
+    "username": "Acidhoe",
+    "address": "0x3048181b1ed56CE97ea4cFe2993c06b488D11fa6",
+    "contrib": "0",
+    "donut": "0",
+    "weight": "0"
   }
 ]
