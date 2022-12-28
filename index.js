@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 /* 
 NOTE - 2022 batch 1 (6 months) done on round_105, batch 2 on round_111, batch 3 on round_117
 */
-const DO_XDAI_DONUT_BATCH_TRANSFER = true                // !!important to be correct!!
+const DO_XDAI_DONUT_BATCH_TRANSFER = false                // !!important to be correct!!
 const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 months (reflects latest halving)
 
 // This should be set to 0
