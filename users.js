@@ -101,7 +101,9 @@ let hashes = [
   "QmSMra7ymRNV4ngXXN9NHMkLPnFB1CrptQNVjCqi7ieBTg", // round_113
   "QmTfXL8AAaPkEKutBMtbm54ACPwwwzQ5q9UneAExypiw8i", // round_114
   "QmTgEA29PcuqT2X1a7qYcpRKtLCReZyGNXghMsd2tBmmzh", // round_115
-  "QmeWzP7tYRqZej9rabH2EUGozpTbLQw6fUov33axhnyMQ8" // round_116
+  "QmeWzP7tYRqZej9rabH2EUGozpTbLQw6fUov33axhnyMQ8", // round_116
+  "QmYUXCYWwetrEYEjYy1zSixEDo7ygqeqDdMBuwY9fnbpfR", // round_117
+  "QmUqL7H1q7PmaPgjfWUTvg4ttF7vw5phUYniqNysBgpVxo" // round_118
 ]
 
 
