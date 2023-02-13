@@ -79,7 +79,8 @@ let hashes = [
   "QmTgEA29PcuqT2X1a7qYcpRKtLCReZyGNXghMsd2tBmmzh", // round_115
   "QmeWzP7tYRqZej9rabH2EUGozpTbLQw6fUov33axhnyMQ8", // round_116
   "QmYUXCYWwetrEYEjYy1zSixEDo7ygqeqDdMBuwY9fnbpfR", // round_117
-  "QmUqL7H1q7PmaPgjfWUTvg4ttF7vw5phUYniqNysBgpVxo" // round_118
+  "QmUqL7H1q7PmaPgjfWUTvg4ttF7vw5phUYniqNysBgpVxo", // round_118
+  "QmYoTrbqu4xdgX4TuPdxANSCD9Rp2acZx83cFfyySSoVCn" // round_119
 ]
 
 main()
@@ -89,7 +90,8 @@ async function main(){
   let airdrops = await Promise.all(hashes.map(async (e)=>{
     const hash = hashes[e]
     console.log(e)
-    const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
+    // const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
+    const {awards} = await (await fetch(`http://127.0.0.1:8080/ipfs/${e}`)).json()
     return {hash, awards}
 
   }))
