@@ -214,6 +214,7 @@ async function main(){
   let {path} = await ipfs.add(JSON.stringify(data))
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${path}.csv`)}`, csvOut)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
+  fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${path}.json`, `${__dirname}/docs/distribution.json`)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(out))
 
   console.log(path)
