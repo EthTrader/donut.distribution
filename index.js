@@ -160,7 +160,7 @@ async function main(){
   /*
   REMOVED USERS SCRIPT: 
   */
-  const removedUsers = await fetch(`https://ethtrader.github.io/donut.distribution/ineligible_${LABEL}.json`).then(res=>res.json())
+  const removedUsers = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/ineligible_${LABEL}.json`).then(res=>res.json())
   const removedNames = removedUsers.map(({ username }) => username)
 
   removedUsers.forEach( c => {
