@@ -53,7 +53,7 @@ async function main(){
       return element !== null;
     });
 
-    const newFileNameBase = `${__dirname}/out/ineligible_${new Date().toISOString().slice(0,10)}`
+    const newFileNameBase = `${__dirname}/out/ineligible_${LABEL}`
     fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(cleanList, null, 2))
     fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/ineligible.json`)
     const csvOut = await jsonexport(cleanList)
