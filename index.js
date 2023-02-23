@@ -216,6 +216,8 @@ async function main(){
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
   fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${path}.json`, `${__dirname}/docs/distribution.json`)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(out))
+  fs.copyFileSync(`${__dirname}/out/${LABEL}_summary.${path}.json`, `${__dirname}/docs/distributionSummary.json`)
+
 
   console.log(path)
 }
