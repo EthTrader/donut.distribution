@@ -30,8 +30,8 @@ const mainnet = new getDefaultProvider('mainnet', {
 })
 
 // const XDAI_JSON_RPC = "https://xdai.poanetwork.dev"
-//const XDAI_JSON_RPC = "http://127.0.0.1:8545/"
- const XDAI_JSON_RPC = "https://rpc.gnosischain.com"
+const XDAI_JSON_RPC = "http://127.0.0.1:8545/"
+// const XDAI_JSON_RPC = "https://rpc.gnosischain.com"
 // const xdai = new providers.WebSocketProvider("wss://rpc.xdaichain.com/wss")
 const xdai = new providers.JsonRpcProvider(XDAI_JSON_RPC)
 
