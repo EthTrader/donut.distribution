@@ -81,7 +81,8 @@ let hashes = [
   "QmYUXCYWwetrEYEjYy1zSixEDo7ygqeqDdMBuwY9fnbpfR", // round_117
   "QmUqL7H1q7PmaPgjfWUTvg4ttF7vw5phUYniqNysBgpVxo", // round_118
   "QmYoTrbqu4xdgX4TuPdxANSCD9Rp2acZx83cFfyySSoVCn", // round_119
-  "QmbTuAphoPKztEseDsDNe9FR1SYWz5AUYuMUeGCD9nVQUk" //round_120
+  "QmbTuAphoPKztEseDsDNe9FR1SYWz5AUYuMUeGCD9nVQUk", // round_120
+  "QmUzS4y17MosyBLhfYvQGuvNq22gcyJZhUtwi3weCngXfr" // round_121
 ]
 
 main()
@@ -91,8 +92,8 @@ async function main(){
   let airdrops = await Promise.all(hashes.map(async (e)=>{
     const hash = hashes[e]
     console.log(e)
-    // const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
-    const {awards} = await (await fetch(`https://gateway.pinata.cloud/ipfs/${e}`)).json()
+    const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
+    //  const {awards} = await (await fetch(`https://gateway.pinata.cloud/ipfs/${e}`)).json()
     //  const {awards} = await (await fetch(`http://127.0.0.1:8080/ipfs/${e}`)).json()
     return {hash, awards}
 
