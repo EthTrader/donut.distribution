@@ -23,7 +23,7 @@ async function marshallPolls() {
         const result = await showGraphQLData(input)
     }
 
-    out.voterList = voterList
+    out.voters = voterList
     const newFileNameBase = `${__dirname}/out/voters_${LABEL}`
     fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(out))
     fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/voters.json`)
