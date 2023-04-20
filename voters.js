@@ -24,7 +24,10 @@ async function marshallPolls() {
     }
 
     out.voterList = voterList
-    fs.writeFileSync( `${__dirname}/docs/voters_${LABEL}.json`, JSON.stringify(out))
+    const newFileNameBase = `${__dirname}/out/voters_${LABEL}`
+    fs.writeFileSync(`${newFileNameBase}.json`, JSON.stringify(out))
+    fs.copyFileSync(`${newFileNameBase}.json`, `${__dirname}/docs/voters.json`)
+
 
     console.log(`total voters in Round ${ROUND}: ${voterList.length}`)
 }
