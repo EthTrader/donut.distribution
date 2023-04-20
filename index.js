@@ -74,6 +74,7 @@ async function main(){
           fromKarma: 0,
           fromTipsGiven: 0,
           fromTipsRecd: 0,
+          voterBonus: 0,
           pay2PostFee: 0
         }
       }}
@@ -200,7 +201,7 @@ async function main(){
         const points = distribution[username].contrib
         distribution[username].contrib += (points*(5+(qty-1))/100)
         distributionSummary[username].donut += (points*(5+(qty-1))/100)
-        distributionSummary[username].data.pay2PostFee = (points*(5+(qty-1))/100)
+        distributionSummary[username].data.voterBonus = (points*(5+(qty-1))/100)
         totalVoterBonus += (points*(5+(qty-1))/100)
         // console.log(username + "; Sub-Total: " + points + "; Bonus: " + (5+(qty-1)) + "%; Donut Add: " + (points*(5+(qty-1))/100) + "; Total: " + (points+(points*(5+(qty-1))/100)) )
     } else {
