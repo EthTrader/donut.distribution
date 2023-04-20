@@ -28,7 +28,11 @@ const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
 const ETHTRADER_COMMUNITY_ADDRESS = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
-
+const voterList = []
+const pollID = [
+    "0x6a278d5d0c8e5fe5df366c9519e6f75e1ca6167696e9b736ec9ae3750b3ccfce",
+    "0x9fc2f1e4d6907ea60406937bfe79439c4d8d379a699d4a22a0efdedc06114f54"
+]
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -179,6 +183,15 @@ async function main(){
 
 
   /*
+  VOTER INCENTIVE SCRIPT:
+  */
+  const voterList = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+
+
+
+
+
+  /*
   BRIDGE donut TO GNOSIS CHAIN
   */
   if(DO_XDAI_DONUT_BATCH_TRANSFER){
@@ -196,6 +209,7 @@ async function main(){
       donut: MAINNET_MULTISIG_MINT_AMOUNT
     } 
   }
+
 
   
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
@@ -220,4 +234,56 @@ async function main(){
 
 
   console.log(path)
+}
+
+
+
+async function marshallPolls() {
+  for (const input of pollID) {
+      const result = await showGraphQLData(input)
+  }
+
+  console.log(voterList);
+}
+
+async function showGraphQLData(ID) {
+  console.log(ID)
+  const query = `
+      query {
+          votes(
+              first: 1000, 
+              where: {
+                  proposal: "${ID}"
+              }) {
+          voter
+          }
+      }
+  `;
+
+  const votes = await fetch("https://hub.snapshot.org/graphql", {
+      method: "POST",
+      headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+      },
+      body: JSON.stringify({
+          query
+      })
+  }).then(response => response.json());
+  
+  const voters = votes.data.votes;
+  voters.forEach( c => {
+      const address = Object.values(c).toString()
+      const exists = voterList.some(obj => obj.address == address);
+      if(!exists){
+          const voter = {
+              address,
+              qty: 1
+         }
+         voterList.push(voter)
+      } else {
+          const index = voterList.findIndex(obj => obj.address == address);
+          voterList[index].qty++
+      }
+  })
 }

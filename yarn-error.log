@@ -1,20 +1,20 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn users-ipfs
+  /usr/local/bin/node /usr/local/bin/yarn
 
 PATH: 
-  /home/kohrts/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
 
 Yarn version: 
   1.22.17
 
 Node version: 
-  16.13.2
+  18.15.0
 
 Platform: 
-  linux x64
+  darwin x64
 
 Trace: 
-  SyntaxError: /home/kohrts/donut.distribution/package.json: Unexpected token } in JSON at position 295
+  SyntaxError: /Users/hugo/Documents/Code/Ethtrader/donut.distribution/package.json: Unexpected token } in JSON at position 347
       at JSON.parse (<anonymous>)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -29,10 +29,10 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "start": ". ./.env && node index.js",
-      "users": ". ./.env && node users.js",
+      "users": ". ./.env && node users-gnosis.js",
       "aggDist": ". ./.env && node aggregate.js",
-      "users-ipfs": ". ./.env && node users.js",
-  
+      "removed": ". ./.env && node ineligible.js",
+      "voters": ". ./.env && node voters.js",
     },
     "devDependencies": {
       "@nomiclabs/hardhat-ethers": "^2.0.0",
