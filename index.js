@@ -23,7 +23,7 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 mon
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
-const LABEL = `round_121`
+const LABEL = `round_122`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
@@ -52,6 +52,7 @@ async function main(){
   let distributionSummary = {}
   let totalPay2Post = 0
   let totalIneligible = 0
+  let totalVoterBonus = 0
   
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
@@ -120,6 +121,7 @@ async function main(){
               fromKarma: 0,
               fromTipsGiven: 0,
               fromTipsRecd: 0,
+              voterBonus: 0,
               pay2PostFee: 0
             }
             
@@ -181,15 +183,32 @@ async function main(){
 
   removedNames.forEach(username=>delete distribution[username])
 
-
   /*
   VOTER INCENTIVE SCRIPT:
   */
-  const voterList = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+  const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
 
+  // console.log(voterList)
+  voterList.forEach ( c => {
+    const address = c.address
+    const qty = c.qty
+    const user = users.find(u=>u.address===address)
+    const username = user.username
 
+    if(username) {
+      if(distribution[username]){
+        const points = distribution[username].contrib
+        distribution[username].contrib += (points*(5+(qty-1))/100)
+        distributionSummary[username].donut += (points*(5+(qty-1))/100)
+        distributionSummary[username].data.pay2PostFee = (points*(5+(qty-1))/100)
+        totalVoterBonus += (points*(5+(qty-1))/100)
+        // console.log(username + "; Sub-Total: " + points + "; Bonus: " + (5+(qty-1)) + "%; Donut Add: " + (points*(5+(qty-1))/100) + "; Total: " + (points+(points*(5+(qty-1))/100)) )
+    } else {
 
+    }
+  }
 
+  })
 
   /*
   BRIDGE donut TO GNOSIS CHAIN
@@ -215,8 +234,8 @@ async function main(){
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
 
-  const out = {label: LABEL, totalDistribution: totalContrib, pay2post: totalPay2Post, totalFromRemovedUsers: totalIneligible, summary: distributionSummary}
-  console.log(`custody: ${custody}, total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
+  const out = {label: LABEL, totalDistribution: totalContrib, pay2post: totalPay2Post, totalVoterBonus: totalVoterBonus, totalFromRemovedUsers: totalIneligible, summary: distributionSummary}
+  console.log(`custody: ${custody}, total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total voter bonus: ${totalVoterBonus}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
 
   // const l2RecipientTotal = Object.values(distributionSummary).reduce((p,c)=>{p+=c.donut;return p;},0)
   // console.log(`l2 recipient total: ${l2RecipientTotal}`)
