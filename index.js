@@ -17,7 +17,8 @@ const __dirname = path.dirname(__filename);
 NOTE - 2022 batch 1 (6 months) done on round_105, batch 2 on round_111, batch 3 on round_117
 */
 const DO_XDAI_DONUT_BATCH_TRANSFER = true                // !!important to be correct!!
-const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 months (reflects latest halving)
+// const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 months (reflects latest halving)
+const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 (includes gnosis staking )
 
 // This should be set to 0
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
