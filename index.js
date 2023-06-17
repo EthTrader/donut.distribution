@@ -7,10 +7,8 @@ import fetch from "node-fetch"
 import merklize from "./merklize.js"
 import path from 'path';
 import { fileURLToPath } from 'url';
-// import { noConflict } from "snoowrap"
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-// const merklize = require('./merklize')
 
 
 /* 
@@ -29,17 +27,12 @@ const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
 const ETHTRADER_COMMUNITY_ADDRESS = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
-const voterList = []
-const pollID = [
-    "0x6a278d5d0c8e5fe5df366c9519e6f75e1ca6167696e9b736ec9ae3750b3ccfce",
-    "0x9fc2f1e4d6907ea60406937bfe79439c4d8d379a699d4a22a0efdedc06114f54"
+let addressChange = [
+  {
+    username: "Acceptable-Sort-8429",
+    address: "0x600cBA9eCaB71BD06Cd90Ca2572fCF9379fbDbE9"
+  }
 ]
-  let addressChange = [
-    {
-      username: "Acceptable-Sort-8429",
-      address: "0x600cBA9eCaB71BD06Cd90Ca2572fCF9379fbDbE9"
-    }
-  ]
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -196,7 +189,6 @@ async function main(){
   */
   const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
 
-  // console.log(voterList)
   voterList.forEach ( c => {
     const address = c.address
     const qty = c.qty
@@ -210,7 +202,6 @@ async function main(){
         distributionSummary[username].donut += (points*(5+(qty-1))/100)
         distributionSummary[username].data.voterBonus = (points*(5+(qty-1))/100)
         totalVoterBonus += (points*(5+(qty-1))/100)
-        // console.log(username + "; Sub-Total: " + points + "; Bonus: " + (5+(qty-1)) + "%; Donut Add: " + (points*(5+(qty-1))/100) + "; Total: " + (points+(points*(5+(qty-1))/100)) )
     } else {
 
     }
@@ -238,7 +229,7 @@ async function main(){
   }
 
 
-   addressChange.map(c => {
+  addressChange.map(c => {
     if (distribution[c.username]) {
       distribution[c.username].address = c.address
       distributionSummary[c.username].address = c.address
@@ -253,8 +244,6 @@ async function main(){
   const out = {label: LABEL, totalDistribution: totalContrib, pay2post: totalPay2Post, totalVoterBonus: totalVoterBonus, totalFromRemovedUsers: totalIneligible, summary: distributionSummary}
   console.log(`custody: ${custody}, total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total voter bonus: ${totalVoterBonus}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
 
-  // const l2RecipientTotal = Object.values(distributionSummary).reduce((p,c)=>{p+=c.donut;return p;},0)
-  // console.log(`l2 recipient total: ${l2RecipientTotal}`)
   const csvOut = await jsonexport(Object.values(distribution))
 
   let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
