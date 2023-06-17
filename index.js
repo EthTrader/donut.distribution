@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 /* 
 NOTE - 2022 batch 1 (6 months) done on round_105, batch 2 on round_111, batch 3 on round_117
 */
-const DO_XDAI_DONUT_BATCH_TRANSFER = true                // !!important to be correct!!
+const DO_XDAI_DONUT_BATCH_TRANSFER = false                // !!important to be correct!!
 // const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 10200000         // 1,700,000 for 6 months (reflects latest halving)
 const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 (includes gnosis staking )
 
@@ -24,7 +24,7 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
-const LABEL = `round_123`
+const LABEL = `round_124`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
@@ -34,6 +34,12 @@ const pollID = [
     "0x6a278d5d0c8e5fe5df366c9519e6f75e1ca6167696e9b736ec9ae3750b3ccfce",
     "0x9fc2f1e4d6907ea60406937bfe79439c4d8d379a699d4a22a0efdedc06114f54"
 ]
+  let addressChange = [
+    {
+      username: "Acceptable-Sort-8429",
+      address: "0x600cBA9eCaB71BD06Cd90Ca2572fCF9379fbDbE9"
+    }
+  ]
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -231,6 +237,14 @@ async function main(){
     } 
   }
 
+
+   addressChange.map(c => {
+    if (distribution[c.username]) {
+      distribution[c.username].address = c.address
+      distributionSummary[c.username].address = c.address
+      console.log("registered address change: " + c.username)
+    }
+  });
 
   
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
