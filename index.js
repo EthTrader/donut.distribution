@@ -43,6 +43,10 @@ let addressChange = [
  {
     username: "Nachtaktiv",
     address: "0x416246E0227eE362D4A4679ADc91e644031184A0"
+  },
+ {
+    username: "GapingFartLocker",
+    address: "0x13CA39C566ACf798c49e481b9960E35dD9860DA9"
   }
 ]
 
