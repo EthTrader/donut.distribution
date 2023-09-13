@@ -141,7 +141,7 @@ async function main(){
 
 function getBalances(mainnetMultiplier, xdaiMultiplier){
   return async function(user){
-    let numTries = 5;
+    let numTries = 10;
     let counter = ""
     while (true) {
       try {
@@ -170,7 +170,7 @@ function getBalances(mainnetMultiplier, xdaiMultiplier){
         } else {
           counter = counter + "."
           console.log(counter)
-	        await wait(500)
+	        await wait(1000)
         }
       }
     }
