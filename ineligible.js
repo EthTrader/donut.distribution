@@ -85,10 +85,10 @@ async function checkAccounts(name){
       suspendedUser = true
       removalReason = 'suspended'
       console.log(`removed  ${name}: account suspended`)
-    } else if(karma < 1000) {
+    } else if(karma < 100) {
       newPoster = true
       removalReason = 'karma'
-      console.log(`removed  ${name}: karma < 1000`)
+      console.log(`removed  ${name}: karma < 100`)
     } else if (user.created > DATE) {
       newUser = true
       removalReason = 'age'
