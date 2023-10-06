@@ -22,7 +22,7 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
-const LABEL = `round_127`
+const LABEL = `round_128`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
@@ -49,33 +49,6 @@ let addressChange = [
     address: "0x13CA39C566ACf798c49e481b9960E35dD9860DA9"
   }
 ]
-
-const specialMembership = [
-  "0x5Bb626b3ad10ABb1E9055292126fe7a6AC6e3ea3",
-  "0xd2D117e6dbbfdD74D6b865ff859a4611bD29F3Ed",
-  "0x002fb0c5d1209f8f5616BA3d211Be36c4D237d55",
-  "0x54C334fa1A5BC243874eB6f7573E2e6e4e305Df0",
-  "0xA4d537811A3DB27d92502E8FC62CbeB2DF7D9BAF",
-  "0x1bf8F71F41D48Ebf84058832dC934920A0B2f256",
-  "0xa51731189c99832A2ba2f28C6c2dc1Db451F3a2e",
-  "0xb89CB46A5Cf811b99A3608C8b9e63aD0DE990Fe0",
-  "0x12859b4528b8B9EFaDc5530e30721a6087FBB4Fd",
-  "0x8424782665f9D16FbD8A30F0cDE6109bdAB496c1",
-  "0xA503c0E06e5cCf0B599771339158aDF58FAe8728",
-  "0x378Ea7e7E7Db2501573a22aecc4A2269C89642C1",
-  "0xfd1e50BcDA3A1f9eBe6E50Bdf80cbd2c3D6a1fB0",
-  "0x1b036f17F5DcB000005e14773f8636b4dde76e39",
-  "0xEdc0321b407b165CF926BE3E77ecB6C791f731bA",
-  "0x3A11c76440655D4DdFF16a4aDAbBa15E98E89786",
-  "0xA503c0E06e5cCf0B599771339158aDF58FAe8728",
-  "0x3cAa5fa6358Ae6972bc92F5A96444ED4AabF4737",
-  "0xb17DcDD2bcd04d9B19B768d87600a5B5b45db82d",
-  "0x753F545dCBbC15744C8441089b64D5c567a306b6",
-  "0x549ab2CfaA7fb1d1B8AF6E0654efb24CC65c76E6",
-  "0x52a7f4e8904F70Ea831ED31511b35AadCB36b1d9",
-  "0x713376C3BB65E786d8aA0FcFfFfB39472F23e6A6",
-  "0xe7F3c9746282d534f8C90fD410624333e23AC565"
-  ]
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -233,6 +206,9 @@ async function main(){
     }
   })
 
+  const specialMembership = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/docs/membership.json`).then(res=>res.json())
+  specialMembership = specialMembership.map(({ address }) => address)
+  
   removedNames.forEach(username => {
     // Get the user's address
     const userAddress = distribution[username]?.address;
