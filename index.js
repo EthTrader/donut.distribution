@@ -151,7 +151,7 @@ async function main(){
         if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
 
       } else {
-        console.log(`no registered address for ${username}`)
+        // console.log(`no registered address for ${username}`)
       }
     }
   })
@@ -187,7 +187,7 @@ async function main(){
   const removedNames = removedUsers.map(({ username }) => username)
 
   const specialMembership = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/docs/membership.json`).then(res=>res.json())
-  specialMembership == specialMembership.map(({ address }) => address)
+  const specialMembers = specialMembership.map(({ address }) => address)
 
   removedUsers.forEach(c => {
     const reason = c.removal
@@ -198,7 +198,7 @@ async function main(){
       const userAddress = distribution[username].address;
   
       // Check if the user's address is not in the specialMembership array
-      if (!specialMembership.includes(userAddress)) {
+      if (!specialMembers.includes(userAddress)) {
         distributionSummary[username].data.removed = true
         distributionSummary[username].data.removalReason = reason
         distributionSummary[username].donut = 0
@@ -217,7 +217,7 @@ async function main(){
     const userAddress = distribution[username]?.address;
   
     // Only delete the user from distribution if their address is not in specialMembership
-    if (!specialMembership.includes(userAddress)) {
+    if (!specialMembers.includes(userAddress)) {
       delete distribution[username];
     }
   });
