@@ -6,8 +6,12 @@ const __dirname = path.dirname(__filename);
 
 const voterList = []
 const pollID = [
+<<<<<<< HEAD
 //    "0xb5798a57894b34a62b18d4fb66d46421c7deecdac1da814a02f9567bd3261e71"
 "0x8d8d11faf16aaee40a0cb66d26ae61272be47e4409c22b6679ddc84da3195eba"
+=======
+   "0x8d8d11faf16aaee40a0cb66d26ae61272be47e4409c22b6679ddc84da3195eba"
+>>>>>>> 3b5fd5a4aa6dfa12ca53664c2ed7a328a63b282e
 ]
 
 const ROUND = 128

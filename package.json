@@ -9,7 +9,8 @@
     "aggDist": ". ./.env && node aggregate.js",
     "removed": ". ./.env && node ineligible.js",
     "voters": ". ./.env && node voters.js",
-    "totals": ". ./.env && node distribution-totals.js"
+    "totals": ". ./.env && node distribution-totals.js",
+    "membership": ". ./.env && node membership.js"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
@@ -20,11 +21,13 @@
     "hardhat": "^2.0.11"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "bluebird": "^3.7.2",
     "csvtojson": "^2.0.10",
     "ipfs-http-client": "^49.0.2",
     "jsonexport": "^3.2.0",
     "merkle-tree-solidity": "daonuts/merkle-tree-solidity#master",
+    "moment": "^2.29.4",
     "node-fetch": "^3.0.0",
     "snoowrap": "^1.22.0"
   },
