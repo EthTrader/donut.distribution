@@ -88,7 +88,8 @@ let hashes = [
   "QmQnp94cqHffuyXDWrbCGC9CpoziaNNaBwMT8Fh3wibHJt", // round_124
   "QmbJtmLQZaviTsaRQThiUHZykuwckj6Q3tJafeKV9YzJG5", // round_125
   "QmVJcR8fhigBBjwgneVoWEbCZ1Xbi6UjTkf3dZ3pbQVTFe", // round_126
-  "QmPRbP2djRt11U8H5j9Fsj7hR1sd6AeHK75vgnqRk3rLbA" // round_127
+  "QmPRbP2djRt11U8H5j9Fsj7hR1sd6AeHK75vgnqRk3rLbA", // round_127
+  "QmTwQMVL2ZVPtuqpEk9S7tifQuNsB2APNVs2XXjA9q6UWo" // round 128
 ]
 
 main()
@@ -141,7 +142,7 @@ async function main(){
 
 function getBalances(mainnetMultiplier, xdaiMultiplier){
   return async function(user){
-    let numTries = 10;
+    let numTries = 20;
     let counter = ""
     while (true) {
       try {
