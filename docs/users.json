@@ -35124,5 +35124,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "legionticket",
+        "address": "0x4a5008a960df61ce7cf1efde0cbc268c390ff94f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
