@@ -25691,7 +25691,7 @@
     },
     {
         "username": "JVHooligan",
-        "address": "0x7B42384a6faE59cc0262CC70fCB85E8e4bd88eDD",
+        "address": "0x45b74f08d50f042c1ea2fc9c525b4e57e2ed63a6",
         "contrib": "62255",
         "donut": "43",
         "weight": "43"
@@ -35366,6 +35366,20 @@
     {
         "username": "TwoCapybarasInACoat",
         "address": "0xA932e37cf8184c555Adb784b0E758A4551e927A6",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Mrkay07",
+        "address": "0x41520DA55f0cd3888b4115547b39D75EF151317d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ImperialSoldiers",
+        "address": "0x6d4f2307F269e180f0F558217f729730795d2C8B",
         "contrib": 0,
         "donut": 0,
         "weight": 0
