@@ -566,8 +566,8 @@
   },
   {
     "address": "0xEdc0321b407b165CF926BE3E77ecB6C791f731bA",
-    "startDate": "2023-08-26 18:11:11",
-    "expiration": "2023-09-25 18:11:11"
+    "startDate": "2023-10-06 16:50:35",
+    "expiration": "2024-03-04 16:50:35"
   },
   {
     "address": "0x3A11c76440655D4DdFF16a4aDAbBa15E98E89786",
@@ -678,5 +678,60 @@
     "address": "0xd974e685f620882173AeA0Fc1f7b4EbC90Da908A",
     "startDate": "2023-09-28 17:47:59",
     "expiration": "2023-10-28 17:47:59"
+  },
+  {
+    "address": "0x5488281CaBe8Ef768C8d246476B209d05F876d43",
+    "startDate": "2023-10-06 02:48:59",
+    "expiration": "2024-04-03 02:48:59"
+  },
+  {
+    "address": "0xE1b24E1778FE30648d7998f3b9e77F42C6F2CE03",
+    "startDate": "2023-10-07 13:45:59",
+    "expiration": "2023-12-06 13:45:59"
+  },
+  {
+    "address": "0x4df57f4A62f05dDB2eC4e6749677AA8e77740a2E",
+    "startDate": "2023-10-09 16:44:35",
+    "expiration": "2024-02-06 16:44:35"
+  },
+  {
+    "address": "0x92ddbdfCEE1301F827c6228B65A1B46b0E871fc2",
+    "startDate": "2023-10-10 13:36:59",
+    "expiration": "2026-08-25 13:36:59"
+  },
+  {
+    "address": "0xbfE08A5301906f5B5C1DB7E61Ae5A9420afcAF4A",
+    "startDate": "2023-10-10 16:10:35",
+    "expiration": "2023-11-09 16:10:35"
+  },
+  {
+    "address": "0xAf85D799DeA4b959c8c877bFdD2f1c7ccf83549F",
+    "startDate": "2023-10-11 00:22:23",
+    "expiration": "2024-01-09 00:22:23"
+  },
+  {
+    "address": "0xd38e0BF45e089EEd644c1A2F3B701fDf8Bd3c2b5",
+    "startDate": "2023-10-11 10:40:47",
+    "expiration": "2023-12-10 10:40:47"
+  },
+  {
+    "address": "0xB96F63E3a7C380214704893f8f38f91caF413321",
+    "startDate": "2023-10-13 01:39:35",
+    "expiration": "2023-11-12 01:39:35"
+  },
+  {
+    "address": "0xd762e68a2d30ab4d836683c421121AbB5b3e1DcC",
+    "startDate": "2023-10-13 15:48:35",
+    "expiration": "2023-12-12 15:48:35"
+  },
+  {
+    "address": "0x38656ED26e0cd8516DD2d541ac75b9b86C070233",
+    "startDate": "2023-10-15 19:12:23",
+    "expiration": "2023-11-14 19:12:23"
+  },
+  {
+    "address": "0x3607C4Ae351264892154bdab2d65622B8f5420fE",
+    "startDate": "2023-10-16 05:47:23",
+    "expiration": "2023-12-15 05:47:23"
   }
 ]
