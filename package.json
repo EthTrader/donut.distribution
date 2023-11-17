@@ -21,9 +21,11 @@
     "hardhat": "^2.0.11"
   },
   "dependencies": {
+    "@helia/json": "^1.0.3",
     "axios": "^1.5.1",
     "bluebird": "^3.7.2",
     "csvtojson": "^2.0.10",
+    "helia": "^2.1.0",
     "ipfs-http-client": "^49.0.2",
     "jsonexport": "^3.2.0",
     "merkle-tree-solidity": "daonuts/merkle-tree-solidity#master",

@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const inactive = []
 
-const LABEL = `round_127`
+const LABEL = `round_129`
 const FILE = `${LABEL}.csv`
 const DATE = Math.floor(Date.now() / 1000) - 5184000 
 
@@ -101,7 +101,8 @@ async function checkAccounts(name){
       removalReason = 'deleted'
       console.log(`removed  ${name}: account deleted`)
     } else {
-      console.log(e.error)
+      console.log(e.statusCode)
+      // console.log(e.error)
     }
   }
   

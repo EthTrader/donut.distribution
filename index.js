@@ -3,12 +3,16 @@ import csv from "csvtojson"
 import jsonexport from "jsonexport"
 import fs from "fs"
 import ipfsClient from "ipfs-http-client"
+import { createHelia } from 'helia'
+import { json } from '@helia/json'
 import fetch from "node-fetch"
 import merklize from "./merklize.js"
 import path from 'path';
 import { fileURLToPath } from 'url';
+import BigNumber from "bignumber.js"
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const decimals = new BigNumber(10).pow(18)
 
 
 /* 
@@ -22,33 +26,11 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
-const LABEL = `round_128`
+const LABEL = `round_129`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
 const ETHTRADER_COMMUNITY_ADDRESS = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
-let addressChange = [
-  {
-    username: "Acceptable-Sort-8429",
-    address: "0x600cBA9eCaB71BD06Cd90Ca2572fCF9379fbDbE9"
-  },
-  {
-    username: "johnnyb0083",
-    address: "0xf3309B93D319F6cB8872CF3D7e2307ed8DBfc9c0"
-  },
- {
-    username: "LeThaLxdARk",
-    address: "0x1bf8F71F41D48Ebf84058832dC934920A0B2f256"
-  },
- {
-    username: "Nachtaktiv",
-    address: "0x416246E0227eE362D4A4679ADc91e644031184A0"
-  },
- {
-    username: "GapingFartLocker",
-    address: "0x13CA39C566ACf798c49e481b9960E35dD9860DA9"
-  }
-]
 
 const credentials = {
   userAgent: 'Read Bot 1.0 by u/EthTraderCommunity',
@@ -58,21 +40,43 @@ const credentials = {
   password: process.env.REDDIT_PASSWORD
 }
 
+
+// TODO - do this dynamically
+const MODS = [
+  "aminok",
+  "dont_forget_canada",
+  "nootropicat",
+  "Basoosh",
+  "carlslarson",
+  "Jake123194",
+  "mattg1981",
+  "reddito321"
+]
+
+const MOD_ALLOCATION = parseInt(85000/MODS.length)
+
+const ORGANIZER = "carlslarson"
+const ORGANIZER_REWARD = 25000         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
+
 const reddit = new snoowrap(credentials)
 
 main()
 
 async function main(){
 
-  let custody = 0
+  const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
+
   let distributionSummary = {}
   let totalPay2Post = 0
   let totalIneligible = 0
   let totalVoterBonus = 0
-  
+
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
-    const points = parseInt(c.points)/2      // !!important to remove '/2' if Reddit halves the karma csv!!
+    totalPay2Post += Math.abs(c.pay2post)
+    const points = parseInt(c.points)
+    if(points <=0 ) return p        // need to ignore after-pay2post negative earners
+
     const username = c.username.replace(new RegExp('^u/'),"")
 
     if(!p[username]){
@@ -93,92 +97,126 @@ async function main(){
           voterBonus: 0,
           pay2PostFee: 0
         }
-      }}
+      }
+    }
 
     p[username].contrib += points
-    custody += points
+    p[username].donut += points
     distributionSummary[username].donut += points
     distributionSummary[username].data.fromKarma += points
+    distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
 
     return p
   },{})
+
+  /*
+  MODS
+  */
+  MODS.forEach(username=>{
+    const points = MOD_ALLOCATION
+
+    if(!distribution[username]){
+      const { address } = users.find(u=>u.username===username)
+      distribution[username] = {username, address, contrib: 0, donut:0}
+
+      if(!distributionSummary[username]){
+        distributionSummary[username] = {
+          username, 
+          address, 
+          donut: 0,
+          data: {
+            removed: false,
+            removalReason: null,
+            fromKarma: 0,
+            fromTipsGiven: 0,
+            fromTipsRecd: 0,
+            voterBonus: 0,
+            pay2PostFee: 0
+          }          
+        }
+      }
+    }
+
+    distribution[username].contrib += points
+    distribution[username].donut += points
+    distributionSummary[username].donut += points
+  })
+
+  /*
+  ORGANIZER
+  */
+  distribution[ORGANIZER].donut += ORGANIZER_REWARD
+  distributionSummary[ORGANIZER].donut += ORGANIZER_REWARD
 
 
   /*
   DONUT UPVOTES (TIPS) SCRIPT: 
   */
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
-  const users = await fetch("https://ethtrader.github.io/donut.distribution/users.json").then(res=>res.json())
   donutUpvoteRewards.forEach(c=>{
-    const points = parseInt(c.points)/2      // !!important to remove '/2' if Reddit halves the karma csv!!
+    const points = parseInt(c.points)
     const username = c.username.replace(new RegExp('^u/'),"")
-    if(distribution[username]){
-      distribution[username].contrib += points
 
-      custody += points
-      distributionSummary[username].donut += points
-
-      if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
-      if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
-
-    } else {
+    if(!distribution[username]){
       const user = users.find(u=>u.username===username)
-      if(user){
-        const { address } = user
-        distribution[username] = {username, address, contrib: points, donut:0}
+      if(!user){
+        console.log(`${username} is not registered`)
+        return
+      }
 
-        if(!distributionSummary[username]){
-          distributionSummary[username] = {
-            username, 
-            address: c.blockchain_address, 
-            donut: 0,
-            data: {
-              removed: false,
-              removalReason: null,
-              fromKarma: 0,
-              fromTipsGiven: 0,
-              fromTipsRecd: 0,
-              voterBonus: 0,
-              pay2PostFee: 0
-            }
-            
-          }
+      const {address} = user
+      distribution[username] = {username, address, contrib: 0, donut:0}
+
+      if(!distributionSummary[username]){
+        distributionSummary[username] = {
+          username, 
+          address, 
+          donut: 0,
+          data: {
+            removed: false,
+            removalReason: null,
+            fromKarma: 0,
+            fromTipsGiven: 0,
+            fromTipsRecd: 0,
+            voterBonus: 0,
+            pay2PostFee: 0
+          }          
         }
-        custody += points
-        distributionSummary[username].donut += points
-        
-        if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
-        if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
-
-      } else {
-        // console.log(`no registered address for ${username}`)
       }
     }
+
+    distribution[username].contrib += points
+    distribution[username].donut += points
+    distributionSummary[username].donut += points
+
+    if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
+    if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
   })
 
   /*
   PAY2POST SCRIPT: 
+  COMMENTING THIS SECTION SINCE PAY2POST IS NOW INCLUDED IN CSV POINTS TALLY
   */
-  const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+  // const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
 
-  pay2Post.forEach(c=>{
-    const points = parseInt(c.donutFee)
-    const username = c.username
+  // pay2Post.forEach(c=>{
+  //   const points = parseInt(c.donutFee)
+  //   const username = c.username
 
-    if(distribution[username]){
-      distribution[username].contrib -= points
-      distributionSummary[username].donut -= points
-      distributionSummary[username].data.pay2PostFee = points
-      totalPay2Post += points
+  //   if(distribution[username]){
+  //     distribution[username].contrib -= points
+  //     distributionSummary[username].donut -= points
+  //     distributionSummary[username].data.pay2PostFee = points
+  //     totalPay2Post += points
 
-      if (distribution[username].contrib < 0) {
-        totalPay2Post += distribution[username].contrib
-        distribution[username].contrib = 0
-        distributionSummary[username].donut = 0
-        distributionSummary[username].data.pay2PostFee = points
-      }
-    }
-  })
+  //     if (distribution[username].contrib < 0) {
+  //       totalPay2Post += distribution[username].contrib
+  //       distribution[username].contrib = 0
+  //       distributionSummary[username].donut = 0
+  //       distributionSummary[username].data.pay2PostFee = points
+  //     }
+  //   }
+  // })
 
   /*
   REMOVED USERS SCRIPT: 
@@ -186,7 +224,7 @@ async function main(){
   const removedUsers = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/ineligible_${LABEL}.json`).then(res=>res.json())
   const removedNames = removedUsers.map(({ username }) => username)
 
-  const specialMembership = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/docs/membership.json`).then(res=>res.json())
+  const specialMembership = await fetch(`https://ethtrader.github.io/donut.distribution/membership.json`).then(res=>res.json())
   const specialMembers = specialMembership.map(({ address }) => address)
 
   removedUsers.forEach(c => {
@@ -257,7 +295,7 @@ async function main(){
       contrib: 0,
       donut: XDAI_DONUT_BATCH_TRANSFER_AMOUNT
     }
-  } else {
+  } else if (MAINNET_MULTISIG_MINT_AMOUNT) {
     distribution["DonutMultisig"] = {
       username: "DonutMultisig",
       address: MULTISIG_MAINNET,
@@ -266,34 +304,55 @@ async function main(){
     } 
   }
 
-
-  addressChange.map(c => {
-    if (distribution[c.username]) {
-      distribution[c.username].address = c.address
-      distributionSummary[c.username].address = c.address
-      console.log("registered address change: " + c.username)
-    }
-  });
-
   
   const totalContrib = Object.values(distribution).reduce((p,c)=>{p+=c.contrib;return p;},0)
   const totalDonut = Object.values(distribution).reduce((p,c)=>{p+=c.donut;return p;},0)
 
   const out = {label: LABEL, totalDistribution: totalContrib, pay2post: totalPay2Post, totalVoterBonus: totalVoterBonus, totalFromRemovedUsers: totalIneligible, summary: distributionSummary}
-  console.log(`custody: ${custody}, total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total voter bonus: ${totalVoterBonus}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"].donut}`)
+  console.log(`total distribution: ${totalContrib}, pay2post fee: ${totalPay2Post}, total voter bonus: ${totalVoterBonus}, total from removed users: ${totalIneligible}, u/EthTraderCommunity award: ${(distribution[ETHTRADER_COMMUNITY_ADDRESS] ? distribution[ETHTRADER_COMMUNITY_ADDRESS].donut : 0)}, multisig: ${distribution["DonutMultisig"] ? distribution["DonutMultisig"].donut : 0}`)
 
   const csvOut = await jsonexport(Object.values(distribution))
 
-  let data = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
+  let merkled = merklize(Object.values(distribution), "address", "contrib", "donut", ["username"])
 
-  let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
-  let {path} = await ipfs.add(JSON.stringify(data))
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${path}.csv`)}`, csvOut)
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${path}.json`)}`, JSON.stringify(data))
-  fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${path}.json`, `${__dirname}/docs/distribution.json`)
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${path}.json`)}`, JSON.stringify(out))
-  fs.copyFileSync(`${__dirname}/out/${LABEL}_summary.${path}.json`, `${__dirname}/docs/distributionSummary.json`)
+  // let ipfs = ipfsClient('/ip4/127.0.0.1/tcp/5001')
+  // let {path} = await ipfs.add(JSON.stringify(merkled))
+
+  const addresses = Object.values(distribution).reduce((p,c)=>{
+    p.push(c.address);
+    return p;
+  },[])
+
+  const contribAmounts = Object.values(distribution).reduce((p,c)=>{
+    const contrib = (new BigNumber(c.contrib)).times(decimals)
+    p.push(contrib.toFixed());
+    return p;
+  },[])
+
+  const donutAmounts = Object.values(distribution).reduce((p,c)=>{
+    const donut = (new BigNumber(c.donut)).times(decimals)
+    p.push(donut.toFixed());
+    return p;
+  },[])
+
+  const transactionData = {
+    addresses,
+    contrib: contribAmounts,
+    donut: donutAmounts
+  }
+
+  const helia = await createHelia()
+  const j = json(helia)
+  const ipfsAddress = await j.add(merkled)
+
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_tx_data.${ipfsAddress.toString()}.json`)}`, JSON.stringify(transactionData))
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${ipfsAddress.toString()}.csv`)}`, csvOut)
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${ipfsAddress.toString()}.json`)}`, JSON.stringify(merkled))
+  fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distribution.json`)
+  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${ipfsAddress.toString()}.json`)}`, JSON.stringify(out))
+  fs.copyFileSync(`${__dirname}/out/${LABEL}_summary.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distributionSummary.json`)
 
 
-  console.log(path)
+
+  console.log(ipfsAddress.toString())
 }
