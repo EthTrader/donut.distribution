@@ -22016,7 +22016,7 @@
     },
     {
         "username": "Aakarsh_K",
-        "address": "0x8DeC05B58f08E0737854288A3dB2F586EE794Eb3",
+        "address": "0x8142a9428a916c64981a4de2c29f4f56978c1644",
         "contrib": "332",
         "donut": "484",
         "weight": "332"
@@ -35513,6 +35513,13 @@
     {
         "username": "R3ddit_Admin",
         "address": "0x18789b30c4675d8dc17e416a85aa10f3e7492b7c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Fun-Literature4569",
+        "address": "0x1C7a41f7b24d189662322Cc949a7B214B630365d",
         "contrib": 0,
         "donut": 0,
         "weight": 0
