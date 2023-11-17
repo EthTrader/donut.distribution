@@ -35495,5 +35495,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Planktons_Eye",
+        "address": "0x924aBC1A849CeC97e2282fBD64BeEb53197df7E6",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "erizi0n",
+        "address": "0xf8c213d2041D9C6bcF9b594E7322C7191612CF61",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "R3ddit_Admin",
+        "address": "0x18789b30c4675d8dc17e416a85aa10f3e7492b7c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
