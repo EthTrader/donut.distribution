@@ -232,10 +232,7 @@ async function main(){
       totalPay2Post += points
 
       if (distribution[username].contrib < 0) {
-
-        totalPay2Post += distribution[username].contrib
-        distribution[username].contrib = 0
-        distribution[username].donut -= 0
+        delete distribution[username]
         distributionSummary[username].donut = 0
       }
     }
