@@ -148,6 +148,27 @@ async function main(){
   distribution[ORGANIZER].donut += ORGANIZER_REWARD
   distributionSummary[ORGANIZER].donut += ORGANIZER_REWARD
 
+  /*
+  VOTER INCENTIVE SCRIPT:
+  */
+  const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
+
+  voterList.forEach ( c => {
+    const address = c.address
+    const qty = c.qty
+    const user = users.find(u=>u.address===address)
+    const username = user.username
+
+    if(username) {
+      if(distribution[username]){
+        const points = distribution[username].contrib
+        distribution[username].contrib += (points*(5+(qty-1))/100)
+        distributionSummary[username].donut += (points*(5+(qty-1))/100)
+        distributionSummary[username].data.voterBonus = (points*(5+(qty-1))/100)
+        totalVoterBonus += (points*(5+(qty-1))/100)
+      } 
+    }
+  })
 
   /*
   DONUT UPVOTES (TIPS) SCRIPT: 
@@ -205,15 +226,17 @@ async function main(){
 
     if(distribution[username]){
       distribution[username].contrib -= points
+      distribution[username].donut -= points
       distributionSummary[username].donut -= points
       distributionSummary[username].data.pay2PostFee = points
       totalPay2Post += points
 
       if (distribution[username].contrib < 0) {
+
         totalPay2Post += distribution[username].contrib
         distribution[username].contrib = 0
+        distribution[username].donut -= 0
         distributionSummary[username].donut = 0
-        distributionSummary[username].data.pay2PostFee = points
       }
     }
   })
@@ -243,46 +266,9 @@ async function main(){
         distributionSummary[username].data.removalReason = reason
         distributionSummary[username].donut = 0
         totalIneligible += distribution[username].contrib
+        delete distribution[username]
       } 
     }
-  })
-
-  // const specialMembership = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/docs/membership.json`).then(res=>res.json())
-  // specialMembership = specialMembership.map(({ address }) => address)
-  
-  removedNames.forEach(username => {
-    // Get the user's address
-    const userAddress = distribution[username]?.address;
-  
-    // Only delete the user from distribution if their address is not in specialMembership
-    if (!specialMembers.includes(userAddress)) {
-      delete distribution[username];
-    }
-  });
-
-  /*
-  VOTER INCENTIVE SCRIPT:
-  */
-  const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
-
-  voterList.forEach ( c => {
-    const address = c.address
-    const qty = c.qty
-    const user = users.find(u=>u.address===address)
-    const username = user.username
-
-    if(username) {
-      if(distribution[username]){
-        const points = distribution[username].contrib
-        distribution[username].contrib += (points*(5+(qty-1))/100)
-        distributionSummary[username].donut += (points*(5+(qty-1))/100)
-        distributionSummary[username].data.voterBonus = (points*(5+(qty-1))/100)
-        totalVoterBonus += (points*(5+(qty-1))/100)
-    } else {
-
-    }
-  }
-
   })
 
   /*
