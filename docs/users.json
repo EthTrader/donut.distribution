@@ -35565,5 +35565,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "sell_at_top_nov2025",
+        "address": "0x942C649A9d0769870FdEE11571E902A3591DC3C7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "OgCone",
+        "address": "0x6D7E7bcc033b37dE7B7FA5a4c872B72F2BcF9785",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
