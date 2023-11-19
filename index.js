@@ -73,7 +73,7 @@ async function main(){
 
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
-    totalPay2Post += Math.abs(c.pay2post)
+    // totalPay2Post += Math.abs(c.pay2post)
     const points = parseInt(c.points)
     if(points <=0 ) return p        // need to ignore after-pay2post negative earners
 
@@ -104,7 +104,7 @@ async function main(){
     p[username].donut += points
     distributionSummary[username].donut += points
     distributionSummary[username].data.fromKarma += points
-    distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
+    // distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
 
     return p
   },{})
@@ -197,26 +197,26 @@ async function main(){
   PAY2POST SCRIPT: 
   COMMENTING THIS SECTION SINCE PAY2POST IS NOW INCLUDED IN CSV POINTS TALLY
   */
-  // const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+  const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
 
-  // pay2Post.forEach(c=>{
-  //   const points = parseInt(c.donutFee)
-  //   const username = c.username
+  pay2Post.forEach(c=>{
+    const points = parseInt(c.donutFee)
+    const username = c.username
 
-  //   if(distribution[username]){
-  //     distribution[username].contrib -= points
-  //     distributionSummary[username].donut -= points
-  //     distributionSummary[username].data.pay2PostFee = points
-  //     totalPay2Post += points
+    if(distribution[username]){
+      distribution[username].contrib -= points
+      distributionSummary[username].donut -= points
+      distributionSummary[username].data.pay2PostFee = points
+      totalPay2Post += points
 
-  //     if (distribution[username].contrib < 0) {
-  //       totalPay2Post += distribution[username].contrib
-  //       distribution[username].contrib = 0
-  //       distributionSummary[username].donut = 0
-  //       distributionSummary[username].data.pay2PostFee = points
-  //     }
-  //   }
-  // })
+      if (distribution[username].contrib < 0) {
+        totalPay2Post += distribution[username].contrib
+        distribution[username].contrib = 0
+        distributionSummary[username].donut = 0
+        distributionSummary[username].data.pay2PostFee = points
+      }
+    }
+  })
 
   /*
   REMOVED USERS SCRIPT: 
@@ -236,14 +236,14 @@ async function main(){
       const userAddress = distribution[username].address;
   
       // Check if the user's address is not in the specialMembership array
-      if (!specialMembers.includes(userAddress)) {
+      if(specialMembers.includes(userAddress) && ["age", "karma"].includes(reason)) {
+        distributionSummary[username].data.removalReason = "special membership"
+      } else {
         distributionSummary[username].data.removed = true
         distributionSummary[username].data.removalReason = reason
         distributionSummary[username].donut = 0
         totalIneligible += distribution[username].contrib
-      } else {
-        distributionSummary[username].data.removalReason = "special membership"
-      }
+      } 
     }
   })
 
