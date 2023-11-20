@@ -41,8 +41,9 @@ async function main(){
     const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)    
     const namesDistribution = distributionCSV.map(({ username }) => username.replace(new RegExp('^u/'),""))
 
-    const tipCSV = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
-    const namesTips = tipCSV.map(({ username }) => username)
+    // const tipCSV = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
+    const tipCSV = await csv().fromFile(`${__dirname}/in/donut_upvote_rewards_${LABEL}.csv`)
+    const namesTips = tipCSV.map(({ user }) => user)
     
     let names = [...namesDistribution, ...namesTips].filter(e => e)
     names = [...new Set(names)];

@@ -55,8 +55,8 @@ const MODS = [
 
 const MOD_ALLOCATION = parseInt(85000/MODS.length)
 
-const ORGANIZER = "carlslarson"
-const ORGANIZER_REWARD = 25000         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
+const ORGANIZERS = ["carlslarson", "mattg1981", "reddito321", "TheNano100"]
+const ORGANIZER_REWARD = parseInt(25000/ORGANIZERS.length)         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
 
 const reddit = new snoowrap(credentials)
 
@@ -143,10 +143,13 @@ async function main(){
   })
 
   /*
-  ORGANIZER
+  ORGANIZERS
   */
-  distribution[ORGANIZER].donut += ORGANIZER_REWARD
-  distributionSummary[ORGANIZER].donut += ORGANIZER_REWARD
+
+  ORGANIZERS.forEach(organizer=>{
+    distribution[organizer].donut += ORGANIZER_REWARD
+    distributionSummary[organizer].donut += ORGANIZER_REWARD
+  })
 
   /*
   VOTER INCENTIVE SCRIPT:
@@ -173,10 +176,12 @@ async function main(){
   /*
   DONUT UPVOTES (TIPS) SCRIPT: 
   */
-  const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
+  // const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
+
+  const donutUpvoteRewards = await csv().fromFile(`${__dirname}/in/donut_upvote_rewards_${LABEL}.csv`)
   donutUpvoteRewards.forEach(c=>{
-    const points = parseInt(c.points)
-    const username = c.username.replace(new RegExp('^u/'),"")
+    const points = parseInt(c.total_donuts)
+    const username = c.user.replace(new RegExp('^u/'),"")
 
     if(!distribution[username]){
       const user = users.find(u=>u.username===username)
@@ -210,8 +215,11 @@ async function main(){
     distribution[username].donut += points
     distributionSummary[username].donut += points
 
-    if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
-    if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
+    distributionSummary[username].data.fromTipsGiven += parseInt(c.donut_upvoter)
+    distributionSummary[username].data.fromTipsRecd += parseInt(c.quad_rank)
+
+    // if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
+    // if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
   })
 
   /*
