@@ -53,6 +53,23 @@ const MODS = [
   "reddito321"
 ]
 
+const TEMP_BANNED = [
+  "DasPanzer1939-1945",
+  "Jackdawsenrobersn44",
+  "Shesdetails",
+  "Aggressive_Turn_3412",
+  "stouchdown",
+  "Amazed_Alloy",
+  "RidgeForrester",
+  "Specialiast_Duck3",
+  "confused_michaela04",
+  "Wonderful_Bad6531",
+  "kirtash93",
+  "fiery_maliyah0",
+  "allTalkNoAction00",
+  "actuatorsif5"
+].map(username=>({username, removal: 'banned'}))
+
 const MOD_ALLOCATION = parseInt(85000/MODS.length)
 
 const ORGANIZERS = ["carlslarson", "mattg1981", "reddito321", "TheNano100"]
@@ -246,8 +263,8 @@ async function main(){
   /*
   REMOVED USERS SCRIPT: 
   */
-  const removedUsers = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/ineligible_${LABEL}.json`).then(res=>res.json())
-  const removedNames = removedUsers.map(({ username }) => username)
+  let removedUsers = await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/ineligible_${LABEL}.json`).then(res=>res.json())
+  removedUsers = removedUsers.concat(TEMP_BANNED)
 
   const specialMembership = await fetch(`https://ethtrader.github.io/donut.distribution/membership.json`).then(res=>res.json())
   const specialMembers = specialMembership.map(({ address }) => address)
@@ -339,8 +356,6 @@ async function main(){
   fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distribution.json`)
   fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${ipfsAddress.toString()}.json`)}`, JSON.stringify(out))
   fs.copyFileSync(`${__dirname}/out/${LABEL}_summary.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distributionSummary.json`)
-
-
 
   console.log(ipfsAddress.toString())
 }
