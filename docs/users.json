@@ -35778,7 +35778,7 @@
     },
     {
         "username": "Barcode011011",
-        "address": "0x9726ce2a0f5c315dec0c76ab86004e1f34958e8d",
+        "address": "0x7d8fa3f8c77deab8319c4f154307ed82fd66ac78",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -35807,6 +35807,13 @@
     {
         "username": "LilErob222",
         "address": "0xEC340B0483496A7f1378245862dcd74c79F7d29a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Phonymusk",
+        "address": "0xddaa8475543fd801030b442feeef5b1cc1834db0",
         "contrib": 0,
         "donut": 0,
         "weight": 0
