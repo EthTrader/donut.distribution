@@ -6,10 +6,10 @@ const __dirname = path.dirname(__filename);
 
 const voterList = []
 const pollID = [
-    // "0x8d8d11faf16aaee40a0cb66d26ae61272be47e4409c22b6679ddc84da3195eba"
+    "0xde6d1cd369cf31fb206d3a31c66791990be4f688e0fafea55be5fd5cd05bf6c8"
 ]
 
-const ROUND = 129
+const ROUND = 130
 const LABEL = `round_${ROUND}`
 
 const out = {label: LABEL}
