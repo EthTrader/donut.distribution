@@ -54,69 +54,9 @@ const lpXDaiInstance = new Contract(env.LP_XDAI_ADDRESS, UniToken, xdai)
 
 const currentUsers = JSON.parse(fs.readFileSync('./docs/users.json')).reduce((p,{username,address})=>{p[username]={username,address};return p;},{})
 
-
-let hashes = [
-  "QmSK2S8cAHBRJW1BkKianGZazaTZdMqgHKLDmu123XzNKu", // aggDist
-  "QmYB4LQFcMjuCkd7tLKUtjEnW29vM9qtiuW9RAExZWcmz2", // round_96
-  "QmWXyT6zRod9tHsoi9wvMaqVdJAvRhXKwuEXuTCjx44Rrd", // round_97
-  "QmW7Tr1dVVfqUGMAFeEinHRkSCRumirNwJdLbbHj2YfwDv", // round_98
-  "QmNwPTHUTCiw6B2nq6jZfd13vrxtGkKJYqq9to4nQZACU1", // round_99
-  "QmVESP61B4NwWvqQqtVdjyNLG62a6ryUK7LrwMJK45TTBq", // round_100
-  "QmawS3Q117PNppt2SQHcfFKii2wGpGFh8wPpA4AhwmL6qx", // round_101
-  "QmedigsXvwVXKQMkr3X2y1jxdUMKnPtXoAq4wBkgetnwJz", // round_102
-  "QmcGkH33Z2egCweCapEPiKzojQnYdL4pZGfAASqAx72mQA", // round_103
-  "QmQKKzZMhE33qepK7NSmHV6pSp5PpT5uY8sfRte1GHxTnx", // round_104
-  "Qmd4gC4A4gc1Ft5dQ6JHo2q7piUetyEGMqZ1cJZQCfCU3p", // round_105
-  "QmWsejDYfi5wQUuXTmu4RjX7GUpSF7kM2GXHAAQHYAFnur", // round_106
-  "QmZBerHmuj85KXpzaVtycMySjrnJ1MXFNBJPfnQicWkpqc", // round_107
-  "QmZUKyWddQRoLk5qRectNdU8YKgttLzKhrL7e7eV7ZHtsh", // round_108
-  "QmXcteXjAJ9aMvHPcCuiBmKPYsojFQ4r8u9861f3v5z5xr", // round_109
-  "QmcrjPQf1fEkBvsCa32KCM2nFpwc5nwb2JYh2rDK61AbDK", // round_110
-  "QmYSLVMg9LLpXrmo2EVtMQWKU6ToqsjcJNTgvVXSnPGbjF", // round_111
-  "Qmb8chnctkR4SEi2A3ohqXpoUnpat65YNEDm1rpQB3Vx8t", // round_112
-  "QmSMra7ymRNV4ngXXN9NHMkLPnFB1CrptQNVjCqi7ieBTg", // round_113
-  "QmTfXL8AAaPkEKutBMtbm54ACPwwwzQ5q9UneAExypiw8i", // round_114
-  "QmTgEA29PcuqT2X1a7qYcpRKtLCReZyGNXghMsd2tBmmzh", // round_115
-  "QmeWzP7tYRqZej9rabH2EUGozpTbLQw6fUov33axhnyMQ8", // round_116
-  "QmYUXCYWwetrEYEjYy1zSixEDo7ygqeqDdMBuwY9fnbpfR", // round_117
-  "QmUqL7H1q7PmaPgjfWUTvg4ttF7vw5phUYniqNysBgpVxo", // round_118
-  "QmYoTrbqu4xdgX4TuPdxANSCD9Rp2acZx83cFfyySSoVCn", // round_119
-  "QmbTuAphoPKztEseDsDNe9FR1SYWz5AUYuMUeGCD9nVQUk", // round_120
-  "QmUzS4y17MosyBLhfYvQGuvNq22gcyJZhUtwi3weCngXfr", // round_121
-  "Qme6wBZJ4JpEkcrEsEA5csTX5wRZiNLxhmy4DbrJ8HmPcr", // round_122
-  "QmR2HfFhHwLUWhRcvXWmd4bMgpkgGvppPUgtFBYMrtvf1C", // round_123
-  "QmQnp94cqHffuyXDWrbCGC9CpoziaNNaBwMT8Fh3wibHJt", // round_124
-  "QmbJtmLQZaviTsaRQThiUHZykuwckj6Q3tJafeKV9YzJG5", // round_125
-  "QmVJcR8fhigBBjwgneVoWEbCZ1Xbi6UjTkf3dZ3pbQVTFe", // round_126
-  "QmPRbP2djRt11U8H5j9Fsj7hR1sd6AeHK75vgnqRk3rLbA", // round_127
-  "QmTwQMVL2ZVPtuqpEk9S7tifQuNsB2APNVs2XXjA9q6UWo" // round 128
-]
-
 main()
 
 async function main(){
-
-  let airdrops = await Promise.all(hashes.map(async (e)=>{
-    const hash = hashes[e]
-    console.log(e)
-    const {awards} = await (await fetch(`https://ipfs.io/ipfs/${e}`)).json()
-    //  const {awards} = await (await fetch(`https://gateway.pinata.cloud/ipfs/${e}`)).json()
-    //  const {awards} = await (await fetch(`http://127.0.0.1:8080/ipfs/${e}`)).json()
-    return {hash, awards}
-
-  }))
-
-  let usersMap = airdrops.reduce((p,airdrop)=>{
-    const re = new RegExp('^u/');
-    airdrop.awards.forEach(award=>{
-      if(award.username){
-        const username = award.username.replace(re,"")
-        p[username]={username, address: award.address}
-      }
-    })
-    return p
-  },{})
-
 
   let lpMainnetSupply = await lpMainnetInstance.totalSupply();
   let stakingMainnetSupply = await stakingMainnetInstance.totalSupply();
@@ -128,8 +68,7 @@ async function main(){
   let mainnetMultiplier = donutsInMainnetUniswap.div(lpMainnetSupply)
   let xdaiMultiplier = donutsInXDaiUniswap.div(lpXDaiSupply)
 
-  usersMap = {...currentUsers, ...usersMap}
-  let users = Object.values(usersMap)
+  let users = Object.values(currentUsers)
   users = await Promise.mapSeries(users, getBalances(mainnetMultiplier, xdaiMultiplier))
   console.log(users.length)
   const newFileNameBase = `${__dirname}/out/users_${new Date().toISOString().slice(0,10)}`
