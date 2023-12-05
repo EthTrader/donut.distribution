@@ -26,7 +26,7 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
-const LABEL = `round_129`
+const LABEL = `round_130`
 const FILE = `${LABEL}.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
@@ -54,25 +54,14 @@ const MODS = [
 ]
 
 const TEMP_BANNED = [
-  "DasPanzer1939-1945",
-  "Jackdawsenrobersn44",
-  "Shesdetails",
-  "Aggressive_Turn_3412",
-  "stouchdown",
-  "Amazed_Alloy",
-  "RidgeForrester",
-  "Specialiast_Duck3",
-  "confused_michaela04",
-  "Wonderful_Bad6531",
-  "kirtash93",
-  "fiery_maliyah0",
-  "allTalkNoAction00",
-  "actuatorsif5"
-].map(username=>({username, removal: 'banned'}))
+  "tambaybtc",
+  "actuatorsif5",
+  "Icy-Profile-1655"
+].map(username => ({ username, removal: 'banned' }))
 
 const MOD_ALLOCATION = parseInt(85000/MODS.length)
 
-const ORGANIZERS = ["carlslarson", "mattg1981", "reddito321", "TheNano100"]
+const ORGANIZERS = ["carlslarson", "mattg1981", "reddito321"]
 const ORGANIZER_REWARD = parseInt(25000/ORGANIZERS.length)         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
 
 const reddit = new snoowrap(credentials)
@@ -240,25 +229,25 @@ async function main(){
   PAY2POST SCRIPT: 
   COMMENTING THIS SECTION SINCE PAY2POST IS NOW INCLUDED IN CSV POINTS TALLY
   */
-  const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
+  // const pay2Post = (await fetch(`https://ethtrader.github.io/community-mod/pay2post_${LABEL}.json`).then(res=>res.json())).count
 
-  pay2Post.forEach(c=>{
-    const points = parseInt(c.donutFee)
-    const username = c.username
+  // pay2Post.forEach(c=>{
+  //   const points = parseInt(c.donutFee)
+  //   const username = c.username
 
-    if(distribution[username]){
-      distribution[username].contrib -= points
-      distribution[username].donut -= points
-      distributionSummary[username].donut -= points
-      distributionSummary[username].data.pay2PostFee = points
-      totalPay2Post += points
+  //   if(distribution[username]){
+  //     distribution[username].contrib -= points
+  //     distribution[username].donut -= points
+  //     distributionSummary[username].donut -= points
+  //     distributionSummary[username].data.pay2PostFee = points
+  //     totalPay2Post += points
 
-      if (distribution[username].contrib < 0) {
-        delete distribution[username]
-        distributionSummary[username].donut = 0
-      }
-    }
-  })
+  //     if (distribution[username].contrib < 0) {
+  //       delete distribution[username]
+  //       distributionSummary[username].donut = 0
+  //     }
+  //   }
+  // })
 
   /*
   REMOVED USERS SCRIPT: 
