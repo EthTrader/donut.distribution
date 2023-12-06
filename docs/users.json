@@ -35992,5 +35992,33 @@
     "contrib": "0",
     "donut": "0",
     "weight": "0"
+  },
+  {
+      "username": "CrossPuffs",
+      "address": "0xc7e817e5970e294E269Ff63214393747cC1AF1cb",
+      "contrib": 0,
+      "donut": 0,
+      "weight": 0
+  },
+  {
+      "username": "hey_barry",
+      "address": "0x5Fd47E4f9b628AF1AD3aDE5D3e1baeaD72b74ADb",
+      "contrib": 0,
+      "donut": 0,
+      "weight": 0
+  },
+  {
+      "username": "BabyishHammer",
+      "address": "0x931C641592Ec41138441b91304ac8502602d07Dc",
+      "contrib": 0,
+      "donut": 0,
+      "weight": 0
+  },
+  {
+      "username": "hprayush",
+      "address": "0xD32149C3C22756E9EF3e27b4460C067145c168DB",
+      "contrib": 0,
+      "donut": 0,
+      "weight": 0
   }
 ]
