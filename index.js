@@ -219,6 +219,7 @@ async function main(){
         const contrib = distribution[username].contrib
         const donut = distribution[username].donut
         distribution[username].contrib += (contrib*(5+(qty-1))/100)
+        distribution[username].donut += (donut*(5+(qty-1))/100)
         distributionSummary[username].donut += (donut*(5+(qty-1))/100)
         distributionSummary[username].data.voterBonus = (donut*(5+(qty-1))/100)
         totalVoterBonus += (donut*(5+(qty-1))/100)
