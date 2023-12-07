@@ -158,28 +158,6 @@ async function main(){
   })
 
   /*
-  VOTER INCENTIVE SCRIPT:
-  */
-  const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
-
-  voterList.forEach ( c => {
-    const address = c.address
-    const qty = c.qty
-    const user = users.find(u=>u.address===address)
-    const username = user.username
-
-    if(username) {
-      if(distribution[username]){
-        const points = distribution[username].contrib
-        distribution[username].contrib += (points*(5+(qty-1))/100)
-        distributionSummary[username].donut += (points*(5+(qty-1))/100)
-        distributionSummary[username].data.voterBonus = (points*(5+(qty-1))/100)
-        totalVoterBonus += (points*(5+(qty-1))/100)
-      } 
-    }
-  })
-
-  /*
   DONUT UPVOTES (TIPS) SCRIPT: 
   */
   const donutUpvoteRewards = (await fetch(`https://ethtrader.github.io/community-mod/donut_upvote_rewards_${LABEL}.json`).then(res=>res.json())).rewards
@@ -223,6 +201,29 @@ async function main(){
 
     if (c.contributor_type == 'donut_upvoter') distributionSummary[username].data.fromTipsGiven = points
     if (c.contributor_type == 'quad_rank') distributionSummary[username].data.fromTipsRecd = points 
+  })
+
+  /*
+  VOTER INCENTIVE SCRIPT:
+  */
+  const voterList = (await fetch(`https://raw.githubusercontent.com/EthTrader/donut.distribution/main/out/voters_${LABEL}.json`).then(res=>res.json())).voters
+
+  voterList.forEach ( c => {
+    const address = c.address
+    const qty = c.qty
+    const user = users.find(u=>u.address===address)
+    const username = user.username
+
+    if(username) {
+      if(distribution[username]){
+        const contrib = distribution[username].contrib
+        const donut = distribution[username].donut
+        distribution[username].contrib += (contrib*(5+(qty-1))/100)
+        distributionSummary[username].donut += (donut*(5+(qty-1))/100)
+        distributionSummary[username].data.voterBonus = (donut*(5+(qty-1))/100)
+        totalVoterBonus += (donut*(5+(qty-1))/100)
+      } 
+    }
   })
 
   /*
