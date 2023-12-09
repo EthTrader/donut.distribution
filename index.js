@@ -245,6 +245,8 @@ async function main(){
       user.donut += user.adjustment
       distributionSummary[user.username].donut = user.donut
     }
+    if(user.donut < 0) user.donut = 0
+    if(user.contrib < 0) user.contrib = 0
   })
 
 
