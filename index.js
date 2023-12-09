@@ -26,8 +26,9 @@ const XDAI_DONUT_BATCH_TRANSFER_AMOUNT = 12800000         // only for round 123 
 const MAINNET_MULTISIG_MINT_AMOUNT = 0              // use only for one time mints. 9/06 - fund mainnet staking contract
 
 
+
 const LABEL = `round_130`
-const FILE = `${LABEL}.csv`
+const FILE = `${LABEL}_adjusted.csv`
 const MULTISIG_MAINNET = "0x367b68554f9CE16A87fD0B6cE4E70d465A0C940E"
 const MULTISIG_XDAI = "0x682b5664C2b9a6a93749f2159F95c23fEd654F0A"
 const ETHTRADER_COMMUNITY_ADDRESS = "0xf7927bf0230c7b0E82376ac944AeedC3EA8dFa25"
@@ -82,37 +83,20 @@ async function main(){
     // totalPay2Post += Math.abs(c.pay2post)
     const points = parseFloat(c.points)
     const adjustment = parseFloat(c.net_e2t)
-    if(points <=0 ) return p        // need to ignore after-pay2post negative earners
+    // if(points <=0 ) return p        // need to ignore after-pay2post negative earners
 
     const username = c.username.replace(new RegExp('^u/'),"")
 
-    if(!p[username]){
-      p[username] = {username, address: c.blockchain_address, contrib:0, donut:0, adjustment: 0}
-    }
+    addToDistribution(p, username, c.blockchain_address)
 
-    if(!distributionSummary[username]){
-      distributionSummary[username] = {
-        username, 
-        address: c.blockchain_address, 
-        donut: 0,
-        data: {
-          removed: false,
-          removalReason: null,
-          fromKarma: 0,
-          fromTipsGiven: 0,
-          fromTipsRecd: 0,
-          voterBonus: 0,
-          pay2PostFee: 0
-        }
-      }
-    }
+    addToDistributionSummary(distributionSummary, username, c.blockchain_address)
 
     p[username].contrib += points
     p[username].donut += points
     p[username].adjustment += adjustment
     distributionSummary[username].donut += points
     distributionSummary[username].data.fromKarma += points
-    // distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
+    distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
 
     return p
   },{})
@@ -125,24 +109,9 @@ async function main(){
 
     if(!distribution[username]){
       const { address } = users.find(u=>u.username===username)
-      distribution[username] = {username, address, contrib: 0, donut:0, adjustment: 0}
 
-      if(!distributionSummary[username]){
-        distributionSummary[username] = {
-          username, 
-          address, 
-          donut: 0,
-          data: {
-            removed: false,
-            removalReason: null,
-            fromKarma: 0,
-            fromTipsGiven: 0,
-            fromTipsRecd: 0,
-            voterBonus: 0,
-            pay2PostFee: 0
-          }          
-        }
-      }
+      addToDistribution(distribution, username, address)
+      addToDistributionSummary(distributionSummary, username, address)
     }
 
     distribution[username].contrib += points
@@ -177,24 +146,8 @@ async function main(){
       }
 
       const {address} = user
-      distribution[username] = {username, address, contrib: 0, donut:0}
-
-      if(!distributionSummary[username]){
-        distributionSummary[username] = {
-          username, 
-          address, 
-          donut: 0,
-          data: {
-            removed: false,
-            removalReason: null,
-            fromKarma: 0,
-            fromTipsGiven: 0,
-            fromTipsRecd: 0,
-            voterBonus: 0,
-            pay2PostFee: 0
-          }          
-        }
-      }
+      addToDistribution(distribution, username, address)
+      addToDistributionSummary(distributionSummary, username, address)
     }
 
     distribution[username].contrib += points
@@ -289,8 +242,8 @@ async function main(){
 
   Object.values(distribution).forEach(user=>{
     if(user.adjustment){
-      console.log(user.adjustment)
       user.donut += user.adjustment
+      distributionSummary[user.username].donut = user.donut
     }
   })
 
@@ -334,13 +287,13 @@ async function main(){
   },[])
 
   const contribAmounts = Object.values(distribution).reduce((p,c)=>{
-    const contrib = (new BigNumber(c.contrib)).times(decimals)
+    const contrib = (new BigNumber(c.contrib.toString())).times(decimals)
     p.push(contrib.toFixed());
     return p;
   },[])
 
   const donutAmounts = Object.values(distribution).reduce((p,c)=>{
-    const donut = (new BigNumber(c.donut)).times(decimals)
+    const donut = (new BigNumber(c.donut.toString())).times(decimals)
     p.push(donut.toFixed());
     return p;
   },[])
@@ -351,16 +304,43 @@ async function main(){
     donut: donutAmounts
   }
 
+  // return
+
   const helia = await createHelia()
   const j = json(helia)
   const ipfsAddress = await j.add(merkled)
 
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_tx_data.${ipfsAddress.toString()}.json`)}`, JSON.stringify(transactionData))
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`.${ipfsAddress.toString()}.csv`)}`, csvOut)
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_proofs.${ipfsAddress.toString()}.json`)}`, JSON.stringify(merkled))
+  fs.writeFileSync( `${__dirname}/out/${LABEL}_tx_data.${ipfsAddress.toString()}.json`, JSON.stringify(transactionData))
+  fs.writeFileSync( `${__dirname}/out/${LABEL}.${ipfsAddress.toString()}.csv`, csvOut)
+  fs.writeFileSync( `${__dirname}/out/${LABEL}_proofs.${ipfsAddress.toString()}.json`, JSON.stringify(merkled))
   fs.copyFileSync(`${__dirname}/out/${LABEL}_proofs.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distribution.json`)
-  fs.writeFileSync( `${__dirname}/out/${FILE.replace('.csv',`_summary.${ipfsAddress.toString()}.json`)}`, JSON.stringify(out))
+  fs.writeFileSync( `${__dirname}/out/${LABEL}_summary.${ipfsAddress.toString()}.json`, JSON.stringify(out))
   fs.copyFileSync(`${__dirname}/out/${LABEL}_summary.${ipfsAddress.toString()}.json`, `${__dirname}/docs/distributionSummary.json`)
 
   console.log(ipfsAddress.toString())
+}
+
+function addToDistributionSummary(summary, username, address){
+  if(!summary[username]){
+    summary[username] = {
+      username, 
+      address, 
+      donut: 0,
+      data: {
+        removed: false,
+        removalReason: null,
+        fromKarma: 0,
+        fromTipsGiven: 0,
+        fromTipsRecd: 0,
+        voterBonus: 0,
+        pay2PostFee: 0
+      }
+    }
+  }
+}
+
+function addToDistribution(distribution, username, address){
+  if(!distribution[username]){
+    distribution[username] = {username, address, contrib:0, donut:0, adjustment: 0}
+  }
 }

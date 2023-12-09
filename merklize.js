@@ -13,8 +13,8 @@ export default function(data, addressField, amount0Field, amount1Field, include)
   const awards = data.reduce((prev, curr)=>{
     const address = curr[addressField]
     const existing = prev.find(u=>u.address===address)
-    const amount0 = new BigNumber(curr[amount0Field])
-    const amount1 = new BigNumber(curr[amount1Field])
+    const amount0 = new BigNumber(curr[amount0Field].toString())
+    const amount1 = new BigNumber(curr[amount1Field].toString())
     if(existing) {
       existing.amount0 = existing.amount0 ? existing.amount0.plus(amount0) : amount0
       existing.amount1 = existing.amount1 ? existing.amount1.plus(amount1) : amount1
