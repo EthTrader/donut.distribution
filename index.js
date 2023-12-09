@@ -59,10 +59,10 @@ const TEMP_BANNED = [
   "Icy-Profile-1655"
 ].map(username => ({ username, removal: 'banned' }))
 
-const MOD_ALLOCATION = parseInt(85000/MODS.length)
+const MOD_ALLOCATION = 85000/MODS.length
 
 const ORGANIZERS = ["carlslarson", "mattg1981", "reddito321"]
-const ORGANIZER_REWARD = parseInt(25000/ORGANIZERS.length)         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
+const ORGANIZER_REWARD = 25000/ORGANIZERS.length         // https://snapshot.org/#/ethtraderdao.eth/proposal/0x8ff68520b909ad93fc86643751e6cc32967d4df5f3fd43a00f50e9e80d74ed3b
 
 const reddit = new snoowrap(credentials)
 
@@ -80,13 +80,14 @@ async function main(){
   const distributionCSV = await csv().fromFile(`${__dirname}/in/${FILE}`)
   const distribution = distributionCSV.reduce((p,c)=>{
     // totalPay2Post += Math.abs(c.pay2post)
-    const points = parseInt(c.points)
+    const points = parseFloat(c.points)
+    const adjustment = parseFloat(c.net_e2t)
     if(points <=0 ) return p        // need to ignore after-pay2post negative earners
 
     const username = c.username.replace(new RegExp('^u/'),"")
 
     if(!p[username]){
-      p[username] = {username, address: c.blockchain_address, contrib:0, donut:0}
+      p[username] = {username, address: c.blockchain_address, contrib:0, donut:0, adjustment: 0}
     }
 
     if(!distributionSummary[username]){
@@ -108,6 +109,7 @@ async function main(){
 
     p[username].contrib += points
     p[username].donut += points
+    p[username].adjustment += adjustment
     distributionSummary[username].donut += points
     distributionSummary[username].data.fromKarma += points
     // distributionSummary[username].data.pay2PostFee += Math.abs(c.pay2post)
@@ -123,7 +125,7 @@ async function main(){
 
     if(!distribution[username]){
       const { address } = users.find(u=>u.username===username)
-      distribution[username] = {username, address, contrib: 0, donut:0}
+      distribution[username] = {username, address, contrib: 0, donut:0, adjustment: 0}
 
       if(!distributionSummary[username]){
         distributionSummary[username] = {
@@ -164,7 +166,7 @@ async function main(){
 
   // const donutUpvoteRewards = await csv().fromFile(`${__dirname}/in/donut_upvote_rewards_${LABEL}.csv`)
   donutUpvoteRewards.forEach(c=>{
-    const points = parseInt(c.points)
+    const points = parseFloat(c.points)
     const username = c.username.replace(new RegExp('^u/'),"")
 
     if(!distribution[username]){
@@ -280,6 +282,18 @@ async function main(){
       } 
     }
   })
+
+  /*
+  APPLY ADJUSTMENTS SCRIPT:
+  */
+
+  Object.values(distribution).forEach(user=>{
+    if(user.adjustment){
+      console.log(user.adjustment)
+      user.donut += user.adjustment
+    }
+  })
+
 
   /*
   BRIDGE donut TO GNOSIS CHAIN
