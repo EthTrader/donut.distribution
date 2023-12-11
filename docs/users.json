@@ -24697,7 +24697,7 @@
     },
     {
         "username": "SuccessOtherwise2760",
-        "address": "0x0757C3379884621eDD377bB167ac6B4236C9A421",
+        "address": "0x960a596E15913FDa7040ea80FD43C2b8E8a1Fe39",
         "contrib": "18840",
         "donut": "8423",
         "weight": "8423"
@@ -36192,6 +36192,27 @@
     {
         "username": "cryptonitelife",
         "address": "0xf091ffbc5726f26215307f6270f0187344d75c04",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Forsaken_Day_6869",
+        "address": "0x50862f191a7D6D9bF5647Adff021a8D3c4022d6A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "AncientTie375",
+        "address": "0x74e9c151c91c72fDb4B8de0bd99BdDb2488a482a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Jojo_0513",
+        "address": "0x88fda326950544317af29ae22e9d451a4e9d5f58",
         "contrib": 0,
         "donut": 0,
         "weight": 0
