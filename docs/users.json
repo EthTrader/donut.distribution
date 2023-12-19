@@ -36447,5 +36447,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "thelonliestcrowd",
+        "address": "0xcc0502ab76ed21cc8931693767ca2b2d09bc1ade",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "HippieStarTraveler",
+        "address": "0x81d44927bb42fd1114607f3b0bc0354e162e2103",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Flimsy_Brilliant_239",
+        "address": "0x454Ff15E4eaB032F06a3A95416a83684Bcc76410",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Kimo_imposta",
+        "address": "0x8dd3f3db376e41c77e677349142484553c6b5109",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
