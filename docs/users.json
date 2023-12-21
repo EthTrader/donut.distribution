@@ -36545,5 +36545,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "overallpersonality8",
+        "address": "0x726d7a896cc7f301dfecd0e04a0f1e857462a2fd",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
