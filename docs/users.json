@@ -34987,7 +34987,7 @@
     },
     {
         "username": "Mrwiowijo",
-        "address": "0x18E9195C3A328941B73b976269B6703B043fA396",
+        "address": "0x686D841Db6075E09BfA7492b4C056E63bA61E59a",
         "contrib": "0",
         "donut": "0",
         "weight": "0"
@@ -36731,6 +36731,13 @@
     {
         "username": "Successful_Ear_2582",
         "address": "0x37Ec8302dbDa3867dE22a3215d2921110f32cfc9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Royyyalty",
+        "address": "0xf97eb4a79210f94255224e446fe51987f592e800",
         "contrib": 0,
         "donut": 0,
         "weight": 0
