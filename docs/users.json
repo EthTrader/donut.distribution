@@ -36741,5 +36741,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "kysarkoin",
+        "address": "0x8376BCBADa157C3234985C542aAF7F83e3fBb7c8",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
