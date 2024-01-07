@@ -36212,7 +36212,7 @@
     },
     {
         "username": "Jojo_0513",
-        "address": "0x88fda326950544317af29ae22e9d451a4e9d5f58",
+        "address": "0xda22f5d526083d91985b2363e6e50cf7a34cf58b",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -36878,6 +36878,20 @@
     {
         "username": "Duomax81",
         "address": "0x8B2956e8ecCC53C49fE1eD184FDa43B300133Fe8",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "RCAHoarder",
+        "address": "0xff55b54dd3af5af6e8da27a966a55e44daa2ed8a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Capsized824",
+        "address": "0x601d4F699091278bd8008B43ddCF843C219140e5",
         "contrib": 0,
         "donut": 0,
         "weight": 0
