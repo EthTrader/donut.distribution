@@ -37035,5 +37035,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "kbytzer",
+        "address": "0x6730a2E7DEd406B9CDac516E923c66941c9C72A7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "dikhuricane",
+        "address": "0x6Fd53Aa8a94b446Cf239FE287a10A970B837A3EF",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Njaa",
+        "address": "0x799B502C29659F0Cb4B9Eb996dDbEd660BD41F16",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
