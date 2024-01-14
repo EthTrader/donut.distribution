@@ -37070,5 +37070,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "gpt6",
+        "address": "0x6AA40656024C050464950a611aEBCB89fE8Ab8D7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
