@@ -37112,5 +37112,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "thinkingperson",
+        "address": "0x3b753afee5ef08832aff91c1556e080b4efb680d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
