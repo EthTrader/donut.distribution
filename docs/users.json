@@ -37126,5 +37126,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "mettalmag",
+        "address": "0x8B1dD48344de9922AC1f24B7563fC07EBaA00b20",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "AdministrativeAide47",
+        "address": "0x36ea966371A6303AE239D4F87E8A18836ee28cD0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "NewAgeBroker",
+        "address": "0x09e12ca0908364bf115a72f1c328e94cb9182d93",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Senior_Confidence_60",
+        "address": "0x338478E11677B8c12b62165c2BBbD8F1C983b68E",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
