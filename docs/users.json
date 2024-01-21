@@ -30710,7 +30710,7 @@
     },
     {
         "username": "filthybusstop",
-        "address": "0x75624e7cb00ad074a9Fd6263539c069124e29300",
+        "address": "0x5aE6538B829617309Dd5d4D5504A1d2eB8E1Dc61",
         "contrib": "0",
         "donut": "0",
         "weight": "0"
@@ -37347,6 +37347,13 @@
     {
         "username": "pizzapizzaplz",
         "address": "0xbd220f3ddf41c0a480004db3173b033fa3403a93",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Legitimate-Ad-6385",
+        "address": "0x34ac859B699DF3a0e8817B48F999e18814010C71",
         "contrib": 0,
         "donut": 0,
         "weight": 0
