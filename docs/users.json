@@ -37357,5 +37357,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "rruler",
+        "address": "0x6948542448C5Aaf6eCa1Cae864893D00F4DCD343",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Olmops",
+        "address": "0xCA7d56f69C1321DA5ac0fc68B2433A4B3c4624Dc",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Sigiant2300",
+        "address": "0x1234567890123456789012345678901234567230",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
