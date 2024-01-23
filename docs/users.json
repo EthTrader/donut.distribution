@@ -37420,5 +37420,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "JerryTehFarmer",
+        "address": "0x0694582bfF01a44DBfdC7CC2023fA31e5b9b094b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "coindoing",
+        "address": "0x7843c85c772f5010Cb52c22b11bFB2a3394589AC",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
