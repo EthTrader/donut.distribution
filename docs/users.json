@@ -14575,7 +14575,7 @@
     },
     {
         "username": "LokeDoow",
-        "address": "0x3E4353f20a2c7fF0C77E1BCdaC07a5f5d33e102C",
+        "address": "0xbDc66c7Ba24Ec0AfE277F8799087b928af650046",
         "contrib": "168",
         "donut": "0",
         "weight": "0"
@@ -37360,7 +37360,7 @@
     },
     {
         "username": "rruler",
-        "address": "0x6948542448C5Aaf6eCa1Cae864893D00F4DCD343",
+        "address": "0x938a992Cd438AD675F7451c4742b8C262175fBd6",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -37431,6 +37431,13 @@
     {
         "username": "coindoing",
         "address": "0x7843c85c772f5010Cb52c22b11bFB2a3394589AC",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "UyghursInParis",
+        "address": "0xeE3EE66CAeB47AD5Ad289efcfEBD30e2838c47Ec",
         "contrib": 0,
         "donut": 0,
         "weight": 0
