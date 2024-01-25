@@ -37532,5 +37532,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "frost666",
+        "address": "0x5063E5351C95802a4D6a5aAdC8d17Fa4C10a7b86",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "yamaniac123",
+        "address": "0xD19CC2909D5deDd50ed431d1439f7cF3f8D2AA0a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "moldy_laundry",
+        "address": "0x6612fCF98E214692Ef5373Cce76A153c94C1dF67",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
