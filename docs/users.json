@@ -37581,5 +37581,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "GreatBritishPounds",
+        "address": "0xB4fE089A01CA31803334E2Ab18EFe67007190653",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
