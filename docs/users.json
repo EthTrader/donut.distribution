@@ -799,7 +799,7 @@
     },
     {
         "username": "Jackieknows",
-        "address": "0xE56D7117eeE8d87F68FFc23bCBF7BcB600718b1B",
+        "address": "0xD4147645B665090AeB0b66c10C054Ff3Eea34c31",
         "contrib": "70595",
         "donut": "898",
         "weight": "898"
@@ -37697,6 +37697,20 @@
     {
         "username": "Jwelz90",
         "address": "0x0647d91f9cE537eC67e403B3F8Bb89844c090753",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "MissAna35",
+        "address": "0x460C09c8FEddB348EBd16452bF689c39628344F0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "dylones",
+        "address": "0x6FAa4b57CF8044D842fB25f2A35cC5D4d9c2e2F3",
         "contrib": 0,
         "donut": 0,
         "weight": 0
