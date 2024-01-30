@@ -28302,7 +28302,7 @@
     },
     {
         "username": "rundown03",
-        "address": "0x430006f4127ee2f4edb269D6a01BA1eDBdF237C3",
+        "address": "0x76b5c2c7974769C888770bE4F5D15d3a37711bBF",
         "contrib": "3715",
         "donut": "3715",
         "weight": "3715"
@@ -37774,6 +37774,48 @@
     {
         "username": "Magnum-papa",
         "address": "0x067df5049f2368f7D3e7934CAD28256b6ca214b7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Silver-Maximum9190",
+        "address": "0x6175Fb527aD92dFcE21c8fB25b65dfA1b9D7Ab47",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "mcgravier",
+        "address": "0xb90344ECa45eBa179A042B16ADF4Fe4EC8A0B356",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "rocketrunner442",
+        "address": "0xC27cb690465F0B79267ff5F93a2c7C1C61F9674c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "smellyy",
+        "address": "0x63C76f5C2C6d4Ef9e218b2FD4c5B18d70c6CFe60",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "omararab1",
+        "address": "0x12c9ef3ba7d89eda6f275024b1cbcd041590cc2c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "donnie1977",
+        "address": "0xd061a5642A9A9046a774730a2d790CdEc698450F",
         "contrib": 0,
         "donut": 0,
         "weight": 0
