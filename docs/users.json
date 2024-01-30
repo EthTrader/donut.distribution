@@ -34329,7 +34329,7 @@
     },
     {
         "username": "feric89",
-        "address": "0xfC28f4Ed27693f4De4ACCf23D992E40251837fA2",
+        "address": "0x7da0568C3572C4d1eB901e5936A3d79A180C6786",
         "contrib": "273",
         "donut": "279",
         "weight": "273"
@@ -37753,6 +37753,27 @@
     {
         "username": "prosaicinvestor",
         "address": "0x51c3a85BB76A00195F56bc22a00773Dd3F82edf9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Wonzky",
+        "address": "0x341AFd0e78ac7cA6dBa21f6F5dee135c76fc2044",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Resident-Increase-79",
+        "address": "0x0c33f535526855c93838adbb932b15e5793ff52f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Magnum-papa",
+        "address": "0x067df5049f2368f7D3e7934CAD28256b6ca214b7",
         "contrib": 0,
         "donut": 0,
         "weight": 0
