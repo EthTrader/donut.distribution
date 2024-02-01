@@ -19783,7 +19783,7 @@
     },
     {
         "username": "danarchist",
-        "address": "0x8D7ef68d3d17fE776254F4d023B905369c897230",
+        "address": "0x3e749e54F1e796d7b20AcFd891aC40cDd21cB012",
         "contrib": "2152",
         "donut": "1556",
         "weight": "1556"
@@ -37893,6 +37893,13 @@
     {
         "username": "HarrisonGreen",
         "address": "0xaD97B38842B5994a724A76D16605CCcd6Fa702B7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "DownfallSkylab",
+        "address": "0xb5ACd392726eD9543d22ce4943B0a7BfEe441760",
         "contrib": 0,
         "donut": 0,
         "weight": 0
