@@ -35008,7 +35008,7 @@
     },
     {
         "username": "Josefumi12",
-        "address": "0x02C83E7C47D9fbe79327B5F2599944fd41F8a455",
+        "address": "0xA9c455ae9838840187801ce4f0ef1DB28EAeb326",
         "contrib": "57",
         "donut": "57",
         "weight": "57"
@@ -37900,6 +37900,20 @@
     {
         "username": "DownfallSkylab",
         "address": "0xb5ACd392726eD9543d22ce4943B0a7BfEe441760",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Mr_MatF",
+        "address": "0x77A9900a29109f86B1C9c6835d3647D067CA759E",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "rehan_ahmed21",
+        "address": "0x0E3B36d8356DF33ec1Fed01235145C1cF4faB9Bc",
         "contrib": 0,
         "donut": 0,
         "weight": 0
