@@ -38064,5 +38064,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "abc_123_anyname",
+        "address": "0xa1928e91D7b4920FF6CC3A98360Bec2D45567E6C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Major-Remove-7190",
+        "address": "0xef895D1f66977125637Cd810aDCbc0b0F35D7dF2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "AlteredCabron2",
+        "address": "0x747E67192D4739137aeEc2B0025F2fB8d3FCe896",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
