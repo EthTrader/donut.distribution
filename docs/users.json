@@ -29807,7 +29807,7 @@
     },
     {
         "username": "PumpkinSpice2Nice",
-        "address": "0xD0FAee7D6405e0F620907B3381E8F56627E2FcfA",
+        "address": "0xDe1C1106eE98b17366179D39A48025635F0eCaAc",
         "contrib": "1360",
         "donut": "1360",
         "weight": "1360"
@@ -38152,6 +38152,13 @@
     {
         "username": "baddaddymak",
         "address": "0x1bce0220ac17a9b20120184ff20a33257c17ccd3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Agreeable-Split1829",
+        "address": "0xe0040f2C827B9481eA40398B7c1708C5AFeF47A3",
         "contrib": 0,
         "donut": 0,
         "weight": 0
