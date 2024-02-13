@@ -38295,5 +38295,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "chicken6",
+        "address": "0x069113A856D294A45C53E709d8Bf2CA2175cF69f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "RedDiceRoulette",
+        "address": "0x19850946360eb2fAd896Cfe58278888E12D9F204",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "XBBlade",
+        "address": "0x6F5810a8CAFb1d646c144797F45E722837063Cec",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Rajking777",
+        "address": "0x8b6057aFEcDf9d9cfC9828a77F520E80Eb414aC0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
