@@ -33454,7 +33454,7 @@
     },
     {
         "username": "FreekTheDog",
-        "address": "0x8f3A2D71976D22b36feb722Cf520a7Aa9Bd6d6b8",
+        "address": "0x9c01d138a415396f939f4cb56e6a585ac2497e90",
         "contrib": "2574",
         "donut": "0",
         "weight": "0"
@@ -38390,6 +38390,13 @@
     {
         "username": "cyberfugue",
         "address": "0x89E68C112e41b237fA95Ac481EDD4c46c3D420E8",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Pholicious10",
+        "address": "0x2d361c0433fc58a41da5fda0a2f0b5ae18995a9e",
         "contrib": 0,
         "donut": 0,
         "weight": 0
