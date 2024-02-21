@@ -38575,5 +38575,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "BusterMungus",
+        "address": "0x8f5114069d87bc323b4e338d9ce67b58d7a9ae97",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Arghams",
+        "address": "0x9ac973D1f908563ea3c32a9bc7670315Fd7c279a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
