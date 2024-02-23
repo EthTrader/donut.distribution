@@ -38624,5 +38624,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "subdep",
+        "address": "0xecf56076be8790a24e44f6c27d6fe304754ecf41",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ImaFreemason",
+        "address": "0xD0696Bd10966F1793D10a7AAE5308F24d8a67AA1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "MartianAndroidMiner",
+        "address": "0x5069ba7465216583aafc0323238783f319b0c19b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
