@@ -34945,7 +34945,7 @@
     },
     {
         "username": "Prog132487",
-        "address": "0x1dE6FfC60B876124e315734C4772386192e67d96",
+        "address": "0x0790d66892D8CB09E1FD9Ccf717aD56c2527009c",
         "contrib": "1132",
         "donut": "1462",
         "weight": "1132"
@@ -38698,6 +38698,13 @@
     {
         "username": "iamtyltalis",
         "address": "0xeBde2ef011367f1d3372Db90f8D8D2D209cd3b4a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "FcoFdz",
+        "address": "0xB63e65dA0D49178f5703133feeE2d56b5666b911",
         "contrib": 0,
         "donut": 0,
         "weight": 0
