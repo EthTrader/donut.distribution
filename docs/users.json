@@ -38736,5 +38736,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Telimes",
+        "address": "0x5276D88B7f66d50C71929a48Ea3922F4dFa6045d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "BetoPazVal",
+        "address": "0x701f2be6a47827f59151377a20637d6e500098a6",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Colombian_Meatsmoker",
+        "address": "0x56b58AC2cE8a226467d215182f5375fa2472aD7a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "1984_war_is_peace",
+        "address": "0x18C3adC59C331eCBabB49C1aBB718e4E38e628c5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
