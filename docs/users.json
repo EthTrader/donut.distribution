@@ -35890,7 +35890,7 @@
     },
     {
         "username": "GREENAWAKT",
-        "address": "0xEB815e7d8E2b0e57FAcDDAD601f40a93aED32773",
+        "address": "0x6BeE15a3Ec6e600D0E779489087f949F544500bd",
         "contrib": "0",
         "donut": "119214",
         "weight": "0"
@@ -38761,6 +38761,13 @@
     {
         "username": "1984_war_is_peace",
         "address": "0x18C3adC59C331eCBabB49C1aBB718e4E38e628c5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "sararose88",
+        "address": "0x3b80c16f2df1453CDc16581BbCc591f728A93759",
         "contrib": 0,
         "donut": 0,
         "weight": 0
