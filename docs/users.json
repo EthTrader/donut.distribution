@@ -35540,7 +35540,7 @@
     },
     {
         "username": "Consistent-Revenue61",
-        "address": "0x4c28ACB66AAF568ab93e4Fd4DCcdEe1b6072F9Df",
+        "address": "0x539F1c914651903FB86dD0FBE0Dc3449C60D24d9",
         "contrib": "769",
         "donut": "779",
         "weight": "769"
@@ -38782,6 +38782,20 @@
     {
         "username": "MuchGangster1337",
         "address": "0x050A722fd253312fB385cc7c249843B033394341",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ethfarvadin",
+        "address": "0xd98A119AF3EB424f17407825A974FcB9554E3bb0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "DefinitelyNotCr8tiv",
+        "address": "0x2ea8353Fd18335B2bF75c6db0d4D45767F18520c",
         "contrib": 0,
         "donut": 0,
         "weight": 0
