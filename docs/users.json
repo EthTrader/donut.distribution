@@ -34945,7 +34945,7 @@
     },
     {
         "username": "Prog132487",
-        "address": "0x0790d66892D8CB09E1FD9Ccf717aD56c2527009c",
+        "address": "0xc700ceD0A5d5778afb359588c2e9Ef2347Afbc46",
         "contrib": "1132",
         "donut": "1462",
         "weight": "1132"
@@ -38768,6 +38768,20 @@
     {
         "username": "sararose88",
         "address": "0x3b80c16f2df1453CDc16581BbCc591f728A93759",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SweetAndSourShmegma",
+        "address": "0x26E3657317e0EE1F1F1F3fA9Ba3b30275594Ab5A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "MuchGangster1337",
+        "address": "0x6959B2BB534b242893d2063B7e99a3F4619FBF29",
         "contrib": 0,
         "donut": 0,
         "weight": 0
