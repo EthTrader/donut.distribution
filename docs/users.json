@@ -38820,5 +38820,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "charlie-chicken",
+        "address": "0x23B4B8A5f50f9607C915Bcbab4B3c13A5b03302b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
