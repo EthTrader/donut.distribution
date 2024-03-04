@@ -22219,7 +22219,7 @@
     },
     {
         "username": "Puddingbuks26",
-        "address": "0x6361d1737dccFD7a68a969A7f06F9D97a740c162",
+        "address": "0x058d6A19BD9A12f43A91e0A0b3bC191AE994D29D",
         "contrib": "50418",
         "donut": "28992",
         "weight": "28992"
@@ -39041,6 +39041,20 @@
     {
         "username": "KingInoru",
         "address": "0xED9Ce5EA19Ddf096218561394455C263842a5cB3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "250zeros",
+        "address": "0xf78e64c40AEC457418362961AB77c204C08199E0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ikkaku999",
+        "address": "0x1Ba8F7523aCe1156a6FC7E099FACAbeC5050403d",
         "contrib": 0,
         "donut": 0,
         "weight": 0
