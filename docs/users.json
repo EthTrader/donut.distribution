@@ -39093,5 +39093,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "puf88",
+        "address": "0x0C9aae5bFB6b8C8c5D28C54eaA8A381dAB20E48E",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "0x456",
+        "address": "0x456029D4d417ab7BD4D5d2b0404215E56a25C000",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "bleakj",
+        "address": "0xF203aC318793490384281Dd3516f3Cb2Fe16865A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
