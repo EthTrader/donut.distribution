@@ -39142,5 +39142,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "SatoshiNakamotoes",
+        "address": "0x2DEE3a5c06571eEdCf3CD50dEd4183014D2C9916",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "King__Robbo",
+        "address": "0x02977d017bf7002b5B8f32C1D2F3024f96eaB73b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
