@@ -21393,7 +21393,7 @@
     },
     {
         "username": "Fluid_Department_120",
-        "address": "0xdbE2281A66AD700291B051eEe4256758299EbcDC",
+        "address": "0x40A410899E2e6037f08237DF0881a3EF7AC38672",
         "contrib": "38192",
         "donut": "39369",
         "weight": "38192"
@@ -39188,6 +39188,13 @@
     {
         "username": "InclineDumbbellPress",
         "address": "0x0F00d07f7A1F4129E1E2509A87d9968C2c356443",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Imaginary-Middle9285",
+        "address": "0x4E5ddd231891D590e102351A8abCc896bCdfcCeE",
         "contrib": 0,
         "donut": 0,
         "weight": 0
