@@ -12174,7 +12174,7 @@
     },
     {
         "username": "BigDeezerrr",
-        "address": "0x9eA0b418E2ece314C96AdA4353999601902DE6C1",
+        "address": "0x5526bAF767537840c8B78771875900B2Ee010b25",
         "contrib": "12327",
         "donut": "540",
         "weight": "540"
@@ -39272,6 +39272,13 @@
     {
         "username": "merryfasos",
         "address": "0x7908977E1a0daed9E57B2639620bc39a896f02E0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "crabxm",
+        "address": "0x03868dD0F14F11Fa9D6be257E0F8fB6C31fdebdd",
         "contrib": 0,
         "donut": 0,
         "weight": 0
