@@ -39289,5 +39289,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "kasvipohjainen",
+        "address": "0x72b3a9DfD79005E2e1021Ea0e7a7AF60448258D7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ch0riz0",
+        "address": "0xb58f3Dc09C4903E95F364DC3564c0005269b26CE",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
