@@ -38823,7 +38823,7 @@
     },
     {
         "username": "charlie-chicken",
-        "address": "0x23B4B8A5f50f9607C915Bcbab4B3c13A5b03302b",
+        "address": "0xdd007E8a745f40c516d8Ed259Cdabb17d5B7E764",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -39300,6 +39300,13 @@
     {
         "username": "ch0riz0",
         "address": "0xb58f3Dc09C4903E95F364DC3564c0005269b26CE",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "alf_london",
+        "address": "0x23B4B8A5f50f9607C915Bcbab4B3c13A5b03302b",
         "contrib": 0,
         "donut": 0,
         "weight": 0
