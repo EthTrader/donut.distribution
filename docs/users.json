@@ -15905,7 +15905,7 @@
     },
     {
         "username": "lodes0",
-        "address": "0x9f403C41e4d4008F2FAfbB49dDFb25313d77d4f3",
+        "address": "0xc38e771520E9001C545065c71e663ff962bf2E1c",
         "contrib": "285",
         "donut": "285",
         "weight": "285"
@@ -39349,6 +39349,76 @@
     {
         "username": "HC-DOGECOIN",
         "address": "0x98570473A5c8A405De3e986A0684782c4400F789",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "kwickle",
+        "address": "0x718De7FA93D43ac808A7C98C58F5CFfE84DCE068",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Ok_Play_7144",
+        "address": "0xC2B020DfBF9584e29A2AC561b50aea477fD0a77d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "FrenzyFancyBarb",
+        "address": "0x1d1b76e0798b2C38a34b081c980490Ea44C84B35",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ST33I7",
+        "address": "0xA0D5610b87300DFe0ed256013D6fcf5FD5F3d426",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Silver927",
+        "address": "0xc6fdbd9a043f034e5D9681476b1422Bf7B1E86a4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SelectiveHedgehog",
+        "address": "0xd8F2adb78e2EB081f8F6B096E3E96D1C36CB326c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "NoCharge8836",
+        "address": "0x0bbB145e2Ac84126507790E15b833B616A976548",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "friedricekid",
+        "address": "0x21Cc5ac164009D29d22ed092c6E53E198C1C7dbF",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "vometra",
+        "address": "0x56d546B9F3E14D6f53B2bD76a5bB6B40cfE7460c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Adventurous-Dust-380",
+        "address": "0xc15f97dD8122Aee21Aa0CE45B86949E06Ca950a3",
         "contrib": 0,
         "donut": 0,
         "weight": 0
