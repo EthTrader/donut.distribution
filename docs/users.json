@@ -30528,7 +30528,7 @@
     },
     {
         "username": "SourlandRides",
-        "address": "0xFfCC2C7f5F046A4ad767B1bB54d71535cc7F1C35",
+        "address": "0x7a6B891C2daa707548D5F7165a9cb37834a50B7c",
         "contrib": "325",
         "donut": "325",
         "weight": "325"
@@ -39314,6 +39314,41 @@
     {
         "username": "jeff77789",
         "address": "0x81eF649b1cD4a2D772072F58f73D71bf27c8Ce2c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "sTAKKLE5",
+        "address": "0x2024120184D45b4710C8b43574D980e9ECE56E68",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "kytallguy66",
+        "address": "0x0DB7C5853ec52b1B78b6B02e33734A4DF31DE239",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "JustinbEther",
+        "address": "0x573D2B9667Fa36eF32C81AdF65646B21909067Dc",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "zyppoboy",
+        "address": "0x51E78a26151D87cD9A88de3d507254DdEDD75fa1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "HC-DOGECOIN",
+        "address": "0x98570473A5c8A405De3e986A0684782c4400F789",
         "contrib": 0,
         "donut": 0,
         "weight": 0
