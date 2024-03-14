@@ -39611,5 +39611,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Primary_Technical",
+        "address": "0x13947FCFee78A156B64136097b36206897F4e253",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
