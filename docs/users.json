@@ -39747,7 +39747,7 @@
     },
     {
         "username": "CookieMeasurement",
-        "address": "0xFf6ae3Ed88E9500cfA2dB476f33DA9DC80B18bBB",
+        "address": "0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -39804,6 +39804,13 @@
     {
         "username": "El_Gonzalito",
         "address": "0x3af3204597298F53Dd0d5271e8d879aF7Ec414a0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ultrez",
+        "address": "0xFf6ae3Ed88E9500cfA2dB476f33DA9DC80B18bBB",
         "contrib": 0,
         "donut": 0,
         "weight": 0
