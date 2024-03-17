@@ -39863,5 +39863,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "1moreanonaccount",
+        "address": "0x7A6c54B21118Fa431e602A3298d86aFe42a1Ae1f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ThisIsAGoodNameOk",
+        "address": "0xF02cDFC86494Aad2eb3958F4a3f43104Cf64985a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
