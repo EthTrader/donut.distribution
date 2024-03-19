@@ -39989,5 +39989,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Important_Addition",
+        "address": "0x3Ae224572fb2806280F29C23Eda234DE980406DF",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Taykeshi",
+        "address": "0x814F56d1f9eea7d77020780861cB90Dc246d9A7D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
