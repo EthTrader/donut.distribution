@@ -33972,7 +33972,7 @@
     },
     {
         "username": "ProtectionNo1727",
-        "address": "0x7bC175e7f4C770daeCD27f9a5876013e2E4e67f0",
+        "address": "0x20edb8713BB40312880B78dECCBC453b8e2B2F62",
         "contrib": "145",
         "donut": "145",
         "weight": "145"
@@ -40154,6 +40154,34 @@
     {
         "username": "CheeZe789",
         "address": "0x1f56d95bca41E1933ec7a199407b4B223b3Fd37B",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Allcoins1Milly",
+        "address": "0xE821D90B313e66a0419A2d27884958Dc96f269Cb",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "vedapaths",
+        "address": "0x85B01e4472eC3048aC4BD6dA0F0622d82E0aff9C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "vickyJaphy",
+        "address": "0xC3526a4D80282cE65db2146b6fe32051c99f0626",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "captainjackesparrow",
+        "address": "0x878777e9D62765198489C41d02E9F64b4F75526D",
         "contrib": 0,
         "donut": 0,
         "weight": 0
