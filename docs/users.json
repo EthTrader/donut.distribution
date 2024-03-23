@@ -39908,7 +39908,7 @@
     },
     {
         "username": "Historical-Bite-6909",
-        "address": "0x44e9d4ee1E52773046838a7e98DcAde76555e133",
+        "address": "0xD30D924e4135a909BA2c9a8D74d3c6913d246Db6",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -40182,6 +40182,20 @@
     {
         "username": "captainjackesparrow",
         "address": "0x878777e9D62765198489C41d02E9F64b4F75526D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "crazybebi",
+        "address": "0x2C81F5D133Eb49571Ca33e0829B6422D39D5e433",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SandmanWithPlan",
+        "address": "0x44B706F90EEcf47101c6A202acC0d74B94dE3E0c",
         "contrib": 0,
         "donut": 0,
         "weight": 0
