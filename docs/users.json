@@ -40451,5 +40451,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "TabletopThirteen",
+        "address": "0x4DA5677a1a844DC27bE795A8025C1235bC3ee307",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "EvolvedLurker",
+        "address": "0x99A70E53a43775c8Af35884e2B74414Ef09CA7F3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
