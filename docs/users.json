@@ -15933,7 +15933,7 @@
     },
     {
         "username": "SqrHornet",
-        "address": "0x83800BDc4F58a6CBDf156a9F35158E5c6241551e",
+        "address": "0x5cfC173CCdF4c7A61d0AB61a9Ee5e34c1195ccC1",
         "contrib": "78042",
         "donut": "459",
         "weight": "459"
@@ -40434,6 +40434,13 @@
     {
         "username": "Lazy_Guy666",
         "address": "0x703aeCF33082729fb8625347a013451Fe222D354",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Hermes_Cytotoxic",
+        "address": "0xE67d47e2856C2a4e1399Dd90fE67C71E1EE52877",
         "contrib": 0,
         "donut": 0,
         "weight": 0
