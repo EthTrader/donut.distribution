@@ -40500,5 +40500,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "monsieur_ari",
+        "address": "0x24e3091B003eb3A56d2cBbbd310b9Eb2F290305E",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
