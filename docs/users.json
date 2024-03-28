@@ -785,7 +785,7 @@
     },
     {
         "username": "jdero",
-        "address": "0x16D1AC6Cee17477920a5A50283F83f73030034dD",
+        "address": "0xE5C7Cfff611bf5F9032c7C99619DA49aeb53E6EF",
         "contrib": "92267",
         "donut": "92468",
         "weight": "92267"
@@ -40511,6 +40511,13 @@
     {
         "username": "Vumpyre",
         "address": "0x5502c0d72b8F9EDeA3210809A357De2280BD2381",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Ashwathama10",
+        "address": "0xa71525971Dfb39Cf0cf521E1eCD1D8b30bA9162A",
         "contrib": 0,
         "donut": 0,
         "weight": 0
