@@ -33125,7 +33125,7 @@
     },
     {
         "username": "LebombJames10",
-        "address": "0x75bE7eD430aD1afBa9609D69F493702750822aF9",
+        "address": "0xF4CA34aDeDc1450a39427507F883cf5DDE7F8209",
         "contrib": "19",
         "donut": "19",
         "weight": "19"
@@ -40300,7 +40300,7 @@
     },
     {
         "username": "Maleficent-Bison4749",
-        "address": "0x01284F4b1439B3d840017510111f86de916625c5",
+        "address": "0x19B2B16E485A09F7c87f99D91c962Ff3c81383D6",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -40588,6 +40588,13 @@
     {
         "username": "8465792130",
         "address": "0x87f22564f887B502Da8Ee577aD6Cb9833ff34bB4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Yusuf1409",
+        "address": "0x2180Dca0694E9f8897a2f4d1a39FdC65E8389674",
         "contrib": 0,
         "donut": 0,
         "weight": 0
