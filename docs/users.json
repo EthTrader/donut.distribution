@@ -40612,5 +40612,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "HeadMembership",
+        "address": "0x237FbA5E8D0a1E847ba57Df12A6DE1f4C630C323",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
