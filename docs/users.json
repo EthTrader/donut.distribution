@@ -40738,5 +40738,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Technical_Canary_244",
+        "address": "0x19a4cDFa1D51246696334A236c8a36f53d821AEd",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "darrienkek",
+        "address": "0xe637cCe51D8e10738606F393F0977626CfdbBF0A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
