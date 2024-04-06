@@ -40780,5 +40780,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "axid",
+        "address": "0xE924508cc0D9952c1E118cF183Ef5FFDBcf8c3fA",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
