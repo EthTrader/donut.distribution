@@ -40843,5 +40843,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Dependet",
+        "address": "0x083f7Fca8aae78790f8DACf647aBB8cec7155306",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Mudd131",
+        "address": "0xC07c95C16E363eE7433015996ba322624c1AAC46",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "dannygladiolas",
+        "address": "0xebcEc91f30aEF09C6187E597f8cA4f9021fA7B2F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
