@@ -21743,7 +21743,7 @@
     },
     {
         "username": "iNec01",
-        "address": "0xd3eD1bb002C60d83fb015f3a502D71678B4a9705",
+        "address": "0x43e5FD1DD222BB2766eADe9fF52B4E1512b39810",
         "contrib": "93",
         "donut": "93",
         "weight": "93"
@@ -40910,6 +40910,13 @@
     {
         "username": "alenjambrovic7",
         "address": "0x411D07dAa2dAb8Ce4eb1fB173F8c4A38C642A939",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "absurdcriminality",
+        "address": "0x274D4683df3de9669eC06E88e716A0aEc513b988",
         "contrib": 0,
         "donut": 0,
         "weight": 0
