@@ -40920,5 +40920,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "cdbriggs",
+        "address": "0xdEAFc9CFBaE018628AEfcccFb60954e6926eb3c0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "PhysicalLodging",
+        "address": "0x100301F03299C90EC2945f64Db1f9F4e424d71F2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "TotalRisk519",
+        "address": "0x9efc94b75584A328F5b26E0ca89D07da743150f6",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
