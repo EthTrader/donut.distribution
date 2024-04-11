@@ -40878,5 +40878,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "KuriTokyo",
+        "address": "0x1234567890123456789012345678901234567899",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
