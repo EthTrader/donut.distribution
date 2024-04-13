@@ -40955,5 +40955,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "AVAutomator",
+        "address": "0x8A21147C7b2203DB998485623E8e13055638d3B2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
