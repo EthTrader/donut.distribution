@@ -40962,5 +40962,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "iAVControls",
+        "address": "0xaF637A5400AE46d7754074bA3a7aB062a7ea28A7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "__sasho",
+        "address": "0x3f19d3CFFC21FDe5D343899a31256C7d53d658c4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "TheCaptainCancer",
+        "address": "0x1FAE2ae7508fc2EA47585A8BaF6ec4d6a4f7F2A4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
