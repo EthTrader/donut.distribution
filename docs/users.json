@@ -41025,5 +41025,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Teksei1",
+        "address": "0x6C0AD1305Fa93671f8DCCC2e0441136BE6db29A7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "LordSerpant",
+        "address": "0x5ae7c3f21Ea15DB926DF3B243E2c07727F837D95",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
