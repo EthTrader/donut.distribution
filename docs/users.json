@@ -41018,5 +41018,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "ellock",
+        "address": "0x25f7A39CfC039dC051674C3BA5C08DA460A6d941",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
