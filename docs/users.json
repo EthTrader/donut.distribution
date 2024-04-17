@@ -8317,7 +8317,7 @@
     },
     {
         "username": "FistyFisticuffs",
-        "address": "0x7d9f5398BB4c8967F71bA2e8b09BF2aa4746b809",
+        "address": "0x6141aeB788db64B42b8590dd99247d6ae1bd254C",
         "contrib": 141,
         "donut": 0,
         "weight": 0
@@ -41043,6 +41043,41 @@
     {
         "username": "0crystalmeth1",
         "address": "0x2DE5dEa5A023F272184cc9dFb21E2dfd73B765f1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "kaws69",
+        "address": "0x0d32488Ce28dD1cEB33724eDA5a65Be2d9E3d095",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SeedUseg",
+        "address": "0x692D14A7345DBb611285E16aD3C8b82Be490aE8D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ShroudThe",
+        "address": "0x6B26e2B55c26EeA9dd8483111F54386f60565262",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "naveedsarwar2821",
+        "address": "0x4B422c4313E41FE15AE4594a8179d1BB8B294174",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "shimakaru",
+        "address": "0x54545ac09844B389B090dA113006F74F04eE225F",
         "contrib": 0,
         "donut": 0,
         "weight": 0
