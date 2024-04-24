@@ -20805,7 +20805,7 @@
     },
     {
         "username": "ieatmoondust",
-        "address": "0x35EEEc4938441FD4Dd5079aB6AB84481722de74d",
+        "address": "0x9ee35d42E469532b7bB5dfB2E94fA456E01C9c9f",
         "contrib": 5825,
         "donut": 2570,
         "weight": 2570
@@ -41218,6 +41218,34 @@
     {
         "username": "saturn366",
         "address": "0x3264e2331AA010F52F3dc5d1fdac64870AF0605b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "KycLonged",
+        "address": "0x86202121DE3C5ac5Acfeb3C5816a58A207e2633F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "BusdCare",
+        "address": "0xa1DcD2a5a1c2db47415d275F67b0B802b29352cF",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ShayanJamal1",
+        "address": "0x265f1875F42a8126C30284816e9D8520058A39b0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Etherhenny",
+        "address": "0x6FaEcFFC81179aC7A5cCF3033c2B3bcC1A7e6a3c",
         "contrib": 0,
         "donut": 0,
         "weight": 0
