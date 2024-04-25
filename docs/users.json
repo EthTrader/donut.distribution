@@ -41249,5 +41249,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "NftMate",
+        "address": "0xA9909ACfe3a4eb3dd44ccDe3A4A201F8ae22afB7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "TokenAcept",
+        "address": "0x05175DE3ed43CC7a51f605798fe38cA04030Dac0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "BigRon1977",
+        "address": "0x65C33426B9eB958dA182d008f3e40597398Eb752",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "BigFatCat9712",
+        "address": "0x1Cd024af39d82Aea78C58f1ee517ad87A6C45921",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
