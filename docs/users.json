@@ -41354,5 +41354,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Vexting",
+        "address": "0x99bC21716db94AEa5F6Af183715C83dAF159bd87",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
