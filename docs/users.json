@@ -41361,5 +41361,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "satoshiwife",
+        "address": "0x67F036A4C4Dd5132A120c59Ab97a43D7d1d629C2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Steady_G_Main",
+        "address": "0x73bA84183F1FDa7D3067A8EfeEC3070EEDe628DD",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "liting88",
+        "address": "0xA2Ee8CF8779C80ea187a6709f0e7974eF0E0AeEE",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
