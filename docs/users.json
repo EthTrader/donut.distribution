@@ -41662,5 +41662,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "External_Garage_7388",
+        "address": "0x4Abb201aC290B02407b69661D1d1D1a6Eb4F5bA7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Ikani_jay",
+        "address": "0x0ECaC708Ba6ff915E117e520D08895F32d75BE15",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
