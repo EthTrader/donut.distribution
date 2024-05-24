@@ -41753,5 +41753,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Oneirowout",
+        "address": "0x544E966929d75f5806006Fff6afc0001c8c3b6F2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Wrong_AnswersOnly",
+        "address": "0x8B803C6ae1DF31E95826bb7181605E8B644eabB6",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "esfomeado",
+        "address": "0x40f5526150E51C4E49CB1E0E9AC03569d89cF89f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "vino23",
+        "address": "0x0bb661b756e071b848739a5BE2ea1cF79FfBcd41",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
