@@ -38074,7 +38074,7 @@
     },
     {
         "username": "Major-Remove-7190",
-        "address": "0xef895D1f66977125637Cd810aDCbc0b0F35D7dF2",
+        "address": "0xeA6D916e38dA583B5A0758C79A0C01FDF865b978",
         "contrib": 24402,
         "donut": 24063,
         "weight": 24063
@@ -41792,6 +41792,27 @@
     {
         "username": "c_a_r_s_o",
         "address": "0x6Cda8ae556C8aee30F67bf8C947Db88179Cbe258",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "johnnmichael007",
+        "address": "0x1c13FB878d3cE94D838130cb139E844F8b64537D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "alterise",
+        "address": "0x741b3D83Ed80dD01b2Ab2b1886Ccc22E6c86D79F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ryan1064",
+        "address": "0xb404f17AC0bB2B51D5a24620E36575D8ae95A857",
         "contrib": 0,
         "donut": 0,
         "weight": 0
