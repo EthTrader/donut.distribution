@@ -41875,7 +41875,14 @@
     },
     {
         "username": "Traditional_Fix_5096",
-        "address": "0x4B36598EAB8b00C4A9f4c80336fF381b3cA4eB8a",
+        "address": "0x2f5bF3D73d3E102af450Dc098e9bF043B158C711",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Next_Statement6145",
+        "address": "0x4292c8bbEfDa88e45716e81d2F2B7c58e715342F",
         "contrib": 0,
         "donut": 0,
         "weight": 0
