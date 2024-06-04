@@ -41665,7 +41665,7 @@
     },
     {
         "username": "External_Garage_7388",
-        "address": "0x4Abb201aC290B02407b69661D1d1D1a6Eb4F5bA7",
+        "address": "0x146Ec9aad91EcCf3cA7d4Def4d8505507FC922f1",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -41883,6 +41883,34 @@
     {
         "username": "Next_Statement6145",
         "address": "0x4292c8bbEfDa88e45716e81d2F2B7c58e715342F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "dddht",
+        "address": "0x572A1Db4B7d6d5D6a9F781Fb85dE8771038E2442",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Crimson_Kira",
+        "address": "0x441D2B234EdDf6055F67eA94C4E24D70dB7d64de",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "jsmit2413",
+        "address": "0x88DA229B2497E50A39f7B06e6e13554661D763F0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SimpleMoonFarmer",
+        "address": "0x24CEA54F8883C8C0b1F4d0929fd53a0e5cA242Fb",
         "contrib": 0,
         "donut": 0,
         "weight": 0
