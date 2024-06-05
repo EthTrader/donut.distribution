@@ -16192,7 +16192,7 @@
     },
     {
         "username": "thecryptos",
-        "address": "0xe77D2793F6B75A92BF25F797056Fc4693C1bE2d6",
+        "address": "0x7A69fcEE302318cE0aDFBE506Bc7eC9d2Cd37cC3",
         "contrib": 8480,
         "donut": 7531,
         "weight": 7531
@@ -41911,6 +41911,13 @@
     {
         "username": "SimpleMoonFarmer",
         "address": "0x24CEA54F8883C8C0b1F4d0929fd53a0e5cA242Fb",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Conscious_Contact377",
+        "address": "0x93fDefC5e9404fa56Ea52a52B91b5C9247442a71",
         "contrib": 0,
         "donut": 0,
         "weight": 0
