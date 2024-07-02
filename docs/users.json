@@ -42082,5 +42082,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "ACleverHandleStolen",
+        "address": "0x9c09caC545B52820416d8E0632aA5519e406844b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
