@@ -42138,5 +42138,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "junkwatch",
+        "address": "0xA6659bA72DB7F51668Ca219c3B701aBF1dA0Ce48",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "unhingedbigfoot",
+        "address": "0x21BaBbf172d243dc9D032C61B466CaC1C7D2294B",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
