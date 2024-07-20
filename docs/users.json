@@ -31256,7 +31256,7 @@
     },
     {
         "username": "daltadka911",
-        "address": "0x244B99C038E960d7ca317368491d77D2b795cd29",
+        "address": "0x1A4429d4ABD53c2A0938830AB15De50Ef7E5c45b",
         "contrib": 3420,
         "donut": 0,
         "weight": 0
@@ -42303,6 +42303,13 @@
     {
         "username": "ab_dooo",
         "address": "0x5632F42C6D160542cC74CC8bba29D68550cacB80",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Objective-Culture-34",
+        "address": "0xAa12923C5a5fb6a9a5B0249187cD04b67Ba98a61",
         "contrib": 0,
         "donut": 0,
         "weight": 0
