@@ -42327,5 +42327,26 @@
         "contrib": 0,
         "donut": 1,
         "weight": 0
+    },
+    {
+        "username": "its-MAGNETIC",
+        "address": "0xD15cD7524381dc357B007913ee4fE7709CEf69d5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "landswipe",
+        "address": "0x9eb3d5ECBf8Af98c488cD57895a28E4c699dfA85",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "lcefight",
+        "address": "0xD4d36Fe3E14F80e6eF8Eb89046745a20D9dBB32C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
