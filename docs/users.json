@@ -42348,5 +42348,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "iso20022_",
+        "address": "0x43ac97cd0f74cCadDbd722eE08b206b42C9a2B00",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Extravagos",
+        "address": "0x5cD5263648c8B0Cca0F875C74Daf7FEE9C9c4027",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
