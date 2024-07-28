@@ -42383,5 +42383,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "lce_Fight",
+        "address": "0x98C8ec241778dE453Cd59a1dA9176ecAc4decf79",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "medfad",
+        "address": "0x954F0672Aea0dEeC0e03FC89536AFCbd357bD320",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
