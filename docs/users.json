@@ -42509,5 +42509,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Sensitive_Switch_511",
+        "address": "0x530325a96814ccd77D981033a64Db4DD364720b1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "getblockio",
+        "address": "0x33250F0281354BC1be052B982ef9138Fefc86a56",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
