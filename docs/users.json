@@ -34217,7 +34217,7 @@
     },
     {
         "username": "Unable-Rise-6724",
-        "address": "0x5FabAcCF6995554D88ab04c2910d87CE93967b49",
+        "address": "0xCD8e776eA1A4381D21F577be7682Cd07E4E4c79E",
         "contrib": 78,
         "donut": 133,
         "weight": 78
@@ -42520,6 +42520,20 @@
     {
         "username": "getblockio",
         "address": "0x33250F0281354BC1be052B982ef9138Fefc86a56",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "MGoAzul",
+        "address": "0xC54cf4fB6144DE304eE0b7d05ac727842309050A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Brief_Platform_8049",
+        "address": "0x562239C13c94d69ec437BE42e77437e23B9D0991",
         "contrib": 0,
         "donut": 0,
         "weight": 0
