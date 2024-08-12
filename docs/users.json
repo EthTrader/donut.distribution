@@ -21064,7 +21064,7 @@
     },
     {
         "username": "kirtash93",
-        "address": "0xa51731189c99832A2ba2f28C6c2dc1Db451F3a2e",
+        "address": "0xc149c6d082Da03319497A4Cfea8324A88CD1C898",
         "contrib": 527004,
         "donut": 604819,
         "weight": 527004
@@ -42562,6 +42562,13 @@
     {
         "username": "Shelbyturtle",
         "address": "0xf1769dbb44B0E8B1AD519Ea80e45E870a3C535C4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "toasted_cracker",
+        "address": "0x7570046a8F54c47df2b187150a11aA3D78350b96",
         "contrib": 0,
         "donut": 0,
         "weight": 0
