@@ -42593,5 +42593,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Pirate-investor",
+        "address": "0xB1e6026C5bEBB34dCb7b9b3346899710b0F33353",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Satrumm",
+        "address": "0x5b609ACDBED2e840861cE4fD9EF756f474E1Db28",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
