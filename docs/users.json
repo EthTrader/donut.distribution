@@ -42635,5 +42635,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "0xpolygonlabs",
+        "address": "0x7AA2649B05a80004bDce492990d990059645E7b1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
