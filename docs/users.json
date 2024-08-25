@@ -42642,5 +42642,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "arztf",
+        "address": "0x90E5af5C54702Ccebe8D8CC7ccc650dDbe932892",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "__kinsley",
+        "address": "0x54b0bF5f9aE860E130413a2D6C5f9ddbEF8f0E5C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
