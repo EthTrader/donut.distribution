@@ -42656,5 +42656,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "lorem_epsom_dollar",
+        "address": "0xbA57aCa2547387c651cA32FE7b17D92F90253B44",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
