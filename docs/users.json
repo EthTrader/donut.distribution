@@ -42691,5 +42691,12 @@
         "contrib": 0,
         "donut": 1,
         "weight": 0
+    },
+    {
+        "username": "writtey",
+        "address": "0x5B33Abe75F6e9a5B8620C29e3FB6788c1797C97F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
