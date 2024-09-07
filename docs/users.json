@@ -14736,7 +14736,7 @@
     },
     {
         "username": "warriorlynx",
-        "address": "0xC4a67a8941A0bcefdb76c99aC0ea2add2AC47578",
+        "address": "0x2c57Ba329FCc246E9032D19Ba117514c8aDAcC43",
         "contrib": 12141,
         "donut": 4309,
         "weight": 4309
@@ -42744,6 +42744,13 @@
     {
         "username": "wow247897",
         "address": "0x593208ba69338A335BE75d1b6db921C02F93A839",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Garden_Aria",
+        "address": "0x2B1b026A37B562B0DE7A20b3C514873752a01990",
         "contrib": 0,
         "donut": 0,
         "weight": 0
