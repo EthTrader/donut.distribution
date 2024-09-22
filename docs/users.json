@@ -42887,5 +42887,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "CGI_OCD",
+        "address": "0x88d47fbb374D979D2c0f1C0fFdB90E1320fDc2F5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
