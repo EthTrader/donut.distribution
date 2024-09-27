@@ -42918,7 +42918,14 @@
     },
     {
         "username": "Zealousideal-Ad-2546",
-        "address": "0x1d0dc807A5223895A98f7e1BA30eebe9732F26A8",
+        "address": "0xd779A331dF689A637C371FDd2556bD45fE6C71AA",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "hiorea",
+        "address": "0x917314D8330e8f2174BE5c79B73A5e40e2802dAe",
         "contrib": 0,
         "donut": 0,
         "weight": 0
