@@ -42925,7 +42925,7 @@
     },
     {
         "username": "hiorea",
-        "address": "0x917314D8330e8f2174BE5c79B73A5e40e2802dAe",
+        "address": "0x000000000000000000000000000000000000dEaD",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -42933,6 +42933,13 @@
     {
         "username": "zedss_dead_baby_",
         "address": "0xEca41f7F0cD6DA36295bE1a1a0a0c40d4E7e8e61",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "No-Delivery-7048",
+        "address": "0x94c2C0AF43FAc413Abdd05D977D8574B2c2f97f4",
         "contrib": 0,
         "donut": 0,
         "weight": 0
