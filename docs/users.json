@@ -31361,7 +31361,7 @@
     },
     {
         "username": "Friendly-Airline2426",
-        "address": "0xCA7faf6c0441049e2F449fbA86B77587987A21Fe",
+        "address": "0x03E7dF98a0F2bD009381da971251f0442fe29b77",
         "contrib": 847781,
         "donut": 1276578,
         "weight": 847781
@@ -39719,7 +39719,7 @@
     },
     {
         "username": "bashdude_1",
-        "address": "0xda41C90f2922f65B0dc02Ec0C23aD83435D8B5A1",
+        "address": "0x1d5Cf1693A493D22b5255D2647b77b4A15870C7d",
         "contrib": 4324,
         "donut": 985,
         "weight": 985
@@ -43061,6 +43061,20 @@
         "address": "0xc3Fc3E2075D5327B393746b997B6Dd9063608199",
         "contrib": 0,
         "donut": 4,
+        "weight": 0
+    },
+    {
+        "username": "0xMarcAurel",
+        "address": "0xCA7faf6c0441049e2F449fbA86B77587987A21Fe",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "GoodMornEveGoodNight",
+        "address": "0x016e42d7152d5C057f42924F6b13CbDD06C42c86",
+        "contrib": 0,
+        "donut": 0,
         "weight": 0
     }
 ]
