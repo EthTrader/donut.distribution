@@ -43111,5 +43111,26 @@
         "contrib": 0,
         "donut": 50,
         "weight": 0
+    },
+    {
+        "username": "Mlh1993_",
+        "address": "0x996418B899d95F84de5bdEef8EB71C0A5B680288",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "shinysideup153",
+        "address": "0xa2D77d614C820E03B17D26A89eA85F37F38E09Ca",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "zkrooky",
+        "address": "0x1C407037C00Bd2Cd78a30913fD1Dd02f420cD1Be",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
