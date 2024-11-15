@@ -43146,5 +43146,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "FixedGear02",
+        "address": "0x847B66C6cb1CCE8EdAc1411a41C2cd1778A3647C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
