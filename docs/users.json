@@ -20483,7 +20483,7 @@
     },
     {
         "username": "raymv1987",
-        "address": "0x2A043F315F24762937CBCf0EB6CB313a43bDE534",
+        "address": "0xC3Ab9E3854121A2402863eb66c90429b6A96e453",
         "contrib": 1022370,
         "donut": 50706,
         "weight": 50706
@@ -43150,6 +43150,13 @@
     {
         "username": "FixedGear02",
         "address": "0x847B66C6cb1CCE8EdAc1411a41C2cd1778A3647C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "IncompetentDonuts",
+        "address": "0x2A043F315F24762937CBCf0EB6CB313a43bDE534",
         "contrib": 0,
         "donut": 0,
         "weight": 0
