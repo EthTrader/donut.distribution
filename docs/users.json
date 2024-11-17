@@ -43160,5 +43160,12 @@
         "contrib": 1022370,
         "donut": 51360,
         "weight": 51360
+    },
+    {
+        "username": "--___--Water--___--",
+        "address": "0x3dc01daB1BCa529E7636bc2107F1c9064c3196dC",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
