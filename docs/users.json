@@ -43244,5 +43244,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "AuspiciousEther",
+        "address": "0x4786685C291e83294E03BdE3effDF18c82c21934",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
