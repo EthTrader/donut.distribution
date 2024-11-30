@@ -43265,5 +43265,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "520throwaway",
+        "address": "0x418E801c3E8ee76a58c07c0b3D24A5596f6732eb",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
