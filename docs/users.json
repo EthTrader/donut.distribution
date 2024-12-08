@@ -35449,7 +35449,7 @@
     },
     {
         "username": "Durvag",
-        "address": "0x271a79FCE2724CF9c8ed679Da513eA052a3dF326",
+        "address": "0xB662FABfFbc638E950f8d54c3b2C73f3868DEF53",
         "contrib": 26,
         "donut": 26,
         "weight": 26
@@ -43332,6 +43332,27 @@
     {
         "username": "CG-Saviour878879",
         "address": "0x4C2B87E547Ca500B0d539a6Fb82693Aa566abc00",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "deadliftthugga",
+        "address": "0xcCc98127BE9Ad4Afafe7Fe860d9346423fDc1697",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "reginal717",
+        "address": "0xFdb497133F192827991cDB8dA9fbA7224Fcf233c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "PopPio",
+        "address": "0xEAa0657C8Db72ACFF777346fC7183C505f499434",
         "contrib": 0,
         "donut": 0,
         "weight": 0
