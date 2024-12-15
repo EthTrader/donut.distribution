@@ -43461,5 +43461,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "anewbullshitusername",
+        "address": "0x851368350504ca9e2C0A1572e68694359e866bb7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
