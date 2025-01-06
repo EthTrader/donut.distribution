@@ -43566,5 +43566,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Last-Switch",
+        "address": "0x03c34D5EbA32636e3f50bE9Dfa94dEeCB67618fA",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
