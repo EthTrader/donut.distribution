@@ -43671,5 +43671,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "WallStLegends",
+        "address": "0x21BF67c54f2BdAD4eAbdB120B0D9b1d19986e29f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "commo64dor",
+        "address": "0x93c9C42bb33C9eed64ffe7878f3af0910506F34C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Zantor2100",
+        "address": "0xCC38D10f61584c480631707c57184C0941bB27e5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
