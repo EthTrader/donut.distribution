@@ -8002,7 +8002,7 @@
     },
     {
         "username": "TripleReward",
-        "address": "0x9E7105436F494938814E5a0bd9284C82c52f9766",
+        "address": "0xE00696ae0245A82462626C770F65ab3Dd31B2e14",
         "contrib": 16639,
         "donut": 11820,
         "weight": 11820
@@ -43738,6 +43738,20 @@
     {
         "username": "nocommentonworldnews",
         "address": "0x6dFdb54cF9bE4a7B4f61Ba0B15B8cbe8f2AAC89B",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Perfecti0nist",
+        "address": "0x6f986dD6Adf7df8C17a66ACE912D1957030C1E81",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Swaggy18",
+        "address": "0xACE0a52f70E2A903E4E0a8a02DEa12a8f936006c",
         "contrib": 0,
         "donut": 0,
         "weight": 0
