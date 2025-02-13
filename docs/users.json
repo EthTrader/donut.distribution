@@ -30675,7 +30675,7 @@
     },
     {
         "username": "Ch40440",
-        "address": "0x8410926B0f5Ad6223343cD6C53C7cB33c3008A30",
+        "address": "0xde7718A7Fbc0B4d7E6898aB32F26358668062Ddb",
         "contrib": 4423,
         "donut": 4432,
         "weight": 4423
@@ -43787,6 +43787,20 @@
     {
         "username": "blizzardboy123",
         "address": "0x89e5b3648cc6d80A577B1b3efC1C865FBf72A915",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "blthmsphlp",
+        "address": "0x86910773D1c908c30D44BA53d69bD4411C7ee2b9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Jaded_Protection_148",
+        "address": "0x26C7A5AC95C24c2732847A9e68F4162133dC10E4",
         "contrib": 0,
         "donut": 0,
         "weight": 0
