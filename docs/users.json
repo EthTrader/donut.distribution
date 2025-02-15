@@ -43800,7 +43800,14 @@
     },
     {
         "username": "Jaded_Protection_148",
-        "address": "0x26C7A5AC95C24c2732847A9e68F4162133dC10E4",
+        "address": "0x656d1235FF2f9762E09C9de39aD1E2ed504D6eC0",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Bootysalid",
+        "address": "0xF50Ef595A43C80b2486e028d0b930D7A3F567D96",
         "contrib": 0,
         "donut": 0,
         "weight": 0
