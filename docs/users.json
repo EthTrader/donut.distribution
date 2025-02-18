@@ -43818,5 +43818,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Signal-Arm784",
+        "address": "0x4708dAB413a4A5445d84B6F8f46621be209c4752",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "AlarmingAdvertising5",
+        "address": "0x4241A5074313260629292B565b2EC488ACD185b1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "KnownPride",
+        "address": "0xEb9C2D8c906e7D163eA346912723BDcA89e93AaB",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
