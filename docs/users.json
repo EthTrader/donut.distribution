@@ -43860,5 +43860,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "A-Stupid",
+        "address": "0x58555a372BC972ed5D112c6F00F262fB3c410a9b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "captn03",
+        "address": "0xea3965cE7599Bc07E41BBBb30bc3bb018Ea2dE50",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Orchid_Significant",
+        "address": "0x97AFE1815676e08652be7384d39BBaF308dC69C5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
