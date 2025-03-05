@@ -8613,7 +8613,7 @@
         "username": "tchildthemajestic",
         "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
         "contrib": 30642,
-        "donut": 57996,
+        "donut": 57995,
         "weight": 30642
     },
     {
@@ -13562,7 +13562,7 @@
         "username": "13illini",
         "address": "0x1d46Edca0eF607e414141A7d3b72a7894e5f6257",
         "contrib": 10128,
-        "donut": 30202,
+        "donut": 30201,
         "weight": 10128
     },
     {
@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 114915,
+        "donut": 114913,
         "weight": 77884
     },
     {
@@ -17552,7 +17552,7 @@
         "username": "PoojaaPriyaa",
         "address": "0x525465D20141d324fe857485F8f4E11740AAcCE1",
         "contrib": 111176,
-        "donut": 129319,
+        "donut": 129318,
         "weight": 111176
     },
     {
@@ -19554,7 +19554,7 @@
         "username": "PeacefullyFighting",
         "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
         "contrib": 4136,
-        "donut": 35512,
+        "donut": 35511,
         "weight": 4136
     },
     {
@@ -22249,7 +22249,7 @@
         "username": "UnfinishedAle",
         "address": "0xE86bdD706F97fB0fb1540e8fC7A3b3DBA8A42C5B",
         "contrib": 13277,
-        "donut": 28585,
+        "donut": 28584,
         "weight": 13277
     },
     {
@@ -31657,7 +31657,7 @@
         "username": "Slippytoe",
         "address": "0x7021bCC7C13f241CD1Ee0412EA8B6bb8B64D0229",
         "contrib": 11813,
-        "donut": 38892,
+        "donut": 38891,
         "weight": 11813
     },
     {
@@ -33883,8 +33883,8 @@
         "username": "Medfried",
         "address": "0x7bd6A3e266f4Ca252D38e74fAB528F539765924c",
         "contrib": 633,
-        "donut": 0,
-        "weight": 0
+        "donut": 35,
+        "weight": 35
     },
     {
         "username": "zoro_4252",
