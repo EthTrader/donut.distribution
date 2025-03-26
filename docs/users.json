@@ -44003,7 +44003,7 @@
     },
     {
         "username": "PrettyNewspaper1311",
-        "address": "0x7608911b9021bd4E5101b93D76D8546520fd9848",
+        "address": "0x5369477F322DE2Ebb18B22d0A1Ea5bA480C348FF",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -44025,6 +44025,13 @@
     {
         "username": "4rkal",
         "address": "0x25a857b544bB137B8D739D9AEB035615E9Dc7834",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Cassmach",
+        "address": "0x20E570B8b950c2c81F2cB9Fe1e02CD278f0E6D77",
         "contrib": 0,
         "donut": 0,
         "weight": 0
