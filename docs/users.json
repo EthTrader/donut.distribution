@@ -43975,7 +43975,7 @@
     },
     {
         "username": "nuclearwastewater",
-        "address": "0x43af5eE834B727fa7D5b93B54501332181db193b",
+        "address": "0xA3253f881f698767679C5bcb5BB20460C7102D71",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -44046,6 +44046,20 @@
     {
         "username": "Govnoxy",
         "address": "0xdbD6F727E9DF833ADE030fb1aeA9453510102B47",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "yutingzhang",
+        "address": "0x33798b4f75E9726955708C272a4e764ea29476b7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ink666",
+        "address": "0xCE3e42407a54121f4796d75bc92542206d1B724E",
         "contrib": 0,
         "donut": 0,
         "weight": 0
