@@ -44070,5 +44070,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "geomover",
+        "address": "0x498904c6d6a4573dE9a9a5bC98FdbE83dd35F549",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
