@@ -44091,5 +44091,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Agreeable_Day_2587",
+        "address": "0x1A906D077ce26e29A320a1f08922766353Ce81F2",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "AtenienseES",
+        "address": "0x189e5b6c79315Fa89c5Bb12320fDb2Ae12Aa5c2d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Lolenaso",
+        "address": "0x5e2A85cD51F4532B72a6C2A7eb6C83c21c16651D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "erre_axe",
+        "address": "0x74450CAc19a581EDaf6da96D579fe2E22647E218",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
