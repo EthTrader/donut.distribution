@@ -1011,7 +1011,7 @@
         "username": "Sargos",
         "address": "0xaCf4C2950107eF9b1C37faA1F9a866C8F0da88b9",
         "contrib": 66197,
-        "donut": 67628,
+        "donut": 67602,
         "weight": 66197
     },
     {
@@ -1522,8 +1522,8 @@
         "username": "EfgKh4EE3eTb9HPwe3iy",
         "address": "0x0bE9162F0E9DdA79d2d7a269F87E9d6A2eCd6661",
         "contrib": 31176,
-        "donut": 29720,
-        "weight": 29720
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "voidfactory",
@@ -8123,7 +8123,7 @@
         "username": "VoodooReload",
         "address": "0x8000f0E6b2349a1554a88830E2e38F47B2fac889",
         "contrib": 2121,
-        "donut": 3711,
+        "donut": 3691,
         "weight": 2121
     },
     {
@@ -8613,7 +8613,7 @@
         "username": "tchildthemajestic",
         "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
         "contrib": 30642,
-        "donut": 64092,
+        "donut": 63888,
         "weight": 30642
     },
     {
@@ -11952,8 +11952,8 @@
         "username": "Artificial8Wanderer",
         "address": "0x47311fcD99cfb2F0764054b2546cBE0467d98fD2",
         "contrib": 92313,
-        "donut": 3430,
-        "weight": 3430
+        "donut": 3420,
+        "weight": 3420
     },
     {
         "username": "retsuvls123456",
@@ -12561,8 +12561,8 @@
         "username": "rsblk",
         "address": "0xF08E242722aF03F5575A50E8bFbA0c56EFF6D134",
         "contrib": 313402,
-        "donut": 81,
-        "weight": 81
+        "donut": 80,
+        "weight": 80
     },
     {
         "username": "finesse_finesse",
@@ -13310,8 +13310,8 @@
         "username": "Aguaskeepartdeux",
         "address": "0x8F8E6bb6D20fB56a6988F91E60cf8b5437CC052f",
         "contrib": 40399,
-        "donut": 1914,
-        "weight": 1914
+        "donut": 1907,
+        "weight": 1907
     },
     {
         "username": "theylie86",
@@ -13562,7 +13562,7 @@
         "username": "13illini",
         "address": "0x1d46Edca0eF607e414141A7d3b72a7894e5f6257",
         "contrib": 10128,
-        "donut": 33637,
+        "donut": 33523,
         "weight": 10128
     },
     {
@@ -14647,8 +14647,8 @@
         "username": "camp2gg",
         "address": "0x2D18A4f7DcA01c833f1ca09bCb947aEc80D0b8C2",
         "contrib": 40659,
-        "donut": 53,
-        "weight": 53
+        "donut": 52,
+        "weight": 52
     },
     {
         "username": "AbjectList8",
@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 125956,
+        "donut": 125587,
         "weight": 77884
     },
     {
@@ -14815,7 +14815,7 @@
         "username": "what_the_deuce",
         "address": "0xe809BbE8dBE425035d955a30a902a09B58683198",
         "contrib": 6154,
-        "donut": 23625,
+        "donut": 23545,
         "weight": 6154
     },
     {
@@ -15088,7 +15088,7 @@
         "username": "JollyFaithlessness3",
         "address": "0x2Aa4691B454aC60EBE4C5Ec25c6c924ecC1AE6D6",
         "contrib": 28216,
-        "donut": 41719,
+        "donut": 41582,
         "weight": 28216
     },
     {
@@ -15137,7 +15137,7 @@
         "username": "marilketh",
         "address": "0x2bdD5A5c7023Fbd1b5d32b9BD46e356e7c4db3Cc",
         "contrib": 15741,
-        "donut": 27888,
+        "donut": 27816,
         "weight": 15741
     },
     {
@@ -15277,8 +15277,8 @@
         "username": "TheRempo",
         "address": "0xC5308238EB28b03c63F2a7845B164379120a6B96",
         "contrib": 3269,
-        "donut": 2827,
-        "weight": 2827
+        "donut": 2821,
+        "weight": 2821
     },
     {
         "username": "D2HLC",
@@ -17552,7 +17552,7 @@
         "username": "PoojaaPriyaa",
         "address": "0x525465D20141d324fe857485F8f4E11740AAcCE1",
         "contrib": 111287,
-        "donut": 136074,
+        "donut": 135853,
         "weight": 111287
     },
     {
@@ -17615,8 +17615,8 @@
         "username": "Alejandro_Last_Name",
         "address": "0xd6Eee4FC1b33c38510B6c9201185184737731131",
         "contrib": 15612,
-        "donut": 13462,
-        "weight": 13462
+        "donut": 13418,
+        "weight": 13418
     },
     {
         "username": "Rainbow_Sheen",
@@ -17636,14 +17636,14 @@
         "username": "Suthekingg",
         "address": "0x02801E0a37E6DbB71E1df771fe5467a23916A47D",
         "contrib": 713946,
-        "donut": 240,
-        "weight": 240
+        "donut": 239,
+        "weight": 239
     },
     {
         "username": "gustavossj",
         "address": "0xE1282993bF336883e0C2F9dab5A39f16Ffa0c7e0",
         "contrib": 190298,
-        "donut": 256728,
+        "donut": 256699,
         "weight": 190298
     },
     {
@@ -17664,8 +17664,8 @@
         "username": "Hodling-Since2018",
         "address": "0xBD5b8A59f5016fA7B8f48Dffa5a3260b1Cb4A269",
         "contrib": 352960,
-        "donut": 268,
-        "weight": 268
+        "donut": 267,
+        "weight": 267
     },
     {
         "username": "johnzander1",
@@ -17825,8 +17825,8 @@
         "username": "DaaisyJain",
         "address": "0xcfa171Dd359432f205eCecA9dD1F34210dacea37",
         "contrib": 4172,
-        "donut": 2684,
-        "weight": 2684
+        "donut": 2682,
+        "weight": 2682
     },
     {
         "username": "aimeleon",
@@ -19554,7 +19554,7 @@
         "username": "PeacefullyFighting",
         "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
         "contrib": 4136,
-        "donut": 41768,
+        "donut": 41560,
         "weight": 4136
     },
     {
@@ -21115,8 +21115,8 @@
         "username": "JoblessJessica",
         "address": "0x8f66082067D4ca2210362C0F7718598415cDF32A",
         "contrib": 10627,
-        "donut": 872,
-        "weight": 872
+        "donut": 870,
+        "weight": 870
     },
     {
         "username": "kyonlife",
@@ -21318,7 +21318,7 @@
         "username": "Diggable_Acrobat5050",
         "address": "0xD4278bB2859F55493E8Ad704D8a2837000860F8a",
         "contrib": 736,
-        "donut": 1481,
+        "donut": 1477,
         "weight": 736
     },
     {
@@ -21605,7 +21605,7 @@
         "username": "ralfy00",
         "address": "0xD10bA028C458DA9Ac231B935c287F048Fc4fdfA4",
         "contrib": 3193,
-        "donut": 3331,
+        "donut": 3313,
         "weight": 3193
     },
     {
@@ -22249,7 +22249,7 @@
         "username": "UnfinishedAle",
         "address": "0xE86bdD706F97fB0fb1540e8fC7A3b3DBA8A42C5B",
         "contrib": 13277,
-        "donut": 34140,
+        "donut": 33955,
         "weight": 13277
     },
     {
@@ -22298,7 +22298,7 @@
         "username": "MasterBurro",
         "address": "0xfE1ba828b04233d20baf7b402a15544e4DC09E5e",
         "contrib": 24105,
-        "donut": 46809,
+        "donut": 46674,
         "weight": 24105
     },
     {
@@ -22340,7 +22340,7 @@
         "username": "Doggybone_treat",
         "address": "0x7B3E7E5243228995f9F77A3E7479F263338cd51A",
         "contrib": 25072,
-        "donut": 42260,
+        "donut": 42110,
         "weight": 25072
     },
     {
@@ -22375,8 +22375,8 @@
         "username": "chad_monkey",
         "address": "0xfF6017e8794834C1625D14B848C0F7E94fdeD94b",
         "contrib": 5766,
-        "donut": 53,
-        "weight": 53
+        "donut": 52,
+        "weight": 52
     },
     {
         "username": "DarthRevis3",
@@ -22886,8 +22886,8 @@
         "username": "Efficient-Ad-7192",
         "address": "0x94Cef2c7E22CAc03AcBD3317Fe29967a21b5a451",
         "contrib": 7105,
-        "donut": 821,
-        "weight": 821
+        "donut": 819,
+        "weight": 819
     },
     {
         "username": "trithi",
@@ -23285,8 +23285,8 @@
         "username": "Zymurgency",
         "address": "0x9f9e0a2e816D312B891C488dBd5732EC086D5ea1",
         "contrib": 233,
-        "donut": 121,
-        "weight": 121
+        "donut": 120,
+        "weight": 120
     },
     {
         "username": "skullllll",
@@ -25679,8 +25679,8 @@
         "username": "RabidSalmon",
         "address": "0x9b313D27ac424A52e4d088eE51eB0d7A0a457F0b",
         "contrib": 16856,
-        "donut": 978,
-        "weight": 978
+        "donut": 974,
+        "weight": 974
     },
     {
         "username": "Ayahuascafly",
@@ -28325,7 +28325,7 @@
         "username": "t1m3f0rt1m3r",
         "address": "0xCA490aB2a31C40E003a0A8C063442277DF7F8774",
         "contrib": 935,
-        "donut": 2752,
+        "donut": 2746,
         "weight": 935
     },
     {
@@ -30684,8 +30684,8 @@
         "username": "Savi321",
         "address": "0x7eA45e32a4F75F79615e1C77fA017F2ac4fE66AB",
         "contrib": 21390,
-        "donut": 9861,
-        "weight": 9861
+        "donut": 9872,
+        "weight": 9872
     },
     {
         "username": "justemilyr",
@@ -30964,7 +30964,7 @@
         "username": "vicheiy",
         "address": "0xFbd26D5BA6F02f97778409C082Cb127f9d000a57",
         "contrib": 927,
-        "donut": 1118,
+        "donut": 1117,
         "weight": 927
     },
     {
@@ -31657,7 +31657,7 @@
         "username": "Slippytoe",
         "address": "0x7021bCC7C13f241CD1Ee0412EA8B6bb8B64D0229",
         "contrib": 11813,
-        "donut": 44993,
+        "donut": 44790,
         "weight": 11813
     },
     {
@@ -31860,8 +31860,8 @@
         "username": "Positive-Gazelle2603",
         "address": "0xE3fE5E1F139eDd94a4B6B1E46a256Db093FD4717",
         "contrib": 5502,
-        "donut": 998,
-        "weight": 998
+        "donut": 994,
+        "weight": 994
     },
     {
         "username": "tentazoc",
@@ -44103,21 +44103,21 @@
         "username": "AtenienseES",
         "address": "0x189e5b6c79315Fa89c5Bb12320fDb2Ae12Aa5c2d",
         "contrib": 0,
-        "donut": 0,
+        "donut": 200,
         "weight": 0
     },
     {
         "username": "Lolenaso",
         "address": "0x5e2A85cD51F4532B72a6C2A7eb6C83c21c16651D",
         "contrib": 0,
-        "donut": 0,
+        "donut": 200,
         "weight": 0
     },
     {
         "username": "erre_axe",
         "address": "0x74450CAc19a581EDaf6da96D579fe2E22647E218",
         "contrib": 0,
-        "donut": 0,
+        "donut": 100,
         "weight": 0
     }
 ]
