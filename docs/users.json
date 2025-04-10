@@ -44175,5 +44175,26 @@
         "contrib": 0,
         "donut": 100,
         "weight": 0
+    },
+    {
+        "username": "Special_Net_1835",
+        "address": "0x4A9A13A77eCC003628A73eDCC562452F1eF26c99",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "WinsRock",
+        "address": "0x4d8A15a7fE40c139E7F39c0Be40f0144Fd625F69",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Fear_Blind83",
+        "address": "0x658aBbeff3A93Ea218b41AE1533E97719D82884E",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
