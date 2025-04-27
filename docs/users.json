@@ -44231,5 +44231,12 @@
         "contrib": 0,
         "donut": 37,
         "weight": 0
+    },
+    {
+        "username": "polliwawg",
+        "address": "0xf7e925818a20E5573Ee0f3ba7aBC963e17f2c476",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
