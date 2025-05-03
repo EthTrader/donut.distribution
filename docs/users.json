@@ -44245,5 +44245,12 @@
         "contrib": 0,
         "donut": 457259,
         "weight": 0
+    },
+    {
+        "username": "thinkingcoin",
+        "address": "0xFD5Cd04bF2F743353eb9Db75e29aBEC326e28BcE",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
