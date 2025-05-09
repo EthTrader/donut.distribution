@@ -44273,5 +44273,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "dangly_bits",
+        "address": "0x5607635603B7fe452185DCfB8C48260700b9aA7d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "fussball9999",
+        "address": "0x5584e428D5274b2f81dE2d4965D0CA84ef2daEc4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
