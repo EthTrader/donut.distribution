@@ -43898,7 +43898,7 @@
     },
     {
         "username": "Ice-Fight",
-        "address": "0xf3F10A79e2EbF1a4C713eA34EA08E29f48FF5ca3",
+        "address": "0x8b90cA3c3203D533ac1Ee8c5D7bF96787B062cF0",
         "contrib": 1356,
         "donut": 0,
         "weight": 0
@@ -44298,6 +44298,13 @@
     {
         "username": "nestiebein",
         "address": "0x20F80338D5ba454824AF2883e2796c41A52d12F8",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "angrbigmidget",
+        "address": "0x20e94cECDefd152461e16F71A38FaD360bc3824c",
         "contrib": 0,
         "donut": 0,
         "weight": 0
