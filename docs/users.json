@@ -41623,7 +41623,7 @@
     },
     {
         "username": "sheetstainss",
-        "address": "0x14Ce9833485923D3335D1Fc1Db900e8b8E292fbB",
+        "address": "0x8B4b689b59eE1DC1BDe8E73538B89885187985b2",
         "contrib": 1,
         "donut": 1,
         "weight": 1
@@ -44347,6 +44347,13 @@
     {
         "username": "justa-bloke",
         "address": "0x5028481D95df5f6a58A604a6b99EA16FCCf47Bb7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "LordBobTheWhale",
+        "address": "0x1e78FD249D43C378C3a3022273126E33210F78E8",
         "contrib": 0,
         "donut": 0,
         "weight": 0
