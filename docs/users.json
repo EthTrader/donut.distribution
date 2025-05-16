@@ -44357,5 +44357,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "JuntDough",
+        "address": "0x15a8c8915ad920361646D42E647C55E86883B089",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "sentbygodtojudge",
+        "address": "0x509c52747aD070dA38f26f36C30c337eA7f90b34",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
