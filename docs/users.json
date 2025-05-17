@@ -44371,5 +44371,19 @@
         "contrib": 0,
         "donut": 47759,
         "weight": 0
+    },
+    {
+        "username": "lce-Fight",
+        "address": "0x29F3CCc2D8561Cc541336708C60bc0E0e71C4769",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "retroapropos",
+        "address": "0x7259e63c70081180dcc8f07829b8514f13C3c186",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
