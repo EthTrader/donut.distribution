@@ -44392,5 +44392,19 @@
         "contrib": 0,
         "donut": 14016,
         "weight": 0
+    },
+    {
+        "username": "Macerer-X",
+        "address": "0x11b414f287929aB0136d273C797c8CB66936352f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Chrisnba24",
+        "address": "0xb7cBb6af9392a9370E902B3509b9F03f80Bbb42a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
