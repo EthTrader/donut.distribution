@@ -44511,5 +44511,26 @@
         "contrib": 0,
         "donut": 106,
         "weight": 0
+    },
+    {
+        "username": "NatalieMichaael",
+        "address": "0x12086BC75D70e641D1d319622BF315E4e866ade3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "EchoEnclosure",
+        "address": "0x42e84F0bCe28696cF1D254F93DfDeaeEB6F0D67d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Puzzleheaded-Win8911",
+        "address": "0x4e23C07af97d0e418A576FE7b008ad2176183DD5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
