@@ -43975,7 +43975,7 @@
     },
     {
         "username": "nuclearwastewater",
-        "address": "0xA3253f881f698767679C5bcb5BB20460C7102D71",
+        "address": "0x391018619124bDeDe1628ef3E62cB5bADE3E7c58",
         "contrib": 118,
         "donut": 119,
         "weight": 118
@@ -44536,6 +44536,34 @@
     {
         "username": "Ok-Yam2365",
         "address": "0x0719f511fA9D2277516874e99b8cbD4F701C4eC5",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "divyad",
+        "address": "0xec84E1E9637DC208E2af5e1F6bB74B8fE6af7a5f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "PiratexelA",
+        "address": "0xD4b67E5b05d7e49eD05712fE55f10B165e9417F1",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "jclaslie",
+        "address": "0x49BFaBf1904FE272ef4097164C2e8524c6B27716",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "visionblurry",
+        "address": "0xA6bf3684a1c3E9f8d89EEEBC56317732F3Ac7286",
         "contrib": 0,
         "donut": 0,
         "weight": 0
