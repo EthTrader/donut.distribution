@@ -44616,5 +44616,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "bapfelbaum",
+        "address": "0x94D7923914498FeC496E6F15cC7d30099f204EaC",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "ICE-FlGHT",
+        "address": "0xdb45859C25c08a38f2cC04c17a04F76C0FC3191f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
