@@ -38410,7 +38410,7 @@
     },
     {
         "username": "the_dirtiest_rascal",
-        "address": "0x6Fc53b8DdcD45490a194c967D1A78C7f838Ff15d",
+        "address": "0xc81De035CdBa578d2121E33427adad91A75d0176",
         "contrib": 10,
         "donut": 14,
         "weight": 10
@@ -44739,6 +44739,34 @@
     {
         "username": "warmrklb",
         "address": "0x54313b1c64fADBbea10d51F47eEe6446Cb4a4AFE",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "PositionDelicious542",
+        "address": "0x2705C713c05a2b48E5b84E03279B4a0f71E3Fd88",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "bosquejo",
+        "address": "0x91D71e523027Be13faCFB948b2f26B16501b3C85",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Wise-Grapefruit-1443",
+        "address": "0x0cCE45f35d6ee94819Ce16D2830A513739EF91E9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Whotakelaekagg",
+        "address": "0x8EdAd6193A7FDB547433C33381d283348960b4B4",
         "contrib": 0,
         "donut": 0,
         "weight": 0
