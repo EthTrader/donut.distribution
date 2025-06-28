@@ -44868,5 +44868,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Pulpote",
+        "address": "0x59f9973DB750C98dd983C7684e400599676a6411",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "CuriousLavender",
+        "address": "0xF9DAf14830402943ac49b8e4E62358084aa93ccb",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
