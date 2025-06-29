@@ -44882,5 +44882,26 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "SideTalkBTC",
+        "address": "0x49aA762E984b2cFB229c6520af012D8758820a5A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "loc710",
+        "address": "0x53155c282FB1b202Ad3452986De2CB98b4906139",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "wijuwiju",
+        "address": "0xF4844a06d4f995C4c03195AfcB5Aa59dCBB5b4Fc",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
