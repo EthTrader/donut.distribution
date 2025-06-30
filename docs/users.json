@@ -44903,5 +44903,19 @@
         "contrib": 0,
         "donut": 45737,
         "weight": 0
+    },
+    {
+        "username": "Streetwalkeroulette",
+        "address": "0xf3A24ceD07053444BAA367430804adE465A0Bc7A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "oflimiteduse",
+        "address": "0xBce65e09c1191D995595c26C86402f06aA574309",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
