@@ -44966,5 +44966,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "8055U",
+        "address": "0x220Cd60e29d706B6Df1a07A5405B93D7285c0cB3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
