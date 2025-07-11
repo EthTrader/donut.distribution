@@ -45022,5 +45022,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "ogg_ogg",
+        "address": "0x401303ED8d438D627Fc626b38ee796454d7a085f",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "gbacoins",
+        "address": "0x2bE90817D63705a0bA8e7CD70F08295edE603885",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
