@@ -23507,7 +23507,7 @@
     },
     {
         "username": "Haruhi4",
-        "address": "0x12985951Fa7051f0b1AE2C0749C8285bD742A82b",
+        "address": "0x8c7803Eb85428b8F68B4AcfD61D9Bab2FDe3eB6a",
         "contrib": 2044,
         "donut": 263,
         "weight": 263
@@ -45040,6 +45040,20 @@
     {
         "username": "hduynam99",
         "address": "0x409067c39029382a5C4d38b75163c5539b25a17a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Little-Difficulty-93",
+        "address": "0x6057D3a6FeC3E209E79866C62f1951d491f63E74",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "TruthReasonOrLies",
+        "address": "0x700EE7fB2b2985181cE852034e48C87Ec74815f4",
         "contrib": 0,
         "donut": 0,
         "weight": 0
