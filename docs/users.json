@@ -45064,5 +45064,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "FocusLimit",
+        "address": "0x45e16a95a8D00ddFc36c22486f96FeEFDb648306",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "TimeSyncTechie",
+        "address": "0x03dBE0f79b1a27C5122B191C52BE526B9F891c97",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
