@@ -45106,5 +45106,33 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "ReflectionLumpy1040",
+        "address": "0x0C5f8Dc06c66e0722Ef2b3205202C871387372Cb",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "supervisionado",
+        "address": "0x04b34ABbd5A780E3DFE748480518e75E6249f963",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "againer",
+        "address": "0xF26F82548F9ACa4ace8Bd984f873955017c2a4F3",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Green_Candler",
+        "address": "0xC57930803027eC2b4965F65ac9a9F02E587F5Cf4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
