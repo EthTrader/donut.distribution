@@ -44269,7 +44269,7 @@
     },
     {
         "username": "Pinewatch762",
-        "address": "0xf0bEF0A12Bc5a2A647F24411bfd3aCBC7A0D6e0c",
+        "address": "0x14f40e47227c9F75FD3165292D9F9ff28a4BE577",
         "contrib": 1674,
         "donut": 1591,
         "weight": 1591
@@ -45152,6 +45152,20 @@
     {
         "username": "sai_bittu",
         "address": "0x90fAFd00699C02cFAb1B3a41951aF0039d6c9c3d",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "smashdro",
+        "address": "0x9CcCc1c8cF2823281838fbB9190AD9e83dA74196",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Old-Sun-3126",
+        "address": "0xcA8d5D37e609A91b71B2017Edf46eD62Bdf75a02",
         "contrib": 0,
         "donut": 0,
         "weight": 0
