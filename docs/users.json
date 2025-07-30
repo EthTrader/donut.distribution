@@ -1345,7 +1345,7 @@
     },
     {
         "username": "joekercom",
-        "address": "0x0c386D32c3FDb63ac74454c823eDee71E824A2E6",
+        "address": "0x766279Ae820Ab46F738dE28B8f010Dc093E07A8A",
         "contrib": 39783,
         "donut": 3048,
         "weight": 3048
@@ -45186,7 +45186,7 @@
     },
     {
         "username": "Calm_Voice_9791",
-        "address": "0x7481c91da2DaA1961c63091ac9ee77cD7D81F1Fd",
+        "address": "0xe9216D4F24B8279ff292b28403c2f8D633A89b26",
         "contrib": 0,
         "donut": 0,
         "weight": 0
@@ -45236,6 +45236,13 @@
     {
         "username": "Fakeplayer1",
         "address": "0x47FeDc21b45718c74d635d6F4274d3aED9140E3D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "jesser9",
+        "address": "0x7d0C0FCD7EbF36c8b3Adf162168F8139E6E72f74",
         "contrib": 0,
         "donut": 0,
         "weight": 0
