@@ -45274,5 +45274,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "PungentListener",
+        "address": "0x3E4749F8c43aDd97782B773524ff8413b991349c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "igorcheta98",
+        "address": "0xf3691fc11ADE945853A25DcF9955462fdFe4D793",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
