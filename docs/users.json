@@ -45302,5 +45302,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "aptacode",
+        "address": "0xC7Db4e70C2B2183B619e1a16932f4A753CC82902",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
