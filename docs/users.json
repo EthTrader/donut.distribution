@@ -45316,5 +45316,19 @@
         "contrib": 0,
         "donut": 10165,
         "weight": 0
+    },
+    {
+        "username": "jdg401",
+        "address": "0xEc296cCD6dc6542A687a5c060e8129f31bB8d208",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "meetjames",
+        "address": "0x1d844F6E0D1ba447a986cB03dc13E92bD6Ef00fa",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
