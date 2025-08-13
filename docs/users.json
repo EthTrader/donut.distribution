@@ -45358,5 +45358,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "AfterTax",
+        "address": "0xdAB5c3cAD7744aD92c0672892bb843f7f6CddDFc",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
