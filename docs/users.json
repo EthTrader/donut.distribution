@@ -45365,5 +45365,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Buy_Ether",
+        "address": "0x1dB134f30512f72482C4afA8213c4610D53b310a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "iHeartQt",
+        "address": "0x0E1418dE91Eb160C411532D511d6365112A1624C",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
