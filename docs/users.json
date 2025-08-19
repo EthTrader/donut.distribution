@@ -33727,7 +33727,7 @@
     },
     {
         "username": "Mysterymanashu",
-        "address": "0x43Cb7328177aDa726c88dE29FA888b9BFf1067C8",
+        "address": "0x2d3BFA9C6217FA78571771CEbC36A8bd4868F648",
         "contrib": 696,
         "donut": 696,
         "weight": 696
@@ -45390,6 +45390,13 @@
     {
         "username": "a_library_socialist",
         "address": "0xF2aBF64Ad7690EFADc6025b295Ffab9452ffa585",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "woodenmonkey67",
+        "address": "0x6Bf505dB68719B49E5d9E513bA653D3f0bc4Ff65",
         "contrib": 0,
         "donut": 0,
         "weight": 0
