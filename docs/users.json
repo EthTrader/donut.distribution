@@ -45407,5 +45407,12 @@
         "contrib": 0,
         "donut": 3,
         "weight": 0
+    },
+    {
+        "username": "jbrev01",
+        "address": "0x82351f8776b2a1ED4EDaAe0CF319753A5806EEd7",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
