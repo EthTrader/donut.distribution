@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 98724,
+        "donut": 98725,
         "weight": 77884
     },
     {
@@ -32588,7 +32588,7 @@
         "username": "PineapplePie135",
         "address": "0xFf98aA744a746933F366Ca2Cf0EB1338f9e5eB36",
         "contrib": 280,
-        "donut": 9801,
+        "donut": 10385,
         "weight": 280
     },
     {
@@ -45433,7 +45433,7 @@
         "username": "WhiteMaze",
         "address": "0xa59469218dF32E7321a2d3fD7a554230BF6452B7",
         "contrib": 0,
-        "donut": 0,
+        "donut": 319,
         "weight": 0
     }
 ]
