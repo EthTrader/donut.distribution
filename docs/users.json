@@ -45533,5 +45533,19 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "CrypticallyKind",
+        "address": "0x9Ef321AbC2Dc8b5411e86807e59886CB397e9EF4",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Zellnerz",
+        "address": "0x9fc6a6b9212B7cb8D08599928240A9d5bFD0A479",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
