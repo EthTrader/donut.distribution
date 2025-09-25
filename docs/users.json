@@ -45561,5 +45561,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Safety_Officer_3",
+        "address": "0x129f7719Ab92F9cE612bC123b622ef43B4211a9c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
