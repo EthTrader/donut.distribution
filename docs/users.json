@@ -45582,5 +45582,26 @@
         "contrib": 0,
         "donut": 1140,
         "weight": 0
+    },
+    {
+        "username": "Bahtiar04",
+        "address": "0x028182262270cC9776bc4a22a9949d9BC234AE1D",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "sahila",
+        "address": "0x820DbbCFbdf944962E4976C44b233011532c03F9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Legitimate_Towel_919",
+        "address": "0xc7081355932E6Bc287eC1D53239ab8e47846977c",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
