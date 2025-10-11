@@ -45750,5 +45750,19 @@
         "contrib": 0,
         "donut": 1264,
         "weight": 0
+    },
+    {
+        "username": "jc505978",
+        "address": "0x89f9ddb4dFE7c8276625b4A44B7682e5C47402cB",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "PerfectReflection155",
+        "address": "0x5A90b11f3F6cbfd2984c434DB09c03e3a5475228",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
