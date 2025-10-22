@@ -45820,5 +45820,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "totalmarc",
+        "address": "0x1DBCC85f503333728ce12c7053b01a19CCba2E5b",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
