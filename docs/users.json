@@ -8613,7 +8613,7 @@
         "username": "tchildthemajestic",
         "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
         "contrib": 30642,
-        "donut": 51292,
+        "donut": 51293,
         "weight": 30642
     },
     {
@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 102772,
+        "donut": 102773,
         "weight": 77884
     },
     {
@@ -19554,7 +19554,7 @@
         "username": "PeacefullyFighting",
         "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
         "contrib": 4136,
-        "donut": 28630,
+        "donut": 28631,
         "weight": 4136
     },
     {
@@ -31657,7 +31657,7 @@
         "username": "Slippytoe",
         "address": "0x7021bCC7C13f241CD1Ee0412EA8B6bb8B64D0229",
         "contrib": 11813,
-        "donut": 32181,
+        "donut": 32182,
         "weight": 11813
     },
     {
@@ -44523,8 +44523,8 @@
         "username": "EchoEnclosure",
         "address": "0x42e84F0bCe28696cF1D254F93DfDeaeEB6F0D67d",
         "contrib": 269,
-        "donut": 260,
-        "weight": 260
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "Puzzleheaded-Win8911",
