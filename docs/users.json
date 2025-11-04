@@ -6238,7 +6238,7 @@
     },
     {
         "username": "SevenCroutons",
-        "address": "0xcd8D424e25E1Aa201091F855a81f28d2556988dD",
+        "address": "0xed04Fe3C641B7cA7E7D28Fbb30b797e8E2f56310",
         "contrib": 33713,
         "donut": 65984,
         "weight": 33713
@@ -45852,6 +45852,20 @@
     {
         "username": "rv8n8",
         "address": "0x3e38717ca367cDad980613466ea2395621EE17E8",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "DogStunning4845",
+        "address": "0xa21fca7a26bb74E8604858F329aF48c68428d596",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "SetsukoAmon",
+        "address": "0xf01773298C73D69308423932D67FB06D356149B1",
         "contrib": 0,
         "donut": 0,
         "weight": 0
