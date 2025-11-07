@@ -122,8 +122,8 @@
         "username": "Basoosh",
         "address": "0x80148c5d2b61182107f43FAE67f8F2ec4b5dbcDE",
         "contrib": 4355149,
-        "donut": 1419269,
-        "weight": 1419269
+        "donut": 1416769,
+        "weight": 1416769
     },
     {
         "username": "Nooku",
@@ -1011,7 +1011,7 @@
         "username": "Sargos",
         "address": "0xaCf4C2950107eF9b1C37faA1F9a866C8F0da88b9",
         "contrib": 66197,
-        "donut": 66500,
+        "donut": 66499,
         "weight": 66197
     },
     {
@@ -25679,8 +25679,8 @@
         "username": "RabidSalmon",
         "address": "0x9b313D27ac424A52e4d088eE51eB0d7A0a457F0b",
         "contrib": 16856,
-        "donut": 789,
-        "weight": 789
+        "donut": 3289,
+        "weight": 3289
     },
     {
         "username": "Ayahuascafly",
