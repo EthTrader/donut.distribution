@@ -19554,7 +19554,7 @@
         "username": "PeacefullyFighting",
         "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
         "contrib": 4136,
-        "donut": 35068,
+        "donut": 35069,
         "weight": 4136
     },
     {
@@ -39189,8 +39189,8 @@
         "username": "InclineDumbbellPress",
         "address": "0x0F00d07f7A1F4129E1E2509A87d9968C2c356443",
         "contrib": 315018,
-        "donut": 131854,
-        "weight": 131854
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "Imaginary-Middle9285",
