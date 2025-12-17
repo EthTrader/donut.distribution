@@ -46030,5 +46030,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "OGAuditCrypto",
+        "address": "0x096f19a5c9eCe639eA00C84E1dE8A984401430E9",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
