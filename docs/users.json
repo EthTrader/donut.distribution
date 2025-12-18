@@ -8613,7 +8613,7 @@
         "username": "tchildthemajestic",
         "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
         "contrib": 30642,
-        "donut": 55865,
+        "donut": 55864,
         "weight": 30642
     },
     {
@@ -17615,8 +17615,8 @@
         "username": "Alejandro_Last_Name",
         "address": "0xd6Eee4FC1b33c38510B6c9201185184737731131",
         "contrib": 15612,
-        "donut": 11703,
-        "weight": 11703
+        "donut": 11702,
+        "weight": 11702
     },
     {
         "username": "Rainbow_Sheen",
@@ -46035,7 +46035,7 @@
         "username": "OGAuditCrypto",
         "address": "0x096f19a5c9eCe639eA00C84E1dE8A984401430E9",
         "contrib": 0,
-        "donut": 0,
+        "donut": 38,
         "weight": 0
     }
 ]
