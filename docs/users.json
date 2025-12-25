@@ -46051,5 +46051,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "upvotes_are_useless",
+        "address": "0x8Ff6F3A1444e2c834e7E14DbBa3725e42d74CFeD",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
