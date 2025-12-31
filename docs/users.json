@@ -42661,8 +42661,8 @@
         "username": "lorem_epsom_dollar",
         "address": "0xbA57aCa2547387c651cA32FE7b17D92F90253B44",
         "contrib": 52458,
-        "donut": 44251,
-        "weight": 44251
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "Capable_Ad5175",
@@ -42927,7 +42927,7 @@
         "username": "hiorea",
         "address": "0x000000000000000000000000000000000000dEaD",
         "contrib": 0,
-        "donut": 4235315,
+        "donut": 4237601,
         "weight": 0
     },
     {
@@ -45909,8 +45909,8 @@
         "username": "obolli",
         "address": "0xd44d3D1652851a35ad1A0418114c03a0f97c1D60",
         "contrib": 13157,
-        "donut": 12464,
-        "weight": 12464
+        "donut": 10178,
+        "weight": 10178
     },
     {
         "username": "_-_--_---",
