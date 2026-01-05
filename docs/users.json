@@ -46107,5 +46107,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "phatom_user_01",
+        "address": "0x49C6e1f7d2A1B346a35939eb8effDd4e7EA47D36",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
