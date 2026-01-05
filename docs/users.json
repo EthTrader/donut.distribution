@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 112001,
+        "donut": 112000,
         "weight": 77884
     },
     {
@@ -31496,8 +31496,8 @@
         "username": "Asleep_Ambassador_66",
         "address": "0xBFAeB55Ff4004477c2F4586270878a4DBfB5eE59",
         "contrib": 473,
-        "donut": 474,
-        "weight": 473
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "wellthatsfantastic",
@@ -35689,8 +35689,8 @@
         "username": "MasterpieceLoud4931",
         "address": "0x16Bd6F1d0d3a5c039ca67e0Da0DEa4bA3823bB23",
         "contrib": 1411181,
-        "donut": 630166,
-        "weight": 630166
+        "donut": 615166,
+        "weight": 615166
     },
     {
         "username": "Good_Extension_9642",
