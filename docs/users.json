@@ -46184,5 +46184,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "Somewhat-Empty",
+        "address": "0x959B291e8100EfeD5610C9807c85Ce6A01fC0189",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
