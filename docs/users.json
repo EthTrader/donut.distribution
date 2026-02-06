@@ -46205,5 +46205,12 @@
         "contrib": 0,
         "donut": 0,
         "weight": 0
+    },
+    {
+        "username": "OptimalPlantIntoRock",
+        "address": "0x02A3faD85168942b4bb5e7B8DDf4a67c543E999a",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
