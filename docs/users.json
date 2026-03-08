@@ -46254,5 +46254,19 @@
         "contrib": 0,
         "donut": 2708,
         "weight": 0
+    },
+    {
+        "username": "Enough_Angle_7839",
+        "address": "0x0e482dEa9B6409d26d96B451ed531bF2D70a5EcF",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
+    },
+    {
+        "username": "Serenaded",
+        "address": "0x08dA4BC3e2fb388b862d17c017c06F98D981C89A",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
