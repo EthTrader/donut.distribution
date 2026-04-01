@@ -1088,7 +1088,7 @@
         "username": "MemeyCurmudgeon",
         "address": "0x7f25555A0C85B53Cb8934960D0e4ae2DF65CeCaB",
         "contrib": 964923,
-        "donut": 2744860,
+        "donut": 2746598,
         "weight": 964923
     },
     {
@@ -2929,8 +2929,8 @@
         "username": "beep_bop_boop_4",
         "address": "0x4B7C0Da1C299Ce824f55A0190Efb13663442FA2c",
         "contrib": 99646,
-        "donut": 2998,
-        "weight": 2998
+        "donut": 120,
+        "weight": 120
     },
     {
         "username": "mfinner",
@@ -14717,7 +14717,7 @@
         "username": "sirjakobos",
         "address": "0x6Ff1dd1443289CC30aA3A010b6EF7BB4058D8C54",
         "contrib": 77884,
-        "donut": 132426,
+        "donut": 132425,
         "weight": 77884
     },
     {
@@ -19813,7 +19813,7 @@
         "username": "pc1e0",
         "address": "0x3741703f6DB21aC013D009fafE64c85b717b1b37",
         "contrib": 29637,
-        "donut": 1232133,
+        "donut": 1233401,
         "weight": 29637
     },
     {
@@ -20884,7 +20884,7 @@
         "username": "whaterloowhorks",
         "address": "0xdb721582DC092c59692221D89103061c8B955d7C",
         "contrib": 18258,
-        "donut": 36849,
+        "donut": 36889,
         "weight": 18258
     },
     {
@@ -22249,7 +22249,7 @@
         "username": "UnfinishedAle",
         "address": "0xE86bdD706F97fB0fb1540e8fC7A3b3DBA8A42C5B",
         "contrib": 13277,
-        "donut": 37396,
+        "donut": 37395,
         "weight": 13277
     },
     {
@@ -24153,7 +24153,7 @@
         "username": "BuddhaIvan",
         "address": "0x8d23dBae8E5C52d9ac2Bb5F393c4ff2e228abaE6",
         "contrib": 13541,
-        "donut": 100654,
+        "donut": 100824,
         "weight": 13541
     },
     {
@@ -27401,7 +27401,7 @@
         "username": "vanboiDallas",
         "address": "0x7B34db486502f78Afb65769f7b53f57337B87084",
         "contrib": 656,
-        "donut": 46662,
+        "donut": 46741,
         "weight": 656
     },
     {
@@ -32476,8 +32476,8 @@
         "username": "DrRobbe",
         "address": "0x5eD61dee19B3355cf125a5cB95bEC8f344523628",
         "contrib": 747374,
-        "donut": 411432,
-        "weight": 411432
+        "donut": 411497,
+        "weight": 411497
     },
     {
         "username": "graydi66y",
@@ -32588,7 +32588,7 @@
         "username": "PineapplePie135",
         "address": "0xFf98aA744a746933F366Ca2Cf0EB1338f9e5eB36",
         "contrib": 280,
-        "donut": 4554,
+        "donut": 4571,
         "weight": 280
     },
     {
@@ -34996,8 +34996,8 @@
         "username": "Odd-Radio-8500",
         "address": "0x795065F0368BE7149140D2b134fe2bA072db42AE",
         "contrib": 1269896,
-        "donut": 737179,
-        "weight": 737179
+        "donut": 737324,
+        "weight": 737324
     },
     {
         "username": "alittlesomethingno",
@@ -36991,8 +36991,8 @@
         "username": "bazooka_star",
         "address": "0xD542a50Ba9181DAA549B882752b7Be621355dFce",
         "contrib": 87639,
-        "donut": 25444,
-        "weight": 25444
+        "donut": 25479,
+        "weight": 25479
     },
     {
         "username": "elit3dr4gon",
@@ -43067,8 +43067,8 @@
         "username": "0xMarcAurel",
         "address": "0x354E93137D53ec467112504d7b0e4961362Ef7B7",
         "contrib": 2033167,
-        "donut": 544996,
-        "weight": 544996
+        "donut": 545580,
+        "weight": 545580
     },
     {
         "username": "GoodMornEveGoodNight",
@@ -45852,9 +45852,9 @@
     {
         "username": "rv8n8",
         "address": "0x7B07A6219b12A76AAA295C3BAbbA27DdD1AfD826",
-        "contrib": 7166,
-        "donut": 6753,
-        "weight": 6753
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "DogStunning4845",
@@ -46224,8 +46224,8 @@
         "username": "Complete_Oven_9651",
         "address": "0xBa4f232b8461e1f4d92253E587261076459274b3",
         "contrib": 9170,
-        "donut": 8632,
-        "weight": 8632
+        "donut": 1,
+        "weight": 1
     },
     {
         "username": "amirmalla009",
