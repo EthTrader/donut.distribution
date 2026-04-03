@@ -3426,8 +3426,8 @@
         "username": "mmurthy",
         "address": "0xf768f5F340e89698465Fc7C12F31cB485fFf98D2",
         "contrib": 17777,
-        "donut": 17776,
-        "weight": 17776
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "zyncks07",
@@ -8613,7 +8613,7 @@
         "username": "tchildthemajestic",
         "address": "0xc9A146786F18e8323b1dea6002e32413053eA2F2",
         "contrib": 30642,
-        "donut": 67663,
+        "donut": 67664,
         "weight": 30642
     },
     {
@@ -15088,7 +15088,7 @@
         "username": "JollyFaithlessness3",
         "address": "0x2Aa4691B454aC60EBE4C5Ec25c6c924ecC1AE6D6",
         "contrib": 28216,
-        "donut": 44117,
+        "donut": 44118,
         "weight": 28216
     },
     {
@@ -17643,7 +17643,7 @@
         "username": "gustavossj",
         "address": "0xE1282993bF336883e0C2F9dab5A39f16Ffa0c7e0",
         "contrib": 190298,
-        "donut": 257241,
+        "donut": 257242,
         "weight": 190298
     },
     {
@@ -19554,7 +19554,7 @@
         "username": "PeacefullyFighting",
         "address": "0xF05a8D44DaD70D9981D5db25688ABDeE6040926f",
         "contrib": 4136,
-        "donut": 45434,
+        "donut": 45435,
         "weight": 4136
     },
     {
@@ -22340,7 +22340,7 @@
         "username": "Doggybone_treat",
         "address": "0x7B3E7E5243228995f9F77A3E7479F263338cd51A",
         "contrib": 25072,
-        "donut": 44890,
+        "donut": 44891,
         "weight": 25072
     },
     {
@@ -28325,7 +28325,7 @@
         "username": "t1m3f0rt1m3r",
         "address": "0xCA490aB2a31C40E003a0A8C063442277DF7F8774",
         "contrib": 935,
-        "donut": 2855,
+        "donut": 2856,
         "weight": 935
     },
     {
@@ -31657,7 +31657,7 @@
         "username": "Slippytoe",
         "address": "0x7021bCC7C13f241CD1Ee0412EA8B6bb8B64D0229",
         "contrib": 11813,
-        "donut": 48568,
+        "donut": 48569,
         "weight": 11813
     },
     {
@@ -46245,8 +46245,8 @@
         "username": "audieleon",
         "address": "0x51AaE7357c8baD10DB3532e9AC597efFA5C3820f",
         "contrib": 1862,
-        "donut": 1906,
-        "weight": 1862
+        "donut": 0,
+        "weight": 0
     },
     {
         "username": "Masaca",
