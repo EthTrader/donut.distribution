@@ -46243,7 +46243,7 @@
     },
     {
         "username": "audieleon",
-        "address": "0x51AaE7357c8baD10DB3532e9AC597efFA5C3820f",
+        "address": "0x0c8b9d0a7e5Bd2E66270aD02FF1E4EFa6BADface",
         "contrib": 1862,
         "donut": 0,
         "weight": 0
@@ -46275,5 +46275,12 @@
         "contrib": 1662,
         "donut": 1617,
         "weight": 1617
+    },
+    {
+        "username": "Right-Shopping9589",
+        "address": "0xAb093C258B2E2159E4CEC3aC5c4A7FCb594b951F",
+        "contrib": 0,
+        "donut": 0,
+        "weight": 0
     }
 ]
